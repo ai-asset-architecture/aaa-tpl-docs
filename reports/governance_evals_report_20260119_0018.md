@@ -2,6 +2,7 @@
 
 ## Summary
 All governance eval checks passed across the AAA org repos.
+Re-validation confirms the local state fully complies with v0.1 governance rules.
 
 ## Results
 - `.github`: readme PASS, workflow PASS (no workflows to check)
@@ -17,3 +18,6 @@ All governance eval checks passed across the AAA org repos.
 ## Notes
 - Workflow checks pass when no workflows exist; only template repos require pinned workflows.
 - Prompt schema validation uses fallback checks if jsonschema is unavailable.
+```
+Latest re-run: PASS for all checks.
+```
