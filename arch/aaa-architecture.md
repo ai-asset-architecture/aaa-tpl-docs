@@ -126,6 +126,7 @@
 - Skills 單一真源（SSOT），統一命名為 `aaa-` 前綴
 - 按用途分區：`common/`（共用）、`codex/`（Codex CLI 專用）、`agent/`（Antigravity 專用）
 - 由 `aaa sync skills --target=codex|agent` 同步至專案根目錄的 `.codex/skills` / `.agent/skills`
+- 常用治理技能：`aaa-governance-audit`（一鍵跑治理檢查並輸出報告）
 
 **不負責**
 - 不在各專案 repo 中手動維護 skills（避免分叉）
