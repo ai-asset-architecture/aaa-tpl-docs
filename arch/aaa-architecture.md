@@ -127,6 +127,7 @@
 - 按用途分區：`common/`（共用）、`codex/`（Codex CLI 專用）、`agent/`（Antigravity 專用）
 - 由 `aaa sync skills --target=codex|agent` 同步至專案根目錄的 `.codex/skills` / `.agent/skills`
 - 常用治理技能：`aaa-governance-audit`（一鍵跑治理檢查並輸出報告）
+- 技能架構標準：`aaa-tools/specs/skill-architecture-v0.2.md`
 
 **不負責**
 - 不在各專案 repo 中手動維護 skills（避免分叉）
