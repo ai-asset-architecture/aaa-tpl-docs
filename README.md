@@ -34,5 +34,8 @@ This repo is the single source of truth for project documentation. Do not duplic
 ## Contribution Docs
 - `docs/asset-contribution-sop.md`
 
+## Reports Index
+- `reports/skills/skills_v0.2_upgrade_report_20260120_0309.md`
+
 ## .ai-context.md usage
 Include `.ai-context.md` at the repo root to enforce agent behavior and required knowledge loading.
