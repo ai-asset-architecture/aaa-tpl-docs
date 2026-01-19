@@ -413,6 +413,9 @@ If you generate a reusable prompt/tool, save it to `assets/candidates/` and noti
 - 在 `aaa-actions` 新增「Asset Scout」workflow（週期性掃描 `assets/candidates/`）
 - 若候選資產長期穩定未變動，自動建立 Issue 提醒 Architect 進行提煉或回流
 
+### 5.4 資產回饋流程（實作版）
+- 參考：`docs/asset-contribution-sop.md`
+
 ---
 
 ## 6) .github PR 模板與 Checklist（直接可貼）
