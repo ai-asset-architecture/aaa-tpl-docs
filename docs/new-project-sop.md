@@ -70,7 +70,7 @@ $WORKSPACE_DIR/aaa-init-report.json
 ---
 
 ## 參考文件
-- `aaa-tools/runbooks/init/INIT_PROJECT.md`
-- `aaa-tools/runbooks/init/LOCAL_CODEX_PROCEDURE.md`
+- `aaa-tools/runbooks/init/INIT_PROJECT_CODEX.md`
+- `aaa-tools/runbooks/init/INIT_PROJECT_HUMAN.md`
 - `aaa-tools/specs/CLI_CONTRACT.md`
 - `aaa-tools/runbooks/init/output.schema.json`
