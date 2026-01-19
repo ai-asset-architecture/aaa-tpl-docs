@@ -16,6 +16,7 @@
 
 ```bash
 gh auth status
+gh auth setup-git
 git --version
 python3 --version
 ```
@@ -25,11 +26,18 @@ python3 --version
 - `git` 有版本
 - `python3` 有版本
 
+`gh auth setup-git` 會讓 `pip install` 背後的 git clone 能通過 private repo 權限。
+
 如果 `gh auth status` 失敗，先登入：
 
 ```bash
 gh auth login
 ```
+
+若遇到 `403/404`，請檢查：
+- 是否需要對該 org 完成 SSO 授權
+- token scopes 是否不足（必要時重新 `gh auth login`）
+- 是否有在 org 建 repo 的權限（member 可能預設被關閉）
 
 ---
 
@@ -38,7 +46,7 @@ gh auth login
 
 ```bash
 python3 -m pip install --upgrade pip
-python3 -m pip install git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.1.0
+python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.1.0"
 ```
 
 安裝完成後，確認指令可用：
@@ -52,14 +60,26 @@ aaa --version
 ## 3) 下載計畫檔與 schema（只下載必要檔案）
 
 ```bash
-curl -L -o /tmp/aaa_plan_resolved.json \
-  https://raw.githubusercontent.com/ai-asset-architecture/aaa-tools/v0.1.0/runbooks/init/plan.v0.1.json
+gh api -H "Accept: application/vnd.github.v3.raw" \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.1.0 \
+  > /tmp/aaa_plan_resolved.json
 
-curl -L -o /tmp/aaa_plan_schema.json \
-  https://raw.githubusercontent.com/ai-asset-architecture/aaa-tools/v0.1.0/specs/plan.schema.json
+gh api -H "Accept: application/vnd.github.v3.raw" \
+  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.1.0 \
+  > /tmp/aaa_plan_schema.json
 ```
 
 （注意：若 `v0.1.0` 尚未發布，請暫時把 URL 中的 tag 改成 `main` 以便測試。）  
+
+下載後請先做一次 JSON 檢查，避免抓到 404 假檔：
+
+```bash
+python3 - <<'PY'
+import json
+json.load(open("/tmp/aaa_plan_resolved.json"))
+print("OK: plan")
+PY
+```
 
 ---
 
