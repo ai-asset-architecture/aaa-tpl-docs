@@ -24,5 +24,9 @@ This repo is the single source of truth for project documentation. Do not duplic
 - `prd/` (PRD files)
 - `adr/` (ADR files)
 
+## Onboarding Templates
+- `templates/onboarding/Member-Start-Checklist.md`
+- `templates/onboarding/Bootstrap-Troubleshooting.md`
+
 ## .ai-context.md usage
 Include `.ai-context.md` at the repo root to enforce agent behavior and required knowledge loading.
