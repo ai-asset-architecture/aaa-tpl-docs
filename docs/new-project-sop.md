@@ -1,180 +1,161 @@
-# 新專案初始化 SOP（v0.1）
+# 新專案初始化 SOP (v0.2) - Member Edition
 
-這份 SOP 用「國中生也看得懂」的方式，一步一步教你做完新專案初始化。
-
-## 先搞懂：兩種模式
-這份 SOP 前半段（第 1–5 步）是「所有人都要做的準備」。  
-第 6 步開始分成兩條路：**給 Codex 做** 或 **自己做**。
-
-- **Codex 需要讀的文件**：`aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
-- **人類只需要看這一份 SOP**：就是 `new-project-sop.md`
+這份文件引導組織成員從零開始，在本機完成 aaa 架構的專案初始化。
+本流程專為 **Private Repo** 與 **Member 權限** 優化，確保你不會卡在驗證或下載錯誤上。
 
 ---
 
-## 1) 先確認你的電腦有沒有工具
-打開終端機，確認三件事：
+## 階段一：準備工作（必做）
+
+### 1) 檢查環境與接管 Git 驗證
+確保你的 GitHub CLI 已登入，並設定讓 git 操作自動使用 `gh` 的憑證（這能解決 `pip install` 私有庫時背後的 `git clone` 驗證問題）。
 
 ```bash
+# 1. 確認已登入 GitHub
 gh auth status
+
+# 2. 【關鍵】讓 git 自動使用 gh 憑證
 gh auth setup-git
-git --version
-python3 --version
 ```
-
-你要看到：
-- `gh auth status` 顯示已登入
-- `git` 有版本
-- `python3` 有版本
-
-`gh auth setup-git` 會讓 `pip install` 背後的 git clone 能通過 private repo 權限。
-
-如果 `gh auth status` 失敗，先登入：
-
-```bash
-gh auth login
-```
-
-若遇到 `403/404`，請檢查：
-- 是否需要對該 org 完成 SSO 授權
-- token scopes 是否不足（必要時重新 `gh auth login`）
-- 是否有在 org 建 repo 的權限（member 可能預設被關閉）
 
 ---
 
-## 2) 安裝 AAA 工具（不需要 clone AAA）
-新手不要 clone 整個 AAA repo，直接安裝工具就好：
+### 2) 安裝 AAA 工具（CLI）
+
+直接從 GitHub 安裝指定版本工具（注意：這行不可被 Markdown 變成連結語法）。
 
 ```bash
-python3 -m pip install --upgrade pip
 python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.1.0"
-```
 
-安裝完成後，確認指令可用：
-
-```bash
+# 確認安裝成功
 aaa --version
 ```
 
 ---
 
-## 3) 下載計畫檔與 schema（只下載必要檔案）
+### 3) 下載計畫檔與 Schema（Private Repo 用 gh api，不用 curl）
+
+因為是私有 Repo，`raw.githubusercontent.com` 可能會下載到「404 假檔」，必須用 `gh api`。
 
 ```bash
+# 下載 Plan（你的執行計畫）
 gh api -H "Accept: application/vnd.github.v3.raw" \
   /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.1.0 \
   > /tmp/aaa_plan_resolved.json
 
+# 下載 Schema（驗證規則）
 gh api -H "Accept: application/vnd.github.v3.raw" \
   /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.1.0 \
   > /tmp/aaa_plan_schema.json
 ```
 
-（注意：若 `v0.1.0` 尚未發布，請暫時把 URL 中的 tag 改成 `main` 以便測試。）  
+---
 
-下載後請先做一次 JSON 檢查，避免抓到 404 假檔：
+### 4) 立刻做 JSON 檢查（Sanity Check）
+
+避免下載到「404 Not Found」或 HTML 內容假裝成 JSON。請同時檢查 **plan + schema**：
 
 ```bash
 python3 - <<'PY'
-import json
-json.load(open("/tmp/aaa_plan_resolved.json"))
-print("OK: plan")
+import json, sys
+paths = ["/tmp/aaa_plan_resolved.json", "/tmp/aaa_plan_schema.json"]
+for p in paths:
+    try:
+        json.load(open(p))
+        print(f"✅ JSON OK: {p}")
+    except Exception as e:
+        print(f"❌ JSON ERROR: {p} -> {e}")
+        print("請檢查：GitHub Token 權限 / SSO 授權 / URL ref 是否正確")
+        sys.exit(1)
 PY
 ```
 
 ---
 
-## 4) 修改 plan（替換三個變數）
-打開 `/tmp/aaa_plan_resolved.json`，手動替換三個變數：
-- `{{TARGET_ORG}}` → 你的 GitHub org 名稱
-- `{{PROJECT_SLUG}}` → 專案代號（kebab-case）
-- `{{AAA_VERSION}}` → 例如 `v0.1.0`
+## 階段二：編輯與執行
 
-小撇步：請用 VS Code 或純文字編輯器，不要用 Word，以免破壞 JSON 格式。  
+### 5) 修改計畫變數（替換三個變數）
+
+使用編輯器打開 `/tmp/aaa_plan_resolved.json`，替換以下變數：
+
+* `{{TARGET_ORG}}`：你的 GitHub Organization 名稱
+* `{{PROJECT_SLUG}}`：專案代號（例如 `lotto`）
+* `{{AAA_VERSION}}`：工具版本（例如 `v0.1.0`）
+
+> 建議使用 VS Code 編輯，避免破壞 JSON 格式。
+
+**改完後，立刻做「未替換變數」檢查（Fail-fast）：**
+
+```bash
+grep -n "{{" /tmp/aaa_plan_resolved.json && echo "❌ ERROR: 仍有未替換變數（{{...}}），請先完成替換" && exit 1 || true
+```
 
 ---
 
-## 5) 驗證 plan（先檢查再執行）
+### 6) 設定工作目錄（新專案 repo 的家）
+
+請先決定你的專案代號（與 plan 的 `{{PROJECT_SLUG}}` 一致），再設定工作目錄：
 
 ```bash
+export PROJECT_SLUG="<PROJECT_SLUG>"
+export WORKSPACE_DIR="$HOME/Projects/${PROJECT_SLUG}_WORKSPACE"
+mkdir -p "$WORKSPACE_DIR" && cd "$WORKSPACE_DIR"
+```
+
+---
+
+### 7) 驗證與預演（Dry-run）
+
+正式動手前，先驗證 plan 是否合規，並跑一次空轉測試（不會修改 GitHub）。
+
+```bash
+# 1) 驗證格式（Fail-fast）
 aaa init validate-plan \
   --plan /tmp/aaa_plan_resolved.json \
   --schema /tmp/aaa_plan_schema.json
-```
 
-如果有錯誤，先修正 plan 再繼續。
-
----
-
-## 6) 選擇你要的模式
-
-### 模式 A：讓 Codex 幫你做（推薦給新手）
-你只要把這段話丟給 Codex CLI：  
-
-```
-我已經準備好 /tmp/aaa_plan_resolved.json。
-請讀取 aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md，
-並依照內容完成專案初始化，最後輸出 JSON 報告。
-```
-
-如果 Codex 有問你路徑，就回答你的 `WORKSPACE_DIR`。
-
----
-
-### 模式 B：自己動手做（工程師模式）
-下面開始是純人工流程。
-
-## 6.1) 設定新專案的本機資料夾
-這是新專案 repo 會放的地方（先建立資料夾，再切換進去）： 
-
-```bash
-export WORKSPACE_DIR="$HOME/Projects/<PREFIX>_WORKSPACE"
-mkdir -p "$WORKSPACE_DIR"
-cd "$WORKSPACE_DIR"
-```
-
-說明：
-- `<PREFIX>` 是你的專案代號，例如 `lotto`。
-- `WORKSPACE_DIR` 就是「新專案的家」。
-
-不知道路徑怎麼寫？可以這樣做：
-1) 在 Finder 建一個資料夾
-2) 打開終端機，輸入 `export WORKSPACE_DIR=`
-3) 把資料夾拖進終端機，就會自動出現完整路徑
-
----
-
-## 6.2) Dry-run 預演（不會改 repo）
-這一步只跑流程，不會真的動 GitHub。
-
-```bash
+# 2) Dry-run（不改 GitHub）
 aaa init --plan /tmp/aaa_plan_resolved.json --dry-run --jsonl
 ```
 
-看到 `status: completed` 就代表預演成功。
-
 ---
 
-## 6.3) 正式執行（建立 repo/分支/PR）
-預演成功後再跑正式版：
+### 8) 正式執行（Init）
+
+預演成功後再執行正式初始化。建議 `--mode pr`（建立 Pull Request）以便審核。
 
 ```bash
 aaa init --plan /tmp/aaa_plan_resolved.json --mode pr --jsonl
 ```
 
-執行後會產生報告：
+---
 
-```
-$WORKSPACE_DIR/aaa-init-report.json
-```
+## 常見問題排除（Troubleshooting）
 
-最後請到 GitHub：
-- 檢查新開的 PR
-- 確認 CI（lint/test/eval）結果
-- 由授權人員完成 merge
+### Q1：執行 `aaa init` 出現 `403 Forbidden`？
+
+**原因**：你可能沒有在 Organization 內建立 Repository 的權限。
+**解法**（二選一）：
+
+1. 請 Org Owner 在 `Settings > Member privileges` 開啟「Repository creation」。
+2. 或請 Owner 先手動建立好目標 repos（例如 `xxx-docs`, `xxx-service`），再由你執行 `aaa init`（工具應能偵測 repo 已存在並繼續後續設定）。
 
 ---
 
-## 參考文件
-- `aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
-- `aaa-tools/specs/CLI_CONTRACT.md`
-- `aaa-tools/runbooks/init/output.schema.json`
+### Q2：`pip install` 失敗（Authentication failed / Username prompt）？
+
+**解法**：請務必先做 **Step 1**：
+
+```bash
+gh auth setup-git
+```
+
+若仍失敗，請重新登入並確認權限/授權狀態：
+
+```bash
+gh auth status
+```
+
+---
+
+*文件版本：v0.2*
