@@ -556,7 +556,7 @@ assets/
 > 目的：用最小成本把第 6 點落地（consume + feedback 能跑通）
 
 1. 建 repo：`.github`，放入 PR 模板與 checklist（本文件的第 6-7 節）
-2. 建 repo：`aaa-tools`（先空殼 + CLI stub）
+2. 建 repo：`aaa-tools`（CLI + runbooks + specs）
 3. 建 repo：`aaa-evals`（先空殼 + spec/schema）
 4. 建 repo：`aaa-prompts`（先空殼 + prompt schema / README）
 5. 建 repo：`aaa-tpl-repo`，內含：
@@ -685,7 +685,7 @@ v0.1 初始化清單（收斂版）
   - Usage (with tag)  
   - Release Gate & Tag Policy  
 - `aaa-tools`  
-  - CLI Commands (version / sync / lint / eval)  
+  - CLI Commands (init/validate/sync/protect/verify/report)  
   - Skills Source of Truth  
   - Install & Update  
 - `aaa-evals`  
@@ -735,7 +735,7 @@ Repo owner 建議
 3) `aaa-tpl-docs`：ACC/PP + `.ai-context.md` + PRD/ADR 模板  
 4) `aaa-tpl-service`：最小程式碼骨架 + CI 呼叫 `aaa-actions`  
 5) `aaa-tpl-frontend`：最小前端骨架 + CI 呼叫 `aaa-actions`  
-6) `aaa-tools`：CLI stub（version/sync/lint/eval）  
+6) `aaa-tools`：CLI（init/validate/sync/protect/verify/report）  
 7) `aaa-evals`：最小 eval suite + baseline  
 8) `aaa-prompts`：schema + 範例 prompt
 
