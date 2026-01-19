@@ -28,6 +28,9 @@ This repo is the single source of truth for project documentation. Do not duplic
 - `templates/onboarding/Member-Start-Checklist.md`
 - `templates/onboarding/Bootstrap-Troubleshooting.md`
 
+## Review Templates
+- `templates/Skill-Review-Checklist.md`
+
 ## Contribution Docs
 - `docs/asset-contribution-sop.md`
 
