@@ -535,6 +535,7 @@ assets/
 ---
 
 ## 9) 版本化策略（確保「越來越好」而不是「越來越亂」）
+> Release Notes：`aaa-tools/RELEASE_NOTES_v0.2.md`
 ### 9.1 Tag / Release（強制）
 - `aaa-actions`：workflow 引用必須 pin tag，例如 `@v0.1.0`
 - `aaa-tools`：套件版號（semver），CI 安裝固定版
