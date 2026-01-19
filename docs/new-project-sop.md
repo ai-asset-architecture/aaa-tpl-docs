@@ -120,8 +120,21 @@ aaa init --plan /tmp/aaa_plan_resolved.json --dry-run --jsonl
 
 ---
 
-### 8) 正式執行（Init）
+### 8) 選擇模式（必選一條路）
 
+你可以選擇「交給 Codex」或「自己完成」：
+
+#### 模式 A：人類準備 + Codex 執行
+把下面這段話丟給 Codex CLI：
+
+```
+我已經準備好 /tmp/aaa_plan_resolved.json。
+WORKSPACE_DIR 是：$WORKSPACE_DIR
+請讀取 aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md，
+依照內容完成專案初始化，最後輸出 JSON 報告。
+```
+
+#### 模式 B：人類自己完成（工程師模式）
 預演成功後再執行正式初始化。建議 `--mode pr`（建立 Pull Request）以便審核。
 
 ```bash
