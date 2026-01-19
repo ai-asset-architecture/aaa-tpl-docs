@@ -28,5 +28,8 @@ This repo is the single source of truth for project documentation. Do not duplic
 - `templates/onboarding/Member-Start-Checklist.md`
 - `templates/onboarding/Bootstrap-Troubleshooting.md`
 
+## Contribution Docs
+- `docs/asset-contribution-sop.md`
+
 ## .ai-context.md usage
 Include `.ai-context.md` at the repo root to enforce agent behavior and required knowledge loading.
