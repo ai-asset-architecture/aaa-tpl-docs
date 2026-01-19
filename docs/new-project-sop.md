@@ -2,12 +2,12 @@
 
 這份 SOP 用「國中生也看得懂」的方式，一步一步教你做完新專案初始化。
 
-## 先搞懂：人類 vs Codex
-- **人類要讀的文件**：`aaa-tpl-docs/docs/new-project-sop.md`（就是這份）
-- **Codex 要讀的文件**：`aaa-tools/runbooks/init/INIT_PROJECT_CODEX.md`
-- **人類怎麼啟動 Codex**：`aaa-tools/runbooks/init/INIT_PROJECT_HUMAN.md`
+## 先搞懂：兩種模式
+這份 SOP 前半段（第 1–5 步）是「所有人都要做的準備」。  
+第 6 步開始分成兩條路：**給 Codex 做** 或 **自己做**。
 
-> 先把「人類要做什麼」搞懂，才不會讓 Codex 在錯的地方工作。
+- **Codex 需要讀的文件**：`aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
+- **人類只需要看這一份 SOP**：就是 `new-project-sop.md`
 
 ---
 
@@ -85,7 +85,25 @@ aaa init validate-plan \
 
 ---
 
-## 6) 設定新專案的本機資料夾
+## 6) 選擇你要的模式
+
+### 模式 A：讓 Codex 幫你做（推薦給新手）
+你只要把這段話丟給 Codex CLI：  
+
+```
+我已經準備好 /tmp/aaa_plan_resolved.json。
+請讀取 aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md，
+並依照內容完成專案初始化，最後輸出 JSON 報告。
+```
+
+如果 Codex 有問你路徑，就回答你的 `WORKSPACE_DIR`。
+
+---
+
+### 模式 B：自己動手做（工程師模式）
+下面開始是純人工流程。
+
+## 6.1) 設定新專案的本機資料夾
 這是新專案 repo 會放的地方（先建立資料夾，再切換進去）： 
 
 ```bash
@@ -105,7 +123,7 @@ cd "$WORKSPACE_DIR"
 
 ---
 
-## 7) Dry-run 預演（不會改 repo）
+## 6.2) Dry-run 預演（不會改 repo）
 這一步只跑流程，不會真的動 GitHub。
 
 ```bash
@@ -116,7 +134,7 @@ aaa init --plan /tmp/aaa_plan_resolved.json --dry-run --jsonl
 
 ---
 
-## 8) 正式執行（建立 repo/分支/PR）
+## 6.3) 正式執行（建立 repo/分支/PR）
 預演成功後再跑正式版：
 
 ```bash
@@ -137,7 +155,6 @@ $WORKSPACE_DIR/aaa-init-report.json
 ---
 
 ## 參考文件
-- `aaa-tools/runbooks/init/INIT_PROJECT_CODEX.md`
-- `aaa-tools/runbooks/init/INIT_PROJECT_HUMAN.md`
+- `aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
 - `aaa-tools/specs/CLI_CONTRACT.md`
 - `aaa-tools/runbooks/init/output.schema.json`

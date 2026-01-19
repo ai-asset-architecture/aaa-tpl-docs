@@ -231,8 +231,7 @@ aaa-tools/
   aaa/                        # CLI package
   runbooks/
     init/
-      INIT_PROJECT_CODEX.md
-      INIT_PROJECT_HUMAN.md
+      AGENT_BOOTSTRAP.md
       plan.v0.1.json
       output.schema.json
   specs/
@@ -788,7 +787,7 @@ Repo owner 建議
 
 #### `aaa-tools`
 - `aaa/`（CLI）
-- `runbooks/init/`（INIT_PROJECT_CODEX、INIT_PROJECT_HUMAN、plan、output schema）
+- `runbooks/init/`（AGENT_BOOTSTRAP、plan、output schema）
 - `specs/`（CLI_CONTRACT、plan.schema）
 - `skills/`（common/codex/agent）
 - `workflows/agent/`
@@ -823,7 +822,7 @@ Repo owner 建議
 
 ### 重要實作連結（v0.1）
 - Bootstrap protocol SSOT：`.github/BOOTSTRAP_PROTOCOL.md`
-- Runbook SSOT：`aaa-tools/runbooks/init/INIT_PROJECT_CODEX.md`
+- Runbook SSOT：`aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
 - Plan：`aaa-tools/runbooks/init/plan.v0.1.json`
 - Output schema：`aaa-tools/runbooks/init/output.schema.json`
 - CLI contract：`aaa-tools/specs/CLI_CONTRACT.md`
