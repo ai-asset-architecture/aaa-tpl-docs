@@ -435,6 +435,26 @@ AI 產出的程式碼必須通過基本的效能檢核，防止寫出低效迴�
 
 ## 11. 本機開發基線（Ports / Env / Workspace Layout）
 
+### 11.0 快速啟動 (Bootstrap v0.2)
+本專案採用 **Zero-Dependency** 啟動模式。請勿手動安裝大量全域依賴。
+
+**標準啟動步驟 (Member Edition)**：
+1. **Git 驗證接管**（解決 Private Repo 存取問題）:
+   ```bash
+   gh auth status
+   gh auth setup-git
+   ```
+2. **安裝專案工具 (AAA CLI)**:
+   ```bash
+   python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@<tag>"
+   ```
+3. **驗證**:
+   ```bash
+   aaa --version
+   ```
+
+> 詳細 SOP 請參閱：`{{PROJECT_PREFIX}}-docs/docs/new-project-sop.md`
+
 ### 11.1 建議本機工作區布局
 
 建議所有 repo 置於同一個工作資料夾（例如：`{{PROJECT_WORKSPACE}}/`）：
