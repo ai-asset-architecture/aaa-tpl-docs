@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "report_version": "0.1",
+    "generated_at": "2026-01-19T07:42:51.961031+00:00",
+    "aaa_org": "ai-asset-architecture",
+    "aaa_version_tag": "v0.1.0",
+    "target_org": "ai-asset-architecture",
+    "project_slug": "aaa-sandbox",
+    "mode": "pr",
+    "visibility": "private",
+    "default_branch": "main"
+  },
+  "inputs": {
+    "plan_path": "/tmp/aaa_plan_resolved.json",
+    "plan_version": "0.1",
+    "tools": {
+      "gh": "missing",
+      "git": "git version 2.37.1 (Apple Git-137.1)",
+      "python": "3.13.7",
+      "aaa": "aaa-tools 0.1.0"
+    },
+    "network_access": {
+      "enabled": true,
+      "allowed_endpoints": [
+        "github.com",
+        "api.github.com"
+      ],
+      "external_downloads": false,
+      "external_download_sources": []
+    }
+  },
+  "repos": [
+    {
+      "name": "ai-asset-architecture-docs",
+      "type": "docs",
+      "status": "exists",
+      "url": "",
+      "default_branch": "main",
+      "template_applied": false,
+      "template_source": "",
+      "workflows_synced": false,
+      "skills_synced": false,
+      "pr_url": "",
+      "notes": ""
+    },
+    {
+      "name": "ai-asset-architecture-svc-core",
+      "type": "service",
+      "status": "exists",
+      "url": "",
+      "default_branch": "main",
+      "template_applied": false,
+      "template_source": "",
+      "workflows_synced": false,
+      "skills_synced": false,
+      "pr_url": "",
+      "notes": ""
+    },
+    {
+      "name": "ai-asset-architecture-fe-web",
+      "type": "frontend",
+      "status": "exists",
+      "url": "",
+      "default_branch": "main",
+      "template_applied": false,
+      "template_source": "",
+      "workflows_synced": false,
+      "skills_synced": false,
+      "pr_url": "",
+      "notes": ""
+    }
+  ],
+  "steps": [
+    {
+      "id": "preflight",
+      "status": "pass",
+      "started_at": "2026-01-19T07:42:51.956886+00:00",
+      "ended_at": "2026-01-19T07:42:51.956941+00:00",
+      "commands": [
+        "gh auth status",
+        "aaa --version",
+        "python3 --version"
+      ]
+    },
+    {
+      "id": "ensure_repos",
+      "status": "pass",
+      "started_at": "2026-01-19T07:42:51.956948+00:00",
+      "ended_at": "2026-01-19T07:42:51.957188+00:00",
+      "commands": [
+        "aaa init ensure-repos --org ai-asset-architecture --from-plan plan.v0.1.json"
+      ]
+    },
+    {
+      "id": "apply_templates",
+      "status": "pass",
+      "started_at": "2026-01-19T07:42:51.957193+00:00",
+      "ended_at": "2026-01-19T07:42:51.957669+00:00",
+      "commands": [
+        "aaa init apply-templates --org ai-asset-architecture --from-plan plan.v0.1.json --aaa-tag v0.1.0"
+      ]
+    },
+    {
+      "id": "sync_assets",
+      "status": "pass",
+      "started_at": "2026-01-19T07:42:51.957675+00:00",
+      "ended_at": "2026-01-19T07:42:51.957692+00:00",
+      "commands": [
+        "aaa sync workflows --org ai-asset-architecture --aaa-tag v0.1.0",
+        "aaa sync skills --org ai-asset-architecture --aaa-tag v0.1.0"
+      ]
+    },
+    {
+      "id": "branch_protection",
+      "status": "pass",
+      "started_at": "2026-01-19T07:42:51.957696+00:00",
+      "ended_at": "2026-01-19T07:42:51.958322+00:00",
+      "commands": [
+        "aaa init protect --org ai-asset-architecture --from-plan plan.v0.1.json"
+      ]
+    },
+    {
+      "id": "open_prs",
+      "status": "pass",
+      "started_at": "2026-01-19T07:42:51.958332+00:00",
+      "ended_at": "2026-01-19T07:42:51.960513+00:00",
+      "commands": [
+        "aaa init open-prs --org ai-asset-architecture --from-plan plan.v0.1.json"
+      ]
+    },
+    {
+      "id": "ci_verify",
+      "status": "pass",
+      "started_at": "2026-01-19T07:42:51.960519+00:00",
+      "ended_at": "2026-01-19T07:42:51.960703+00:00",
+      "commands": [
+        "aaa init verify-ci --org ai-asset-architecture --from-plan plan.v0.1.json"
+      ]
+    },
+    {
+      "id": "repo_evals",
+      "status": "pass",
+      "started_at": "2026-01-19T07:42:51.960708+00:00",
+      "ended_at": "2026-01-19T07:42:51.961021+00:00",
+      "commands": [
+        "aaa init repo-checks --org ai-asset-architecture --from-plan plan.v0.1.json --suite governance"
+      ]
+    }
+  ],
+  "branch_protection": {
+    "baseline_applied": false,
+    "required_checks": [
+      "lint",
+      "test",
+      "eval"
+    ],
+    "settings": {
+      "require_pr_reviews": true,
+      "required_approvals": 1,
+      "require_status_checks": true,
+      "dismiss_stale_approvals": true,
+      "prevent_force_push": true,
+      "require_linear_history": true
+    },
+    "per_repo": [
+      {
+        "repo": "ai-asset-architecture-docs",
+        "applied": false,
+        "missing_permissions": false,
+        "notes": ""
+      },
+      {
+        "repo": "ai-asset-architecture-svc-core",
+        "applied": false,
+        "missing_permissions": false,
+        "notes": ""
+      },
+      {
+        "repo": "ai-asset-architecture-fe-web",
+        "applied": false,
+        "missing_permissions": false,
+        "notes": ""
+      }
+    ]
+  },
+  "ci": {
+    "required_checks": [
+      "lint",
+      "test",
+      "eval"
+    ],
+    "per_repo": [
+      {
+        "repo": "ai-asset-architecture-docs",
+        "checks": [
+          {
+            "name": "lint",
+            "status": "skipped",
+            "details_url": ""
+          },
+          {
+            "name": "test",
+            "status": "skipped",
+            "details_url": ""
+          },
+          {
+            "name": "eval",
+            "status": "skipped",
+            "details_url": ""
+          }
+        ],
+        "overall": "partial"
+      },
+      {
+        "repo": "ai-asset-architecture-svc-core",
+        "checks": [
+          {
+            "name": "lint",
+            "status": "skipped",
+            "details_url": ""
+          },
+          {
+            "name": "test",
+            "status": "skipped",
+            "details_url": ""
+          },
+          {
+            "name": "eval",
+            "status": "skipped",
+            "details_url": ""
+          }
+        ],
+        "overall": "partial"
+      },
+      {
+        "repo": "ai-asset-architecture-fe-web",
+        "checks": [
+          {
+            "name": "lint",
+            "status": "skipped",
+            "details_url": ""
+          },
+          {
+            "name": "test",
+            "status": "skipped",
+            "details_url": ""
+          },
+          {
+            "name": "eval",
+            "status": "skipped",
+            "details_url": ""
+          }
+        ],
+        "overall": "partial"
+      }
+    ]
+  },
+  "summary": {
+    "status": "partial",
+    "repos_total": 3,
+    "repos_ok": 0,
+    "prs_created": 0,
+    "next_actions": []
+  }
+}
