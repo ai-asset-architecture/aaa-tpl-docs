@@ -388,7 +388,9 @@ AI 產出的程式碼必須通過基本的效能檢核，防止寫出低效迴�
 * 測試指令與結果（至少描述跑了什麼）
 
 ### 9.4 核心規範文件 (Must Read)
-* **[AI_USAGE.md](./AI_USAGE.md)**: 詳細定義了 AI Agent 的行為準則、禁止事項與 Workflow。所有 AI 在開始任務前**必須閱讀此文件**。
+* **[AI_COMMAND_CENTER.md](./AI_COMMAND_CENTER.md)**: 角色分工、指令模板、skills 使用方式與治理邊界。所有 AI 在開始任務前**必須閱讀此文件**。
+* **[PROJECT_PLAYBOOK.md](./PROJECT_PLAYBOOK.md)**: 專案憲法與治理規範。
+* **Skills 參考**：`aaa-tools/skills/README.md`（v0.2 決策樹技能清單與使用情境）
 
 ---
 
