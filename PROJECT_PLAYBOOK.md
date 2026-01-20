@@ -9,6 +9,18 @@
 
 ---
 
+## 🚦 Start Here (快速導航)
+本文件為專案協作總綱 (Constitution)。若需執行具體任務，請優先參考以下入口：
+
+- **我是新人 (Member)**：我要在本機建立新專案  
+  👉 `docs/new-project-sop.md`
+- **我是 AI (Agent)**：我要執行初始化任務  
+  👉 `aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
+- **Init DoD (最小驗收)**  
+  - ✅ Repos 建立完成  
+  - ✅ CI checks（lint/test/eval）通過  
+  - ✅ `aaa-init-report.json` 產出並歸檔  
+
 ## Template Variables
 - `{{PROJECT_NAME}}`: 專案名稱（例：PBOS）
 - `{{PROJECT_PREFIX}}`: Repo 前綴（例：pbos）
