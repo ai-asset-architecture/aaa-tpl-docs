@@ -1,0 +1,71 @@
+# AAA CLI 使用者合約 (User Contract v0.1)
+
+這份文件是給「人」看的 CLI 合約，定義使用者在 AAA 專案初始化時必須遵守的指令與順序。
+技術規格的唯一真相請見：`aaa-tools/specs/CLI_CONTRACT.md`。
+
+---
+
+## 目的與範圍
+- 目的：避免 SOP 與 CLI 行為漂移，確保 onboarding 可重複且可稽核。
+- 範圍：涵蓋安裝、計畫檔/Schema 下載、plan 驗證、初始化、post-init 稽核。
+
+---
+
+## 必要步驟 (不可省略)
+
+### 1) 安裝 CLI（固定版本）
+必須使用 tag 版本安裝：
+
+```bash
+python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.2.0"
+```
+
+### 2) 下載 Plan 與 Schema（私有 repo 必須用 gh api）
+
+```bash
+gh api -H "Accept: application/vnd.github.v3.raw" \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.2.0 \
+  > /tmp/aaa_plan_resolved.json
+
+gh api -H "Accept: application/vnd.github.v3.raw" \
+  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.2.0 \
+  > /tmp/aaa_plan_schema.json
+```
+
+### 3) 驗證 Plan（Fail-fast）
+
+```bash
+aaa init validate-plan \
+  --plan /tmp/aaa_plan_resolved.json \
+  --schema /tmp/aaa_plan_schema.json
+```
+
+### 4) 初始化（執行或 PR 模式）
+
+```bash
+aaa init --plan /tmp/aaa_plan_resolved.json --mode pr --jsonl
+```
+
+### 5) Post-init 稽核（必做）
+初始化完成後必須跑 repo 檢查，確認治理對齊：
+
+```bash
+aaa init repo-checks \
+  --org <TARGET_ORG> \
+  --from-plan /tmp/aaa_plan_resolved.json \
+  --suite governance \
+  --jsonl
+```
+
+---
+
+## 關鍵約束 (Contract Rules)
+- SOP、Profile README 與 CLI 合約必須一致。
+- Plan 與 Schema 的 tag 必須相同。
+- 必須依照 `aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md` 的流程執行。
+
+---
+
+## 版本
+- User Contract: v0.1
+- Tech Contract: `aaa-tools/specs/CLI_CONTRACT.md`

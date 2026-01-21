@@ -3,6 +3,9 @@
 這份文件引導組織成員從零開始，在本機完成 aaa 架構的專案初始化。
 本流程專為 **Private Repo** 與 **Member 權限** 優化，確保你不會卡在驗證或下載錯誤上。
 
+> 使用者合約：`docs/contracts/aaa-cli-contract.md`  
+> 技術合約：`aaa-tools/specs/CLI_CONTRACT.md`
+
 ---
 
 ## 階段一：準備工作（必做）
@@ -131,7 +134,7 @@ aaa init --plan /tmp/aaa_plan_resolved.json --dry-run --jsonl
 我已經準備好 /tmp/aaa_plan_resolved.json。
 WORKSPACE_DIR 是：$WORKSPACE_DIR
 請讀取 aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md，
-依照內容完成專案初始化，最後輸出 JSON 報告。
+依照內容完成專案初始化，最後輸出 JSON 報告並執行 post-init repo-checks。
 ```
 
 #### 模式 B：人類自己完成（工程師模式）
@@ -139,6 +142,20 @@ WORKSPACE_DIR 是：$WORKSPACE_DIR
 
 ```bash
 aaa init --plan /tmp/aaa_plan_resolved.json --mode pr --jsonl
+```
+
+---
+
+### 9) Post-init 稽核（必做）
+
+初始化完成後，必須跑治理檢查以確認 repo 狀態與計畫一致：
+
+```bash
+aaa init repo-checks \
+  --org <TARGET_ORG> \
+  --from-plan /tmp/aaa_plan_resolved.json \
+  --suite governance \
+  --jsonl
 ```
 
 ---
