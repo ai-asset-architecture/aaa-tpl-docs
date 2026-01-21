@@ -1,8 +1,1 @@
-# Milestones (Architecture Definitions)
-
-This folder stores architecture definition milestones (what the system is, what specs are complete).
-
-## Files
-- `20260118_v0.1_executable_architecture.md`
-- `20260120_v0.2_architecture_definition.md`
-- `20260121_v0.3_architecture_definition.md`
+# Milestones Index\n\n- 20260118_v0.1_executable_architecture.md | Milestone: v0.1 Executable Architecture (20260118_1323)\n- 20260120_v0.2_architecture_definition.md | Milestone: v0.2 Architecture Definition (20260120)\n- 20260121_v0.3_architecture_definition.md | Milestone: v0.3 Architecture Definition (20260121)\n- 20260121_v1.0_roadmap.md | AAA Roadmap v0.4 → v1.0 (Investor-Ready Technical Narrative)\n- README.md | Milestones (Architecture Definitions)\n
