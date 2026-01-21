@@ -106,6 +106,15 @@ sequenceDiagram
 * **驗收報告 (Walkthroughs)**: `{{PROJECT_PREFIX}}-docs/antigravity/walkthroughs/`
 * **經驗教訓 (Lessons)**: `{{PROJECT_PREFIX}}-docs/antigravity/lessons/`
 
+### 🤖 Automation Rule: Milestone Completion
+當 **驗證通過（Evals + schema PASS）** 且里程碑完成時，Agent 必須自動執行：
+`aaa run ops/complete-milestone milestone_id=<version> approver=<user> definition_path=<path>`
+
+完成後必須通知人類，並附上：
+- Completion Report 路徑
+- Verification Hash
+- Definition Hash
+
 
 
 ---
