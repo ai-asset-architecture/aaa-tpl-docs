@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-01-21T17:25:07Z",
+  "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/reports/milestones",
+  "hash_algo": "sha256",
+  "files": [
+    {
+      "path": "README.md",
+      "title": "Milestones (Implementation & Verification Reports)",
+      "hash": "5cb102b41d5675779d289410b03506d22f1674c0ec9d6cbb00214b9203479f97",
+      "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "aaa_v0.2.2_hotfix_20260120_1216.md",
+      "title": "AAA v0.2.2 Hotfix Note (2026-01-20 12:16)",
+      "hash": "9f02aa7589c5e06e78b381be7f6ee87b9c61eddead8872939ced053539afb3de",
+      "last_modified": "2026-01-20",
+      "metadata": {}
+    },
+    {
+      "path": "aaa_v0.2_improvement_report_20260120_0322.md",
+      "title": "AAA v0.2 \u6539\u5584\u6458\u8981\u5831\u544a (2026-01-20 03:22)",
+      "hash": "d7c05177cd01edc05b9d9b3311630ad61e120f4271f956f6e72c7893e928eccf",
+      "last_modified": "2026-01-19",
+      "metadata": {}
+    },
+    {
+      "path": "aaa_v0.3.1_evals_report_20260121_1802.md",
+      "title": "AAA v0.3.1 Evals Update Report (2026-01-21 18:02)",
+      "hash": "57f74f6cc4962e119490d079e9cff919eada905eaa131b834c879d1b501e664e",
+      "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "aaa_v0.3_completion_report_20260121_1737.md",
+      "title": "AAA v0.3 Completion Report (2026-01-21 17:37)",
+      "hash": "d0168f29eeeab17b07dac175a27d84268f82b218671b494fb49d80a83bf96c14",
+      "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "aaa_v0.4_completion_report_20260121_2128.md",
+      "title": "AAA v0.4 Completion Report (2026-01-21 21:28)",
+      "hash": "66989a002dac966b2999e8a92d8d930e69024c800fd8459d7546b8c8e0989254",
+      "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "aaa_v0.5_completion_report_20260121_2348.md",
+      "title": "AAA v0.5 Completion Report (2026-01-21 23:48)",
+      "hash": "43866dfe277cb7f243f271b394950d103c40d2f0fe97b40ec080bd24f0d64dcd",
+      "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "aaa_v0.5_reindex_backfill_report_20260122.md",
+      "title": "AAA v0.5 Reindex Backfill Report (2026-01-22)",
+      "hash": "55b28f781eae7f90a34ad2ad0eaabff7916d0e85be5a785d4ca3e53022ad5bd2",
+      "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "v0.1_completion_report_20260118_1235.md",
+      "title": "v0.1 Completion Report (20260118_1235)",
+      "hash": "dd219eae7ca55ca8ac0976650728deab1ccc48c42a8f00349d78789d8fcb2964",
+      "last_modified": "2026-01-18",
+      "metadata": {}
+    }
+  ]
+}
