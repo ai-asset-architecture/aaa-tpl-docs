@@ -37,5 +37,9 @@ This repo is the single source of truth for project documentation. Do not duplic
 ## Reports Index
 - `reports/skills/skills_v0.2_upgrade_report_20260120_0309.md`
 
+## Milestones vs Reports
+- `milestones/` - architecture definition milestones (specs completed, system definition).
+- `reports/milestones/` - implementation/verification reports (changes + validation results).
+
 ## .ai-context.md usage
 Include `.ai-context.md` at the repo root to enforce agent behavior and required knowledge loading.
