@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-21T17:12:33Z",
+  "generated_at": "2026-01-21T17:32:12Z",
   "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -33,8 +33,8 @@
     },
     {
       "path": "README.md",
-      "title": "Milestones (Architecture Definitions)",
-      "hash": "b3bd3ff9ad861609f5a6927c9b980377e56951c6ab0def487939013f443b0044",
+      "title": "README",
+      "hash": "c1f9bdf570a7f639d7c1775b4b205eb8b43267eecfda74eee6ae5beaa2c4598b",
       "last_modified": "2026-01-21",
       "metadata": {}
     }

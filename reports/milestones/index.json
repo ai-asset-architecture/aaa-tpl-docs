@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-21T17:25:07Z",
+  "generated_at": "2026-01-21T17:32:21Z",
   "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
     {
       "path": "README.md",
-      "title": "Milestones (Implementation & Verification Reports)",
-      "hash": "5cb102b41d5675779d289410b03506d22f1674c0ec9d6cbb00214b9203479f97",
+      "title": "README",
+      "hash": "b851634afa0ac2f4d4697eee54e0dc0d0f32a81768ba5a57ed920fdb8e826e46",
       "last_modified": "2026-01-21",
       "metadata": {}
     },
