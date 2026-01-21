@@ -39,7 +39,7 @@
 ## 目錄
 1. 文件目的與範圍  
 2. 專案核心協作哲學（Contract-first / Mock-first）  
-3. Repo 地圖與責任邊界（12 Repos）  
+3. Repo 地圖與責任邊界（Maximal Set）  
 4. Single Source of Truth 規則（Contracts / Schemas / Dictionary / Design System）  
 5. 團隊（Teams）與角色分工（含描述）  
 6. 工作流（Feature / Bug / Breaking Change / Release）  
@@ -121,7 +121,7 @@ Source of truth: `.github/GOVERNANCE.md`
 
 ---
 
-## 3. Repo 地圖與責任邊界（12 Repos）
+## 3. Repo 地圖與責任邊界（Maximal Set）
 > 每個 repo 必須清楚「它做什麼 / 不做什麼」，避免責任漂移。
 > 下表為全配版（Maximal Set），小型專案可依需求裁減或合併（例如 Backend + Schemas）。
 
