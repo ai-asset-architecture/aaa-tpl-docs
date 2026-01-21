@@ -57,6 +57,8 @@ aaa init repo-checks \
   --jsonl
 ```
 
+詳見 runbook：`aaa-tools/runbooks/init/POST_INIT_AUDIT.md`
+
 ---
 
 ## 關鍵約束 (Contract Rules)
