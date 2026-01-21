@@ -15,6 +15,7 @@
   - `python3 -m unittest runner.tests.test_runbook_schema_validate -v` → OK
 - Repo 檢查：
   - `python3 runner/run_repo_checks.py --check runbook_schema_validate --repo /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE` → PASS
+  - 補充：使用 `.venv`（jsonschema 可用）執行相同檢查 → PASS
 
 ## Impact
 - Runbook as Code 具備 schema 驗證與版本化基線，支援後續 Pipeline 編排。
