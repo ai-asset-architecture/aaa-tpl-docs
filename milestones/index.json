@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-21T19:16:57Z",
+  "generated_at": "2026-01-21T19:20:09Z",
   "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -25,6 +25,13 @@
       "metadata": {}
     },
     {
+      "path": "20260121_v0.4_architecture_definition.md",
+      "title": "Milestone: v0.4 Architecture Definition (20260121)",
+      "hash": "70381a967ac44741c8307f6f8ea611480fb2c360d8bc97a5168f3839e3aa56cd",
+      "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
       "path": "20260121_v1.0_roadmap.md",
       "title": "AAA Roadmap v0.4 \u2192 v1.0 (Investor-Ready Technical Narrative)",
       "hash": "d0a4f02b2ba03cbdc4231ebbfb0159b3a112d71b6797722ade402b9f40ec35cf",
@@ -41,7 +48,7 @@
     {
       "path": "README.md",
       "title": "README",
-      "hash": "53503baa29cfc429e7358cbba88d80db66a751506d3370f73efebc35f3f2f589",
+      "hash": "4223941615f2c08d801f7f0e4e1d55526036a94a1e24f2b581187ef7c0f0ca04",
       "last_modified": "2026-01-21",
       "metadata": {}
     }
