@@ -25,7 +25,7 @@ gh auth setup-git
 直接從 GitHub 安裝指定版本工具（注意：這行不可被 Markdown 變成連結語法）。
 
 ```bash
-python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.1.0"
+python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.2.0"
 
 # 確認安裝成功
 aaa --version
@@ -40,12 +40,12 @@ aaa --version
 ```bash
 # 下載 Plan（你的執行計畫）
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.1.0 \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.2.0 \
   > /tmp/aaa_plan_resolved.json
 
 # 下載 Schema（驗證規則）
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.1.0 \
+  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.2.0 \
   > /tmp/aaa_plan_schema.json
 ```
 
@@ -80,7 +80,7 @@ PY
 
 * `{{TARGET_ORG}}`：你的 GitHub Organization 名稱
 * `{{PROJECT_SLUG}}`：專案代號（例如 `lotto`）
-* `{{AAA_VERSION}}`：工具版本（例如 `v0.1.0`）
+* `{{AAA_VERSION}}`：工具版本（例如 `v0.2.0`）
 
 > 建議使用 VS Code 編輯，避免破壞 JSON 格式。
 
