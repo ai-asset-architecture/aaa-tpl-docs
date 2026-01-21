@@ -8,6 +8,8 @@
 - SOP 對齊 `v0.2.0` 安裝與 plan/schema 下載 ref。
 - Playbook 標題改為「Maximal Set」避免固定 repo 數量誤解。
 - Onboarding prompt schema 強制 `runbook_path` 必填。
+- 新增 onboarding review prompts（drift review / SOP integrity）。
+- 新增 onboarding templates（SOP 模板 / Start Here 區塊模板）。
 - `aaa-actions` eval workflow 加入 `actions/setup-python@v5` 並改用 `python3 -m pip`。
 
 ## Verification
@@ -33,7 +35,11 @@
 - `aaa-tpl-docs/docs/new-project-sop.md`
 - `aaa-tpl-docs/PROJECT_PLAYBOOK.md`
 - `aaa-prompts/prompts/onboarding/bootstrap_codex_brief_v0.1.json`
+- `aaa-prompts/prompts/onboarding/onboarding_drift_review_v0.1.json`
+- `aaa-prompts/prompts/onboarding/sop_integrity_check_v0.1.json`
 - `aaa-actions/.github/workflows/eval.yml`
+- `aaa-tpl-docs/templates/onboarding/Member-Start-SOP-Template.md`
+- `aaa-tpl-docs/templates/onboarding/Start-Here-Block-Template.md`
 
 ---
 
@@ -49,6 +55,10 @@
 
 ### aaa-prompts
 - `fix(prompts): require runbook_path in onboarding schema` (00dba96)
+- `feat(prompts): add onboarding review prompts` (ef345da)
 
 ### aaa-actions
 - `chore(ci): setup python for eval workflow` (6ee3a63)
+
+### aaa-tpl-docs
+- `docs(templates): add onboarding SOP and Start Here templates` (9f184fa)
