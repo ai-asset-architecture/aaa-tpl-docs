@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-01-22T19:01:32Z",
+  "generated_at": "2026-01-22T19:08:08Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
     {
       "path": "README.md",
-      "title": "Reports Index\\n\\n- audits/github_audit_report_20260119_2226.md | GitHub AAA v0.1 Audit Report\\n- audits/governance_evals_report_20260119_0018.md | Governance Evals Report (20260119_0018)\\n- audits/governance_evals_report_20260119_0044.md | Governance Evals Report (20260119_0044)\\n- audits/governance_evals_report_20260119_0045.md | Governance Evals Report (20260119_0045)\\n- audits/governance_evals_report_20260119_0046.md | Governance Evals Report (20260119_0046)\\n- audits/governance_evals_report_20260119_0047.md | Governance Evals Report (20260119_0047)\\n- audits/governance_evals_report_20260119_0048.md | Governance Evals Report (20260119_0048)\\n- audits/governance_evals_report_20260119_0049.md | Governance Evals Report (20260119_0049)\\n- audits/onboarding_evals_added_20260120_0152.md | Onboarding Evals & Assets \u66f4\u65b0\u5831\u544a (2026-01-20 01:52)\\n- audits/aaa_v0.6_readiness_gate_20260122_2310.md | AAA v0.6 Readiness Gate Review (2026-01-22 23:10)\\n- audits/aaa_v0.6_gate_runbook_20260122_2348.md | AAA v0.6 Readiness Gate Runbook (2026-01-22 23:48)\\n- cli/cli_background_validation_report_20260119_1449.md | CLI \u80cc\u666f\u8207\u4f7f\u7528\u8aaa\u660e \u9a57\u8b49\u5831\u544a (20260119_1449)\\n- cli/cli_status_report_20260119_1545.md | AAA CLI Status Report (v0.1)\\n- github_audit_report_20260121_1746.md | GitHub AAA v0.1 Audit Report\\n- github_audit_report_20260121_2132.md | GitHub AAA v0.1 Audit Report\\n- milestones/README.md | Milestones (Implementation & Verification Reports)\\n- milestones/aaa_v0.2.2_hotfix_20260120_1216.md | AAA v0.2.2 Hotfix Note (2026-01-20 12:16)\\n- milestones/aaa_v0.2_improvement_report_20260120_0322.md | AAA v0.2 \u6539\u5584\u6458\u8981\u5831\u544a (2026-01-20 03:22)\\n- milestones/aaa_v0.3.1_evals_report_20260121_1802.md | AAA v0.3.1 Evals Update Report (2026-01-21 18:02)\\n- milestones/aaa_v0.3_completion_report_20260121_1737.md | AAA v0.3 Completion Report (2026-01-21 17:37)\\n- milestones/aaa_v0.4_completion_report_20260121_2128.md | AAA v0.4 Completion Report (2026-01-21 21:28)\\n- milestones/aaa_v0.5_completion_report_20260121_2348.md | AAA v0.5 Completion Report (2026-01-21 23:48)\\n- milestones/v0.1_completion_report_20260118_1235.md | v0.1 Completion Report (20260118_1235)\\n- skills/README.md | Skills Reports Index\\n- skills/skills_orchestration_core_vs_enhanced_20260120_1120.md | Skills \u5354\u4f5c\u5206\u5c64\u5099\u8a3b (2026-01-20 11:20)\\n- skills/skills_v0.2_upgrade_report_20260120_0309.md | Skills v0.2 \u5347\u7d1a\u5b8c\u6210\u5831\u544a (2026-01-20 03:09)\\n- skills/skills_validation_report_20260119_0044.md | Skills QA Report (20260119_0044)\\n- skills/skills_validation_report_20260119_0045.md | Skills QA Report (20260119_0045)\\n- skills/skills_validation_report_20260119_0046.md | Skills QA Report (20260119_0046)\\n- skills/skills_validation_report_20260119_0047.md | Skills QA Report (20260119_0047)\\n- skills/skills_validation_report_20260119_0048.md | Skills QA Report (20260119_0048)\\n- skills/skills_validation_report_20260119_0049.md | Skills QA Report (20260119_0049)\\n- skills/skills_validation_report_20260119_1508.md | AAA Skills Validation Report\\n- skills/skills_validation_report_20260119_1514.md | AAA Skills Validation Report\\n- skills/skills_validation_report_20260120_1120.md | Skills \u9a57\u8b49\u5831\u544a (2026-01-20 11:20)\\n",
-      "hash": "43315b67d52d07a9f5c223e30fed5a784dff1cda5bd2d9eef2c012f3ff5c5295",
+      "title": "Reports Index",
+      "hash": "2f94c190a22f656ab9dd490fc60177338e96eb25cb085113f07677d9e9df3912",
       "last_modified": "2026-01-22",
       "metadata": {}
     },
     {
       "path": "audits/aaa_v0.6_gate_runbook_20260122_2348.md",
       "title": "AAA v0.6 Readiness Gate Runbook (Executable Mapping)",
-      "hash": "1f0754e3604933fed02b4141be560f7f13cf2108deb8aa20c8b8f7a13ea2251e",
+      "hash": "c576b422f85c5c168b08eb76070ba8aa02bc35fd01118907f8a0899d673ad1a4",
       "last_modified": "2026-01-22",
       "metadata": {}
     },
     {
       "path": "audits/aaa_v0.6_readiness_gate_20260122_2310.md",
       "title": "AAA v0.6 Readiness Gate Review (2026-01-22 23:10)",
-      "hash": "6f3a0b30a0c764dbd7fd1909626630aedf294be942c0f3f3aeb1761495fcd2e5",
+      "hash": "aa82075346b21ffd9b688d447249766a7ca9376022c83761d013a27f1a8d38b2",
       "last_modified": "2026-01-22",
       "metadata": {}
     },
@@ -118,7 +118,7 @@
     {
       "path": "milestones/README.md",
       "title": "README",
-      "hash": "4d6b1722b94669b18f191f89ac5351bb4a0ad970590f705a06363354b3c6ed5d",
+      "hash": "8ed4664c763be9821202b5b0408d282832f9ebd5e00466908ceec15788a1af94",
       "last_modified": "2026-01-22",
       "metadata": {}
     },
@@ -174,7 +174,7 @@
     {
       "path": "milestones/aaa_v0.6_completion_report_20260122_2300.md",
       "title": "AAA v0.6 Completion Report (2026-01-22 23:00)",
-      "hash": "51f7d98dbaee268726171d75be1ff5b31e1be116219933ed7074bfad6c7e2f82",
+      "hash": "ca98fa3f72b1937b65bd66e49a115d7a4d50b1498339a85884f258f573630c20",
       "last_modified": "2026-01-22",
       "metadata": {}
     },

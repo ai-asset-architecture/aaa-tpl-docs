@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-22T19:01:31Z",
+  "generated_at": "2026-01-22T19:08:08Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -48,14 +48,14 @@
     {
       "path": "20260122_v0.6_architecture_definition.md",
       "title": "Milestone: v0.6 Architecture Definition (20260122)",
-      "hash": "11ad49a0841c4bd3c17361a42cb174ace9af205100b9eb965d9c0f5a37a9ff24",
+      "hash": "410f927f60414e4a94cc262bd1e94b13dc56e3c694fbef29e9a0214111b40d49",
       "last_modified": "2026-01-22",
       "metadata": {}
     },
     {
       "path": "README.md",
       "title": "README",
-      "hash": "ecfe25cea27ac63c04adf3f9e0fec33fecb4f43efe6f933ceff847236045b385",
+      "hash": "9346e8baabc0a99e00e780e2f37a1fab1e466cad5f76a0decb8ddf278b49e43b",
       "last_modified": "2026-01-22",
       "metadata": {}
     }

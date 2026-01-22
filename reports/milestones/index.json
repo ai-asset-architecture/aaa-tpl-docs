@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-22T19:01:32Z",
+  "generated_at": "2026-01-22T19:08:08Z",
   "source_dir": "aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
     {
       "path": "README.md",
       "title": "README",
-      "hash": "4d6b1722b94669b18f191f89ac5351bb4a0ad970590f705a06363354b3c6ed5d",
+      "hash": "8ed4664c763be9821202b5b0408d282832f9ebd5e00466908ceec15788a1af94",
       "last_modified": "2026-01-22",
       "metadata": {}
     },
@@ -62,7 +62,7 @@
     {
       "path": "aaa_v0.6_completion_report_20260122_2300.md",
       "title": "AAA v0.6 Completion Report (2026-01-22 23:00)",
-      "hash": "51f7d98dbaee268726171d75be1ff5b31e1be116219933ed7074bfad6c7e2f82",
+      "hash": "ca98fa3f72b1937b65bd66e49a115d7a4d50b1498339a85884f258f573630c20",
       "last_modified": "2026-01-22",
       "metadata": {}
     },

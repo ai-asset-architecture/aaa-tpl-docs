@@ -15,6 +15,13 @@
   - `python3 -m unittest tests.test_runbook_actions_fs tests.test_runbook_cli_exec -v` → OK
 - Repo 檢查（aaa-evals）：
   - `AAA_TOOLS_ROOT=/private/tmp/aaa-tools-v0.6-agent-safety python3 runner/run_repo_checks.py --check agent_safety --repo /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE` → PASS
+- Gate A 演練（dummy repo）：
+  - `ai-asset-architecture-docs#1` PR 建立完成
+  - Checks: `ci/lint`, `ci/test`, `ci/eval` → PASS
+- Gate B1（orphaned_assets）：
+  - `python3 runner/run_repo_checks.py --check orphaned_assets --repo /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE` → PASS
+- Gate B1 回填（索引修復）：
+  - `ops/reindex-all-assets@1.0.0` runbook 執行 → OK
 - Evals 單元測試：
   - `python3 -m unittest runner.tests.test_check_agent_safety -v` → OK
 - Workflow YAML：
