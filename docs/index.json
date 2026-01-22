@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-22T19:15:34Z",
+  "generated_at": "2026-01-22T19:18:28Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
     {
       "path": "README.md",
       "title": "Docs Index",
-      "hash": "542d64bb57a7787163192bdafa6464b4e0ea19b2a30fa756847c293957c5bcdb",
+      "hash": "2a6b6638c7195e82f24e084177d83335d2d2f29a47d19d66b0b2c09e91855656",
       "last_modified": "2026-01-22",
       "metadata": {}
     },

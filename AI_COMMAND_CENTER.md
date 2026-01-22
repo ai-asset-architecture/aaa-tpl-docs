@@ -115,6 +115,12 @@ sequenceDiagram
 - Verification Hash
 - Definition Hash
 
+### 🧭 Gate A/B Debug Quick Links
+當 Gate A/B 發生錯誤時，請先閱讀以下文件：
+- `aaa-tpl-docs/reports/audits/aaa_v0.6_gateA_failure_modes_20260123.md`
+- `aaa-tpl-docs/docs/plans/2026-01-23-gateA-repro.md`
+- `aaa-tpl-docs/docs/specs/runbook-runtime-contract.md`
+
 
 
 ---
