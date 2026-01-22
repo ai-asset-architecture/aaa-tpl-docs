@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-22T19:08:08Z",
+  "generated_at": "2026-01-22T19:15:34Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -112,6 +112,20 @@
       "path": "plans/2026-01-22-aaa-v0.6-action-registry-plan.md",
       "title": "AAA v0.6 Action Registry MVP Implementation Plan",
       "hash": "d3400de551ed4b465840358499dc08ab8b0a7b44e27981b094239a8b6cb0a33a",
+      "last_modified": "2026-01-22",
+      "metadata": {}
+    },
+    {
+      "path": "plans/2026-01-23-gateA-repro.md",
+      "title": "Gate A Repro Script (2026-01-23)",
+      "hash": "0f6a9742606aba9c238a4baaafc2636e1c939854c5b2de5f99bcd6a1f9c61f1f",
+      "last_modified": "2026-01-22",
+      "metadata": {}
+    },
+    {
+      "path": "specs/runbook-runtime-contract.md",
+      "title": "Runbook Runtime Contract (v0.6)",
+      "hash": "9852b6993a03fa842dbf31bcfaedf40f008fe26d5a9dba0c830e50f4de487fc1",
       "last_modified": "2026-01-22",
       "metadata": {}
     }

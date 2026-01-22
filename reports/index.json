@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-22T19:08:08Z",
+  "generated_at": "2026-01-22T19:15:34Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -7,6 +7,13 @@
       "path": "README.md",
       "title": "Reports Index",
       "hash": "2f94c190a22f656ab9dd490fc60177338e96eb25cb085113f07677d9e9df3912",
+      "last_modified": "2026-01-22",
+      "metadata": {}
+    },
+    {
+      "path": "audits/aaa_v0.6_gateA_failure_modes_20260123.md",
+      "title": "AAA v0.6 Gate A Failure Modes (2026-01-23)",
+      "hash": "5ecb3dcd73153fabced083bc3218dc0ec5c81bc1c8ac94d08751c8065c1b0676",
       "last_modified": "2026-01-22",
       "metadata": {}
     },
