@@ -25,6 +25,8 @@
   - `ops/reindex-all-assets@1.0.0` runbook 執行 → OK
 - Gate B1（repo-checks governance）：
   - `AAA_EVALS_ROOT=... WORKSPACE_DIR=/tmp/aaa-gateB-repos aaa init repo-checks --from-plan /tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json --org ai-asset-architecture --suite governance` → PASS（skills/prompt skipped for non-agent repos）
+- Gate B2（agent_safety）：
+  - `AAA_TOOLS_ROOT=/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tools python3 /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-evals/runner/run_repo_checks.py --check agent_safety --repo /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE` → PASS
 - Evals 單元測試：
   - `python3 -m unittest runner.tests.test_check_agent_safety -v` → OK
 - Workflow YAML：
