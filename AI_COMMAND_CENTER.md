@@ -121,6 +121,10 @@ sequenceDiagram
 - `aaa-tpl-docs/docs/plans/2026-01-23-gateA-repro.md`
 - `aaa-tpl-docs/docs/specs/runbook-runtime-contract.md`
 
+### 🤖 Gate A Debug Prompt
+如需快速診斷，使用提示詞：
+- `aaa-gate-a-debug@0.1.0`
+
 
 
 ---
