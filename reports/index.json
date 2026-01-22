@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-22T20:26:32Z",
+  "generated_at": "2026-01-22T23:23:38Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -181,7 +181,7 @@
     {
       "path": "milestones/aaa_v0.6_completion_report_20260122_2300.md",
       "title": "AAA v0.6 Completion Report (2026-01-22 23:00)",
-      "hash": "ca98fa3f72b1937b65bd66e49a115d7a4d50b1498339a85884f258f573630c20",
+      "hash": "413381597b3a35ee768349f44aae0c80d79017da819a281b1cefdaa79d149077",
       "last_modified": "2026-01-22",
       "metadata": {}
     },

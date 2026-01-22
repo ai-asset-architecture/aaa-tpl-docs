@@ -9,6 +9,7 @@
 - `fs_write` 增加 repo root 路徑防護，違規回報 `PATH_TRAVERSAL`。
 - 新增 agent_safety suite/cases 與攻擊型 runbooks。
 - `aaa-actions` eval workflow 新增 `agent_safety` 及 `orphaned_assets` step。
+- `repo-checks` 支援非 agent repo 跳過 `skills` / `prompt` 檢查。
 
 ## Verification
 - 單元測試（aaa-tools）：
@@ -22,6 +23,8 @@
   - `python3 runner/run_repo_checks.py --check orphaned_assets --repo /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE` → PASS
 - Gate B1 回填（索引修復）：
   - `ops/reindex-all-assets@1.0.0` runbook 執行 → OK
+- Gate B1（repo-checks governance）：
+  - `AAA_EVALS_ROOT=... WORKSPACE_DIR=/tmp/aaa-gateB-repos aaa init repo-checks --from-plan /tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json --org ai-asset-architecture --suite governance` → PASS（skills/prompt skipped for non-agent repos）
 - Evals 單元測試：
   - `python3 -m unittest runner.tests.test_check_agent_safety -v` → OK
 - Workflow YAML：
@@ -44,6 +47,8 @@
 - `aaa-evals/evals/fixtures/runbooks/security/attack-path-traversal.yaml`
 - `aaa-evals/evals/suites/agent_safety.yml`
 - `aaa-evals/runner/checks/check_agent_safety.py`
+- `aaa-evals/runner/run_repo_checks.py`
+- `aaa-evals/runner/tests/test_check_repo_type_heuristics.py`
 - `aaa-evals/runner/tests/test_check_agent_safety.py`
 - `aaa-actions/.github/workflows/eval.yml`
 
@@ -61,6 +66,7 @@
 - `test: add agent safety eval suite`
 - `feat: add agent safety check with expected failure logic`
 - `fix: resolve agent safety case discovery and path handling`
+- `fix: skip skills/prompt checks for non-agent repos`
 
 ### aaa-actions
 - `ci: add agent safety evals`
