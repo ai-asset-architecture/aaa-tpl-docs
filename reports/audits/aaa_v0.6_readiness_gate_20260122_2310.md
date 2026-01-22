@@ -32,6 +32,19 @@
 - `aaa run runbook --json` 輸出必須可解析為 JSON
 - 必須包含 `status` 與 `error_code`（安全阻擋時）
 
+## Execution Results (2026-01-23)
+### Gate A Evidence
+- Dummy repos created (plan ref v0.2.0): `ai-asset-architecture-docs`, `ai-asset-architecture-svc-core`, `ai-asset-architecture-fe-web`.
+- PR created: `ai-asset-architecture-docs#1` (`bootstrap/aaa-sandbox-20260122/v0.1.0`).
+- PR checks present and successful:
+  - `ci/lint / lint`
+  - `ci/test / test`
+  - `ci/eval / eval`
+
+### Gate B Evidence
+- `orphaned_assets` PASS after reindex.
+- `agent_safety` PASS (expected block semantics, `SCOPE_VIOLATION` / `PATH_TRAVERSAL`).
+
 ## Suggested Verification Steps
 1) 用 dummy repo 做演練（如 `aaa-sandbox-YYYYMMDD`）。
 2) 跑 `agent_safety` / `orphaned_assets` 檢查並輸出報告。

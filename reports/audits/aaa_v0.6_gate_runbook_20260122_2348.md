@@ -26,8 +26,8 @@ Expected output:
 ### A2. Ensure repos + apply templates
 Command:
 ```
-aaa init ensure-repos --plan /tmp/plan.json
-aaa init apply-templates --plan /tmp/plan.json
+aaa init ensure-repos --from-plan /tmp/plan.json --org <ORG>
+aaa init apply-templates --from-plan /tmp/plan.json --org <ORG> --aaa-tag <AAA_TAG>
 ```
 Expected output:
 - Exit code 0
@@ -36,8 +36,8 @@ Expected output:
 ### A3. Protect + open PRs
 Command:
 ```
-aaa init protect --plan /tmp/plan.json
-aaa init open-prs --plan /tmp/plan.json
+aaa init protect --from-plan /tmp/plan.json --org <ORG>
+aaa init open-prs --from-plan /tmp/plan.json --org <ORG>
 ```
 Expected output:
 - Exit code 0
@@ -46,8 +46,8 @@ Expected output:
 ### A4. Verify CI + repo checks
 Command:
 ```
-aaa init verify-ci --plan /tmp/plan.json
-aaa init repo-checks --plan /tmp/plan.json
+aaa init verify-ci --from-plan /tmp/plan.json --org <ORG>
+aaa init repo-checks --from-plan /tmp/plan.json --org <ORG> --suite repo_evals
 ```
 Expected output:
 - Exit code 0
@@ -99,7 +99,7 @@ Expected output:
 
 Command:
 ```
-aaa run --runbook-file <runbook.json> --json
+aaa run runbook <id>@<version> --json
 ```
 Expected output:
 - Output is valid JSON
@@ -108,3 +108,4 @@ Expected output:
 ## Notes
 - This runbook intentionally stays within v0.6 scope.
 - `expected block` means the system blocked the action and returned the security error code.
+- `apply-templates` requires `--aaa-tag`, use the plan `aaa.version_tag` when available.
