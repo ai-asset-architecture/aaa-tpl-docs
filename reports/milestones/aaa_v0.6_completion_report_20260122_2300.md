@@ -32,6 +32,69 @@
 - Workflow YAML：
   - `ruby -e "require 'yaml'; YAML.load_file('aaa-actions/.worktrees/v0.6-agent-safety/.github/workflows/eval.yml')"` → OK
 
+## Evidence Chain (Gate A/B)
+
+### Gate A (Init Pipeline)
+
+**Commands**
+```bash
+aaa init validate-plan --plan /tmp/aaa_plan_v0.1_ref_v0.2.0.json
+aaa init ensure-repos --from-plan /tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json --org ai-asset-architecture
+aaa init apply-templates --from-plan /tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json --org ai-asset-architecture --aaa-tag v0.1.0
+aaa init protect --from-plan /tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json --org ai-asset-architecture
+aaa init open-prs --from-plan /tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json --org ai-asset-architecture
+aaa init verify-ci --from-plan /tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json --org ai-asset-architecture
+```
+
+**Outputs**
+```bash
+gh pr list -R ai-asset-architecture/ai-asset-architecture-docs --state all --limit 50
+#1  chore: apply aaa templates (v0.1.0)  bootstrap/aaa-sandbox-20260122/v0.1.0
+
+gh pr checks 1 -R ai-asset-architecture/ai-asset-architecture-docs
+✓  ci/eval / eval (pull_request)
+✓  ci/lint / lint (pull_request)
+✓  ci/test / test (pull_request)
+
+gh run list -R ai-asset-architecture/ai-asset-architecture-docs --limit 30
+✓  chore: apply aaa templates (...)  ci  bootstrap/aaa-sandbox-20260122/v0.1.0  pull_request
+✓  chore: initial commit             ci  main                                 push
+```
+
+### Gate B1 (repo-checks governance)
+
+**Command**
+```bash
+AAA_EVALS_ROOT=/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-evals \
+WORKSPACE_DIR=/tmp/aaa-gateB-repos \
+aaa init repo-checks \
+  --from-plan /tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json \
+  --org ai-asset-architecture \
+  --suite governance
+```
+
+**Output**
+```json
+{"repo":"ai-asset-architecture-docs","checks":[{"id":"readme","status":"pass"},{"id":"workflow","status":"pass"},{"id":"skills","status":"pass","message":["skipped: non-agent repo"]},{"id":"prompt","status":"pass","message":["skipped: non-agent repo"]}]}
+{"repo":"ai-asset-architecture-svc-core","checks":[{"id":"readme","status":"pass"},{"id":"workflow","status":"pass"},{"id":"skills","status":"pass","message":["skipped: non-agent repo"]},{"id":"prompt","status":"pass","message":["skipped: non-agent repo"]}]}
+{"repo":"ai-asset-architecture-fe-web","checks":[{"id":"readme","status":"pass"},{"id":"workflow","status":"pass"},{"id":"skills","status":"pass","message":["skipped: non-agent repo"]},{"id":"prompt","status":"pass","message":["skipped: non-agent repo"]}]}
+```
+
+### Gate B2 (agent_safety)
+
+**Command**
+```bash
+AAA_TOOLS_ROOT=/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tools \
+python3 /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-evals/runner/run_repo_checks.py \
+  --check agent_safety \
+  --repo /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE
+```
+
+**Output**
+```json
+{"check":"agent_safety","repo":"/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE","pass":true,"details":[]}
+```
+
 ## Impact
 - 安全測試可透過 CI 重複執行，驗證 scope 與 path traversal 防護。
 - CLI 以 JSON 回傳結果，利於 agent 與 evals 自動判斷。
