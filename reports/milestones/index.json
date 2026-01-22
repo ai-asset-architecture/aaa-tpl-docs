@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-21T17:32:21Z",
+  "generated_at": "2026-01-22T15:02:38Z",
   "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
     {
       "path": "README.md",
       "title": "README",
-      "hash": "b851634afa0ac2f4d4697eee54e0dc0d0f32a81768ba5a57ed920fdb8e826e46",
+      "hash": "54a6a04856a455fab13d53a312fd5d973a09fed391d39ab28d4165c8a554757e",
       "last_modified": "2026-01-21",
       "metadata": {}
     },
@@ -48,7 +48,7 @@
     {
       "path": "aaa_v0.5_completion_report_20260121_2348.md",
       "title": "AAA v0.5 Completion Report (2026-01-21 23:48)",
-      "hash": "43866dfe277cb7f243f271b394950d103c40d2f0fe97b40ec080bd24f0d64dcd",
+      "hash": "ef69238e80332759963846a9a67ed56e65ccb03cac75fa5b206438bf4fe4ecce",
       "last_modified": "2026-01-21",
       "metadata": {}
     },
@@ -57,6 +57,13 @@
       "title": "AAA v0.5 Reindex Backfill Report (2026-01-22)",
       "hash": "55b28f781eae7f90a34ad2ad0eaabff7916d0e85be5a785d4ca3e53022ad5bd2",
       "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "aaa_v0.6_completion_report_20260122_2300.md",
+      "title": "AAA v0.6 Completion Report (2026-01-22 23:00)",
+      "hash": "51f7d98dbaee268726171d75be1ff5b31e1be116219933ed7074bfad6c7e2f82",
+      "last_modified": "2026-01-22",
       "metadata": {}
     },
     {
