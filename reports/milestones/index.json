@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-01-22T15:02:38Z",
-  "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/reports/milestones",
+  "generated_at": "2026-01-22T19:01:32Z",
+  "source_dir": "aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
     {
       "path": "README.md",
       "title": "README",
-      "hash": "54a6a04856a455fab13d53a312fd5d973a09fed391d39ab28d4165c8a554757e",
-      "last_modified": "2026-01-21",
+      "hash": "4d6b1722b94669b18f191f89ac5351bb4a0ad970590f705a06363354b3c6ed5d",
+      "last_modified": "2026-01-22",
       "metadata": {}
     },
     {

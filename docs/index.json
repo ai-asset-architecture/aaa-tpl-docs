@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-21T18:17:41Z",
-  "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/docs",
+  "generated_at": "2026-01-22T19:01:32Z",
+  "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
     {
       "path": "README.md",
-      "title": "Docs Index\\n\\n- asset-contribution-sop.md | AAA \u8cc7\u7522\u56de\u994b\u6d41\u7a0b\uff08\u8349\u6848\uff09\\n- contracts/aaa-cli-contract.md | AAA CLI \u4f7f\u7528\u8005\u5408\u7d04 (User Contract v0.1)\\n- github-cli-setup.md | GitHub CLI \u5b89\u88dd\u8207\u767b\u5165\uff08gh\uff09\\n- new-project-sop.md | \u65b0\u5c08\u6848\u521d\u59cb\u5316 SOP (v0.2) - Member Edition\\n- plans/2026-01-21-aaa-v0.3-plan.md | AAA v0.3 Onboarding Drift + Docs Alignment Implementation Plan\\n- plans/2026-01-21-aaa-v0.4-design.md | AAA v0.4 Design (Governance Core + CLI Contract)\\n- plans/2026-01-21-aaa-v0.4-implementation-plan.md | AAA v0.4 Governance Core + CLI Contract Implementation Plan\\n- plans/2026-01-21-aaa-v0.4-post-init-assets-plan.md | v0.4 Post-init Assets Implementation Plan\\n- plans/2026-01-21-aaa-v0.5-modular-runbooks-adr.md | AAA v0.5 Modular Runbooks ADR\\n- plans/2026-01-22-aaa-v0.5-reindex-assets-plan.md | AAA v0.5 Reindex Assets Implementation Plan\\n",
-      "hash": "c9144db2277d3dd30aaa6cd88f3c43f73bc91279d8188e48752e41acdfbb83ea",
+      "title": "README",
+      "hash": "27cfa0a714be5e91e516ba4178daa07d21fc16cfced198a38b28d89d614e6bff",
       "last_modified": "2026-01-21",
       "metadata": {}
     },
@@ -20,8 +20,8 @@
     {
       "path": "contracts/aaa-cli-contract.md",
       "title": "AAA CLI \u4f7f\u7528\u8005\u5408\u7d04 (User Contract v0.1)",
-      "hash": "8658a20dc9ff2b74e7d1d57bc89199acdfab40a58b2c7648dba1828d993c80db",
-      "last_modified": "2026-01-21",
+      "hash": "1e14c97680f01e7de5f9d2cb81fb06257a4166da9a6851e1220327f42c64f383",
+      "last_modified": "2026-01-22",
       "metadata": {}
     },
     {
@@ -41,7 +41,7 @@
     {
       "path": "milestones/v0.5-modular-runtime.md",
       "title": "v0.5 Modular Runtime Milestone",
-      "hash": "2b4e903f8c8103a87498f8f9084fca3172fcad2255ae066b673424b02c1048a1",
+      "hash": "3a4964ced107638eecc1d8881e192161ad7bb8341588074f025eaf4565692fae",
       "last_modified": "2026-01-21",
       "metadata": {}
     },
@@ -99,6 +99,20 @@
       "title": "AAA v0.5 Reindex Assets Implementation Plan",
       "hash": "738fd6a16b2e14787b86d076d61547962f6a25147bcf28e438f8ce10638315f9",
       "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "plans/2026-01-22-aaa-v0.5-runtime-engine-plan.md",
+      "title": "AAA v0.5 Runtime Engine Implementation Plan",
+      "hash": "3ffe6ce418ff69c32423e982ca952a46b55cafc188eb7b98ff04233d0f8b5e06",
+      "last_modified": "2026-01-21",
+      "metadata": {}
+    },
+    {
+      "path": "plans/2026-01-22-aaa-v0.6-action-registry-plan.md",
+      "title": "AAA v0.6 Action Registry MVP Implementation Plan",
+      "hash": "d3400de551ed4b465840358499dc08ab8b0a7b44e27981b094239a8b6cb0a33a",
+      "last_modified": "2026-01-22",
       "metadata": {}
     }
   ]
