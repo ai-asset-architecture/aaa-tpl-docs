@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-22T23:32:39Z",
+  "generated_at": "2026-01-22T23:43:56Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -21,6 +21,13 @@
       "path": "audits/aaa_v0.6_gate_runbook_20260122_2348.md",
       "title": "AAA v0.6 Readiness Gate Runbook (Executable Mapping)",
       "hash": "c576b422f85c5c168b08eb76070ba8aa02bc35fd01118907f8a0899d673ad1a4",
+      "last_modified": "2026-01-22",
+      "metadata": {}
+    },
+    {
+      "path": "audits/aaa_v0.6_gate_summary_for_diplomat.md",
+      "title": "AAA v0.6 Gate A/B Summary (Diplomat Reference)",
+      "hash": "fd54be251c8756ac268c4f40b4d3bf19408a0aadedc1af243caeb4679f248133",
       "last_modified": "2026-01-22",
       "metadata": {}
     },
