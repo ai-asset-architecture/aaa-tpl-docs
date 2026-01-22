@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-21T17:12:41Z",
+  "generated_at": "2026-01-22T15:48:00Z",
   "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -61,14 +61,14 @@
     },
     {
       "path": "audits/onboarding_evals_added_20260120_0152.md",
-      "title": "Onboarding Evals & Assets \u66f4\u65b0\u5831\u544a (2026-01-20 01:52)",
+      "title": "Onboarding Evals & Assets 更新報告 (2026-01-20 01:52)",
       "hash": "5cf0f04aa78e1999b34854082c1181a8523b410dd9aa84cf19954efad436f63b",
       "last_modified": "2026-01-19",
       "metadata": {}
     },
     {
       "path": "cli/cli_background_validation_report_20260119_1449.md",
-      "title": "CLI \u80cc\u666f\u8207\u4f7f\u7528\u8aaa\u660e \u9a57\u8b49\u5831\u544a (20260119_1449)",
+      "title": "CLI 背景與使用說明 驗證報告 (20260119_1449)",
       "hash": "1928992a36f798bde883de3e767bc90e7d7fdd6ed975ad055fa3ec00e2064489",
       "last_modified": "2026-01-19",
       "metadata": {}
@@ -110,7 +110,7 @@
     },
     {
       "path": "milestones/aaa_v0.2_improvement_report_20260120_0322.md",
-      "title": "AAA v0.2 \u6539\u5584\u6458\u8981\u5831\u544a (2026-01-20 03:22)",
+      "title": "AAA v0.2 改善摘要報告 (2026-01-20 03:22)",
       "hash": "d7c05177cd01edc05b9d9b3311630ad61e120f4271f956f6e72c7893e928eccf",
       "last_modified": "2026-01-19",
       "metadata": {}
@@ -159,14 +159,14 @@
     },
     {
       "path": "skills/skills_orchestration_core_vs_enhanced_20260120_1120.md",
-      "title": "Skills \u5354\u4f5c\u5206\u5c64\u5099\u8a3b (2026-01-20 11:20)",
+      "title": "Skills 協作分層備註 (2026-01-20 11:20)",
       "hash": "aa7a62379d094a54e13b0d2662d12e98965002550727702594f25d9cf85087ce",
       "last_modified": "2026-01-20",
       "metadata": {}
     },
     {
       "path": "skills/skills_v0.2_upgrade_report_20260120_0309.md",
-      "title": "Skills v0.2 \u5347\u7d1a\u5b8c\u6210\u5831\u544a (2026-01-20 03:09)",
+      "title": "Skills v0.2 升級完成報告 (2026-01-20 03:09)",
       "hash": "8b078c48b76d59f7de90b640dde5f6b8e9977faa603822fb57db903458120824",
       "last_modified": "2026-01-19",
       "metadata": {}
@@ -229,9 +229,23 @@
     },
     {
       "path": "skills/skills_validation_report_20260120_1120.md",
-      "title": "Skills \u9a57\u8b49\u5831\u544a (2026-01-20 11:20)",
+      "title": "Skills 驗證報告 (2026-01-20 11:20)",
       "hash": "22535380af9c52c73f8d6aadbc5f3f008745c2abf2fda18e604137975d6bf2db",
       "last_modified": "2026-01-20",
+      "metadata": {}
+    },
+    {
+      "path": "audits/aaa_v0.6_readiness_gate_20260122_2310.md",
+      "title": "AAA v0.6 Readiness Gate Review (2026-01-22 23:10)",
+      "hash": "6f3a0b30a0c764dbd7fd1909626630aedf294be942c0f3f3aeb1761495fcd2e5",
+      "last_modified": "2026-01-22",
+      "metadata": {}
+    },
+    {
+      "path": "audits/aaa_v0.6_gate_runbook_20260122_2348.md",
+      "title": "AAA v0.6 Readiness Gate Runbook (Executable Mapping)",
+      "hash": "1f0754e3604933fed02b4141be560f7f13cf2108deb8aa20c8b8f7a13ea2251e",
+      "last_modified": "2026-01-22",
       "metadata": {}
     }
   ]
