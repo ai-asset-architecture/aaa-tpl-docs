@@ -61,6 +61,25 @@ aaa init repo-checks \
 
 ---
 
+## Gate C：Required Checks 名稱（SSOT）
+為避免 required checks 名稱漂移導致 PR 死鎖，以下為 v0.6 的 canonical 名稱：
+
+| Check ID | Canonical Name |
+| --- | --- |
+| lint | `ci/lint / lint` |
+| test | `ci/test / test` |
+| eval | `ci/eval / eval` |
+
+驗證方式（必跑）：
+
+```bash
+aaa init verify-ci \
+  --org <TARGET_ORG> \
+  --from-plan /tmp/aaa_plan_resolved.json
+```
+
+---
+
 ## 關鍵約束 (Contract Rules)
 - SOP、Profile README 與 CLI 合約必須一致。
 - Plan 與 Schema 的 tag 必須相同。
