@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T11:25:43Z",
+  "generated_at": "2026-01-23T12:58:34Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -133,6 +133,13 @@
       "path": "plans/2026-01-24-aaa-v0.8-plan.md",
       "title": "AAA v0.8 Marketplace Assets Implementation Plan",
       "hash": "453285ef59198785061b86ae2249526a291b30214da95f85269ee3d3bd30be70",
+      "last_modified": "2026-01-23",
+      "metadata": {}
+    },
+    {
+      "path": "plans/2026-01-24-aaa-v0.9-implementation-plan.md",
+      "title": "v0.9 Governance Compliance Dashboard Implementation Plan",
+      "hash": "67919c110814ae2870dc01d21450a4811948ec5c01b002d3a55b3f369d23ddf4",
       "last_modified": "2026-01-23",
       "metadata": {}
     },
