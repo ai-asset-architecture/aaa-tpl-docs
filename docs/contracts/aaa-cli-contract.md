@@ -24,7 +24,7 @@ python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.g
 
 ```bash
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.2.0 \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.7.json?ref=v0.2.0 \
   > /tmp/aaa_plan_resolved.json
 
 gh api -H "Accept: application/vnd.github.v3.raw" \
@@ -62,7 +62,11 @@ aaa init repo-checks \
 ---
 
 ## Gate C：Required Checks 名稱（SSOT）
-為避免 required checks 名稱漂移導致 PR 死鎖，以下為 v0.6 的 canonical 名稱：
+為避免 required checks 名稱漂移導致 PR 死鎖，SSOT 檔案如下：
+
+- `aaa-actions/checks.manifest.json`
+
+Canonical 名稱如下：
 
 | Check ID | Canonical Name |
 | --- | --- |
@@ -77,6 +81,12 @@ aaa init verify-ci \
   --org <TARGET_ORG> \
   --from-plan /tmp/aaa_plan_resolved.json
 ```
+
+---
+
+## Repo Type Governance（v0.7）
+- `repo_type` 需寫入 repo 根目錄 `index.json`（由 `aaa init apply-templates` 自動落地）。
+- `repo-checks` 以 `repo_type` 判斷是否需要 `skills/` 與 `prompt.schema.json`。
 
 ---
 
