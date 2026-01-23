@@ -1,3 +1,8 @@
+---
+summary_zh: 'v0.5 runbooks 基線與 schema/registry 完成。'
+summary_en: 'v0.5 runbooks baseline with schema/registry complete.'
+---
+
 # AAA v0.5 Completion Report (2026-01-21 23:48)
 
 ## Scope

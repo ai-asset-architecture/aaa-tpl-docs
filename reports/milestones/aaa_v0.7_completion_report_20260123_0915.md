@@ -1,3 +1,8 @@
+---
+summary_zh: 'v0.7 SSOT + repo_type 完成。'
+summary_en: 'v0.7 SSOT + repo_type completion.'
+---
+
 # AAA v0.7 Completion Report (2026-01-23 09:15)
 
 ## Scope

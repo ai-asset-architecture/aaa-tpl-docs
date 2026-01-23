@@ -1,3 +1,8 @@
+---
+summary_zh: '全域索引回填完成。'
+summary_en: 'Governance index backfill complete.'
+---
+
 # AAA v0.5 Reindex Backfill Report (2026-01-22)
 
 ## Scope

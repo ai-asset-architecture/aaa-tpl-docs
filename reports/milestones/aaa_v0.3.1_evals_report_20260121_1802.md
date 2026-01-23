@@ -1,3 +1,8 @@
+---
+summary_zh: '補齊 onboarding evals 與基線。'
+summary_en: 'Added onboarding evals and baselines.'
+---
+
 # AAA v0.3.1 Evals Update Report (2026-01-21 18:02)
 
 ## Scope

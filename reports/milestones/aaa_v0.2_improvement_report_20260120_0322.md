@@ -1,3 +1,8 @@
+---
+summary_zh: 'v0.2 改善摘要與治理強化。'
+summary_en: 'v0.2 improvement summary and governance uplift.'
+---
+
 # AAA v0.2 改善摘要報告 (2026-01-20 03:22)
 
 ## 目標

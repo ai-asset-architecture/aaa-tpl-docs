@@ -1,3 +1,8 @@
+---
+summary_zh: 'P0 一致性問題修補。'
+summary_en: 'P0 consistency hotfix.'
+---
+
 # AAA v0.2.2 Hotfix Note (2026-01-20 12:16)
 
 ## Scope

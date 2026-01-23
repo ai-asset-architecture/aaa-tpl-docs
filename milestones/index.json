@@ -1,63 +1,87 @@
 {
-  "generated_at": "2026-01-23T00:21:46Z",
-  "source_dir": "aaa-tpl-docs/milestones",
+  "generated_at": "2026-01-23T00:40:08Z",
+  "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
     {
       "path": "20260118_v0.1_executable_architecture.md",
       "title": "Milestone: v0.1 Executable Architecture (20260118_1323)",
-      "hash": "d56b0884ea778e43bf6aff82b92b2ad99055c2a66b8d9c062ca5b0a5962f825c",
-      "last_modified": "2026-01-19",
-      "metadata": {}
+      "hash": "41c3b7547393a01162aa89647d7cf33b5569489d9212ee5701be0956312f1a97",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "\u5b8c\u6210\u53ef\u57f7\u884c\u67b6\u69cb\u57fa\u7dda\u8207\u6cbb\u7406\u898f\u7bc4\u3002",
+        "summary_en": "Completed executable architecture baseline and governance specs."
+      }
     },
     {
       "path": "20260120_v0.2_architecture_definition.md",
       "title": "Milestone: v0.2 Architecture Definition (20260120)",
-      "hash": "a39386e4fc90a940d6c1b5e3acae5bec8b46ee9e90950bdf4ca93a68250ef53c",
-      "last_modified": "2026-01-21",
-      "metadata": {}
+      "hash": "6f057d698cc4959ca3a840a47dec9632bd1132512b7826a0b48c9eac94fc79d9",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "\u5efa\u7acb\u6c7a\u7b56\u6a39\u8207\u53ef\u6cbb\u7406/\u53ef\u8def\u7531/\u53ef\u964d\u7d1a\u67b6\u69cb\u3002",
+        "summary_en": "Established decision-tree skills and governable/routable/degradable architecture."
+      }
     },
     {
       "path": "20260121_v0.3_architecture_definition.md",
       "title": "Milestone: v0.3 Architecture Definition (20260121)",
-      "hash": "9d6f63ee0db2fd664ec51cf77d0ef8a36a936e9524dbb42f95b3eec6d1f5cd66",
-      "last_modified": "2026-01-21",
-      "metadata": {}
+      "hash": "2a9f36626a99b6083d894eb5bf447a58151166f3fc214cca8801abad1c3e90d9",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "\u4e0a\u7dda onboarding \u6587\u4ef6\u4e00\u81f4\u6027\u8207 CI \u7a69\u5b9a\u6cbb\u7406\u3002",
+        "summary_en": "Introduced onboarding doc drift checks and CI stability governance."
+      }
     },
     {
       "path": "20260121_v0.4_architecture_definition.md",
       "title": "Milestone: v0.4 Architecture Definition (20260121)",
-      "hash": "70381a967ac44741c8307f6f8ea611480fb2c360d8bc97a5168f3839e3aa56cd",
-      "last_modified": "2026-01-21",
-      "metadata": {}
+      "hash": "c83a0496223392376d7e2b82ed81928eb381095459a2032220db2795ae8d0b26",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "SOP \u8207 CLI \u5408\u7d04\u5c0d\u9f4a\uff0c\u52a0\u5165 post-init audit \u9589\u74b0\u3002",
+        "summary_en": "Aligned SOP and CLI contracts with post-init audit loop."
+      }
     },
     {
       "path": "20260121_v1.0_roadmap.md",
       "title": "AAA Roadmap v0.4 \u2192 v1.0 (Investor-Ready Technical Narrative)",
-      "hash": "5b1246b41ecdd274d82a195242877f7b6fe67a37ce9d0ff077272c423478a4a0",
-      "last_modified": "2026-01-22",
-      "metadata": {}
+      "hash": "5bc9915051baf097580769e220ee8c701540fc74f33df3b4214b30b0eb2fdf55",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "\u6295\u8cc7\u4eba\u7248 0.4\u21921.0 \u6280\u8853\u8def\u7dda\u8207\u4ea4\u4ed8\u9580\u6abb\u3002",
+        "summary_en": "Investor-ready 0.4\u21921.0 technical roadmap and delivery gates."
+      }
     },
     {
       "path": "20260122_v0.5_architecture_definition.md",
       "title": "Milestone: v0.5 Architecture Definition (20260122)",
-      "hash": "787e3743f5c35b71006552b59cf4db3ebae35b18d233ccb7bd87b64473feda44",
-      "last_modified": "2026-01-21",
-      "metadata": {}
+      "hash": "ab2d938a8c8be3b8ddf9768e149bd9133b5ebabd094c466aa9dca4a127969126",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "Runbook runtime \u8207\u6a19\u6e96 action library \u6210\u5f62\u3002",
+        "summary_en": "Runbook runtime and standard action library established."
+      }
     },
     {
       "path": "20260122_v0.6_architecture_definition.md",
       "title": "Milestone: v0.6 Architecture Definition (20260122)",
-      "hash": "410f927f60414e4a94cc262bd1e94b13dc56e3c694fbef29e9a0214111b40d49",
-      "last_modified": "2026-01-22",
-      "metadata": {}
+      "hash": "fec036c3e693f20a63165c2307bce7d84160289f4c78182c7a377b8640885bb9",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "Agent safety \u908a\u754c\u8207\u5b89\u5168\u6e2c\u8a66\u57fa\u7dda\u5b8c\u6210\u3002",
+        "summary_en": "Agent safety boundaries and security test baseline completed."
+      }
     },
     {
-      "path": "README.md",
-      "title": "README",
-      "hash": "9346e8baabc0a99e00e780e2f37a1fab1e466cad5f76a0decb8ddf278b49e43b",
-      "last_modified": "2026-01-22",
-      "metadata": {}
+      "path": "20260123_v0.7_architecture_definition.md",
+      "title": "Milestone: v0.7 Architecture Definition (20260123)",
+      "hash": "3e69e0796d9f66b037679eb3bf37505a1ebee1bc430300e03ac844e7fe20fa9b",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "SSOT checks \u8207 repo_type \u6301\u4e45\u5316\u843d\u5730\u3002",
+        "summary_en": "SSOT checks and repo_type persistence implemented."
+      }
     }
   ]
 }

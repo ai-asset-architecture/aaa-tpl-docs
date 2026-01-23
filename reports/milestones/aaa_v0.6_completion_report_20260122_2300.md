@@ -1,3 +1,8 @@
+---
+summary_zh: 'v0.6 agent safety 與 CI 接入完成。'
+summary_en: 'v0.6 agent safety and CI integration complete.'
+---
+
 # AAA v0.6 Completion Report (2026-01-22 23:00)
 
 ## Scope

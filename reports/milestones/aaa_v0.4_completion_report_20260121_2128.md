@@ -1,3 +1,8 @@
+---
+summary_zh: 'v0.4 雙層合約與 post-init audit 完成。'
+summary_en: 'v0.4 dual contract and post-init audit completion.'
+---
+
 # AAA v0.4 Completion Report (2026-01-21 21:28)
 
 ## Scope

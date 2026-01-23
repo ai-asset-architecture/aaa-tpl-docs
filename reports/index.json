@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T00:21:46Z",
+  "generated_at": "2026-01-23T00:39:02Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -7,7 +7,7 @@
       "path": "README.md",
       "title": "Reports Index",
       "hash": "2f94c190a22f656ab9dd490fc60177338e96eb25cb085113f07677d9e9df3912",
-      "last_modified": "2026-01-22",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
@@ -132,78 +132,85 @@
     {
       "path": "milestones/README.md",
       "title": "README",
-      "hash": "8ed4664c763be9821202b5b0408d282832f9ebd5e00466908ceec15788a1af94",
-      "last_modified": "2026-01-22",
+      "hash": "0391c3b66a534facf68b0cacc325c2873f1f254a072924c0a142c545e9cb9343",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.2.2_hotfix_20260120_1216.md",
       "title": "AAA v0.2.2 Hotfix Note (2026-01-20 12:16)",
-      "hash": "9f02aa7589c5e06e78b381be7f6ee87b9c61eddead8872939ced053539afb3de",
-      "last_modified": "2026-01-20",
+      "hash": "b08517d38ec386cbf994cda9b6c02a3366d5c2cebd3d142b27b2cc3690a82613",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.2_improvement_report_20260120_0322.md",
       "title": "AAA v0.2 \u6539\u5584\u6458\u8981\u5831\u544a (2026-01-20 03:22)",
-      "hash": "d7c05177cd01edc05b9d9b3311630ad61e120f4271f956f6e72c7893e928eccf",
-      "last_modified": "2026-01-19",
+      "hash": "03c4718421b104d9f656d1fb2ed090a0e68b073aab4368241ad9fe69134630de",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.3.1_evals_report_20260121_1802.md",
       "title": "AAA v0.3.1 Evals Update Report (2026-01-21 18:02)",
-      "hash": "57f74f6cc4962e119490d079e9cff919eada905eaa131b834c879d1b501e664e",
-      "last_modified": "2026-01-21",
+      "hash": "7b32cc089b3e8df24336c07438649afec7d1d0ddc43c7d417a7b8161761454e7",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.3_completion_report_20260121_1737.md",
       "title": "AAA v0.3 Completion Report (2026-01-21 17:37)",
-      "hash": "d0168f29eeeab17b07dac175a27d84268f82b218671b494fb49d80a83bf96c14",
-      "last_modified": "2026-01-21",
+      "hash": "084d658d871d7fb4da6931136cbc48cb6ae74636b192fb8d4d9ceb8951436b77",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.4_completion_report_20260121_2128.md",
       "title": "AAA v0.4 Completion Report (2026-01-21 21:28)",
-      "hash": "66989a002dac966b2999e8a92d8d930e69024c800fd8459d7546b8c8e0989254",
-      "last_modified": "2026-01-21",
+      "hash": "c2fc93bef57b637b751108477fe1ffdf7f54b1525638a7b0c3ef0322b6e36085",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.5_completion_report_20260121_2348.md",
       "title": "AAA v0.5 Completion Report (2026-01-21 23:48)",
-      "hash": "ef69238e80332759963846a9a67ed56e65ccb03cac75fa5b206438bf4fe4ecce",
-      "last_modified": "2026-01-21",
+      "hash": "74bca7192e5fe0c945ec0f079a9d5e789bf438b11752b56e15fc9aa7fd653279",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.5_reindex_backfill_report_20260122.md",
       "title": "AAA v0.5 Reindex Backfill Report (2026-01-22)",
-      "hash": "55b28f781eae7f90a34ad2ad0eaabff7916d0e85be5a785d4ca3e53022ad5bd2",
-      "last_modified": "2026-01-21",
+      "hash": "acb50ac0d2397ea7b8229f45dc66166e5a2d5a03a5fa09d9691e4799274c20fd",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.6_completion_report_20260122_2300.md",
       "title": "AAA v0.6 Completion Report (2026-01-22 23:00)",
-      "hash": "fc4db8c5ea842507eb6213d901256409e4d08fa368a4f5538d8c4d80f521151d",
-      "last_modified": "2026-01-22",
+      "hash": "ce72ea39f56347dc0843b1028bddb4a5df470957c992c42c75de501ee684ce89",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/aaa_v0.7_completion_report_20260123_0915.md",
       "title": "AAA v0.7 Completion Report (2026-01-23 09:15)",
-      "hash": "7149c1de3e4dcb8893ba0c91f712b6b74718e2e8f3576993e460a7490e5391d1",
+      "hash": "81653cb6dd17d4d603d047b73f0d28704406802be9a3ad66940d9ad44d57921c",
+      "last_modified": "2026-01-23",
+      "metadata": {}
+    },
+    {
+      "path": "milestones/aaa_v0.7_gate_evidence_20260123.md",
+      "title": "AAA v0.7 Gate Evidence Summary (2026-01-23)",
+      "hash": "97ab587631a4c46519320df63a6823fff3b6d17cda9cc9f7906afa4b8532e0e6",
       "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "milestones/v0.1_completion_report_20260118_1235.md",
       "title": "v0.1 Completion Report (20260118_1235)",
-      "hash": "dd219eae7ca55ca8ac0976650728deab1ccc48c42a8f00349d78789d8fcb2964",
-      "last_modified": "2026-01-18",
+      "hash": "6d48e0fb277616689261c1fe60ef338f26ec9f0fdcac095faa9c96587d5a817e",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {

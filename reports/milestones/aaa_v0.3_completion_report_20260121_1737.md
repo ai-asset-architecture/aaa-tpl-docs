@@ -1,3 +1,8 @@
+---
+summary_zh: 'v0.3 onboarding 一致性治理完成。'
+summary_en: 'v0.3 onboarding consistency governance complete.'
+---
+
 # AAA v0.3 Completion Report (2026-01-21 17:37)
 
 ## Scope
