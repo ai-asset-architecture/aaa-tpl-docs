@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T10:33:44Z",
+  "generated_at": "2026-01-23T10:37:40Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -85,12 +85,12 @@
     },
     {
       "path": "20260124_v0.8_architecture_definition.md",
-      "title": "Milestone: v0.8 Architecture Definition (20260124)",
-      "hash": "33b9f3d3ee3abe43544139b0ad2cc59994e9cf4a19c9d07ff7884801dad7ba6d",
+      "title": "v0.8 Architecture Definition \u2014 Marketplace Assets",
+      "hash": "1d0ccd9971a66a938a8d7895581a5aef994ddcdce1175c7ba0af8da61a54b6ce",
       "last_modified": "2026-01-23",
       "metadata": {
-        "summary_zh": "\u8cc7\u7522\u5e02\u5834\u5316\uff08Marketplace Assets\uff09\uff1a\u8cc7\u7522\u5305\u8207\u8a3b\u518a\u4e2d\u5fc3\u3002",
-        "summary_en": "Marketplace assets: asset packs and registry."
+        "status": "Completed",
+        "owner": "AAA Governance"
       }
     }
   ]

@@ -10,4 +10,4 @@
 | 20260122_v0.5_architecture_definition.md | Milestone: v0.5 Architecture Definition (20260122) | Runbook runtime 與標準 action library 成形。 | Runbook runtime and standard action library established. |
 | 20260122_v0.6_architecture_definition.md | Milestone: v0.6 Architecture Definition (20260122) | Agent safety 邊界與安全測試基線完成。 | Agent safety boundaries and security test baseline completed. |
 | 20260123_v0.7_architecture_definition.md | Milestone: v0.7 Architecture Definition (20260123) | SSOT checks 與 repo_type 持久化落地。 | SSOT checks and repo_type persistence implemented. |
-| 20260124_v0.8_architecture_definition.md | Milestone: v0.8 Architecture Definition (20260124) | 資產市場化（Marketplace Assets）：資產包與註冊中心。 | Marketplace assets: asset packs and registry. |
+| 20260124_v0.8_architecture_definition.md | v0.8 Architecture Definition — Marketplace Assets |  |  |
