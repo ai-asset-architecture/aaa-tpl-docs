@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T00:57:07Z",
+  "generated_at": "2026-01-23T01:52:59Z",
   "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -34,7 +34,7 @@
     {
       "path": "audits/aaa_v0.7_delivery_summary_20260123.md",
       "title": "AAA v0.7 External Delivery Summary (2026-01-23)",
-      "hash": "4126ebeeb808632679a9d3aa57b3c2efab2d72a869ebbe99c64705dec7350f9a",
+      "hash": "ee95dc03e4214ba367136e9ec88a2e9d42ba62195d919d089ac36c3a7edcac8c",
       "last_modified": "2026-01-23",
       "metadata": {}
     },
@@ -195,7 +195,7 @@
     {
       "path": "milestones/aaa_v0.7_gate_evidence_20260123.md",
       "title": "AAA v0.7 Gate Evidence Summary (2026-01-23)",
-      "hash": "97ab587631a4c46519320df63a6823fff3b6d17cda9cc9f7906afa4b8532e0e6",
+      "hash": "ba575a85e4c71589312f5b932e786eacd3c38704eacc62adc6d3a799c27d17dc",
       "last_modified": "2026-01-23",
       "metadata": {}
     },

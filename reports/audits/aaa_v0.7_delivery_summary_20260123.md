@@ -12,7 +12,7 @@ summary_en: 'v0.7 external delivery summary.'
 
 ## 核心價值 (Value)
 - **治理穩定**：required checks 名稱單一真相，避免 ruleset 漂移。
-- **可追溯**：repo_type 寫入 index.json，治理規則可長期稽核。
+- **可追溯**：repo_type 寫入 `.aaa/metadata.json`，治理規則可長期稽核。
 - **低誤判**：非 agent repo 不再被要求 skills/prompt。
 
 ## Release Links

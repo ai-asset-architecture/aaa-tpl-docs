@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-01-23T00:56:58Z",
-  "source_dir": "aaa-tpl-docs/docs",
+  "generated_at": "2026-01-23T01:52:59Z",
+  "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
-    {
-      "path": "README.md",
-      "title": "Docs Index",
-      "hash": "542d64bb57a7787163192bdafa6464b4e0ea19b2a30fa756847c293957c5bcdb",
-      "last_modified": "2026-01-23",
-      "metadata": {}
-    },
     {
       "path": "asset-contribution-sop.md",
       "title": "AAA \u8cc7\u7522\u56de\u994b\u6d41\u7a0b\uff08\u8349\u6848\uff09",
@@ -29,13 +22,6 @@
       "title": "GitHub CLI \u5b89\u88dd\u8207\u767b\u5165\uff08gh\uff09",
       "hash": "69f62e2904a03154901d7be220f5dff295bbc662f823bc7093e5a0e75c123fac",
       "last_modified": "2026-01-19",
-      "metadata": {}
-    },
-    {
-      "path": "milestones/README.md",
-      "title": "README",
-      "hash": "5aa09d33a71efcb8be6ff47ded8cca5eaf84606dabf73e3e4b83e3907428f154",
-      "last_modified": "2026-01-21",
       "metadata": {}
     },
     {
@@ -127,6 +113,13 @@
       "title": "Gate A Repro Script (2026-01-23)",
       "hash": "0f6a9742606aba9c238a4baaafc2636e1c939854c5b2de5f99bcd6a1f9c61f1f",
       "last_modified": "2026-01-22",
+      "metadata": {}
+    },
+    {
+      "path": "plans/2026-01-23-repo-type-governance-evals.md",
+      "title": "Repo-Type Governance Evals + Prompt Implementation Plan",
+      "hash": "bafd2dd1101c936779e6c115c9ef95dfe98e74ac2d092fb4cfec21565d3d8419",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {

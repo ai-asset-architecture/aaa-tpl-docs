@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-01-23T00:56:58Z",
-  "source_dir": "aaa-tpl-docs/reports/milestones",
+  "generated_at": "2026-01-23T01:52:59Z",
+  "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
-    {
-      "path": "README.md",
-      "title": "README",
-      "hash": "c2f793a8a55b0a7e3ecbd57ed374f8b44e9c6d2f33adbf3c9d066c129f097796",
-      "last_modified": "2026-01-23",
-      "metadata": {}
-    },
     {
       "path": "aaa_v0.2.2_hotfix_20260120_1216.md",
       "title": "AAA v0.2.2 Hotfix Note (2026-01-20 12:16)",
@@ -103,7 +96,7 @@
     {
       "path": "aaa_v0.7_gate_evidence_20260123.md",
       "title": "AAA v0.7 Gate Evidence Summary (2026-01-23)",
-      "hash": "97ab587631a4c46519320df63a6823fff3b6d17cda9cc9f7906afa4b8532e0e6",
+      "hash": "ba575a85e4c71589312f5b932e786eacd3c38704eacc62adc6d3a799c27d17dc",
       "last_modified": "2026-01-23",
       "metadata": {
         "summary_zh": "v0.7 Gate \u8b49\u64da\u93c8\u6458\u8981\u3002",
