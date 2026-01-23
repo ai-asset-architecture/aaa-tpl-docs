@@ -19,4 +19,5 @@
 - plans/2026-01-23-repo-type-governance-evals.md | Repo-Type Governance Evals + Prompt Implementation Plan
 - plans/2026-01-24-aaa-v0.8-design.md | AAA v0.8 Marketplace Assets Design
 - plans/2026-01-24-aaa-v0.8-plan.md | AAA v0.8 Marketplace Assets Implementation Plan
+- plans/2026-01-24-aaa-v0.9-plan.md | AAA v0.9 Plan — Governance Compliance Dashboard (Snapshot)
 - specs/runbook-runtime-contract.md | Runbook Runtime Contract (v0.6)
