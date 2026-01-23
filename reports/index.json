@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-01-23T00:39:02Z",
-  "source_dir": "aaa-tpl-docs/reports",
+  "generated_at": "2026-01-23T00:57:07Z",
+  "source_dir": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
-    {
-      "path": "README.md",
-      "title": "Reports Index",
-      "hash": "2f94c190a22f656ab9dd490fc60177338e96eb25cb085113f07677d9e9df3912",
-      "last_modified": "2026-01-23",
-      "metadata": {}
-    },
     {
       "path": "audits/aaa_v0.6_gateA_failure_modes_20260123.md",
       "title": "AAA v0.6 Gate A Failure Modes (2026-01-23)",
@@ -36,6 +29,13 @@
       "title": "AAA v0.6 Readiness Gate Review (2026-01-22 23:10)",
       "hash": "aa82075346b21ffd9b688d447249766a7ca9376022c83761d013a27f1a8d38b2",
       "last_modified": "2026-01-22",
+      "metadata": {}
+    },
+    {
+      "path": "audits/aaa_v0.7_delivery_summary_20260123.md",
+      "title": "AAA v0.7 External Delivery Summary (2026-01-23)",
+      "hash": "4126ebeeb808632679a9d3aa57b3c2efab2d72a869ebbe99c64705dec7350f9a",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
@@ -130,13 +130,6 @@
       "metadata": {}
     },
     {
-      "path": "milestones/README.md",
-      "title": "README",
-      "hash": "0391c3b66a534facf68b0cacc325c2873f1f254a072924c0a142c545e9cb9343",
-      "last_modified": "2026-01-23",
-      "metadata": {}
-    },
-    {
       "path": "milestones/aaa_v0.2.2_hotfix_20260120_1216.md",
       "title": "AAA v0.2.2 Hotfix Note (2026-01-20 12:16)",
       "hash": "b08517d38ec386cbf994cda9b6c02a3366d5c2cebd3d142b27b2cc3690a82613",
@@ -211,13 +204,6 @@
       "title": "v0.1 Completion Report (20260118_1235)",
       "hash": "6d48e0fb277616689261c1fe60ef338f26ec9f0fdcac095faa9c96587d5a817e",
       "last_modified": "2026-01-23",
-      "metadata": {}
-    },
-    {
-      "path": "skills/README.md",
-      "title": "Skills Reports Index",
-      "hash": "8c7fee5219a69a9e0582976bf0323aefd6cf2f475d653094b9cb64b6f94fee4a",
-      "last_modified": "2026-01-20",
       "metadata": {}
     },
     {

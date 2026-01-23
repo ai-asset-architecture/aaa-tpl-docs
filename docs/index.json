@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T00:39:02Z",
+  "generated_at": "2026-01-23T00:56:58Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -20,7 +20,7 @@
     {
       "path": "contracts/aaa-cli-contract.md",
       "title": "AAA CLI \u4f7f\u7528\u8005\u5408\u7d04 (User Contract v0.1)",
-      "hash": "ff801eab2d4b5c2d135ef9abd3b391be6e62699e75379f1d4fa92a1c9a107507",
+      "hash": "cd22deb328ab30cbad58260f5a0310cc1a0fdbc2fca9c01c760061c847328520",
       "last_modified": "2026-01-23",
       "metadata": {}
     },
@@ -47,9 +47,9 @@
     },
     {
       "path": "new-project-sop.md",
-      "title": "\u65b0\u5c08\u6848\u521d\u59cb\u5316 SOP (v0.2) - Member Edition",
-      "hash": "215b80761ba6f0631646bec9699845ee91bdf68eb68c4311e49e04973463fe57",
-      "last_modified": "2026-01-21",
+      "title": "\u65b0\u5c08\u6848\u521d\u59cb\u5316 SOP (v0.7) - Member Edition",
+      "hash": "a86b128ca343c077691d2d7d7430efad5f2daf1c2f98f43ed515e0896252b603",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {

@@ -17,18 +17,18 @@
 必須使用 tag 版本安裝：
 
 ```bash
-python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.2.0"
+python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.7.0"
 ```
 
 ### 2) 下載 Plan 與 Schema（私有 repo 必須用 gh api）
 
 ```bash
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.7.json?ref=v0.2.0 \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.7.json?ref=v0.7.0 \
   > /tmp/aaa_plan_resolved.json
 
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.2.0 \
+  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.7.0 \
   > /tmp/aaa_plan_schema.json
 ```
 
