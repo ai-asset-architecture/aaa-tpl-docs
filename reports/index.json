@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T14:58:56Z",
+  "generated_at": "2026-01-23T15:24:58Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -126,6 +126,13 @@
       "path": "audits/nightly_governance_20260123_1458.md",
       "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (20260123_1458)",
       "hash": "605e1e4baf1d9d504b3bf38116cea72d8e2a6ec91ea3c8a13ea94d06478acf6a",
+      "last_modified": "2026-01-23",
+      "metadata": {}
+    },
+    {
+      "path": "audits/nightly_governance_20260123_1524.md",
+      "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (20260123_1524)",
+      "hash": "94a4fe95aa6cd535b4f09deb5444a14db306c1080ccfdbdfd67b95e10192e27a",
       "last_modified": "2026-01-23",
       "metadata": {}
     },

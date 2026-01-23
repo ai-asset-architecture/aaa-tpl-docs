@@ -18,6 +18,7 @@
 - audits/nightly_governance_20260123_0634.md | Nightly Governance Report (20260123_0634 UTC)
 - audits/nightly_governance_20260123_1414.md | Governance Compliance Dashboard (${REPORT_TS})
 - audits/nightly_governance_20260123_1458.md | Governance Compliance Dashboard / 治理合規儀表板 (20260123_1458)
+- audits/nightly_governance_20260123_1524.md | Governance Compliance Dashboard / 治理合規儀表板 (20260123_1524)
 - audits/onboarding_evals_added_20260120_0152.md | Onboarding Evals & Assets 更新報告 (2026-01-20 01:52)
 - cli/cli_background_validation_report_20260119_1449.md | CLI 背景與使用說明 驗證報告 (20260119_1449)
 - cli/cli_status_report_20260119_1545.md | AAA CLI Status Report (v0.1)
