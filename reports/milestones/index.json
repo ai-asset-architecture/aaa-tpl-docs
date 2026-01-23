@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-01-23T03:00:42Z",
+  "generated_at": "2026-01-23T03:20:20Z",
   "source_dir": "aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
+    {
+      "path": "README.md",
+      "title": "README",
+      "hash": "c2f793a8a55b0a7e3ecbd57ed374f8b44e9c6d2f33adbf3c9d066c129f097796",
+      "last_modified": "2026-01-23",
+      "metadata": {}
+    },
     {
       "path": "aaa_v0.2.2_hotfix_20260120_1216.md",
       "title": "AAA v0.2.2 Hotfix Note (2026-01-20 12:16)",
@@ -96,7 +103,7 @@
     {
       "path": "aaa_v0.7_gate_evidence_20260123.md",
       "title": "AAA v0.7 Gate Evidence Summary (2026-01-23)",
-      "hash": "227a4b47274bf6f6bb4d3d317203d7b9f3c8557cac84e9d5fd5e43cf8f02c12e",
+      "hash": "e40b8a6df7ad3d1688d584986fe8e015883a343524594df8895954c35922941e",
       "last_modified": "2026-01-23",
       "metadata": {
         "summary_zh": "v0.7 Gate \u8b49\u64da\u93c8\u6458\u8981\u3002",

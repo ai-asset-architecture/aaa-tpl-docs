@@ -52,6 +52,24 @@ AAA_TOOLS_ROOT="/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tools" \
   --repo /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE
 {"check": "agent_safety", "repo": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE", "pass": true, "details": []}
 ```
+
+**Nightly Governance (Green)**
+- Run: https://github.com/ai-asset-architecture/aaa-tpl-docs/actions/runs/21272984109
+
+**Nightly Test Cases**
+- Reindex Drift Check: `aaa run runbook --runbook-file ./aaa-tools/runbooks/ops/reindex-all-assets.yaml`
+  - ZH-TW: 確保索引與實際資產同步，避免治理數據漂移。
+  - EN: Ensures indexes match real assets to prevent governance drift.
+- Org Audit: `python3 ./aaa-evals/runner/run_github_audit.py`
+  - ZH-TW: 組織級治理稽核，檢查分支保護與 required checks 落地。
+  - EN: Org-level audit for branch protection and required checks compliance.
+- Repo Checks (Governance Suite): `aaa init repo-checks --suite governance`
+  - Checks: `readme`, `workflow`, `repo_type_consistency`, `checks_manifest_alignment`, `orphaned_assets`
+  - ZH-TW: 逐 repo 驗證文件與治理規則一致性，避免類型誤判。
+  - EN: Per-repo governance validation to avoid repo-type mismatches.
+- Agent Safety: `python3 ./aaa-evals/runner/run_repo_checks.py --check agent_safety --repo <workspace>`
+  - ZH-TW: 驗證安全攔截與邊界限制是否有效。
+  - EN: Validates safety blocks and boundary enforcement.
 ```bash
 python3 -m unittest runner.tests.test_repo_type_consistency -v
 test_repo_type_consistency_missing (runner.tests.test_repo_type_consistency.TestRepoTypeConsistency.test_repo_type_consistency_missing) ... ok
