@@ -117,6 +117,7 @@
 **負責**
 - 作為新專案的本地路徑（工具要求的資料夾存在即可）
 - 放「引用設定」或「同步腳本」，指向 `aaa-tools` 的 skills 資產
+- 透過 `.aaa/metadata.json` 提供 repo_type 治理錨點（v0.7+）
 
 **不負責**
 - 不作為 Source of Truth（skills 原始碼與定義統一放 `aaa-tools`）
@@ -833,6 +834,12 @@ Repo owner 建議
 - CLI contract：`aaa-tools/specs/CLI_CONTRACT.md`
 - Plan schema：`aaa-tools/specs/plan.schema.json`
 
+### Plan 版本演進（v0.1 → v0.7）
+- v0.1：最小 init 管線與模板生成
+- v0.5：runbooks 模組化 + governance 索引
+- v0.6：agent safety 與 repo-checks 強化
+- v0.7：repo_type 治理與 checks SSOT
+
 ---
 
 ## Appendix D：Agentic Bootstrap Protocol（開案自動化）
@@ -854,3 +861,24 @@ codex run -m "請依照這個協定，幫我初始化一個新專案 [PROJECT_NA
 2. Create：依序從 `aaa-tpl-docs` / `aaa-tpl-service` / `aaa-tpl-frontend` 生成新 Repos
 3. Hydrate：自動替換模板內的 `{{PROJECT_NAME}}` / `{{PROJECT_PREFIX}}` / `{{GITHUB_ORG}}`
 4. Inject：在本地工作區寫入 `.codex/context.md`，將新建立的 Docs Repo 設為 AI 的 Mandatory Knowledge
+
+---
+
+## v1.x 之後的 Roadmap（v1.1+）
+> 目標：從「可驗證治理」走向「可自治治理」，並將資產商業化與量化觀測作為標準能力。
+
+### 1) Governance Autopilot（自動治理）
+- 失敗即修復：`orphaned_assets` / `checks_manifest_alignment` 失敗時，自動產生修復 PR。
+- Gate 轉行動：將治理結果轉成可執行回補（repair actions）。
+
+### 2) Policy Packs（可組合治理政策）
+- 以產業/情境為單位打包治理規則（finance/education/healthcare）。
+- repo 以 `policy=...` 宣告，即套用對應 checks 與門檻。
+
+### 3) Asset Marketplace（資產市場化）
+- Templates/Prompts/Evals 以 pack 形式發布與版本化。
+- 支援 `aaa pull pack:<name>@<version>` 與 lineage 追溯。
+
+### 4) Observability & Risk Ledger（治理觀測與風險帳本）
+- drift/compliance/repo health 指標化，建立 org-level dashboard。
+- 將治理風險量化為可稽核的 ledger（審計友善）。
