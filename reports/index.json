@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T03:48:54Z",
+  "generated_at": "2026-01-23T04:01:26Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -34,7 +34,7 @@
     {
       "path": "audits/aaa_v0.7_delivery_summary_20260123.md",
       "title": "AAA v0.7 External Delivery Summary (2026-01-23)",
-      "hash": "ee95dc03e4214ba367136e9ec88a2e9d42ba62195d919d089ac36c3a7edcac8c",
+      "hash": "bdf94deda3c9dbc5abe4f00be76bc62a560e61cb5863576328bd91299aa265b5",
       "last_modified": "2026-01-23",
       "metadata": {}
     },

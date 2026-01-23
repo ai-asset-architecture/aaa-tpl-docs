@@ -81,5 +81,5 @@ aaa init --plan /tmp/aaa_plan_resolved.json --mode pr --jsonl
 ```
 
 ## Notes
-- Replace `{{AAA_VERSION}}` with a released tag (e.g., `v0.2.0`).
+- Replace `{{AAA_VERSION}}` with a released tag (e.g., `v0.7.1`).
 - Use gh auth setup-git before any private repo access.

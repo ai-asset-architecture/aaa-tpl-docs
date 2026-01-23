@@ -16,10 +16,10 @@ summary_en: 'v0.7 external delivery summary.'
 - **低誤判**：非 agent repo 不再被要求 skills/prompt。
 
 ## Release Links
-- aaa-tools v0.7.0: https://github.com/ai-asset-architecture/aaa-tools/releases/tag/v0.7.0
-- aaa-actions v0.7.0: https://github.com/ai-asset-architecture/aaa-actions/releases/tag/v0.7.0
-- aaa-evals v0.7.0: https://github.com/ai-asset-architecture/aaa-evals/releases/tag/v0.7.0
-- aaa-tpl-docs v0.7.0: https://github.com/ai-asset-architecture/aaa-tpl-docs/releases/tag/v0.7.0
+- aaa-tools v0.7.1: https://github.com/ai-asset-architecture/aaa-tools/releases/tag/v0.7.1
+- aaa-actions v0.7.1: https://github.com/ai-asset-architecture/aaa-actions/releases/tag/v0.7.1
+- aaa-evals v0.7.1: https://github.com/ai-asset-architecture/aaa-evals/releases/tag/v0.7.1
+- aaa-tpl-docs v0.7.1: https://github.com/ai-asset-architecture/aaa-tpl-docs/releases/tag/v0.7.1
 
 ## Evidence
 - Completion report: `reports/milestones/aaa_v0.7_completion_report_20260123_0915.md`
