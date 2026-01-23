@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T14:21:11Z",
+  "generated_at": "2026-01-23T14:30:25Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -266,6 +266,13 @@
       "path": "milestones/aaa_v0.9_gate_evidence_20260123.md",
       "title": "AAA v0.9 Gate Evidence (2026-01-23)",
       "hash": "d18cb44247d2bc8169affcf660643ddfc222da701cf72517cd1e6890090ad065",
+      "last_modified": "2026-01-23",
+      "metadata": {}
+    },
+    {
+      "path": "milestones/aaa_v0.9_one_pager_20260123.md",
+      "title": "AAA v0.9 One-Pager (2026-01-23)",
+      "hash": "912988ea5fdbd72c1eb16cc6074c45cd71258cfa02818411cfaf526d12f966ef",
       "last_modified": "2026-01-23",
       "metadata": {}
     },
