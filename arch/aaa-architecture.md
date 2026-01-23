@@ -109,6 +109,7 @@
   - `aaa lint ...`（檢查 PRD/Docs 必備章節）
   - `aaa eval run ...`（跑 eval，輸出 JSON/Markdown 報告）
   - `aaa promote ...`（把 candidates 整理成可回流格式）
+  - `aaa pack ...`（v0.8：資產包安裝與管理）
 
 **不負責**
 - 不放 project-specific hack（先留在 project 的 candidates）
@@ -118,6 +119,7 @@
 - 作為新專案的本地路徑（工具要求的資料夾存在即可）
 - 放「引用設定」或「同步腳本」，指向 `aaa-tools` 的 skills 資產
 - 透過 `.aaa/metadata.json` 提供 repo_type 治理錨點（v0.7+）
+- 透過 `.aaa/packs/` 提供 Pack 安裝位置（v0.8+）
 
 **不負責**
 - 不作為 Source of Truth（skills 原始碼與定義統一放 `aaa-tools`）

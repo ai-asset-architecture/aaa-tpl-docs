@@ -1,4 +1,4 @@
-# AAA CLI 使用者合約 (User Contract v0.1)
+# AAA CLI 使用者合約 (User Contract v0.8)
 
 這份文件是給「人」看的 CLI 合約，定義使用者在 AAA 專案初始化時必須遵守的指令與順序。
 技術規格的唯一真相請見：`aaa-tools/specs/CLI_CONTRACT.md`。
@@ -17,18 +17,18 @@
 必須使用 tag 版本安裝：
 
 ```bash
-python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.7.1"
+python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.8.0"
 ```
 
 ### 2) 下載 Plan 與 Schema（私有 repo 必須用 gh api）
 
 ```bash
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.7.json?ref=v0.7.1 \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.7.json?ref=v0.8.0 \
   > /tmp/aaa_plan_resolved.json
 
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.7.1 \
+  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.8.0 \
   > /tmp/aaa_plan_schema.json
 ```
 
@@ -84,9 +84,15 @@ aaa init verify-ci \
 
 ---
 
-## Repo Type Governance（v0.7）
-- `repo_type` 需寫入 repo 根目錄 `index.json`（由 `aaa init apply-templates` 自動落地）。
+## Repo Type Governance（v0.7+）
+- `repo_type` 需寫入 repo 根目錄 `.aaa/metadata.json`（由 `aaa init apply-templates` 自動落地）。
 - `repo-checks` 以 `repo_type` 判斷是否需要 `skills/` 與 `prompt.schema.json`。
+
+## Pack Marketplace（v0.8）
+- 透過 `aaa pack list/install/show` 從 Registry 安裝資產包。
+- Registry 入口：`AAA_REGISTRY_URL`
+- 安裝路徑：`.aaa/packs/<pack-id>/<version>/`
+- 安裝紀錄：`.aaa/packs/installed.json`
 
 ---
 
@@ -98,5 +104,5 @@ aaa init verify-ci \
 ---
 
 ## 版本
-- User Contract: v0.1
+- User Contract: v0.8
 - Tech Contract: `aaa-tools/specs/CLI_CONTRACT.md`

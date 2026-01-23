@@ -1,4 +1,4 @@
-# 新專案初始化 SOP (v0.7) - Member Edition
+# 新專案初始化 SOP (v0.8) - Member Edition
 
 這份文件引導組織成員從零開始，在本機完成 aaa 架構的專案初始化。
 本流程專為 **Private Repo** 與 **Member 權限** 優化，確保你不會卡在驗證或下載錯誤上。
@@ -28,7 +28,7 @@ gh auth setup-git
 直接從 GitHub 安裝指定版本工具（注意：這行不可被 Markdown 變成連結語法）。
 
 ```bash
-python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.7.1"
+python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.8.0"
 
 # 確認安裝成功
 aaa --version
@@ -43,12 +43,12 @@ aaa --version
 ```bash
 # 下載 Plan（你的執行計畫）
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.7.json?ref=v0.7.1 \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.7.json?ref=v0.8.0 \
   > /tmp/aaa_plan_resolved.json
 
 # 下載 Schema（驗證規則）
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.7.1 \
+  /repos/ai-asset-architecture/aaa-tools/contents/specs/plan.schema.json?ref=v0.8.0 \
   > /tmp/aaa_plan_schema.json
 ```
 
@@ -83,7 +83,7 @@ PY
 
 * `{{TARGET_ORG}}`：你的 GitHub Organization 名稱
 * `{{PROJECT_SLUG}}`：專案代號（例如 `lotto`）
-* `{{AAA_VERSION}}`：工具版本（例如 `v0.7.1`）
+* `{{AAA_VERSION}}`：工具版本（例如 `v0.8.0`）
 
 > 建議使用 VS Code 編輯，避免破壞 JSON 格式。
 
@@ -162,6 +162,27 @@ aaa init repo-checks \
 
 ---
 
+## 階段三：安裝治理資產包（v0.8+）
+
+當專案初始化完成後，可選擇安裝治理資產包（Pack）以啟用可插拔能力。
+
+### 10) 安裝 Pack（Repo Local）
+
+```bash
+# Registry index（官方）
+export AAA_REGISTRY_URL="https://raw.githubusercontent.com/ai-asset-architecture/ai-asset-architecture-registry/main/registry_index.json"
+
+# 列出可用 Pack
+aaa pack list
+
+# 安裝 Pack
+aaa pack install agent-safety --version 1.0.0
+```
+
+Pack 會安裝至 `.aaa/packs/<pack-id>/<version>/`，並記錄於 `.aaa/packs/installed.json`。
+
+---
+
 ## 常見問題排除（Troubleshooting）
 
 ### Q1：執行 `aaa init` 出現 `403 Forbidden`？
@@ -190,4 +211,4 @@ gh auth status
 
 ---
 
-*文件版本：v0.2*
+*文件版本：v0.3*
