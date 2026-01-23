@@ -1,0 +1,10 @@
+{
+  "packs": [
+    {
+      "id": "agent-safety",
+      "version": "1.0.0",
+      "source": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/ai-asset-architecture-registry/artifacts/pack-agent-safety-1.0.0.zip",
+      "installed_at": "2026-01-23T11:05:11.721940+00:00"
+    }
+  ]
+}
