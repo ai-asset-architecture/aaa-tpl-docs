@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T11:05:21Z",
+  "generated_at": "2026-01-23T11:18:40Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -90,6 +90,16 @@
       "last_modified": "2026-01-23",
       "metadata": {
         "status": "Completed",
+        "owner": "AAA Governance"
+      }
+    },
+    {
+      "path": "20260124_v0.9_architecture_definition.md",
+      "title": "v0.9 Architecture Definition \u2014 Governance Compliance Dashboard",
+      "hash": "5fd718c6a0e22a225170ef434372cb8f8ab67d87267eea08ce861c56e7cda0df",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "status": "Planned",
         "owner": "AAA Governance"
       }
     }
