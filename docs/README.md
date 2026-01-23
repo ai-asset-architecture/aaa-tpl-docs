@@ -17,4 +17,6 @@
 - plans/2026-01-23-aaa-v0.7-plan.md | AAA v0.7 Governance SSOT + Repo-Type Enforcement Implementation Plan
 - plans/2026-01-23-gateA-repro.md | Gate A Repro Script (2026-01-23)
 - plans/2026-01-23-repo-type-governance-evals.md | Repo-Type Governance Evals + Prompt Implementation Plan
+- plans/2026-01-24-aaa-v0.8-design.md | AAA v0.8 Marketplace Assets Design
+- plans/2026-01-24-aaa-v0.8-plan.md | AAA v0.8 Marketplace Assets Implementation Plan
 - specs/runbook-runtime-contract.md | Runbook Runtime Contract (v0.6)
