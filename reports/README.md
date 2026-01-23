@@ -36,6 +36,7 @@
 - milestones/aaa_v0.7_completion_report_20260123_0915.md | AAA v0.7 Completion Report (2026-01-23 09:15)
 - milestones/aaa_v0.7_gate_evidence_20260123.md | AAA v0.7 Gate Evidence Summary (2026-01-23)
 - milestones/aaa_v0.8_completion_report_20260124.md | AAA v0.8 Completion Report
+- milestones/aaa_v0.9_completion_report_20260123.md | AAA v0.9 Completion Report (2026-01-23)
 - milestones/aaa_v0.9_gate_evidence_20260123.md | AAA v0.9 Gate Evidence (2026-01-23)
 - milestones/v0.1_completion_report_20260118_1235.md | v0.1 Completion Report (20260118_1235)
 - skills/skills_orchestration_core_vs_enhanced_20260120_1120.md | Skills 協作分層備註 (2026-01-20 11:20)
