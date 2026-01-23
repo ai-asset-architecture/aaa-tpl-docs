@@ -1,0 +1,14 @@
+name: nightly-governance
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  nightly:
+    uses: ai-asset-architecture/aaa-actions/.github/workflows/nightly-governance.yaml@main
+    with:
+      org: ai-asset-architecture
