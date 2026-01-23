@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T03:20:20Z",
+  "generated_at": "2026-01-23T03:48:54Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -82,13 +82,6 @@
         "summary_zh": "SSOT checks \u8207 repo_type \u6301\u4e45\u5316\u843d\u5730\u3002",
         "summary_en": "SSOT checks and repo_type persistence implemented."
       }
-    },
-    {
-      "path": "README.md",
-      "title": "README",
-      "hash": "afd0f2a548983416714187a9e8c648c9f9e53741afb5eb25fc76065e18273eb5",
-      "last_modified": "2026-01-23",
-      "metadata": {}
     }
   ]
 }

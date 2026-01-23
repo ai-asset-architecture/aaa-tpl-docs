@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-01-23T03:20:20Z",
+  "generated_at": "2026-01-23T03:48:54Z",
   "source_dir": "aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
-    {
-      "path": "README.md",
-      "title": "README",
-      "hash": "c2f793a8a55b0a7e3ecbd57ed374f8b44e9c6d2f33adbf3c9d066c129f097796",
-      "last_modified": "2026-01-23",
-      "metadata": {}
-    },
     {
       "path": "aaa_v0.2.2_hotfix_20260120_1216.md",
       "title": "AAA v0.2.2 Hotfix Note (2026-01-20 12:16)",

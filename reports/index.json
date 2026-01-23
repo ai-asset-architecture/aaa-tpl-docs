@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-01-23T03:20:20Z",
+  "generated_at": "2026-01-23T03:48:54Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
-    {
-      "path": "README.md",
-      "title": "Reports Index",
-      "hash": "7519aac6a2d4990bbfaaa46dc85b7cde316221142c11d52a21ca3bc0bf7e473a",
-      "last_modified": "2026-01-23",
-      "metadata": {}
-    },
     {
       "path": "audits/aaa_v0.6_gateA_failure_modes_20260123.md",
       "title": "AAA v0.6 Gate A Failure Modes (2026-01-23)",
@@ -158,13 +151,6 @@
       "metadata": {}
     },
     {
-      "path": "milestones/README.md",
-      "title": "README",
-      "hash": "c2f793a8a55b0a7e3ecbd57ed374f8b44e9c6d2f33adbf3c9d066c129f097796",
-      "last_modified": "2026-01-23",
-      "metadata": {}
-    },
-    {
       "path": "milestones/aaa_v0.2.2_hotfix_20260120_1216.md",
       "title": "AAA v0.2.2 Hotfix Note (2026-01-20 12:16)",
       "hash": "b08517d38ec386cbf994cda9b6c02a3366d5c2cebd3d142b27b2cc3690a82613",
@@ -239,13 +225,6 @@
       "title": "v0.1 Completion Report (20260118_1235)",
       "hash": "6d48e0fb277616689261c1fe60ef338f26ec9f0fdcac095faa9c96587d5a817e",
       "last_modified": "2026-01-23",
-      "metadata": {}
-    },
-    {
-      "path": "skills/README.md",
-      "title": "Skills Reports Index",
-      "hash": "8c7fee5219a69a9e0582976bf0323aefd6cf2f475d653094b9cb64b6f94fee4a",
-      "last_modified": "2026-01-20",
       "metadata": {}
     },
     {

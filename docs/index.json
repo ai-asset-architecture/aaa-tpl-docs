@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-01-23T03:20:20Z",
+  "generated_at": "2026-01-23T03:48:54Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
-    {
-      "path": "README.md",
-      "title": "Docs Index",
-      "hash": "aca77290c9f35cc7cd8a1d13f570cd7d94a5cbc18c0b79b333c76cd17c60bf73",
-      "last_modified": "2026-01-23",
-      "metadata": {}
-    },
     {
       "path": "asset-contribution-sop.md",
       "title": "AAA \u8cc7\u7522\u56de\u994b\u6d41\u7a0b\uff08\u8349\u6848\uff09",
@@ -29,13 +22,6 @@
       "title": "GitHub CLI \u5b89\u88dd\u8207\u767b\u5165\uff08gh\uff09",
       "hash": "69f62e2904a03154901d7be220f5dff295bbc662f823bc7093e5a0e75c123fac",
       "last_modified": "2026-01-19",
-      "metadata": {}
-    },
-    {
-      "path": "milestones/README.md",
-      "title": "README",
-      "hash": "5aa09d33a71efcb8be6ff47ded8cca5eaf84606dabf73e3e4b83e3907428f154",
-      "last_modified": "2026-01-21",
       "metadata": {}
     },
     {
