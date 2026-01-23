@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T06:40:39Z",
+  "generated_at": "2026-01-23T07:02:51Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -81,6 +81,16 @@
       "metadata": {
         "summary_zh": "SSOT checks \u8207 repo_type \u6301\u4e45\u5316\u843d\u5730\u3002",
         "summary_en": "SSOT checks and repo_type persistence implemented."
+      }
+    },
+    {
+      "path": "20260124_v0.8_architecture_definition.md",
+      "title": "Milestone: v0.8 Architecture Definition (20260124)",
+      "hash": "33b9f3d3ee3abe43544139b0ad2cc59994e9cf4a19c9d07ff7884801dad7ba6d",
+      "last_modified": "2026-01-23",
+      "metadata": {
+        "summary_zh": "\u8cc7\u7522\u5e02\u5834\u5316\uff08Marketplace Assets\uff09\uff1a\u8cc7\u7522\u5305\u8207\u8a3b\u518a\u4e2d\u5fc3\u3002",
+        "summary_en": "Marketplace assets: asset packs and registry."
       }
     }
   ]
