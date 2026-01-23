@@ -13,4 +13,5 @@
 | aaa_v0.7_completion_report_20260123_0915.md | AAA v0.7 Completion Report (2026-01-23 09:15) | v0.7 SSOT + repo_type 完成。 | v0.7 SSOT + repo_type completion. |
 | aaa_v0.7_gate_evidence_20260123.md | AAA v0.7 Gate Evidence Summary (2026-01-23) | v0.7 Gate 證據鏈摘要。 | v0.7 gate evidence summary. |
 | aaa_v0.8_completion_report_20260124.md | AAA v0.8 Completion Report |  |  |
+| aaa_v0.9_gate_evidence_20260123.md | AAA v0.9 Gate Evidence (2026-01-23) |  |  |
 | v0.1_completion_report_20260118_1235.md | v0.1 Completion Report (20260118_1235) | v0.1 治理與模板基線完成報告。 | v0.1 governance and template baseline completion report. |

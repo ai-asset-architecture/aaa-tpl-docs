@@ -16,7 +16,7 @@
 - audits/governance_evals_report_20260119_0049.md | Governance Evals Report (20260119_0049)
 - audits/nightly_governance_20260123_0300.md | Nightly Governance Report (20260123_0300 UTC)
 - audits/nightly_governance_20260123_0634.md | Nightly Governance Report (20260123_0634 UTC)
-- audits/nightly_governance_20260123_1414.md | Nightly Governance Report (20260123_1414 UTC)
+- audits/nightly_governance_20260123_1414.md | Governance Compliance Dashboard (${REPORT_TS})
 - audits/onboarding_evals_added_20260120_0152.md | Onboarding Evals & Assets 更新報告 (2026-01-20 01:52)
 - cli/cli_background_validation_report_20260119_1449.md | CLI 背景與使用說明 驗證報告 (20260119_1449)
 - cli/cli_status_report_20260119_1545.md | AAA CLI Status Report (v0.1)
@@ -36,6 +36,7 @@
 - milestones/aaa_v0.7_completion_report_20260123_0915.md | AAA v0.7 Completion Report (2026-01-23 09:15)
 - milestones/aaa_v0.7_gate_evidence_20260123.md | AAA v0.7 Gate Evidence Summary (2026-01-23)
 - milestones/aaa_v0.8_completion_report_20260124.md | AAA v0.8 Completion Report
+- milestones/aaa_v0.9_gate_evidence_20260123.md | AAA v0.9 Gate Evidence (2026-01-23)
 - milestones/v0.1_completion_report_20260118_1235.md | v0.1 Completion Report (20260118_1235)
 - skills/skills_orchestration_core_vs_enhanced_20260120_1120.md | Skills 協作分層備註 (2026-01-20 11:20)
 - skills/skills_v0.2_upgrade_report_20260120_0309.md | Skills v0.2 升級完成報告 (2026-01-20 03:09)
