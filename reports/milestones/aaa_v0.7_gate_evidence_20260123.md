@@ -30,6 +30,29 @@ OK
 
 **Evidence (Command + Output)**
 ```bash
+AAA_EVALS_ROOT="/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-evals" \
+WORKSPACE_DIR="/tmp/aaa-gateB-repos" \
+/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/.venv-aaa/bin/aaa \
+  init repo-checks \
+  --from-plan "/tmp/aaa_plan_v0.1_ref_v0.2.0.filled.json" \
+  --org "ai-asset-architecture" \
+  --suite "governance" \
+  --jsonl --log-dir /tmp/aaa-gateB1
+{"event": "start", "ts": "2026-01-23T02:01:31.711241+00:00", "command": "aaa init repo-checks", "step_id": "repo_evals", "status": "start"}
+{"event": "result", "ts": "2026-01-23T02:01:32.835138+00:00", "command": "aaa init repo-checks", "step_id": "repo_evals", "status": "ok", "data": {"repo": "ai-asset-architecture-docs", "suite": "governance", "checks": [{"id": "readme", "status": "pass", "message": []}, {"id": "workflow", "status": "pass", "message": []}, {"id": "skills", "status": "pass", "message": ["skipped: non-agent repo"]}, {"id": "prompt", "status": "pass", "message": ["skipped: non-agent repo"]}]}}
+{"event": "result", "ts": "2026-01-23T02:01:33.525466+00:00", "command": "aaa init repo-checks", "step_id": "repo_evals", "status": "ok", "data": {"repo": "ai-asset-architecture-svc-core", "suite": "governance", "checks": [{"id": "readme", "status": "pass", "message": []}, {"id": "workflow", "status": "pass", "message": []}, {"id": "skills", "status": "pass", "message": ["skipped: non-agent repo"]}, {"id": "prompt", "status": "pass", "message": ["skipped: non-agent repo"]}]}}
+{"event": "result", "ts": "2026-01-23T02:01:34.213619+00:00", "command": "aaa init repo-checks", "step_id": "repo_evals", "status": "ok", "data": {"repo": "ai-asset-architecture-fe-web", "suite": "governance", "checks": [{"id": "readme", "status": "pass", "message": []}, {"id": "workflow", "status": "pass", "message": []}, {"id": "skills", "status": "pass", "message": ["skipped: non-agent repo"]}, {"id": "prompt", "status": "pass", "message": ["skipped: non-agent repo"]}]}}
+```
+
+```bash
+AAA_TOOLS_ROOT="/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tools" \
+/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/.venv-aaa/bin/python3 \
+  /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-evals/runner/run_repo_checks.py \
+  --check agent_safety \
+  --repo /Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE
+{"check": "agent_safety", "repo": "/Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE", "pass": true, "details": []}
+```
+```bash
 python3 -m unittest runner.tests.test_repo_type_consistency -v
 test_repo_type_consistency_missing (runner.tests.test_repo_type_consistency.TestRepoTypeConsistency.test_repo_type_consistency_missing) ... ok
 test_repo_type_consistency_pass (runner.tests.test_repo_type_consistency.TestRepoTypeConsistency.test_repo_type_consistency_pass) ... ok

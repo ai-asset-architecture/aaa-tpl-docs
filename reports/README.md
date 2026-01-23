@@ -5,6 +5,7 @@
 - audits/aaa_v0.6_gate_summary_for_diplomat.md | AAA v0.6 Gate A/B Summary (Diplomat Reference)
 - audits/aaa_v0.6_readiness_gate_20260122_2310.md | AAA v0.6 Readiness Gate Review (2026-01-22 23:10)
 - audits/aaa_v0.7_delivery_summary_20260123.md | AAA v0.7 External Delivery Summary (2026-01-23)
+- audits/aaa_v0.7_one_pager_20260123.md | AAA v0.7 One-Pager Summary (2026-01-23)
 - audits/github_audit_report_20260119_2226.md | GitHub AAA v0.1 Audit Report
 - audits/governance_evals_report_20260119_0018.md | Governance Evals Report (20260119_0018)
 - audits/governance_evals_report_20260119_0044.md | Governance Evals Report (20260119_0044)
