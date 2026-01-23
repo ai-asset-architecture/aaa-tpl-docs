@@ -12,3 +12,4 @@
 | 20260123_v0.7_architecture_definition.md | Milestone: v0.7 Architecture Definition (20260123) | SSOT checks 與 repo_type 持久化落地。 | SSOT checks and repo_type persistence implemented. |
 | 20260124_v0.8_architecture_definition.md | v0.8 Architecture Definition — Marketplace Assets |  |  |
 | 20260124_v0.9_architecture_definition.md | v0.9 Architecture Definition — Governance Compliance Dashboard |  |  |
+| 20260124_v1.0_architecture_definition.md | v1.0 Architecture Definition — Enterprise Delivery |  |  |

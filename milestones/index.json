@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T15:24:58Z",
+  "generated_at": "2026-01-23T16:28:13Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -102,6 +102,13 @@
         "status": "Planned",
         "owner": "AAA Governance"
       }
+    },
+    {
+      "path": "20260124_v1.0_architecture_definition.md",
+      "title": "v1.0 Architecture Definition \u2014 Enterprise Delivery",
+      "hash": "c99e9633963cbadc5b7e86e8303c79481d54f5718aa0c8f026f83d32d9ec17aa",
+      "last_modified": "2026-01-23",
+      "metadata": {}
     }
   ]
 }
