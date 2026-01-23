@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T12:58:34Z",
+  "generated_at": "2026-01-23T14:15:00Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -7,28 +7,28 @@
       "path": "audits/aaa_v0.6_gateA_failure_modes_20260123.md",
       "title": "AAA v0.6 Gate A Failure Modes (2026-01-23)",
       "hash": "5ecb3dcd73153fabced083bc3218dc0ec5c81bc1c8ac94d08751c8065c1b0676",
-      "last_modified": "2026-01-22",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/aaa_v0.6_gate_runbook_20260122_2348.md",
       "title": "AAA v0.6 Readiness Gate Runbook (Executable Mapping)",
       "hash": "c576b422f85c5c168b08eb76070ba8aa02bc35fd01118907f8a0899d673ad1a4",
-      "last_modified": "2026-01-22",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/aaa_v0.6_gate_summary_for_diplomat.md",
       "title": "AAA v0.6 Gate A/B Summary (Diplomat Reference)",
       "hash": "fd54be251c8756ac268c4f40b4d3bf19408a0aadedc1af243caeb4679f248133",
-      "last_modified": "2026-01-22",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/aaa_v0.6_readiness_gate_20260122_2310.md",
       "title": "AAA v0.6 Readiness Gate Review (2026-01-22 23:10)",
       "hash": "aa82075346b21ffd9b688d447249766a7ca9376022c83761d013a27f1a8d38b2",
-      "last_modified": "2026-01-22",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
@@ -49,56 +49,56 @@
       "path": "audits/github_audit_report_20260119_2226.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1a6cb318f8abffe228c90c271e164fbb5dac846d421038db35bf29f5c90acd2c",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/governance_evals_report_20260119_0018.md",
       "title": "Governance Evals Report (20260119_0018)",
       "hash": "5b031e5fac796f082ec48cfc3152995ad30ec00c5945fb9194719abe3c085b1f",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/governance_evals_report_20260119_0044.md",
       "title": "Governance Evals Report (20260119_0044)",
       "hash": "a268613f9c2b2503fee0319030bc6305886285851eb158c5f86c2bbcc5649821",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/governance_evals_report_20260119_0045.md",
       "title": "Governance Evals Report (20260119_0045)",
       "hash": "787c16c5874252d4d3c625ab2b9447a4d94625091b48660f14bd5f68f8fd0234",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/governance_evals_report_20260119_0046.md",
       "title": "Governance Evals Report (20260119_0046)",
       "hash": "36f19d9e9944109b97512a32389dcfab42e320eebc38a1248e1ee939f7c64eb5",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/governance_evals_report_20260119_0047.md",
       "title": "Governance Evals Report (20260119_0047)",
       "hash": "cb320a2c5d27474d242b594c0d158bd93c99f621385e29ccc2467ec95a62d4df",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/governance_evals_report_20260119_0048.md",
       "title": "Governance Evals Report (20260119_0048)",
       "hash": "187285879102eab74ab1d9fdb8f99da7e4d3a5826e7b969421f26275a231df52",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "audits/governance_evals_report_20260119_0049.md",
       "title": "Governance Evals Report (20260119_0049)",
       "hash": "c18c36a4ea5df6007f2617e9927f42a7ea045d89430d30622b5e30b826bb638a",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
@@ -116,38 +116,45 @@
       "metadata": {}
     },
     {
+      "path": "audits/nightly_governance_20260123_1414.md",
+      "title": "Nightly Governance Report (20260123_1414 UTC)",
+      "hash": "bcb8467d455daf5f29521f65a1ec231341eff03f4000537b786100ec9cc402ff",
+      "last_modified": "2026-01-23",
+      "metadata": {}
+    },
+    {
       "path": "audits/onboarding_evals_added_20260120_0152.md",
       "title": "Onboarding Evals & Assets \u66f4\u65b0\u5831\u544a (2026-01-20 01:52)",
       "hash": "5cf0f04aa78e1999b34854082c1181a8523b410dd9aa84cf19954efad436f63b",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "cli/cli_background_validation_report_20260119_1449.md",
       "title": "CLI \u80cc\u666f\u8207\u4f7f\u7528\u8aaa\u660e \u9a57\u8b49\u5831\u544a (20260119_1449)",
       "hash": "1928992a36f798bde883de3e767bc90e7d7fdd6ed975ad055fa3ec00e2064489",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "cli/cli_status_report_20260119_1545.md",
       "title": "AAA CLI Status Report (v0.1)",
       "hash": "b7553b650ce808f534f79402cc3d018df7a2c79083f3e520666c7d4a65344ccd",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260121_1746.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "0cb0e5bcf012ff54b9a47369ac04a2ab600f51f8dde724790b1f19a7f5325b2f",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260121_2132.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "967674b5e234c9ed2b16bb915cfdf71bc4efe8db9d5b42483a14e55772daedc6",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
@@ -161,6 +168,13 @@
       "path": "github_audit_report_20260123_0634.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "51b228bc7bc045355a482c620cd48f2b0b449dd6cc42dd308b94baddee559d9a",
+      "last_modified": "2026-01-23",
+      "metadata": {}
+    },
+    {
+      "path": "github_audit_report_20260123_1414.md",
+      "title": "GitHub AAA v0.1 Audit Report",
+      "hash": "fc6b6624c4fcdd8d500715bd0ff0707b59b0db84084507d5d1483b92ff9f78c9",
       "last_modified": "2026-01-23",
       "metadata": {}
     },
@@ -252,77 +266,77 @@
       "path": "skills/skills_orchestration_core_vs_enhanced_20260120_1120.md",
       "title": "Skills \u5354\u4f5c\u5206\u5c64\u5099\u8a3b (2026-01-20 11:20)",
       "hash": "aa7a62379d094a54e13b0d2662d12e98965002550727702594f25d9cf85087ce",
-      "last_modified": "2026-01-20",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_v0.2_upgrade_report_20260120_0309.md",
       "title": "Skills v0.2 \u5347\u7d1a\u5b8c\u6210\u5831\u544a (2026-01-20 03:09)",
       "hash": "8b078c48b76d59f7de90b640dde5f6b8e9977faa603822fb57db903458120824",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0044.md",
       "title": "Skills QA Report (20260119_0044)",
       "hash": "25f610a75417252db85c51468de89cf7f23074b4f56ce429261115a8141a9a57",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0045.md",
       "title": "Skills QA Report (20260119_0045)",
       "hash": "bd458138ba2296b59b418fa69c1d3b514b1d09f16942bd9b60619547a4e8fa66",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0046.md",
       "title": "Skills QA Report (20260119_0046)",
       "hash": "073123d12644e87c3388f12ebc54285bac62c0117586f20c7d9a1c67b64711e7",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0047.md",
       "title": "Skills QA Report (20260119_0047)",
       "hash": "a890526bf54e7bc366d0fcbe12ad0a17421975d641b08df89be5faf0e765e640",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0048.md",
       "title": "Skills QA Report (20260119_0048)",
       "hash": "8edb00f5d49b910712ee2f17f72a7e46cc8bf319149fb32b2d0ba01efc678013",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0049.md",
       "title": "Skills QA Report (20260119_0049)",
       "hash": "a06120d5ece6d7b8a67640d9939420f6dce852b77d247a4153d71229968f972b",
-      "last_modified": "2026-01-18",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_1508.md",
       "title": "AAA Skills Validation Report",
       "hash": "0cfe0fa22d28c899c1830fd08332cdc861f1e2b84c99e49f8e3665a56ac20ee0",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_1514.md",
       "title": "AAA Skills Validation Report",
       "hash": "99402304fe6bf9be65db9270619f2774d00259705896ef04cf64c1bef3f4ba05",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260120_1120.md",
       "title": "Skills \u9a57\u8b49\u5831\u544a (2026-01-20 11:20)",
       "hash": "22535380af9c52c73f8d6aadbc5f3f008745c2abf2fda18e604137975d6bf2db",
-      "last_modified": "2026-01-20",
+      "last_modified": "2026-01-23",
       "metadata": {}
     }
   ]

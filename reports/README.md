@@ -16,6 +16,7 @@
 - audits/governance_evals_report_20260119_0049.md | Governance Evals Report (20260119_0049)
 - audits/nightly_governance_20260123_0300.md | Nightly Governance Report (20260123_0300 UTC)
 - audits/nightly_governance_20260123_0634.md | Nightly Governance Report (20260123_0634 UTC)
+- audits/nightly_governance_20260123_1414.md | Nightly Governance Report (20260123_1414 UTC)
 - audits/onboarding_evals_added_20260120_0152.md | Onboarding Evals & Assets 更新報告 (2026-01-20 01:52)
 - cli/cli_background_validation_report_20260119_1449.md | CLI 背景與使用說明 驗證報告 (20260119_1449)
 - cli/cli_status_report_20260119_1545.md | AAA CLI Status Report (v0.1)
@@ -23,6 +24,7 @@
 - github_audit_report_20260121_2132.md | GitHub AAA v0.1 Audit Report
 - github_audit_report_20260123_0300.md | GitHub AAA v0.1 Audit Report
 - github_audit_report_20260123_0634.md | GitHub AAA v0.1 Audit Report
+- github_audit_report_20260123_1414.md | GitHub AAA v0.1 Audit Report
 - milestones/aaa_v0.2.2_hotfix_20260120_1216.md | AAA v0.2.2 Hotfix Note (2026-01-20 12:16)
 - milestones/aaa_v0.2_improvement_report_20260120_0322.md | AAA v0.2 改善摘要報告 (2026-01-20 03:22)
 - milestones/aaa_v0.3.1_evals_report_20260121_1802.md | AAA v0.3.1 Evals Update Report (2026-01-21 18:02)
