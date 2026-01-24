@@ -1,7 +1,7 @@
 # AAA v1.0 Gap Report (Internal, 2026-01-24)
 
 ## Summary (ZH-TW)
-本報告彙整 v0.4→v1.0 roadmap 與現況差距，標示已完成交付、未完成項目與下一步（含證據路徑）。
+本報告彙整 v0.4→v1.0 roadmap 與現況差距，標示已完成交付、未完成項目與下一步（含證據路徑）。目前「企業軟著陸（導入 SOP/RACI/年度審核）」仍是最大缺口。
 
 ## Summary (EN)
 This report summarizes roadmap vs. current state across v0.4–v1.0, highlighting completed deliverables, gaps, and next steps with evidence paths.
