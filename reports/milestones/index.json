@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T06:39:54Z",
+  "generated_at": "2026-01-24T09:53:50Z",
   "source_dir": "aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -71,6 +71,16 @@
       "metadata": {
         "summary_zh": "\u5168\u57df\u7d22\u5f15\u56de\u586b\u5b8c\u6210\u3002",
         "summary_en": "Governance index backfill complete."
+      }
+    },
+    {
+      "path": "aaa_v0.5_upgrade_audit_runbooks_20260124.md",
+      "title": "AAA v0.5 Upgrade/Audit Runbooks Completion Report (2026-01-24)",
+      "hash": "98df4dc89a0fe80990f317b9a84b74d97b0219b269b48aff2223f5c9e01d15bb",
+      "last_modified": "2026-01-24",
+      "metadata": {
+        "summary_zh": "v0.5 \u5347\u7d1a/\u7a3d\u6838 runbooks \u8207 pipeline \u88dc\u9f4a\u5b8c\u6210\u3002",
+        "summary_en": "v0.5 upgrade/audit runbooks and pipelines completed."
       }
     },
     {

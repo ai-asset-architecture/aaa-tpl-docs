@@ -9,6 +9,7 @@
 | aaa_v0.4_completion_report_20260121_2128.md | AAA v0.4 Completion Report (2026-01-21 21:28) | v0.4 雙層合約與 post-init audit 完成。 | v0.4 dual contract and post-init audit completion. |
 | aaa_v0.5_completion_report_20260121_2348.md | AAA v0.5 Completion Report (2026-01-21 23:48) | v0.5 runbooks 基線與 schema/registry 完成。 | v0.5 runbooks baseline with schema/registry complete. |
 | aaa_v0.5_reindex_backfill_report_20260122.md | AAA v0.5 Reindex Backfill Report (2026-01-22) | 全域索引回填完成。 | Governance index backfill complete. |
+| aaa_v0.5_upgrade_audit_runbooks_20260124.md | AAA v0.5 Upgrade/Audit Runbooks Completion Report (2026-01-24) | v0.5 升級/稽核 runbooks 與 pipeline 補齊完成。 | v0.5 upgrade/audit runbooks and pipelines completed. |
 | aaa_v0.6_completion_report_20260122_2300.md | AAA v0.6 Completion Report (2026-01-22 23:00) | v0.6 agent safety 與 CI 接入完成。 | v0.6 agent safety and CI integration complete. |
 | aaa_v0.7_completion_report_20260123_0915.md | AAA v0.7 Completion Report (2026-01-23 09:15) | v0.7 SSOT + repo_type 完成。 | v0.7 SSOT + repo_type completion. |
 | aaa_v0.7_gate_evidence_20260123.md | AAA v0.7 Gate Evidence Summary (2026-01-23) | v0.7 Gate 證據鏈摘要。 | v0.7 gate evidence summary. |
