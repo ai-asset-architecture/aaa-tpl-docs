@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T16:28:13Z",
+  "generated_at": "2026-01-24T05:41:09Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -22,6 +22,13 @@
       "title": "GitHub CLI \u5b89\u88dd\u8207\u767b\u5165\uff08gh\uff09",
       "hash": "69f62e2904a03154901d7be220f5dff295bbc662f823bc7093e5a0e75c123fac",
       "last_modified": "2026-01-19",
+      "metadata": {}
+    },
+    {
+      "path": "manuals/admin/setup-ruleset.md",
+      "title": "Repository Ruleset Setup (Governance Gate)",
+      "hash": "e0daf01d1e245f5f60be15fea19f2789fab12c5d74e075b53dbbbebe95be6d5f",
+      "last_modified": "2026-01-23",
       "metadata": {}
     },
     {
@@ -147,6 +154,13 @@
       "path": "plans/2026-01-24-aaa-v0.9-plan.md",
       "title": "AAA v0.9 Plan \u2014 Governance Compliance Dashboard (Snapshot)",
       "hash": "cd8d036232dc929780aaa5ea7a2c03623d5b01171f0c45a690854f2da4058452",
+      "last_modified": "2026-01-23",
+      "metadata": {}
+    },
+    {
+      "path": "plans/2026-01-24-v1.0-implementation-plan.md",
+      "title": "v1.0 Implementation Plan \u2014 Enterprise Delivery",
+      "hash": "60d0a321ec5f2819a1fcfb75d6dcba62d5718a071d7f28055d266559f48157c5",
       "last_modified": "2026-01-23",
       "metadata": {}
     },
