@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T06:39:48Z",
+  "generated_at": "2026-01-24T10:48:38Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -7,7 +7,7 @@
       "path": "20260118_v0.1_executable_architecture.md",
       "title": "Milestone: v0.1 Executable Architecture (20260118_1323)",
       "hash": "41c3b7547393a01162aa89647d7cf33b5569489d9212ee5701be0956312f1a97",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "\u5b8c\u6210\u53ef\u57f7\u884c\u67b6\u69cb\u57fa\u7dda\u8207\u6cbb\u7406\u898f\u7bc4\u3002",
         "summary_en": "Completed executable architecture baseline and governance specs."
@@ -17,7 +17,7 @@
       "path": "20260120_v0.2_architecture_definition.md",
       "title": "Milestone: v0.2 Architecture Definition (20260120)",
       "hash": "6f057d698cc4959ca3a840a47dec9632bd1132512b7826a0b48c9eac94fc79d9",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "\u5efa\u7acb\u6c7a\u7b56\u6a39\u8207\u53ef\u6cbb\u7406/\u53ef\u8def\u7531/\u53ef\u964d\u7d1a\u67b6\u69cb\u3002",
         "summary_en": "Established decision-tree skills and governable/routable/degradable architecture."
@@ -27,7 +27,7 @@
       "path": "20260121_v0.3_architecture_definition.md",
       "title": "Milestone: v0.3 Architecture Definition (20260121)",
       "hash": "2a9f36626a99b6083d894eb5bf447a58151166f3fc214cca8801abad1c3e90d9",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "\u4e0a\u7dda onboarding \u6587\u4ef6\u4e00\u81f4\u6027\u8207 CI \u7a69\u5b9a\u6cbb\u7406\u3002",
         "summary_en": "Introduced onboarding doc drift checks and CI stability governance."
@@ -37,7 +37,7 @@
       "path": "20260121_v0.4_architecture_definition.md",
       "title": "Milestone: v0.4 Architecture Definition (20260121)",
       "hash": "c83a0496223392376d7e2b82ed81928eb381095459a2032220db2795ae8d0b26",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "SOP \u8207 CLI \u5408\u7d04\u5c0d\u9f4a\uff0c\u52a0\u5165 post-init audit \u9589\u74b0\u3002",
         "summary_en": "Aligned SOP and CLI contracts with post-init audit loop."
@@ -46,8 +46,8 @@
     {
       "path": "20260121_v1.0_roadmap.md",
       "title": "AAA Roadmap v0.4 \u2192 v1.0 (Investor-Ready Technical Narrative)",
-      "hash": "e2f3b2e91c87624261aa2cd623bf1fbe83c38993b50021110fbe6c82ed1a747d",
-      "last_modified": "2026-01-23",
+      "hash": "93811a02b9ecdc5a6882565fd71b1eaca7c5d5de81b715e73e4e8c157cfbf6c9",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "\u6295\u8cc7\u4eba\u7248 0.4\u21921.0 \u6280\u8853\u8def\u7dda\u8207\u4ea4\u4ed8\u9580\u6abb\u3002",
         "summary_en": "Investor-ready 0.4\u21921.0 technical roadmap and delivery gates."
@@ -57,7 +57,7 @@
       "path": "20260122_v0.5_architecture_definition.md",
       "title": "Milestone: v0.5 Architecture Definition (20260122)",
       "hash": "ab2d938a8c8be3b8ddf9768e149bd9133b5ebabd094c466aa9dca4a127969126",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "Runbook runtime \u8207\u6a19\u6e96 action library \u6210\u5f62\u3002",
         "summary_en": "Runbook runtime and standard action library established."
@@ -67,7 +67,7 @@
       "path": "20260122_v0.6_architecture_definition.md",
       "title": "Milestone: v0.6 Architecture Definition (20260122)",
       "hash": "fec036c3e693f20a63165c2307bce7d84160289f4c78182c7a377b8640885bb9",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "Agent safety \u908a\u754c\u8207\u5b89\u5168\u6e2c\u8a66\u57fa\u7dda\u5b8c\u6210\u3002",
         "summary_en": "Agent safety boundaries and security test baseline completed."
@@ -77,7 +77,7 @@
       "path": "20260123_v0.7_architecture_definition.md",
       "title": "Milestone: v0.7 Architecture Definition (20260123)",
       "hash": "3e69e0796d9f66b037679eb3bf37505a1ebee1bc430300e03ac844e7fe20fa9b",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "SSOT checks \u8207 repo_type \u6301\u4e45\u5316\u843d\u5730\u3002",
         "summary_en": "SSOT checks and repo_type persistence implemented."
@@ -89,12 +89,10 @@
       "hash": "c5e7452ad237245a59b27bd5678d24cd3ef2e264c03b3f4422bc54a64b9f2f25",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "\u64f4\u5c55\u70ba\u53ef\u63d2\u62d4\u8cc7\u7522\u5e02\u5834\uff0c\u652f\u63f4 Pack \u5efa\u7f6e\u3001Registry \u7d22\u5f15\u3001Local \u5b89\u88dd\u8207 Pack checks \u8f09\u5165\u3002",
-        "summary_en": "Expanded to a pluggable asset marketplace with pack build, registry indexing, local install, and pack checks loading.",
         "status": "Completed",
         "owner": "AAA Governance",
-        "completed_at": "2026-01-24",
-        "version": "v0.8"
+        "summary_zh": "\u64f4\u5c55\u70ba\u53ef\u63d2\u62d4\u8cc7\u7522\u5e02\u5834\uff0c\u652f\u63f4 Pack \u5efa\u7f6e\u3001Registry \u7d22\u5f15\u3001Local \u5b89\u88dd\u8207 Pack checks \u8f09\u5165\u3002",
+        "summary_en": "Expanded to a pluggable asset marketplace with pack build, registry indexing, local install, and pack checks loading."
       }
     },
     {
@@ -103,11 +101,10 @@
       "hash": "03164d2e97e4f78cad961ec0b627fce59a744beb0c0a1aecdb6ca2986d230d29",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "\u5408\u898f\u7387\u5100\u8868\u677f MVP\uff1anightly governance \u7522\u51fa JSON\uff0c\u6e32\u67d3 MD/HTML\uff0c\u4e26\u4ee5 threshold gate \u63a7\u5236 pass/fail\u3002",
-        "summary_en": "Compliance dashboard MVP: nightly governance JSON rendered to MD/HTML with a threshold gate controlling pass/fail.",
         "status": "Planned",
         "owner": "AAA Governance",
-        "version": "v0.9"
+        "summary_zh": "\u5408\u898f\u7387\u5100\u8868\u677f MVP\uff1anightly governance \u7522\u51fa JSON\uff0c\u6e32\u67d3 MD/HTML\uff0c\u4e26\u4ee5 threshold gate \u63a7\u5236 pass/fail\u3002",
+        "summary_en": "Compliance dashboard MVP: nightly governance JSON rendered to MD/HTML with a threshold gate controlling pass/fail."
       }
     },
     {
