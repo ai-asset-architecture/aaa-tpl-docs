@@ -26,6 +26,7 @@ AAA 生態系（Tools, Actions, Evals, Templates）持續演進。為了確保�
 | **L2. Push** | **Gate Enforcement** | Push (Blocking) | **已具備 (Available)** | `aaa-gate` 透過 Repo Checks 阻擋過舊或不合規的版本。 |
 | **L2. Push** | **Dependabot** | Push (Auto) | **已具備 (Available)** | GitHub 原生機制，自動發送 PR 更新 Actions 版本。 |
 | **L3. Pull** | **Registry Index** | Polling (Manual) | **已具備 (Available)** | 使用者查詢 `registry_index.json` 確認最新資產版本。 |
+| **L3. Pull** | **aaa outdated** | Polling (Manual) | **已具備 (Available)** | 一鍵輸出本地版本與遠端版本差異報告。 |
 | **L3. Pull** | **Release Notes** | Polling (Manual) | **已具備 (Available)** | 透過 `reports/milestones` 或 GitHub Releases 查看變更。 |
 | **L3. Pull** | **Upgrade Command** | Action (Manual) | **待補 (Planned)** | `aaa upgrade` 指令，一鍵升級本地環境。 |
 

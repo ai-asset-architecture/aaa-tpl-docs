@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T11:42:02Z",
+  "generated_at": "2026-01-24T12:05:10Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -13,12 +13,9 @@
     {
       "path": "architecture/update_policy.md",
       "title": "Update Policy: \u5982\u4f55\u53d6\u5f97\u6700\u65b0 AAA",
-      "hash": "65801033c7b3ef82cdad03db5b1a7dc02d39f36ac467cfc2a5488f134a5b5682",
+      "hash": "ee8989ce244a59cc81be177a7fe55755d35041ca771a11f850586ea72b1a7dfa",
       "last_modified": "2026-01-24",
-      "metadata": {
-        "summary_zh": "",
-        "summary_en": ""
-      },
+      "metadata": {},
       "description": "Strategies for keeping AAA tools and assets up-to-date."
     },
     {
