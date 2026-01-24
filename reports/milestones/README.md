@@ -12,9 +12,9 @@
 | aaa_v0.6_completion_report_20260122_2300.md | AAA v0.6 Completion Report (2026-01-22 23:00) | v0.6 agent safety 與 CI 接入完成。 | v0.6 agent safety and CI integration complete. |
 | aaa_v0.7_completion_report_20260123_0915.md | AAA v0.7 Completion Report (2026-01-23 09:15) | v0.7 SSOT + repo_type 完成。 | v0.7 SSOT + repo_type completion. |
 | aaa_v0.7_gate_evidence_20260123.md | AAA v0.7 Gate Evidence Summary (2026-01-23) | v0.7 Gate 證據鏈摘要。 | v0.7 gate evidence summary. |
-| aaa_v0.8_completion_report_20260124.md | AAA v0.8 Completion Report |  |  |
-| aaa_v0.9_completion_report_20260123.md | AAA v0.9 Completion Report (2026-01-23) |  |  |
-| aaa_v0.9_gate_evidence_20260123.md | AAA v0.9 Gate Evidence (2026-01-23) |  |  |
-| aaa_v0.9_one_pager_20260123.md | AAA v0.9 One-Pager (2026-01-23) |  |  |
-| aaa_v1.0_completion_report_20260124.md | AAA v1.0 Completion Report (2026-01-24) |  |  |
+| aaa_v0.8_completion_report_20260124.md | AAA v0.8 Completion Report | 可插拔資產市場完成（Pack 建置、Registry 索引、Local 安裝與 Pack checks 載入）。 | Pluggable asset marketplace completed (pack build, registry indexing, local install, and pack checks loading). |
+| aaa_v0.9_completion_report_20260123.md | AAA v0.9 Completion Report (2026-01-23) | 合規率儀表板 MVP 完成（nightly governance JSON、MD/HTML 渲染、threshold gate）。 | Compliance dashboard MVP delivered (nightly governance JSON, MD/HTML rendering, threshold gate). |
+| aaa_v0.9_gate_evidence_20260123.md | AAA v0.9 Gate Evidence (2026-01-23) | Nightly governance 成功產出稽核報告與 Pages dashboard，threshold gate 未失敗。 | Nightly governance produced audit reports and the Pages dashboard with the threshold gate enabled and passing. |
+| aaa_v0.9_one_pager_20260123.md | AAA v0.9 One-Pager (2026-01-23) | 對外成果：合規率儀表板 MVP、治理信任鏈閉環，並發布 v0.9.1。 | External summary: compliance dashboard MVP, governance trust chain closure, and v0.9.1 release. |
+| aaa_v1.0_completion_report_20260124.md | AAA v1.0 Completion Report (2026-01-24) | Gate-First Enterprise Governance 完成（org ruleset 強制 gate、CLI 證據鏈、release integrity check）。 | Gate-first enterprise governance complete (org ruleset enforced gate, CLI evidence chain, release integrity check). |
 | v0.1_completion_report_20260118_1235.md | v0.1 Completion Report (20260118_1235) | v0.1 治理與模板基線完成報告。 | v0.1 governance and template baseline completion report. |

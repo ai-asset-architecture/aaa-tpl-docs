@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T05:43:54Z",
+  "generated_at": "2026-01-24T06:39:48Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -86,29 +86,39 @@
     {
       "path": "20260124_v0.8_architecture_definition.md",
       "title": "v0.8 Architecture Definition \u2014 Marketplace Assets",
-      "hash": "1d0ccd9971a66a938a8d7895581a5aef994ddcdce1175c7ba0af8da61a54b6ce",
-      "last_modified": "2026-01-23",
+      "hash": "c5e7452ad237245a59b27bd5678d24cd3ef2e264c03b3f4422bc54a64b9f2f25",
+      "last_modified": "2026-01-24",
       "metadata": {
+        "summary_zh": "\u64f4\u5c55\u70ba\u53ef\u63d2\u62d4\u8cc7\u7522\u5e02\u5834\uff0c\u652f\u63f4 Pack \u5efa\u7f6e\u3001Registry \u7d22\u5f15\u3001Local \u5b89\u88dd\u8207 Pack checks \u8f09\u5165\u3002",
+        "summary_en": "Expanded to a pluggable asset marketplace with pack build, registry indexing, local install, and pack checks loading.",
         "status": "Completed",
-        "owner": "AAA Governance"
+        "owner": "AAA Governance",
+        "completed_at": "2026-01-24",
+        "version": "v0.8"
       }
     },
     {
       "path": "20260124_v0.9_architecture_definition.md",
       "title": "v0.9 Architecture Definition \u2014 Governance Compliance Dashboard",
-      "hash": "5fd718c6a0e22a225170ef434372cb8f8ab67d87267eea08ce861c56e7cda0df",
-      "last_modified": "2026-01-23",
+      "hash": "03164d2e97e4f78cad961ec0b627fce59a744beb0c0a1aecdb6ca2986d230d29",
+      "last_modified": "2026-01-24",
       "metadata": {
+        "summary_zh": "\u5408\u898f\u7387\u5100\u8868\u677f MVP\uff1anightly governance \u7522\u51fa JSON\uff0c\u6e32\u67d3 MD/HTML\uff0c\u4e26\u4ee5 threshold gate \u63a7\u5236 pass/fail\u3002",
+        "summary_en": "Compliance dashboard MVP: nightly governance JSON rendered to MD/HTML with a threshold gate controlling pass/fail.",
         "status": "Planned",
-        "owner": "AAA Governance"
+        "owner": "AAA Governance",
+        "version": "v0.9"
       }
     },
     {
       "path": "20260124_v1.0_architecture_definition.md",
       "title": "v1.0 Architecture Definition \u2014 Enterprise Delivery",
-      "hash": "c99e9633963cbadc5b7e86e8303c79481d54f5718aa0c8f026f83d32d9ec17aa",
-      "last_modified": "2026-01-23",
-      "metadata": {}
+      "hash": "3ff5fb6ed686eef13bc9c21cd38528e954179d3e7f911ae1638c2904011bf87d",
+      "last_modified": "2026-01-24",
+      "metadata": {
+        "summary_zh": "Gate-First Enterprise Governance\uff1aorg ruleset \u5f37\u5236 governance-gate\uff0c\u63d0\u4f9b CLI \u8b49\u64da\u93c8\u8207 release integrity check\u3002",
+        "summary_en": "Gate-first enterprise governance with org ruleset enforcement, CLI evidence chain, and a release integrity check."
+      }
     }
   ]
 }

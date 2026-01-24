@@ -1,3 +1,8 @@
+---
+summary_zh: 'Nightly governance 成功產出稽核報告與 Pages dashboard，threshold gate 未失敗。'
+summary_en: 'Nightly governance produced audit reports and the Pages dashboard with the threshold gate enabled and passing.'
+---
+
 # AAA v0.9 Gate Evidence (2026-01-23)
 
 ## Evidence Summary

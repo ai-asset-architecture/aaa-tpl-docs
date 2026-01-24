@@ -1,3 +1,8 @@
+---
+summary_zh: '對外成果：合規率儀表板 MVP、治理信任鏈閉環，並發布 v0.9.1。'
+summary_en: 'External summary: compliance dashboard MVP, governance trust chain closure, and v0.9.1 release.'
+---
+
 # AAA v0.9 One-Pager (2026-01-23)
 
 ## 核心成果（對外版）

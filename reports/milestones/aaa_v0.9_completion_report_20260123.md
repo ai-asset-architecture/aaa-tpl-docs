@@ -1,3 +1,8 @@
+---
+summary_zh: '合規率儀表板 MVP 完成（nightly governance JSON、MD/HTML 渲染、threshold gate）。'
+summary_en: 'Compliance dashboard MVP delivered (nightly governance JSON, MD/HTML rendering, threshold gate).'
+---
+
 # AAA v0.9 Completion Report (2026-01-23)
 
 ## Summary

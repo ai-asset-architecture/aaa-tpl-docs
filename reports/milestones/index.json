@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T05:43:54Z",
+  "generated_at": "2026-01-24T06:39:54Z",
   "source_dir": "aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -106,37 +106,52 @@
     {
       "path": "aaa_v0.8_completion_report_20260124.md",
       "title": "AAA v0.8 Completion Report",
-      "hash": "713cf90ac7000d6187fe77c56253a7cf7127e2526121b252106f2b581201d235",
-      "last_modified": "2026-01-23",
-      "metadata": {}
+      "hash": "67c083c556b15417b56fea78bce3a7f8eee0571f5ceb98e2abc5b2b7b087671c",
+      "last_modified": "2026-01-24",
+      "metadata": {
+        "summary_zh": "\u53ef\u63d2\u62d4\u8cc7\u7522\u5e02\u5834\u5b8c\u6210\uff08Pack \u5efa\u7f6e\u3001Registry \u7d22\u5f15\u3001Local \u5b89\u88dd\u8207 Pack checks \u8f09\u5165\uff09\u3002",
+        "summary_en": "Pluggable asset marketplace completed (pack build, registry indexing, local install, and pack checks loading)."
+      }
     },
     {
       "path": "aaa_v0.9_completion_report_20260123.md",
       "title": "AAA v0.9 Completion Report (2026-01-23)",
-      "hash": "d942015325af359c018192a3bb27e88d5e7d7e838391677c99dc31076ac5a47d",
-      "last_modified": "2026-01-23",
-      "metadata": {}
+      "hash": "28f193d05e04e07fbea18cafc12b575fa7c7233402f78a7f1d59b3860d2aa861",
+      "last_modified": "2026-01-24",
+      "metadata": {
+        "summary_zh": "\u5408\u898f\u7387\u5100\u8868\u677f MVP \u5b8c\u6210\uff08nightly governance JSON\u3001MD/HTML \u6e32\u67d3\u3001threshold gate\uff09\u3002",
+        "summary_en": "Compliance dashboard MVP delivered (nightly governance JSON, MD/HTML rendering, threshold gate)."
+      }
     },
     {
       "path": "aaa_v0.9_gate_evidence_20260123.md",
       "title": "AAA v0.9 Gate Evidence (2026-01-23)",
-      "hash": "d18cb44247d2bc8169affcf660643ddfc222da701cf72517cd1e6890090ad065",
-      "last_modified": "2026-01-23",
-      "metadata": {}
+      "hash": "72ce25bea4f046b560a5659a64adda042129d4ca956b6b425da06ebc4b179f66",
+      "last_modified": "2026-01-24",
+      "metadata": {
+        "summary_zh": "Nightly governance \u6210\u529f\u7522\u51fa\u7a3d\u6838\u5831\u544a\u8207 Pages dashboard\uff0cthreshold gate \u672a\u5931\u6557\u3002",
+        "summary_en": "Nightly governance produced audit reports and the Pages dashboard with the threshold gate enabled and passing."
+      }
     },
     {
       "path": "aaa_v0.9_one_pager_20260123.md",
       "title": "AAA v0.9 One-Pager (2026-01-23)",
-      "hash": "912988ea5fdbd72c1eb16cc6074c45cd71258cfa02818411cfaf526d12f966ef",
-      "last_modified": "2026-01-23",
-      "metadata": {}
+      "hash": "d480c0d242938f460a16e48a13a377ba07de5e0a70ed920bfcd4cd8eb8ee27ec",
+      "last_modified": "2026-01-24",
+      "metadata": {
+        "summary_zh": "\u5c0d\u5916\u6210\u679c\uff1a\u5408\u898f\u7387\u5100\u8868\u677f MVP\u3001\u6cbb\u7406\u4fe1\u4efb\u93c8\u9589\u74b0\uff0c\u4e26\u767c\u5e03 v0.9.1\u3002",
+        "summary_en": "External summary: compliance dashboard MVP, governance trust chain closure, and v0.9.1 release."
+      }
     },
     {
       "path": "aaa_v1.0_completion_report_20260124.md",
       "title": "AAA v1.0 Completion Report (2026-01-24)",
-      "hash": "ce69f28ce078ce88bb46a7ae16261cfb818f6e63ab7baedfe08de24189e3ea4a",
+      "hash": "052cd2646dd05115f3a5ae92eec8bc94a5b82cc3b9b3a567ad0c054dd604c5e6",
       "last_modified": "2026-01-24",
-      "metadata": {}
+      "metadata": {
+        "summary_zh": "Gate-First Enterprise Governance \u5b8c\u6210\uff08org ruleset \u5f37\u5236 gate\u3001CLI \u8b49\u64da\u93c8\u3001release integrity check\uff09\u3002",
+        "summary_en": "Gate-first enterprise governance complete (org ruleset enforced gate, CLI evidence chain, release integrity check)."
+      }
     },
     {
       "path": "v0.1_completion_report_20260118_1235.md",

@@ -120,6 +120,7 @@ sequenceDiagram
 - `aaa-tpl-docs/reports/audits/aaa_v0.6_gateA_failure_modes_20260123.md`
 - `aaa-tpl-docs/docs/plans/2026-01-23-gateA-repro.md`
 - `aaa-tpl-docs/docs/specs/runbook-runtime-contract.md`
+- `docs/repo-checks-guide.md`
 
 ### 🤖 Gate A Debug Prompt
 如需快速診斷，使用提示詞：

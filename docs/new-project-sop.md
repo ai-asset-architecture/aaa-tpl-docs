@@ -159,6 +159,7 @@ aaa init repo-checks \
 ```
 
 詳見 runbook：`aaa-tools/runbooks/init/POST_INIT_AUDIT.md`
+集中說明：`repo-checks-guide.md`
 
 ---
 

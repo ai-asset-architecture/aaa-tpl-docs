@@ -1,3 +1,8 @@
+---
+summary_zh: '可插拔資產市場完成（Pack 建置、Registry 索引、Local 安裝與 Pack checks 載入）。'
+summary_en: 'Pluggable asset marketplace completed (pack build, registry indexing, local install, and pack checks loading).'
+---
+
 # AAA v0.8 Completion Report
 
 - **Date**: 2026-01-24

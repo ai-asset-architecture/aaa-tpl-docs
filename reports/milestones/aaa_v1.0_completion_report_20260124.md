@@ -1,3 +1,8 @@
+---
+summary_zh: 'Gate-First Enterprise Governance 完成（org ruleset 強制 gate、CLI 證據鏈、release integrity check）。'
+summary_en: 'Gate-first enterprise governance complete (org ruleset enforced gate, CLI evidence chain, release integrity check).'
+---
+
 # AAA v1.0 Completion Report (2026-01-24)
 
 ## Summary
