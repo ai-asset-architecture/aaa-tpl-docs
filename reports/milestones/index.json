@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T09:53:50Z",
+  "generated_at": "2026-01-24T10:49:48Z",
   "source_dir": "aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -141,6 +141,16 @@
       "metadata": {
         "summary_zh": "Nightly governance \u6210\u529f\u7522\u51fa\u7a3d\u6838\u5831\u544a\u8207 Pages dashboard\uff0cthreshold gate \u672a\u5931\u6557\u3002",
         "summary_en": "Nightly governance produced audit reports and the Pages dashboard with the threshold gate enabled and passing."
+      }
+    },
+    {
+      "path": "aaa_v0.9_observability_upgrade_20260124.md",
+      "title": "AAA v0.9 Observability Upgrade Report (2026-01-24)",
+      "hash": "4ba325b7b1012aaefc89f25063ddb8d3b0fae3d936b9a1a305dfba3f42e3c56d",
+      "last_modified": "2026-01-24",
+      "metadata": {
+        "summary_zh": "v0.9 \u89c0\u6e2c\u5347\u7d1a\uff1a\u65b0\u589e\u6f02\u79fb\u7387\u8207 repo \u5065\u5eb7\u5ea6\u6307\u6a19\uff0cnightly \u52a0\u5165\u9580\u6abb\u8207 post-mortem \u767c\u4f48\u3002",
+        "summary_en": "v0.9 observability upgrade: added drift/repo health metrics and post-mortem publishing in nightly."
       }
     },
     {
