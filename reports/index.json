@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T05:41:08Z",
+  "generated_at": "2026-01-24T05:43:54Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -137,6 +137,13 @@
       "metadata": {}
     },
     {
+      "path": "audits/nightly_governance_20260124_0529.md",
+      "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (${REPORT_TS})",
+      "hash": "060cd662d8a2ae264fdf4891f061857e5ce99ff4a43254a57ba7cc18ae5cd1c4",
+      "last_modified": "2026-01-24",
+      "metadata": {}
+    },
+    {
       "path": "audits/onboarding_evals_added_20260120_0152.md",
       "title": "Onboarding Evals & Assets \u66f4\u65b0\u5831\u544a (2026-01-20 01:52)",
       "hash": "5cf0f04aa78e1999b34854082c1181a8523b410dd9aa84cf19954efad436f63b",
@@ -190,6 +197,13 @@
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "fc6b6624c4fcdd8d500715bd0ff0707b59b0db84084507d5d1483b92ff9f78c9",
       "last_modified": "2026-01-23",
+      "metadata": {}
+    },
+    {
+      "path": "github_audit_report_20260124_0530.md",
+      "title": "GitHub AAA v0.1 Audit Report",
+      "hash": "b10c612767237a3cb3189f7f95abdaf581db144e2bd738c635b0f1c47abcbe5b",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
