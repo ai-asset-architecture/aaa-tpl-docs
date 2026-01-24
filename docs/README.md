@@ -1,7 +1,11 @@
 # Docs Index
 
+- actions-reference.md | Actions Reference
 - asset-contribution-sop.md | AAA 資產回饋流程（草案）
 - contracts/aaa-cli-contract.md | AAA CLI 使用者合約 (User Contract v0.8)
+- enterprise/adoption_checklist.md | Enterprise Adoption Checklist
+- enterprise/raci_matrix.md | Enterprise RACI Matrix: AI-Native Governance
+- enterprise/sop_kit.md | Enterprise SOP Kit: AI-Native Governance
 - github-cli-setup.md | GitHub CLI 安裝與登入（gh）
 - manuals/admin/setup-ruleset.md | Repository Ruleset Setup (Governance Gate)
 - milestones/v0.5-modular-runtime.md | v0.5 Modular Runtime Milestone
@@ -23,4 +27,7 @@
 - plans/2026-01-24-aaa-v0.9-implementation-plan.md | v0.9 Governance Compliance Dashboard Implementation Plan
 - plans/2026-01-24-aaa-v0.9-plan.md | AAA v0.9 Plan — Governance Compliance Dashboard (Snapshot)
 - plans/2026-01-24-v1.0-implementation-plan.md | v1.0 Implementation Plan — Enterprise Delivery
+- plans/2026-01-24-v1.0-remediation-plan.md | AAA v1.0 Remediation Plan (2026-01-24)
+- registry/template_registry.md | Template Registry
+- repo-checks-guide.md | Repo Checks 指南（集中入口）
 - specs/runbook-runtime-contract.md | Runbook Runtime Contract (v0.6)

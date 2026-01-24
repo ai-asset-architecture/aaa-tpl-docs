@@ -20,7 +20,9 @@
 - audits/nightly_governance_20260123_1458.md | Governance Compliance Dashboard / 治理合規儀表板 (20260123_1458)
 - audits/nightly_governance_20260123_1524.md | Governance Compliance Dashboard / 治理合規儀表板 (20260123_1524)
 - audits/nightly_governance_20260124_0529.md | Governance Compliance Dashboard / 治理合規儀表板 (${REPORT_TS})
+- audits/nightly_governance_20260124_1048.md | Nightly Governance Report (20260124_1048 UTC)
 - audits/onboarding_evals_added_20260120_0152.md | Onboarding Evals & Assets 更新報告 (2026-01-20 01:52)
+- audits/org_onboarding_evals_enforced_20260124.md | Org Onboarding Evals Enforcement Evidence (2026-01-24)
 - cli/cli_background_validation_report_20260119_1449.md | CLI 背景與使用說明 驗證報告 (20260119_1449)
 - cli/cli_status_report_20260119_1545.md | AAA CLI Status Report (v0.1)
 - github_audit_report_20260121_1746.md | GitHub AAA v0.1 Audit Report
@@ -29,6 +31,7 @@
 - github_audit_report_20260123_0634.md | GitHub AAA v0.1 Audit Report
 - github_audit_report_20260123_1414.md | GitHub AAA v0.1 Audit Report
 - github_audit_report_20260124_0530.md | GitHub AAA v0.1 Audit Report
+- github_audit_report_20260124_1048.md | GitHub AAA v0.1 Audit Report
 - milestones/aaa_v0.2.2_hotfix_20260120_1216.md | AAA v0.2.2 Hotfix Note (2026-01-20 12:16)
 - milestones/aaa_v0.2_improvement_report_20260120_0322.md | AAA v0.2 改善摘要報告 (2026-01-20 03:22)
 - milestones/aaa_v0.3.1_evals_report_20260121_1802.md | AAA v0.3.1 Evals Update Report (2026-01-21 18:02)
@@ -36,6 +39,7 @@
 - milestones/aaa_v0.4_completion_report_20260121_2128.md | AAA v0.4 Completion Report (2026-01-21 21:28)
 - milestones/aaa_v0.5_completion_report_20260121_2348.md | AAA v0.5 Completion Report (2026-01-21 23:48)
 - milestones/aaa_v0.5_reindex_backfill_report_20260122.md | AAA v0.5 Reindex Backfill Report (2026-01-22)
+- milestones/aaa_v0.5_upgrade_audit_runbooks_20260124.md | AAA v0.5 Upgrade/Audit Runbooks Completion Report (2026-01-24)
 - milestones/aaa_v0.6_completion_report_20260122_2300.md | AAA v0.6 Completion Report (2026-01-22 23:00)
 - milestones/aaa_v0.7_completion_report_20260123_0915.md | AAA v0.7 Completion Report (2026-01-23 09:15)
 - milestones/aaa_v0.7_gate_evidence_20260123.md | AAA v0.7 Gate Evidence Summary (2026-01-23)
@@ -45,6 +49,8 @@
 - milestones/aaa_v0.9_one_pager_20260123.md | AAA v0.9 One-Pager (2026-01-23)
 - milestones/aaa_v1.0_completion_report_20260124.md | AAA v1.0 Completion Report (2026-01-24)
 - milestones/v0.1_completion_report_20260118_1235.md | v0.1 Completion Report (20260118_1235)
+- roadmap/aaa_v1.0_gap_report_external_20260124.md | AAA v1.0 Gap Report (External, 2026-01-24)
+- roadmap/aaa_v1.0_gap_report_internal_20260124.md | AAA v1.0 Gap Report (Internal, 2026-01-24)
 - skills/skills_orchestration_core_vs_enhanced_20260120_1120.md | Skills 協作分層備註 (2026-01-20 11:20)
 - skills/skills_v0.2_upgrade_report_20260120_0309.md | Skills v0.2 升級完成報告 (2026-01-20 03:09)
 - skills/skills_validation_report_20260119_0044.md | Skills QA Report (20260119_0044)
