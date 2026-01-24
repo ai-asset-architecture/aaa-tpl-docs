@@ -13,5 +13,10 @@
     "date": "${REPORT_TS}",
     "compliance_rate": 1.0,
     "total_repos": 3
+  },
+  {
+    "date": "${REPORT_TS}",
+    "compliance_rate": 1.0,
+    "total_repos": 3
   }
 ]

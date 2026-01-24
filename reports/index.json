@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T10:48:38Z",
+  "generated_at": "2026-01-24T16:46:41Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -145,8 +145,15 @@
     },
     {
       "path": "audits/nightly_governance_20260124_1048.md",
-      "title": "Nightly Governance Report (20260124_1048 UTC)",
-      "hash": "a37b4fc07ef39b6b86c0f4c9a260678e332edc7ce090ac1e8fc7a1701a9ccbdb",
+      "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (${REPORT_TS})",
+      "hash": "350a364505358341fbeb4fded8d9d3e563090408d9482c0576fe44bb609696c5",
+      "last_modified": "2026-01-24",
+      "metadata": {}
+    },
+    {
+      "path": "audits/nightly_governance_20260124_1646.md",
+      "title": "Nightly Governance Report (20260124_1646 UTC)",
+      "hash": "b35af42565a75ae8e775e486befd7f213deb95a65384f9cb7dc152f88968d62d",
       "last_modified": "2026-01-24",
       "metadata": {}
     },
@@ -224,6 +231,13 @@
       "path": "github_audit_report_20260124_1048.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8ae438f4a154bcfb8ba2dd6e793780d67d32e854daf5a5cd12dc30b0de9a92a5",
+      "last_modified": "2026-01-24",
+      "metadata": {}
+    },
+    {
+      "path": "github_audit_report_20260124_1646.md",
+      "title": "GitHub AAA v0.1 Audit Report",
+      "hash": "3ed4fbe1679513040c9a22aebfbdc30e4109940a25ad1f319681ab2ce23e9457",
       "last_modified": "2026-01-24",
       "metadata": {}
     },
@@ -322,6 +336,13 @@
       "path": "milestones/aaa_v0.9_gate_evidence_20260123.md",
       "title": "AAA v0.9 Gate Evidence (2026-01-23)",
       "hash": "72ce25bea4f046b560a5659a64adda042129d4ca956b6b425da06ebc4b179f66",
+      "last_modified": "2026-01-24",
+      "metadata": {}
+    },
+    {
+      "path": "milestones/aaa_v0.9_observability_upgrade_20260124.md",
+      "title": "AAA v0.9 Observability Upgrade Report (2026-01-24)",
+      "hash": "4ba325b7b1012aaefc89f25063ddb8d3b0fae3d936b9a1a305dfba3f42e3c56d",
       "last_modified": "2026-01-24",
       "metadata": {}
     },

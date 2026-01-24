@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T11:09:30Z",
+  "generated_at": "2026-01-24T16:46:41Z",
   "source_dir": "aaa-tpl-docs/reports/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -7,7 +7,7 @@
       "path": "aaa_v0.2.2_hotfix_20260120_1216.md",
       "title": "AAA v0.2.2 Hotfix Note (2026-01-20 12:16)",
       "hash": "b08517d38ec386cbf994cda9b6c02a3366d5c2cebd3d142b27b2cc3690a82613",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "P0 \u4e00\u81f4\u6027\u554f\u984c\u4fee\u88dc\u3002",
         "summary_en": "P0 consistency hotfix."
@@ -17,7 +17,7 @@
       "path": "aaa_v0.2_improvement_report_20260120_0322.md",
       "title": "AAA v0.2 \u6539\u5584\u6458\u8981\u5831\u544a (2026-01-20 03:22)",
       "hash": "03c4718421b104d9f656d1fb2ed090a0e68b073aab4368241ad9fe69134630de",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "v0.2 \u6539\u5584\u6458\u8981\u8207\u6cbb\u7406\u5f37\u5316\u3002",
         "summary_en": "v0.2 improvement summary and governance uplift."
@@ -27,7 +27,7 @@
       "path": "aaa_v0.3.1_evals_report_20260121_1802.md",
       "title": "AAA v0.3.1 Evals Update Report (2026-01-21 18:02)",
       "hash": "7b32cc089b3e8df24336c07438649afec7d1d0ddc43c7d417a7b8161761454e7",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "\u88dc\u9f4a onboarding evals \u8207\u57fa\u7dda\u3002",
         "summary_en": "Added onboarding evals and baselines."
@@ -37,7 +37,7 @@
       "path": "aaa_v0.3_completion_report_20260121_1737.md",
       "title": "AAA v0.3 Completion Report (2026-01-21 17:37)",
       "hash": "084d658d871d7fb4da6931136cbc48cb6ae74636b192fb8d4d9ceb8951436b77",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "v0.3 onboarding \u4e00\u81f4\u6027\u6cbb\u7406\u5b8c\u6210\u3002",
         "summary_en": "v0.3 onboarding consistency governance complete."
@@ -47,7 +47,7 @@
       "path": "aaa_v0.4_completion_report_20260121_2128.md",
       "title": "AAA v0.4 Completion Report (2026-01-21 21:28)",
       "hash": "c2fc93bef57b637b751108477fe1ffdf7f54b1525638a7b0c3ef0322b6e36085",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "v0.4 \u96d9\u5c64\u5408\u7d04\u8207 post-init audit \u5b8c\u6210\u3002",
         "summary_en": "v0.4 dual contract and post-init audit completion."
@@ -57,7 +57,7 @@
       "path": "aaa_v0.5_completion_report_20260121_2348.md",
       "title": "AAA v0.5 Completion Report (2026-01-21 23:48)",
       "hash": "74bca7192e5fe0c945ec0f079a9d5e789bf438b11752b56e15fc9aa7fd653279",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "v0.5 runbooks \u57fa\u7dda\u8207 schema/registry \u5b8c\u6210\u3002",
         "summary_en": "v0.5 runbooks baseline with schema/registry complete."
@@ -67,7 +67,7 @@
       "path": "aaa_v0.5_reindex_backfill_report_20260122.md",
       "title": "AAA v0.5 Reindex Backfill Report (2026-01-22)",
       "hash": "acb50ac0d2397ea7b8229f45dc66166e5a2d5a03a5fa09d9691e4799274c20fd",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "\u5168\u57df\u7d22\u5f15\u56de\u586b\u5b8c\u6210\u3002",
         "summary_en": "Governance index backfill complete."
@@ -87,7 +87,7 @@
       "path": "aaa_v0.6_completion_report_20260122_2300.md",
       "title": "AAA v0.6 Completion Report (2026-01-22 23:00)",
       "hash": "ce72ea39f56347dc0843b1028bddb4a5df470957c992c42c75de501ee684ce89",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "v0.6 agent safety \u8207 CI \u63a5\u5165\u5b8c\u6210\u3002",
         "summary_en": "v0.6 agent safety and CI integration complete."
@@ -97,7 +97,7 @@
       "path": "aaa_v0.7_completion_report_20260123_0915.md",
       "title": "AAA v0.7 Completion Report (2026-01-23 09:15)",
       "hash": "81653cb6dd17d4d603d047b73f0d28704406802be9a3ad66940d9ad44d57921c",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "v0.7 SSOT + repo_type \u5b8c\u6210\u3002",
         "summary_en": "v0.7 SSOT + repo_type completion."
@@ -107,7 +107,7 @@
       "path": "aaa_v0.7_gate_evidence_20260123.md",
       "title": "AAA v0.7 Gate Evidence Summary (2026-01-23)",
       "hash": "e40b8a6df7ad3d1688d584986fe8e015883a343524594df8895954c35922941e",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "v0.7 Gate \u8b49\u64da\u93c8\u6458\u8981\u3002",
         "summary_en": "v0.7 gate evidence summary."
@@ -177,7 +177,7 @@
       "path": "v0.1_completion_report_20260118_1235.md",
       "title": "v0.1 Completion Report (20260118_1235)",
       "hash": "6d48e0fb277616689261c1fe60ef338f26ec9f0fdcac095faa9c96587d5a817e",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {
         "summary_zh": "v0.1 \u6cbb\u7406\u8207\u6a21\u677f\u57fa\u7dda\u5b8c\u6210\u5831\u544a\u3002",
         "summary_en": "v0.1 governance and template baseline completion report."
