@@ -3,6 +3,7 @@
 - asset-contribution-sop.md | AAA 資產回饋流程（草案）
 - contracts/aaa-cli-contract.md | AAA CLI 使用者合約 (User Contract v0.8)
 - github-cli-setup.md | GitHub CLI 安裝與登入（gh）
+- manuals/admin/setup-ruleset.md | Repository Ruleset Setup (Governance Gate)
 - milestones/v0.5-modular-runtime.md | v0.5 Modular Runtime Milestone
 - new-project-sop.md | 新專案初始化 SOP (v0.8) - Member Edition
 - plans/2026-01-21-aaa-v0.3-plan.md | AAA v0.3 Onboarding Drift + Docs Alignment Implementation Plan
@@ -21,4 +22,5 @@
 - plans/2026-01-24-aaa-v0.8-plan.md | AAA v0.8 Marketplace Assets Implementation Plan
 - plans/2026-01-24-aaa-v0.9-implementation-plan.md | v0.9 Governance Compliance Dashboard Implementation Plan
 - plans/2026-01-24-aaa-v0.9-plan.md | AAA v0.9 Plan — Governance Compliance Dashboard (Snapshot)
+- plans/2026-01-24-v1.0-implementation-plan.md | v1.0 Implementation Plan — Enterprise Delivery
 - specs/runbook-runtime-contract.md | Runbook Runtime Contract (v0.6)
