@@ -37,6 +37,7 @@
 - `{{FRONTEND_CHART_LIB}}`: 前端圖表庫（例：Recharts）
 
 ## 目錄
+0. **Multi-Repo Workspace Architecture**（AAA 基礎架構）  
 1. 文件目的與範圍  
 2. 專案核心協作哲學（Contract-first / Mock-first）  
 3. Repo 地圖與責任邊界（Maximal Set）  
@@ -51,6 +52,185 @@
 12. GitHub 治理落地（.github 檔案、CODEOWNERS、權限、Branch Protection）  
 13. 日常同步節奏（Sync / ADR）  
 14. 附錄（Checklist / Labels / 快速配置步驟）
+
+---
+
+## 0. Multi-Repo Workspace Architecture（治理基礎）
+
+> **Critical Foundation**: AAA operates as a **multi-repo workspace**, not a monorepo. Understanding this structure is **mandatory** for all team members (human/AI) before engaging in any development work.  
+> **Detailed Reference**: See [`public/bootstrap/WORKSPACE_ARCHITECTURE.md`](public/bootstrap/WORKSPACE_ARCHITECTURE.md) for complete technical details.
+
+### 0.1 Workspace Definition
+
+**{{PROJECT_WORKSPACE}}** is a **collection of independent git repositories**, not a single repository:
+
+```
+{{PROJECT_WORKSPACE}}/                  ← Workspace directory (NOT a git repo)
+├── .github/                            ← Independent repo (org profile)
+├── {{PROJECT_PREFIX}}-docs/            ← Independent repo (this repo)
+├── {{PROJECT_PREFIX}}-tools/           ← Independent repo (CLI)
+├── {{PROJECT_PREFIX}}-api-contracts/   ← Independent repo
+├── {{PROJECT_PREFIX}}-backend/         ← Independent repo
+└── ... (other repos)
+```
+
+**Key Principles**:
+1. Each subdirectory has its own `.git/` directory
+2. Each repo has independent remote URLs
+3. All repos are **equal** (no "main" repo concept)
+4. **No git submodules** - simple, flat structure
+
+### 0.2 Git Operations Governance
+
+#### Rule 1: One Repo, One Commit
+
+**MUST**: Always `cd` into the specific repo before git operations:
+
+```bash
+# ✅ Correct
+cd {{PROJECT_WORKSPACE}}/{{PROJECT_PREFIX}}-docs
+git status
+git add .
+git commit -m "..."
+git push origin main
+
+# ❌ Wrong - workspace root is not a git repo
+cd {{PROJECT_WORKSPACE}}
+git status  # WILL FAIL
+```
+
+#### Rule 2: Multi-Repo Change Protocol
+
+When a task affects multiple repos (e.g., path restructuring):
+
+**Step 1: Impact Analysis**
+```bash
+# List all affected repos
+cd {{PROJECT_WORKSPACE}}
+grep -r "old/path" */
+```
+
+**Step 2: Commit按 Dependency Order**
+```bash
+# First: repo being referenced (被引用方)
+cd {{PROJECT_PREFIX}}-docs
+git commit -m "chore: restructure paths"
+git push origin main
+
+# Second: repos with references (引用方)
+cd ../{{PROJECT_PREFIX}}-tools
+git commit -m "chore: update path references
+
+Related: {{PROJECT_PREFIX}}-docs@abc123"
+git push origin main
+```
+
+**Step 3: Atomic Push**
+- Push dependent repos only AFTER dependency repos
+- Include cross-references in commit messages
+
+#### Rule 3: Path Reference Standards
+
+**Internal references** (same repo):
+```markdown
+See [Architecture](./internal/development/architecture/update_policy.md)
+```
+
+**Cross-repo references** (different repos):
+```markdown
+<!-- For local/internal docs -->
+See `{{PROJECT_PREFIX}}-tools/specs/v0.5-closing-protocol.md`
+
+<!-- For public/external docs -->
+[Spec](https://github.com/{{GITHUB_ORG}}/{{PROJECT_PREFIX}}-tools/blob/main/specs/v0.5-closing-protocol.md)
+```
+
+### 0.3 Multi-Repo Conflict Resolution
+
+#### Scenario 1: Path Restructuring
+
+**Trigger**: Reorganizing directories in one repo
+
+**Process**:
+1. **Plan**: Identify all cross-repo references
+2. **Execute**: Update source repo first
+3. **Sync**: Update referencing repos
+4. **Verify**: Run cross-repo link checker (TODO: implement)
+
+**Example**: aaa-tpl-docs restructuring (2026-01-27)
+- Affected: `aaa-tpl-docs`, `aaa-tools`, `.github`
+- Total: 30+ path references updated
+- Commits: 3 repos, coordinated push
+
+#### Scenario 2: Breaking Interface Changes
+
+**Trigger**: API contract or schema changes
+
+**Process**:
+1. **Contract First**: Update `{{PROJECT_PREFIX}}-api-contracts`
+2. **Mock Sync**: Update `{{PROJECT_PREFIX}}-mock-server`
+3. **Backend**: Implement in `{{PROJECT_PREFIX}}-backend`
+4. **Frontend**: Update clients
+
+**Governance**: No repo should break before contract is published
+
+### 0.4 AI Agent Requirements
+
+#### Mandatory Pre-flight Checks
+
+Before **any** git operation, AI must execute:
+
+```bash
+# Check 1: Confirm location
+pwd  # Must be in /path/to/{{PROJECT_WORKSPACE}}/<repo-name>
+
+# Check 2: Confirm repo
+git remote -v  # Must show correct repo URL
+
+# Check 3: Confirm branch
+git branch --show-current  # Must be on correct branch
+```
+
+#### Multi-Repo Task Checklist
+
+When a task involves multiple repos:
+
+- [ ] **Impact Analysis**: List all affected repos
+- [ ] **Path Search**: `grep -r "relevant/path" */`
+- [ ] **Dependency Order**: Plan commit sequence
+- [ ] **Cross-Reference**: Include related commits in messages
+- [ ] **Atomic Push**: Push in dependency order
+- [ ] **Verification**: Confirm all pushes succeeded
+
+#### Common Pitfalls (AI Must Avoid)
+
+| Pitfall | Symptom | Prevention |
+|---------|---------|------------|
+| **Workspace root git ops** | `cd {{PROJECT_WORKSPACE}} && git status` fails | Always cd to specific repo |
+| **Forgot .github is repo** | `.github` treated as config dir | Remember: `.github` needs commit/push |
+| **Stale path references** | Old paths after restructuring | Always grep cross-repo when changing paths |
+| **Forgot to push** | Local commit but remote not updated | Check `git status` after commit |
+
+### 0.5 Enforcement & Compliance
+
+#### Required Actions
+
+**For All Team Members**:
+1. Read [`WORKSPACE_ARCHITECTURE.md`](public/bootstrap/WORKSPACE_ARCHITECTURE.md)
+2. Complete workspace structure quiz (TODO)
+3. Practice multi-repo commit workflow
+
+**For AI Agents**:
+1. Load workspace architecture as mandatory context
+2. Execute pre-flight checks before git operations
+3. Report cross-repo impact in task summaries
+
+#### Success Metrics
+
+- ✅ Zero git operation errors in workspace root
+- ✅ All multi-repo changes include cross-references
+- ✅ No broken cross-repo links in documentation
+- ✅ Average time to resolve path conflicts < 15 minutes
 
 ---
 

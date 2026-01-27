@@ -1,5 +1,7 @@
 # aaa-tpl-docs
 
+> **⚠️ Multi-Repo Workspace**: This is ONE repository within the AAA ecosystem. See [Workspace Architecture](./public/bootstrap/WORKSPACE_ARCHITECTURE.md) for how multiple independent repos work together.
+
 ## Purpose / Scope
 Template repo for documentation-centric projects. Provides a standard docs skeleton aligned with aaa governance.
 

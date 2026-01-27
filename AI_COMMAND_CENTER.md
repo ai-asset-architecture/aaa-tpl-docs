@@ -96,6 +96,8 @@ sequenceDiagram
 
 ## 3. 🛡️ 檔案治理規則 (File Governance)
 
+> **⚠️ Critical Understanding**: {{PROJECT_NAME}} operates in a **multi-repo workspace**. Each directory (e.g., `aaa-tpl-docs/`, `aaa-tools/`, `.github/`) is an **independent git repository**. See [Workspace Architecture](public/bootstrap/WORKSPACE_ARCHITECTURE.md) for complete details.
+
 為了保持 multi-repo workspace 的整潔，所有 AI 產出的「過程檔案」必須集中管理。
 
 1. **Single Source of Truth**: `{{PROJECT_PREFIX}}-docs` 是唯一存放規劃文件的地方。
