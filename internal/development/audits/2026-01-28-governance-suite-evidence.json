@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-01-27T22:37:41Z",
+  "repos": [
+    {
+      "name": "aaa-tpl-docs",
+      "repo_type": "docs",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass"
+        },
+        {
+          "id": "workflow",
+          "status": "pass"
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass"
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass"
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "fail"
+        }
+      ]
+    }
+  ]
+}
