@@ -1,0 +1,49 @@
+{
+  "plan_version": "1.0",
+  "aaa": {
+    "org": "ai-asset-architecture",
+    "version_tag": "v1.0.0",
+    "templates": {
+      "docs": "aaa-tpl-docs"
+    },
+    "actions_repo": "aaa-actions"
+  },
+  "target": {
+    "org": "ai-asset-architecture",
+    "project_slug": "aaa",
+    "visibility": "private",
+    "default_branch": "main",
+    "mode": "pr"
+  },
+  "repos": [
+    {
+      "name": "aaa-tpl-docs",
+      "type": "docs",
+      "repo_type": "docs",
+      "template": "aaa-tpl-docs",
+      "description": "AAA documentation repository (self-upgrade test)",
+      "owners": ["@aaa/architect"],
+      "required_checks": ["ci"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "apply_templates",
+      "type": "git",
+      "description": "Apply templates into target repos (dry-run mode for testing)",
+      "commands": [
+        "aaa init apply-templates --org ai-asset-architecture --from-plan plans/repo-upgrade.json --aaa-tag v1.0.0 --dry-run"
+      ],
+      "idempotent": true
+    }
+  ],
+  "reporting": {
+    "output_schema_path": "output.schema.json",
+    "required_fields": [
+      "metadata",
+      "repos",
+      "steps",
+      "summary"
+    ]
+  }
+}
