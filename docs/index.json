@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T12:05:10Z",
+  "generated_at": "2026-01-24T16:46:41Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -12,24 +12,23 @@
     },
     {
       "path": "architecture/update_policy.md",
-      "title": "Update Policy: \u5982\u4f55\u53d6\u5f97\u6700\u65b0 AAA",
+      "title": "Update Policy: Staying Current with AAA",
       "hash": "ee8989ce244a59cc81be177a7fe55755d35041ca771a11f850586ea72b1a7dfa",
       "last_modified": "2026-01-24",
-      "metadata": {},
-      "description": "Strategies for keeping AAA tools and assets up-to-date."
+      "metadata": {}
     },
     {
       "path": "asset-contribution-sop.md",
       "title": "AAA \u8cc7\u7522\u56de\u994b\u6d41\u7a0b\uff08\u8349\u6848\uff09",
       "hash": "51a9ba56dfaf3aa75575474225bdd6c266084a8101aa10c4ea8f3f40103a5031",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "contracts/aaa-cli-contract.md",
       "title": "AAA CLI \u4f7f\u7528\u8005\u5408\u7d04 (User Contract v0.8)",
       "hash": "3839466dbbbc0cdc7d1d1d331ad5865885d6aa09d0b2b20412be197193238683",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
@@ -57,21 +56,21 @@
       "path": "github-cli-setup.md",
       "title": "GitHub CLI \u5b89\u88dd\u8207\u767b\u5165\uff08gh\uff09",
       "hash": "69f62e2904a03154901d7be220f5dff295bbc662f823bc7093e5a0e75c123fac",
-      "last_modified": "2026-01-19",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "manuals/admin/setup-ruleset.md",
       "title": "Repository Ruleset Setup (Governance Gate)",
       "hash": "e0daf01d1e245f5f60be15fea19f2789fab12c5d74e075b53dbbbebe95be6d5f",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "milestones/v0.5-modular-runtime.md",
       "title": "v0.5 Modular Runtime Milestone",
       "hash": "3a4964ced107638eecc1d8881e192161ad7bb8341588074f025eaf4565692fae",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
@@ -85,105 +84,105 @@
       "path": "plans/2026-01-21-aaa-v0.3-plan.md",
       "title": "AAA v0.3 Onboarding Drift + Docs Alignment Implementation Plan",
       "hash": "637d5a6e116f71c1387819603bc8e126aa61941a5f4aedbbddd2c4d899dcbfef",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-21-aaa-v0.4-design.md",
       "title": "AAA v0.4 Design (Governance Core + CLI Contract)",
       "hash": "bf6fa00ffd4825609b85f351bd077a617e9476cf8bf3af07e7860adca1262403",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-21-aaa-v0.4-implementation-plan.md",
       "title": "AAA v0.4 Governance Core + CLI Contract Implementation Plan",
       "hash": "26e45f250b1b28a63182ba687e3d27090e6a4236e29865c942a609c2f46fe424",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-21-aaa-v0.4-post-init-assets-plan.md",
       "title": "v0.4 Post-init Assets Implementation Plan",
       "hash": "40c65d55bce74f3b9ee3d5ea62cb7836be3ff1fa304d71dff60093d5775b0eae",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-21-aaa-v0.5-modular-runbooks-adr.md",
       "title": "AAA v0.5 Modular Runbooks ADR",
       "hash": "f009d53d2b5dc69f616ff28a31233520ab89d184b54ffad93d5f35a930ece202",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-22-aaa-v0.5-complete-milestone-plan.md",
       "title": "AAA v0.5 Complete Milestone Implementation Plan",
       "hash": "17a93015906baa0bec42cabda63ba45261b87778a4e58fa1407e0c6666cc27ec",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-22-aaa-v0.5-reindex-assets-plan.md",
       "title": "AAA v0.5 Reindex Assets Implementation Plan",
       "hash": "738fd6a16b2e14787b86d076d61547962f6a25147bcf28e438f8ce10638315f9",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-22-aaa-v0.5-runtime-engine-plan.md",
       "title": "AAA v0.5 Runtime Engine Implementation Plan",
       "hash": "3ffe6ce418ff69c32423e982ca952a46b55cafc188eb7b98ff04233d0f8b5e06",
-      "last_modified": "2026-01-21",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-22-aaa-v0.6-action-registry-plan.md",
       "title": "AAA v0.6 Action Registry MVP Implementation Plan",
       "hash": "d3400de551ed4b465840358499dc08ab8b0a7b44e27981b094239a8b6cb0a33a",
-      "last_modified": "2026-01-22",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-23-aaa-v0.7-plan.md",
       "title": "AAA v0.7 Governance SSOT + Repo-Type Enforcement Implementation Plan",
       "hash": "c7a5f9d4918801c096c29d35456369f1648c7f9b72a8dce117a3a41255024d9f",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-23-gateA-repro.md",
       "title": "Gate A Repro Script (2026-01-23)",
       "hash": "0f6a9742606aba9c238a4baaafc2636e1c939854c5b2de5f99bcd6a1f9c61f1f",
-      "last_modified": "2026-01-22",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-23-repo-type-governance-evals.md",
       "title": "Repo-Type Governance Evals + Prompt Implementation Plan",
       "hash": "bafd2dd1101c936779e6c115c9ef95dfe98e74ac2d092fb4cfec21565d3d8419",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-24-aaa-v0.8-design.md",
       "title": "AAA v0.8 Marketplace Assets Design",
       "hash": "62e11780bd6179c44e3712879e335303ba6e9d63d4c13fd4565eede780d1401d",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-24-aaa-v0.8-plan.md",
       "title": "AAA v0.8 Marketplace Assets Implementation Plan",
       "hash": "453285ef59198785061b86ae2249526a291b30214da95f85269ee3d3bd30be70",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
       "path": "plans/2026-01-24-aaa-v0.9-implementation-plan.md",
       "title": "v0.9 Governance Compliance Dashboard Implementation Plan",
       "hash": "67919c110814ae2870dc01d21450a4811948ec5c01b002d3a55b3f369d23ddf4",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
@@ -197,7 +196,7 @@
       "path": "plans/2026-01-24-v1.0-implementation-plan.md",
       "title": "v1.0 Implementation Plan \u2014 Enterprise Delivery",
       "hash": "60d0a321ec5f2819a1fcfb75d6dcba62d5718a071d7f28055d266559f48157c5",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-24",
       "metadata": {}
     },
     {
@@ -225,7 +224,7 @@
       "path": "specs/runbook-runtime-contract.md",
       "title": "Runbook Runtime Contract (v0.6)",
       "hash": "9852b6993a03fa842dbf31bcfaedf40f008fe26d5a9dba0c830e50f4de487fc1",
-      "last_modified": "2026-01-22",
+      "last_modified": "2026-01-24",
       "metadata": {}
     }
   ]
