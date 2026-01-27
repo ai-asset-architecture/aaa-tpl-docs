@@ -77,3 +77,49 @@ AAA 生態系（Tools, Actions, Evals, Templates）持續演進。為了確保�
 1. **Nightly Verification**: 確認 P2-1 (Metrics/Thresholds) 部署後，Dashboard 是否正確呈現 Drift Rate 趨勢。
 2. **P0-3 Evidence**: 確認 Org-level onboarding evals 是否能產出強制證據 (Enforced Report)。
 3. **P2-3 Workflow Evidence**: 確認 `repo-upgrade` 與 `repo-audit` workflow 在真實環境下的執行結果。
+
+---
+
+## 6. 附錄：`aaa outdated` JSON Schema
+
+以下為 `aaa outdated --json` 的輸出結構（簡化版 Schema），用於自動化解析與報表整合。
+
+```json
+{
+  "type": "object",
+  "required": ["source", "components"],
+  "properties": {
+    "source": { "type": "string" },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "local_version", "remote_version", "status", "source"],
+        "properties": {
+          "name": { "type": "string" },
+          "local_version": { "type": "string" },
+          "remote_version": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["up-to-date", "outdated", "unknown", "multi"]
+          },
+          "source": { "type": "string" },
+          "details": {
+            "type": "object",
+            "properties": {
+              "versions": { "type": "array", "items": { "type": "string" } }
+            },
+            "additionalProperties": true
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+**欄位說明**
+- `name`: component id（tools/actions/evals/templates/prompts）
+- `local_version`: 本地版本或 `untracked`
+- `remote_version`: 遠端版本或 `unknown`
+- `status`: `up-to-date` / `outdated` / `unknown` / `multi`

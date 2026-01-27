@@ -1,0 +1,18 @@
+{
+    "repo": "aaa-tpl-docs",
+    "scope": "internal",
+    "last_updated": "2026-01-27",
+    "description": "AAA core development documentation (For contributors only)",
+    "latest_versions": {
+        "milestone": "v1.0",
+        "milestone_overview": "../milestones/AAA_roadmap.md",
+        "completion_report": "development/milestones/completion-reports/LATEST.md",
+        "nightly_audit": "development/audits/LATEST_nightly.md"
+    },
+    "active_work": {
+        "plans": "development/plans/",
+        "architecture": "development/architecture/"
+    },
+    "symlink_policy": "All audits and reports must maintain LATEST.md symlink",
+    "archive_policy": "Files > 30 days moved to development/audits/archive/"
+}

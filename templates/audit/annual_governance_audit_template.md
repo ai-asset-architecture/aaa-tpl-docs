@@ -21,7 +21,7 @@ last_updated: 2026-01-24
 
 ## 3) Evidence Index
 - `nightly_governance.json` range: <paths>
-- `reports/audits/` range: <paths>
+- `internal/development/audits/` range: <paths>
 - `decision_trace.log` range: <paths>
 
 ## 4) Findings Summary

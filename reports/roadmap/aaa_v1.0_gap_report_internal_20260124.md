@@ -12,32 +12,32 @@ This report summarizes roadmap vs. current state across v0.4–v1.0, highlightin
 
 ### v0.4 Governance Core
 - **Completed:** SOP/CLI 合約對齊、post-init audit
-- **Evidence:** `reports/milestones/aaa_v0.4_completion_report_20260121_2128.md`
+- **Evidence:** `internal/development/milestones/completion-reports/aaa_v0.4_completion_report_20260121_2128.md`
 
 ### v0.5 Multi-Repo Runtime
 - **Completed:** Runbook schema/registry、初始 repo runbooks、runbook schema eval
-- **Evidence:** `reports/milestones/aaa_v0.5_completion_report_20260121_2348.md`
+- **Evidence:** `internal/development/milestones/completion-reports/aaa_v0.5_completion_report_20260121_2348.md`
 
 ### v0.6 Agent Safety
 - **Completed:** agent_safety suite、runbook CLI JSON、orphaned_assets CI
-- **Evidence:** `reports/milestones/aaa_v0.6_completion_report_20260122_2300.md`
+- **Evidence:** `internal/development/milestones/completion-reports/aaa_v0.6_completion_report_20260122_2300.md`
 
 ### v0.7 Org-Scale Reliability
 - **Completed:** checks.manifest SSOT、repo_type 落地、plan.v0.7
-- **Evidence:** `reports/milestones/aaa_v0.7_completion_report_20260123_0915.md`
+- **Evidence:** `internal/development/milestones/completion-reports/aaa_v0.7_completion_report_20260123_0915.md`
 
 ### v0.8 Marketplace Assets
 - **Completed:** pack manifest/CLI/registry、seed pack
-- **Evidence:** `reports/milestones/aaa_v0.8_completion_report_20260124.md`
+- **Evidence:** `internal/development/milestones/completion-reports/aaa_v0.8_completion_report_20260124.md`
 - **Registry:** `ai-asset-architecture-registry/registry_index.json`
 
 ### v0.9 Observability
 - **Completed:** compliance dashboard MVP（JSON→MD/HTML + threshold gate）
-- **Evidence:** `reports/milestones/aaa_v0.9_completion_report_20260123.md`
+- **Evidence:** `internal/development/milestones/completion-reports/aaa_v0.9_completion_report_20260123.md`
 
 ### v1.0 Enterprise-Ready
 - **Completed:** org ruleset 強制 gate、release integrity check
-- **Evidence:** `reports/milestones/aaa_v1.0_completion_report_20260124.md`
+- **Evidence:** `internal/development/milestones/completion-reports/aaa_v1.0_completion_report_20260124.md`
 
 ---
 
@@ -98,10 +98,10 @@ This report summarizes roadmap vs. current state across v0.4–v1.0, highlightin
 
 ## Evidence Paths (Quick Links)
 - Roadmap: `milestones/20260121_v1.0_roadmap.md`
-- v0.4 report: `reports/milestones/aaa_v0.4_completion_report_20260121_2128.md`
-- v0.5 report: `reports/milestones/aaa_v0.5_completion_report_20260121_2348.md`
-- v0.6 report: `reports/milestones/aaa_v0.6_completion_report_20260122_2300.md`
-- v0.7 report: `reports/milestones/aaa_v0.7_completion_report_20260123_0915.md`
-- v0.8 report: `reports/milestones/aaa_v0.8_completion_report_20260124.md`
-- v0.9 report: `reports/milestones/aaa_v0.9_completion_report_20260123.md`
-- v1.0 report: `reports/milestones/aaa_v1.0_completion_report_20260124.md`
+- v0.4 report: `internal/development/milestones/completion-reports/aaa_v0.4_completion_report_20260121_2128.md`
+- v0.5 report: `internal/development/milestones/completion-reports/aaa_v0.5_completion_report_20260121_2348.md`
+- v0.6 report: `internal/development/milestones/completion-reports/aaa_v0.6_completion_report_20260122_2300.md`
+- v0.7 report: `internal/development/milestones/completion-reports/aaa_v0.7_completion_report_20260123_0915.md`
+- v0.8 report: `internal/development/milestones/completion-reports/aaa_v0.8_completion_report_20260124.md`
+- v0.9 report: `internal/development/milestones/completion-reports/aaa_v0.9_completion_report_20260123.md`
+- v1.0 report: `internal/development/milestones/completion-reports/aaa_v1.0_completion_report_20260124.md`

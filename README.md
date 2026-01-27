@@ -39,7 +39,43 @@ This repo is the single source of truth for project documentation. Do not duplic
 
 ## Milestones vs Reports
 - `milestones/` - architecture definition milestones (specs completed, system definition).
-- `reports/milestones/` - implementation/verification reports (changes + validation results).
+- `internal/development/milestones/completion-reports/` - implementation/verification reports (changes + validation results).
 
 ## .ai-context.md usage
 Include `.ai-context.md` at the repo root to enforce agent behavior and required knowledge loading.
+
+---
+
+## 📁 Repository Structure (Updated 2026-01-27)
+
+This repository is organized into the following directories:
+
+### 🌐 [`public/`](public/)
+**For External Users** - Documentation for those who want to use AAA.
+- Quick start guides & MCP server connection
+- Step-by-step tutorials
+- Architecture overview
+- **Future**: Will be extracted as standalone `aaa-docs` (PUBLIC repo)
+
+### 🔒 [`internal/`](internal/)
+**For AAA Core Team Only** - Internal development documentation.
+- `development/` - Milestones, audits, plans, debug logs
+- `operations/` - Runbooks, deployment, monitoring
+- **Future**: Will remain in this repo when it becomes PRIVATE
+
+### 📊 [`milestones/`](milestones/)
+**High-Level Overview** - Architecture definitions & roadmap (Project facade).
+
+### 📦 [`archive/`](archive/)
+**Historical Documents** - Auto-archived documents (> 30 days old).
+
+### 📄 [`templates/`](templates/)
+**Template Files** - Reusable templates for AAA-adopting projects.
+
+---
+
+**Note**: This repo is undergoing structure reorganization (Phase 1 complete as of 2026-01-27). Legacy directories (`docs/`, `reports/`, `arch/`) will be migrated in Phase 2-4.
+
+**Dual-Repo Strategy**: This repo is being prepared for future separation:
+- `public/` → `aaa-docs` (PUBLIC repo, external entry point)
+- Rest of repo (including `internal/`) → becomes PRIVATE

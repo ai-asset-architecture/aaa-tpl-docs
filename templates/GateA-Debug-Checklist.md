@@ -35,4 +35,4 @@ Provide a minimal, repeatable checklist to diagnose Gate A failures and capture 
 - `gh run list -R <ORG/REPO>`
 
 ## Repro Commands
-- See `docs/plans/2026-01-23-gateA-repro.md` for full Gate A script.
+- See `internal/development/plans/2026-01-23-gateA-repro.md` for full Gate A script.

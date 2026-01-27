@@ -44,13 +44,13 @@
       }
     },
     {
-      "path": "20260121_v1.0_roadmap.md",
-      "title": "AAA Roadmap v0.4 \u2192 v1.0 (Investor-Ready Technical Narrative)",
-      "hash": "93811a02b9ecdc5a6882565fd71b1eaca7c5d5de81b715e73e4e8c157cfbf6c9",
-      "last_modified": "2026-01-24",
+      "path": "AAA_roadmap.md",
+      "title": "AAA Complete Roadmap (v0.4 → v2.0)",
+      "hash": "TBD",
+      "last_modified": "2026-01-27",
       "metadata": {
-        "summary_zh": "\u6295\u8cc7\u4eba\u7248 0.4\u21921.0 \u6280\u8853\u8def\u7dda\u8207\u4ea4\u4ed8\u9580\u6abb\u3002",
-        "summary_en": "Investor-ready 0.4\u21921.0 technical roadmap and delivery gates."
+        "summary_zh": "AAA v1.0→v2.0 \u5b8c\u6574\u8def\u7dda\u5716\uff1a\u5f9e Enterprise-Ready \u6f14\u9032\u81f3 Agent OS\uff0c\u6db5\u84cb\u8a9e\u7fa9\u6642\u4ee3\u3001\u4e3b\u52d5\u5b88\u8b77\u8207\u6578\u4f4d\u61b2\u6cd5\u4e09\u968e\u6bb5\u3002",
+        "summary_en": "AAA v1.0→v2.0 complete roadmap: evolving from Enterprise-Ready to Agent OS, covering Semantic Era, Active Guardian, and Digital Constitution phases."
       }
     },
     {

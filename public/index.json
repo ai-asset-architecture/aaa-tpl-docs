@@ -1,0 +1,23 @@
+{
+    "repo": "aaa-tpl-docs",
+    "scope": "public",
+    "version": "v1.0",
+    "last_updated": "2026-01-27",
+    "description": "External user entry point for AAA (AI Agent Architecture)",
+    "ai_entry_points": {
+        "mcp_server": {
+            "package": "@aaa/mcp-server",
+            "install": "npx @aaa/mcp-server",
+            "description": "Recommended: Connect via MCP for full AI interaction",
+            "supported": true
+        },
+        "cli_fallback": {
+            "command": "aaa init",
+            "docs": "public/bootstrap/quick-start.md",
+            "description": "Fallback: Use CLI if MCP not supported"
+        },
+        "architecture": "public/architecture/aaa-core-concepts.md",
+        "guides": "public/guides/"
+    },
+    "human_entry_point": "public/README.md"
+}
