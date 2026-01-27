@@ -542,6 +542,67 @@ AAA v1.1 至 v2.0 的演進分為三大階段，總計約 **290 工作天**：
 
 ---
 
+## v1.0 Known Limitations & Deferred Features
+
+> **Philosophy**: 誠實面對 Gap，建立信任。  
+> **Status**: v1.0 核心功能 (Linter, Gate, Pack System) 已達 **Production-Ready**。  
+> 以下功能將在後續版本補齊，不影響當前企業級治理使用。
+
+### Deferred Feature Roadmap
+
+| Feature Category | Specific Items | Status | Target Version | Rationale |
+|------------------|----------------|--------|----------------|-----------|
+| **Time-Series Observability** | Drift rate / Compliance rate / Repo health 歷史追蹤 | 🔮 Deferred | **v1.8** | MVP dashboard 已滿足當前需求 (Line 397-417) |
+| | Alert & Escalation 路徑 | 🔮 Deferred | **v1.8** | 需建立 threshold baseline 與 operational runbooks |
+| **Registry Extensions** | Template Registry（獨立於 Pack Registry） | 🔮 Deferred | **v1.2** | Pack system 已證明架構，templates 可視需求擴展 |
+| | 行業特化 SOP 模組 (fintech/healthcare/SaaS) | 🔮 Deferred | **v2.0** | 市場需求驅動，避免過早抽象 |
+| | Pack 數量擴充（目標 ≥3，當前 1） | 🔮 Deferred | **v1.2-v1.5** | `agent-safety@1.0.0` 已證明系統可行性 |
+| **Developer Experience** | Action Catalog (`actions-reference.md`) | 🔮 Deferred | **v1.4** | 當前 action registry code 已可查閱 |
+| | Runbook IDE 支援（autocomplete/linting） | 🔮 Deferred | **v1.5** | 手動編輯 YAML 尚可接受 |
+| | `ops/init-milestone` 自動化 | 🔮 Deferred | **v1.1** | 高優先級，但非 v1.0 blocker |
+| **Enterprise Templates** | 企業級 SOP 套件（含 RACI 矩陣 / 導入清單） | 🔮 Deferred | Customer-driven | Generic SOP 已滿足 bootstrap 需求 |
+| | 年度治理審核報告模板 | 🔮 Deferred | Customer-driven | Nightly/monthly reports 已提供合規證據 |
+| **Enforcement Engine** | Policy Packs 強制套用（禁止未授權 actions） | 🔮 Deferred | **v1.6** | Registry + Pack loader 基礎已建立 (v0.8) |
+| | Packaged Audit/Release Integrity Packs | 🔮 Deferred | **v1.2** | Checks 已作為 code 交付，packaged form 非必需 |
+
+### Production-Ready Assurance
+
+**v1.0 已交付完整核心能力**：
+
+✅ **Linter (Governance Checks)**
+- 5 core checks: `readme`, `workflow`, `repo_type_consistency`, `checks_manifest_alignment`, `orphaned_assets`
+- Blocking mode (`aaa check --mode blocking`) + CI integration
+- 100% compliance validated (P0-3 evidence)
+
+✅ **Gate (Enforcement Mechanism)**
+- Org-level ruleset 強制 `governance-gate` workflow
+- Reusable gate workflow with fixed job name (prevent drift)
+- `aaa audit --local` 提供本地稽核能力
+- Self-dogfooding: AAA org 自身使用 gate (meta-validation)
+
+✅ **Pack System (Asset Distribution)**
+- Pack schema + CLI (`build/install/list/show`)
+- Registry 索引 (`registry_index.json`)
+- Seed pack (`agent-safety@1.0.0`) proving system works
+- Pack checks 可被 `aaa-evals` 動態載入
+
+### Gap Transparency Commitment
+
+**原則**: 不因 gaps 延遲 v1.0，因為：
+1. **核心功能完備**: Linter/Gate/Pack 已達 production-grade
+2. **Self-dogfooding 驗證**: AAA governance 自身即為最嚴格測試
+3. **Gaps 為擴展特性**: 非功能缺陷，市場需求驅動
+4. **Roadmap 已規劃**: 每項 gap 皆有明確 target version
+
+**證據鏈**:
+- 完整驗證報告: [v1.0 Final Validation Report](../internal/development/audits/v1.0_final_validation_report.md)
+- Enterprise Readiness Certification: [v1.0 Completion Report § Enterprise Certification](../internal/development/milestones/completion-reports/aaa_v1.0_completion_report_20260124.md#-enterprise-readiness-certification-2026-01-28)
+- Test Coverage Justification: v0.9 & v1.0 Completion Reports § Test Coverage Appendix
+
+---
+
 **更新紀錄**
 - 2026-01-27：新增 v1.1 至 v2.0 完整規劃（Phase 1-3）
+- 2026-01-28：新增 v1.0 Release Certification 與 Known Limitations 章節
+
 
