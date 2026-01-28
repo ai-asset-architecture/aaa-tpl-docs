@@ -7,6 +7,8 @@ summary_en: 'AAA v1.0→v2.0 complete roadmap: evolving from Enterprise-Ready to
 # AAA Complete Roadmap (v0.4 → v2.0)
 
 > 目的：提供 AAA 從 v0.4 至 v2.0 的完整技術路線圖，涵蓋「Enterprise-Ready Governance」至「Agent OS」的演進歷程。內容以「價值主張 + 技術路線 + 交付門檻」為核心。
+> 
+> **⚠️ 估時基準 (Estimation Methodology)**：本文件之開發天數估計係以 **「傳統人類開發團隊」** 為基準。旨在提供企業治理、資源規劃與價值對比之參考點，而非 AI Agent 之實際執行時間。
 
 
 ## 一句話定位
@@ -150,6 +152,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 - 所有版本的 **MVP 核心已交付** ✅
 - Aspirational features 為 **roadmap 願景**，非 release blockers
 - Gaps 視為 **未來產品擴展機會**，不代表功能缺失
+- **💡 AI 加速係數 (AAF)**：在 v1.1 的實證中，AAA + AI Agent 模式將 15 天的「人為估時」壓縮至 **2 小時** 完成，實測加速比達 **60x**。
 
 **v1.0 Enterprise-Ready 定義**
 - ✅ Org-level governance enforcement → **DONE**
@@ -606,5 +609,6 @@ AAA v1.2 至 v2.0 的演進分為三大階段，總計約 **275 工作天**：
 **更新紀錄**
 - 2026-01-27：新增 v1.1 至 v2.0 完整規劃（Phase 1-3）
 - 2026-01-28：新增 v1.0 Release Certification 與 Known Limitations 章節
+- 2026-01-28：明確化「人為開發」估時基準，紀錄 v1.1 之 60x AI 加速實績
 
 
