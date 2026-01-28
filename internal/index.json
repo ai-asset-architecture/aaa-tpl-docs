@@ -6,7 +6,7 @@
   "latest_versions": {
     "milestone": "v1.2",
     "milestone_overview": "../milestones/AAA_roadmap.md",
-    "completion_report": "development/milestones/completion-reports/LATEST.md",
+    "completion_report": "development/milestones/completion-reports/aaa_v1.2_completion_report_20260128.md",
     "nightly_audit": "development/audits/LATEST_nightly.md"
   },
   "active_work": {
@@ -23,8 +23,9 @@
     },
     {
       "id": "v1.2",
-      "status": "in-progress",
-      "started_at": "2026-01-28T19:55:00"
+      "status": "completed",
+      "started_at": "2026-01-28T19:55:00",
+      "completed_at": "2026-01-28T20:56:00"
     }
   ]
 }
