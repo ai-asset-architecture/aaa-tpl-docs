@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-27T18:43:28Z",
+  "generated_at": "2026-01-28T02:02:29Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -7,98 +7,98 @@
       "path": "actions-reference.md",
       "title": "Actions Reference",
       "hash": "4a69edf1272954375453ce230bac0484d17ed3dd40e6b105e5a0cad603bff0fd",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "asset-contribution-sop.md",
       "title": "AAA \u8cc7\u7522\u56de\u994b\u6d41\u7a0b\uff08\u8349\u6848\uff09",
       "hash": "51a9ba56dfaf3aa75575474225bdd6c266084a8101aa10c4ea8f3f40103a5031",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "contracts/aaa-cli-contract.md",
       "title": "AAA CLI \u4f7f\u7528\u8005\u5408\u7d04 (User Contract v0.8)",
       "hash": "3839466dbbbc0cdc7d1d1d331ad5865885d6aa09d0b2b20412be197193238683",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "enterprise/adoption_checklist.md",
       "title": "Enterprise Adoption Checklist",
       "hash": "21330083d5dc36a2f1f9a68c72f02c8e9d26c9a1331a7ab14b73cfe9247e7d72",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "enterprise/raci_matrix.md",
       "title": "Enterprise RACI Matrix: AI-Native Governance",
       "hash": "ee153ceacea0468816ad5ab20fc0b7e426f1fa76114a86425d9a858810ce2900",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "enterprise/sop_kit.md",
       "title": "Enterprise SOP Kit: AI-Native Governance",
       "hash": "d394afc92112c71fa9cc452041137f4b036ffb79c392e18345ab232aca9b4025",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "github-cli-setup.md",
       "title": "GitHub CLI \u5b89\u88dd\u8207\u767b\u5165\uff08gh\uff09",
       "hash": "69f62e2904a03154901d7be220f5dff295bbc662f823bc7093e5a0e75c123fac",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "manuals/admin/setup-ruleset.md",
       "title": "Repository Ruleset Setup (Governance Gate)",
       "hash": "e0daf01d1e245f5f60be15fea19f2789fab12c5d74e075b53dbbbebe95be6d5f",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "milestones/v0.5-modular-runtime.md",
       "title": "v0.5 Modular Runtime Milestone",
       "hash": "3a4964ced107638eecc1d8881e192161ad7bb8341588074f025eaf4565692fae",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "new-project-sop.md",
       "title": "\u65b0\u5c08\u6848\u521d\u59cb\u5316 SOP (v0.8) - Member Edition",
       "hash": "8c94a1432358e62d3ef10cd69e44f1fcc0688f8116e068ece6d66f9083254a39",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "plans/MOVED.md",
       "title": "MOVED",
       "hash": "4f307aea9eb2d81672896aab156d5600c461ff987be61d7a3e1b436e2f184e4d",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "registry/template_registry.md",
       "title": "Template Registry",
       "hash": "62cd7fa883161ffaef403add90fb9610ca6cb950008e0625827eb4704d7ba67d",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "repo-checks-guide.md",
       "title": "Repo Checks \u6307\u5357\uff08\u96c6\u4e2d\u5165\u53e3\uff09",
       "hash": "002772e3c6827d8cfcbfd6c1d29edcbc9b498ddf8a3dad12e33b78be79d4df1a",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     },
     {
       "path": "specs/runbook-runtime-contract.md",
       "title": "Runbook Runtime Contract (v0.6)",
       "hash": "9852b6993a03fa842dbf31bcfaedf40f008fe26d5a9dba0c830e50f4de487fc1",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-28",
       "metadata": {}
     }
   ]
