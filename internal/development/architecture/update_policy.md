@@ -3,32 +3,30 @@ title: "Update Policy: Staying Current with AAA"
 type: Architecture Decision Record
 status: Active
 owner: AAA Governance
-last_updated: 2026-01-24
+version: v1.2 (Target v2.0)
+last_updated: 2026-01-28
 ---
 
-# Update Policy: 如何取得最新 AAA
+# Update Policy: 從被動輪詢到自主守護 (v2.0)
 
 ## 1. 核心策略 (Core Strategy)
 
-AAA 生態系（Tools, Actions, Evals, Templates）持續演進。為了確保專案能即時獲得最新的治理能力與安全性修正，我們採用 **「多層次更新感知 (Multi-Layer Awareness)」** 策略。
+AAA 生態系（Tools, Actions, Evals, Templates）持續演進。我們正從 v1.0 的 **「多層次更新感知 (Multi-Layer Awareness)」** 轉型為 v2.0 的 **「自主守護更新 (Autonomous Life-cycle)」**。
 
-我們將更新機制分為兩類：
-1.  **Polling (主動輪詢)**：使用者或系統主動檢查是否有新版本。
-2.  **Push (被動推送)**：AAA 透過 CI/CD 或通知管道主動告知使用者。
+核心演進點：
+1.  **Agentic Awareness (v1.1)**：透過 MCP 協定，Agent 能主動感知 AAA 版本狀態。
+2.  **Active Guarding (v1.4)**：由 `aaa-guardian` daemon 提供實時的版本落後提醒。
+3.  **Self-Healing (v1.5)**：`aaa gate --auto-fix` 可自主修正過舊的 CI Workflow 配置。
 
 ## 2. 更新通道矩陣 (Update Channels Matrix)
 
-下表列出目前支援與規劃中的更新通道：
-
 | 層次 (Layer) | 機制 (Mechanism) | 類型 | 狀態 | 適用場景 |
 | :--- | :--- | :--- | :--- | :--- |
-| **L1. Contextual** | **CLI Runtime Hint** | Polling (Auto) | **待補 (Planned)** | 當開發者在本地執行 `aaa` 指令時，背景檢查並提示更新。 |
-| **L2. Push** | **Gate Enforcement** | Push (Blocking) | **已具備 (Available)** | `aaa-gate` 透過 Repo Checks 阻擋過舊或不合規的版本。 |
-| **L2. Push** | **Dependabot** | Push (Auto) | **已具備 (Available)** | GitHub 原生機制，自動發送 PR 更新 Actions 版本。 |
-| **L3. Pull** | **Registry Index** | Polling (Manual) | **已具備 (Available)** | 使用者查詢 `registry_index.json` 確認最新資產版本。 |
-| **L3. Pull** | **aaa outdated** | Polling (Manual) | **已具備 (Available)** | 一鍵輸出本地版本與遠端版本差異報告。 |
-| **L3. Pull** | **Release Notes** | Polling (Manual) | **已具備 (Available)** | 透過 `reports/milestones` 或 GitHub Releases 查看變更。 |
-| **L3. Pull** | **Upgrade Command** | Action (Manual) | **待補 (Planned)** | `aaa upgrade` 指令，一鍵升級本地環境。 |
+| **L1. Autonomous** | **Self-Healing PR** | Auto (Agent) | **開發中 (v1.5)** | Agent 自主發起 PR 修復過舊的 Workflow 引用。 |
+| **L1. Autonomous** | **MCP Capability** | Polling (Agent) | **已規劃 (v1.1)** | AI Agent 透過 MCP 直接查詢最新版號與更新腳本。 |
+| **L2. Guardian** | **Daemon Watch** | Live (Local) | **已規劃 (v1.4)** | `aaa watch` 在背景偵測到版本過舊時發出系統通知。 |
+| **L3. Push** | **Gate Enforcement** | Push (Blocking) | **已具備 (v1.0)** | `aaa-gate` 阻擋版本不符之提交。 |
+| **L4. Pull** | **aaa outdated** | Polling (Manual) | **已具備 (v1.0)** | 人類開發者檢核版本差異。 |
 
 ---
 
@@ -42,18 +40,7 @@ AAA 生態系（Tools, Actions, Evals, Templates）持續演進。為了確保�
 1.  **觸發點**: 執行 `aaa init`, `aaa check`, `aaa run` 等指令時。
 2.  **快取機制**: 檢查結果快取 24 小時（`~/.aaa/cache/version_check`），避免拖慢指令。
 3.  **靜默檢查**: 網路請求若超時（>2s）直接略過，不影響主程序。
-4.  **視覺回饋**: 僅在 **Local < Remote** 時，於指令結束處顯示：
-
-```text
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│   Update available 1.0.0 → 1.1.0                             │
-│   Run "pip install --upgrade aaa-tools" to update.           │
-│   See changes: [https://github.com/.../releases/tag/v1.1.0](https://github.com/.../releases/tag/v1.1.0)    │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
-
-```
+4.  **視覺回饋**: 僅在 **Local < Remote** 時，於指令結束處顯示提醒資訊。
 
 ---
 
@@ -72,17 +59,9 @@ AAA 生態系（Tools, Actions, Evals, Templates）持續演進。為了確保�
 
 ---
 
-## 5. Pending Logs (Non-Blocking)
+## 5. 附錄：`aaa outdated` JSON Schema
 
-1. **Nightly Verification**: 確認 P2-1 (Metrics/Thresholds) 部署後，Dashboard 是否正確呈現 Drift Rate 趨勢。
-2. **P0-3 Evidence**: 確認 Org-level onboarding evals 是否能產出強制證據 (Enforced Report)。
-3. **P2-3 Workflow Evidence**: 確認 `repo-upgrade` 與 `repo-audit` workflow 在真實環境下的執行結果。
-
----
-
-## 6. 附錄：`aaa outdated` JSON Schema
-
-以下為 `aaa outdated --json` 的輸出結構（簡化版 Schema），用於自動化解析與報表整合。
+以下為 `aaa outdated --json` 的輸出結構，用於自動化解析與報表整合。
 
 ```json
 {
@@ -103,23 +82,10 @@ AAA 生態系（Tools, Actions, Evals, Templates）持續演進。為了確保�
             "type": "string",
             "enum": ["up-to-date", "outdated", "unknown", "multi"]
           },
-          "source": { "type": "string" },
-          "details": {
-            "type": "object",
-            "properties": {
-              "versions": { "type": "array", "items": { "type": "string" } }
-            },
-            "additionalProperties": true
-          }
+          "source": { "type": "string" }
         }
       }
     }
   }
 }
 ```
-
-**欄位說明**
-- `name`: component id（tools/actions/evals/templates/prompts）
-- `local_version`: 本地版本或 `untracked`
-- `remote_version`: 遠端版本或 `unknown`
-- `status`: `up-to-date` / `outdated` / `unknown` / `multi`

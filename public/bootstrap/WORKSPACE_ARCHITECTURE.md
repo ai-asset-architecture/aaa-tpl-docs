@@ -188,7 +188,7 @@ git add ../aaa-tpl-docs/README.md   # 錯誤！跨 repo 操作
 
 ```markdown
 <!-- 在 aaa-tpl-docs/README.md -->
-See [Architecture](./internal/development/architecture/update_policy.md)
+See [Architecture](../../internal/development/architecture/update_policy.md)
 See [Playbook](./PROJECT_PLAYBOOK.md)
 ```
 
