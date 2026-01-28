@@ -29,7 +29,8 @@
 ### Step 3: Asset Preservation (資產保存)
 - **要求**: 提取並註冊該版本開發中產生的價值資產（Evals, Templates, Prompts, Runbooks, Checks...）。
 - **行為**: **必須**將其註冊至對應的資產目錄 (Catalog) 或 `ai-asset-architecture-registry/registry_index.json`。
-- **產出**: 在結案報告中列出「資產保存清單」。
+- **Nightly Promotion**: 評估是否有高價值的測試案例 (Test Cases) 值得升級為 Nightly Test Suite 的一部分。
+- **產出**: 在結案報告中列出「資產保存清單」與「Nightly Test Candidates」。
 
 ## 3. Agent Behavior Profile
 
