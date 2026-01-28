@@ -13,6 +13,9 @@
 - **要求**: 在開始開發前或開發中，必須初始化以下兩類文件：
   - **Implementation Plans**: `aaa-tpl-docs/internal/development/plans/YYYY-MM-DD-<feature>-plan.md`
   - **Validation Audits**: `aaa-tpl-docs/internal/development/audits/YYYY-MM-DD-<name>.md`
+- **一致性要求 (Consistency Policy)**:
+  - **Naming**: 檔案命名必須嚴格參考目標資料夾內既有文件的命名慣例。
+  - **Format**: 文件內容結構（含 Metadata、標題層級）必須嚴格參考目標資料夾內既有文件，不得擅自發明新格式。
 - **通訊**: 計畫必須包含 **Triple-Summary Protocol**（Plan/Schema/Component 摘要，每份 200-300 字）。
 
 ### Step 2: Completion Documentation (結案存檔)
