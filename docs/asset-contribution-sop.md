@@ -1,7 +1,7 @@
 # AAA 資產回饋流程（草案）
 
 這份文件說明：成員在新專案中產生的 Evals / Templates / Prompts，如何回饋到 AAA。
-本流程與 `aaa-tpl-docs/arch/aaa-architecture.md` 保持一致，後續可再擴充細節。
+本流程與 `../internal/development/architecture/aaa-architecture.md` 保持一致，後續可再擴充細節。
 
 ## 1) 先判斷資產類型與落點
 - Evals → `aaa-evals`
@@ -15,7 +15,7 @@
 ## 3) 回到 AAA 開 PR
 - 在對應 repo 開 branch/PR
 - 同步更新 README / baselines / schema / 範例清單（依 repo 規範）
-- 如新增治理規則，更新 `aaa-tpl-docs/arch/aaa-architecture.md`
+- 如新增治理規則，更新 `../internal/development/architecture/aaa-architecture.md`
 
 ## 4) 走資產升級流程（Promotion）
 - 依 `aaa-evals/ASSET_PROMOTION.md` 的流程審核與標記

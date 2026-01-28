@@ -76,7 +76,7 @@ This repository is organized into the following directories:
 
 ---
 
-**Note**: This repo is undergoing structure reorganization (Phase 1 complete as of 2026-01-27). Legacy directories (`docs/`, `reports/`, `arch/`) will be migrated in Phase 2-4.
+**Note**: This repo is undergoing structure reorganization (Phase 1-2 complete as of 2026-01-28). Legacy directories (`docs/`, `reports/`) are being migrated. Architecture is now in `internal/development/architecture/`.
 
 **Dual-Repo Strategy**: This repo is being prepared for future separation:
 - `public/` → `aaa-docs` (PUBLIC repo, external entry point)
