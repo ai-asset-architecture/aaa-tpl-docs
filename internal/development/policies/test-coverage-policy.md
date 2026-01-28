@@ -53,7 +53,25 @@
 
 ---
 
-## 5. 執行要求 (Enforcement)
+## 5. 測試晉升機制 (Test Promotion to Nightly)
+
+高價值的測試案例應被晉升至 **Nightly Test Suite**，以實現 24/7 的自動化回歸監控。
+
+### 5.1 晉升標準 (Promotion Criteria)
+符合以下任一條件的測試案例 **必須** 晉升至 Nightly：
+- **關鍵路徑 (Critical Path)**：涉及資產初始化、安全校驗或核心 CLI 命令的測試。
+- **高風險回歸 (High Regression Risk)**：過去發生過故障 (Incidents) 的功能模組。
+- **三振條款 (Three Strikes Rule)**：任何手動發現並修復的重大 Bug，必須補齊測試並晉升至 Nightly 以防回歸。
+- **穩定性 (Stability)**：測試案例必須具備低隨機失敗率 (Low Flakiness)。
+
+### 5.2 晉升流程 (Promotion Process)
+1. **標籤化**：在 `aaa-evals` 的 suite 配置文件中加入 `tags: [nightly]`。
+2. **manifest 註冊**：將測試 ID 加入 `aaa-actions/checks.manifest.json` 的 nightly 掃描範圍。
+3. **報告集成**：確保測試結果能自動輸出至 `nightly_governance.json` 並反映在儀表板上。
+
+---
+
+## 6. 執行要求 (Enforcement)
 
 1. **里程碑結項 (Milestone Completion)**：任何里程碑的 `completion_report` 必須包含 `Test Coverage Appendix`，並對應本政策進行自評。
 2. **CI 檢查 (aaa check)**：未來版本將引入針對測試覆蓋率標籤的自動化掃描，不符合政策的 PR 將被攔截。
