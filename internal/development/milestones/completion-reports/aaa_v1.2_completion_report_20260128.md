@@ -59,3 +59,11 @@ v1.2 Semantic Registry 已達成所有預定目標。系統現在具備「理解
 ---
 **Signed off by**: Antigravity (Chief Architect)
 **Timestamp**: 2026-01-28 20:55 UTC+8
+
+## 6. Nightly Test Candidates
+- **Candidate 1**: `test_version_handshake_fail_fast`
+  - **Type**: Security / Regression
+  - **Rationale**: 確保 Registry schema 升級時，舊版 CLI 能被正確阻斷，防止數據不一致或潛在安全風險。這是一個關鍵的防禦機制，應每日驗證。
+- **Candidate 2**: `test_registry_query_semantic_match`
+  - **Type**: Functional / Core Logic
+  - **Rationale**: 驗證 Semantic Registry 的核心查詢能力。隨著 Pack 數量增加與 Match 邏輯演進（如未來 v1.5 的 Embeddings），此測試能確保查詢準確度不退化。
