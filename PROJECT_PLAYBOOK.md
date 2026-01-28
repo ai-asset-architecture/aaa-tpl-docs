@@ -311,6 +311,7 @@ Source of truth: `.github/GOVERNANCE.md`
 | `{{PROJECT_PREFIX}}-api-contracts` | API 合約唯一真相 | OpenAPI/GraphQL/Postman | `@{{GITHUB_ORG}}/backend` | 不寫業務邏輯、不放 UI |
 | `{{PROJECT_PREFIX}}-shared-schemas` | 共享 Domain Model | Zod/TS types / JSON Schema | `@{{GITHUB_ORG}}/architect` | 不定義 endpoint、不放 UI |
 | `{{PROJECT_PREFIX}}-data-dictionary` | 詞彙/事件/標籤/指標字典 | EventType、Tag taxonomy、Metric defs、TCM 詞庫 | `@{{GITHUB_ORG}}/pm` + `@{{GITHUB_ORG}}/data` | 不寫服務、不寫 UI |
+| `{{PROJECT_PREFIX}}-policies` | 治理策略庫 | Policy Scripts (Python)、Rego、Governance Rules | `@{{GITHUB_ORG}}/architect` + `@{{GITHUB_ORG}}/security` | 不放應用程式碼 |
 | `{{PROJECT_PREFIX}}-design-system` | UI 規格與 tokens | tokens、components、storybook | `@{{GITHUB_ORG}}/design` | 不實作業務頁面、不碰 API |
 | `{{PROJECT_PREFIX}}-frontend-web` | Web（Admin/Dashboard） | Web UI、整合 API、E2E | `@{{GITHUB_ORG}}/frontend` | 不寫後端業務邏輯 |
 | `{{PROJECT_PREFIX}}-mobile-app` | iOS/Android App | 記錄、離線、同步、查看報告 | `@{{GITHUB_ORG}}/mobile` | 不自行發明 schema/事件 |

@@ -79,6 +79,10 @@ AAA_WORKSPACE/                          ← 工作空間根目錄（非 git repo
 │   ├── .git/                          → github.com/ai-asset-architecture/aaa-prompts
 │   └── prompts/
 │
+├── aaa-policies/                       ← Policies Repo (Distributed Governance)
+│   ├── .git/                          → github.com/ai-asset-architecture/aaa-policies
+│   └── policies/                      ← Policy definitions (gdpr, base-governance)
+│
 ├── aaa-observability/                  ← Observability Repo
 │   └── .git/
 │
@@ -410,11 +414,12 @@ git push origin main
 ### 如何繼承里程碑工作流？
 1.  **AI 憲法建立**：每個新 repo 在根目錄應具備 `.ai-context.md`。
     - 參考：`aaa-tpl-docs/templates/onboarding/AI-CONSTITUTION-TEMPLATE.md`
-2.  **路徑規範對齊**：
-    - 計畫放置於 `internal/development/plans/`
-    - 審計報告放置於 `internal/development/audits/`
-    - 結案詳報放置於 `internal/development/milestones/completion-reports/`
-3.  **三步驟循環**：告知您的 AI Agent 必須執行「Initialization → Completion → Asset Preservation」的工作循環。
+3.  **模板驅動開發 (Template-Driven)**：
+    - 實作計畫命名：`internal/development/plans/YYYY-MM-DD-{feature}-plan.md`
+    - 審計報告命名：`internal/development/audits/YYYY-MM-DD-{name}.md`
+    - **必須使用模板**：參考 `.ai-context.md` 中的 `<template id="plan">` 與 `<template id="completion-report">`。
+4.  **三步驟循環**：告知您的 AI Agent 必須執行「Initialization → Completion → Asset Preservation (Value Check)」的工作循環。
+    - **Zero-Asset Trap**：若無產出 reusable assets，AI 必須提供解釋，否則不得結案。
 
 **意義**：透過治理繼承，即使是獨立的專案開發，其產出的 Evals 與 Prompts 也能夠輕鬆地回流並貢獻至 AAA 全域資產庫中。
 
