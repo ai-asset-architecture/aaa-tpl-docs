@@ -11,7 +11,14 @@ created: '2026-01-28'
 > **Purpose**: Complete index of all AAA governance checks  
 > **Execution**: `aaa check --mode blocking`  
 > **Location**: `aaa-tools/aaa/check_commands.py`  
-> **Total**: 5 core checks + 1 gate check
+| Check | ID | Purpose | Failure Impact |
+|-------|------|---------|----------------|
+| **README** | `readme` | Verify README.md exists | HIGH - Documentation missing |
+| **Workflow** | `workflow` | Required workflows present | HIGH - CI missing |
+| **Repo Type** | `repo_type_consistency` | repo_type matches manifest | MEDIUM - Misaligned config |
+| **Manifest Alignment** | `checks_manifest_alignment` | Checks align with manifest | MEDIUM - Drift detected |
+| **Orphaned Assets** | `orphaned_assets` | No orphaned files in assets | LOW - Cleanup needed |
+| **AI Protocol** | `format_llm_support` | Support AI-centric semantic output | MEDIUM - Agent misalignment |
 
 ---
 
@@ -236,6 +243,12 @@ Checks respect `repo_type` from `.aaa/metadata.json`:
 
 ---
 
+| 1.0 | 2026-01-28 | Initial catalog creation |
+| 1.1 | 2026-01-28 | Added v1.1 AI Protocol (--format) & enrichment logic |
+
+---
+
 **Last Updated**: 2026-01-28  
-**Version**: 1.0  
+**Version**: 1.1
+  
 **Source**: `aaa-tools/aaa/check_commands.py`

@@ -108,6 +108,22 @@ usage: 'Use this template for validating major version releases (v0.x, v1.x, v2.
 
 ---
 
+## Test Coverage Appendix
+
+**Compliance Strategy**: [1+2+1 Strict / Evidence-Based / Hybrid]  
+**Policy Reference**: [Test Coverage Policy](file:///Users/imac/Documents/Code/AI-Lotto/AAA_WORKSPACE/aaa-tpl-docs/internal/development/policies/test-coverage-policy.md)
+
+### Detailed Validation Evidence
+
+| Feature | Category | Test Type | Evidence/Link | Result |
+|---------|----------|-----------|---------------|--------|
+| [Feature Name] | [CLI/Dashboard/Docs] | [Unit/Evidence] | [Commit or path] | [PASS] |
+
+### Exception Justification
+[Required if 1+2+1 strict rule is not met. Justify based on the Evidence-Based Validation section of the policy.]
+
+---
+
 ## Conclusion
 
 **Overall Assessment**: [✅/⚠️/❌] **[Summary statement]**

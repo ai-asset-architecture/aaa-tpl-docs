@@ -54,6 +54,7 @@ created: '2026-01-28'
 | Prompt | Path | Purpose | Format |
 |--------|------|---------|--------|
 | Governance Review | `governance/governance_review_prompt.md` | Review governance changes | Markdown |
+| Triple-Summary Protocol | `governance/triple_summary_protocol.md` | Communication logic for alignment | Markdown |
 
 ### 💻 CLI (3 prompts)
 
@@ -151,5 +152,10 @@ cat aaa-prompts/prompts/onboarding/onboarding_commands.md
 
 ---
 
+| 1.0 | 2026-01-28 | Initial catalog creation |
+| 1.1 | 2026-01-28 | Added v1.1 Protocols (Triple-Summary) |
+
+---
+
 **Last Updated**: 2026-01-28  
-**Version**: 1.0
+**Version**: 1.1

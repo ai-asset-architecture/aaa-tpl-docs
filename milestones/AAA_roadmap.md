@@ -26,6 +26,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 ## Status (已完成項目)
 - v0.4：Completed（2026-01-21）
 - v0.5：Completed（2026-01-21）
+- v1.1：Completed (2026-01-28)
 
 ### v0.4 — Governance Core (規範核心標準化)
 **目標**：建立「組織級規範一致性」的核心能力。
@@ -140,7 +141,8 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v0.7** | Org-Scale Reliability | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v0.7_completion_report_20260123_0915.md) | Checks manifest SSOT、repo_type 治理、Verify-CI 自動化、Org-level health checks | Packaged Audit Packs、Action Catalog、`ops/init-milestone`、IDE 支援 |
 | **v0.8** | Marketplace Assets | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v0.8_completion_report_20260124.md) + [Registry](../ai-asset-architecture-registry/registry_index.json) | Pack system (build/install/load)、Registry 索引、Seed Pack (`agent-safety@1.0.0`) | Template Registry、行業特化 Packs（≥3）、Marketplace UI |
 | **v0.9** | Observability | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v0.9_completion_report_20260123.md) + [Test Coverage Appendix](internal/development/milestones/completion-reports/aaa_v0.9_completion_report_20260123.md#test-coverage-appendix-added-2026-01-28) | Compliance dashboard、MD/HTML 渲染、Threshold gates、Nightly automation | Time-series metrics、Alert/Escalation 路徑（v1.8 規劃） |
-| **v1.0** | Enterprise-Ready | ✅ **Delivered** 🏆 | [完成報告](internal/development/milestones/completion-reports/aaa_v1.0_completion_report_20260124.md) + [Enterprise Certification](internal/development/milestones/completion-reports/aaa_v1.0_completion_report_20260124.md#-enterprise-readiness-certification-2026-01-28) | Gate-first enforcement、Org ruleset、Enterprise bootstrap、Release integrity、Self-dogfooding E2E | 企業級 SOP 套件（RACI 矩陣）、年度審核模板（客戶需求驅動） |
+| **v1.0** | Enterprise-Ready | ✅ **Delivered** 🏆 | [完成報告](internal/development/audits/v1.0_final_validation_report.md) | Gate-first enforcement、Org ruleset、Enterprise bootstrap、Release integrity、Self-dogfooding E2E | 企業級 SOP 套件（RACI 矩陣）、年度審核模板（客戶需求驅動） |
+| **v1.1** | AI-Native Interface | ✅ **Delivered** | [完成報告](internal/development/audits/2026-01-28-v1.1-pillar-b-validation-report.md) | AI-First CLI Protocol (--format=llm), Semantic Error Messages, MCP Server Bridge | 完整 MCP 生態整合、多語言 SDK、Agent marketplace |
 
 ### Interpretation Guidelines
 
@@ -246,15 +248,15 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 
 ---
 
-## Future Roadmap (v1.1 → v2.0)
+## Future Roadmap (v1.2 → v2.0)
 
 > **核心願景**：將 AAA 從「Enterprise-Ready Governance」演進至「AI Agent 作業系統 (Agent OS)」，建立可信任、可自治、可擴展的 AI 協作治理層。
 
 ### 路線圖總覽
 
-AAA v1.1 至 v2.0 的演進分為三大階段，總計約 **290 工作天**：
+AAA v1.2 至 v2.0 的演進分為三大階段，總計約 **275 工作天**：
 
-1. **Phase 1: Semantic Era (語義時代)** - v1.1 至 v1.3 (60 工作天)
+1. **Phase 1: Semantic Era (語義時代)** - v1.2 至 v1.3 (45 工作天)
 2. **Phase 2: Active Guardian (主動守護)** - v1.4 至 v1.6 (105 工作天)
 3. **Phase 3: Digital Constitution (數位憲法)** - v1.7 至 v2.0 (125 工作天)
 
@@ -262,7 +264,7 @@ AAA v1.1 至 v2.0 的演進分為三大階段，總計約 **290 工作天**：
 
 ## Phase 1: Semantic Era (語義時代)
 
-### v1.1 — AI-Native Interface
+### v1.1 — AI-Native Interface ✅ **Completed (2026-01-28)**
 
 **Goal**  
 讓 AAA CLI 成為 AI Agent 的標準溝通協定，輸出經 LLM 最佳化且包含修復建議。

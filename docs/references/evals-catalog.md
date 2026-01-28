@@ -103,6 +103,7 @@ created: '2026-01-28'
 | Eval | Suite | Purpose | Added |
 |------|-------|---------|-------|
 | `nightly_dashboard_resilience` | nightly_dashboard_resilience.yml | Dashboard graceful degradation | v1.0 |
+| `test_policy_compliance` | test_policy_compliance.yml | Validate 1+2+1 test coverage policy | v1.1 |
 
 ---
 
@@ -183,12 +184,19 @@ check:
 
 ## Total Count
 
-- **Eval Cases**: 20
-- **Evalanites**: 21  
+- **Eval Cases**: 21
+- **Eval Suites**: 22  
 - **Core Checks**: 5 (blocking mode)
 - **Categories**: 10+
 
 ---
 
+| 1.0 | 2026-01-28 | Initial catalog creation |
+| 1.1 | 2026-01-28 | Added v1.1 Evals (test_policy_compliance) |
+
+---
+
+**Total Count**: 21 cases, 22 suites
+
 **Last Updated**: 2026-01-28  
-**Version**: 1.0
+**Version**: 1.1

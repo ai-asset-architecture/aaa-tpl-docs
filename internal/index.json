@@ -16,6 +16,10 @@
   "symlink_policy": "All audits and reports must maintain LATEST.md symlink",
   "archive_policy": "Files > 30 days moved to development/audits/archive/",
   "milestones": [
-    "v1.1_test"
+    {
+      "id": "v1.1_test",
+      "status": "completed",
+      "completed_at": "2026-01-28T11:39:30.322180"
+    }
   ]
 }

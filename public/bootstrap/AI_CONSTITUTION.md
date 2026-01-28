@@ -26,6 +26,17 @@
 3. **Component Summary**: 模組化設計、狀態管理與視覺/UX 邏輯。
 - **發布**: 計畫提交時，需將此三份摘要提供給使用者進行審查。
 
+### 2.4 Milestone Completion (里程碑結案)
+- **要求**: 當版本 (vx.y) 達到 100% 完成度時，**必須**執行以下程序：
+  1. **產出文件**:
+     - 摘要文件: `aaa-tpl-docs/milestones/YYYYMMDD_vX.Y_<name>.md`
+     - 詳細報告: `aaa-tpl-docs/internal/development/milestones/completion-reports/aaa_vX.Y_completion_report_YYYYMMDD.md`
+  2. **資產提取與保存**:
+     - 檢查該版本開發中產生的價值資產 (Evals, Templates, Prompts, Runbooks, Checks...)。
+     - **必須**將其註冊至對應的資產目錄 (Asset Catalogs) 或 Registry 中，確保資產可重用性。
+     - **資產保存檢查**: 確保所有關鍵資產已正確歸檔並可追溯。
+- **內容**: 報告應包含交付物清單、驗證證據、1+2+1 覆蓋率分析、**資產保存清單**與最終狀態。
+
 ## 3. Agent Behavior Profile
 
 ### Mode: ARCHITECT (Planning Phase)
@@ -43,4 +54,4 @@
 - **Assets**: All metadata must be indexed in `internal/index.json`.
 
 ---
-*Last updated: 2026-01-28*
+*Last updated: 2026-01-28 13:05*

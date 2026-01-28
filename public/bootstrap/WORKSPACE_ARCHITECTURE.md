@@ -242,6 +242,7 @@ git branch --show-current
 - [ ] **內部影響**：同一 repo 內有無其他文件引用此路徑？
 - [ ] **跨 repo 影響**：其他 repos 是否引用此路徑？
 - [ ] **URL 影響**：GitHub URLs 是否需要更新？
+- [ ] **里程碑結案**：若為 vx.y 100% 完成，是否已產出摘要與詳細報告？(見 AI Constitution 2.4)
 
 **範例**：重整 aaa-tpl-docs 路徑時
 
@@ -403,5 +404,5 @@ git push origin main
 ---
 
 **Last Updated**: 2026-01-28  
-**Version**: 1.0  
+**Version**: 1.1  
 **Maintainer**: @aaa/architect
