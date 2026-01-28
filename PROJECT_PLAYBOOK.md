@@ -320,6 +320,10 @@ Source of truth: `.github/GOVERNANCE.md`
 | `{{PROJECT_PREFIX}}-qa` | QA 中央倉庫 | 測試自動化、測試資產、測試報告、QA 規範 | `@{{GITHUB_ORG}}/qa` | 不放產品功能 code、不放合約/Schema |
 | `{{PROJECT_PREFIX}}-data-pipeline` | ETL/特徵/批次任務 | batch jobs、feature/metrics 輸出 | `@{{GITHUB_ORG}}/data` | 不直接提供 UI |
 | `{{PROJECT_PREFIX}}-observability` | 觀測/事件規格/告警 | dashboards、alerts、runbooks、event schema | `@{{GITHUB_ORG}}/platform` | 不放產品功能 code |
+| `{{PROJECT_PREFIX}}-tools` | CLI 自動化工具 | `aaa` command, Codemods, Generators | `@{{GITHUB_ORG}}/architect` | 不放業務邏輯 |
+| `{{PROJECT_PREFIX}}-evals` | LLM 評測與驗證 | Evals (Jury/Semantic), Datasets | `@{{GITHUB_ORG}}/qa` + `@{{GITHUB_ORG}}/data` | 不放產品測試 (E2E) |
+| `{{PROJECT_PREFIX}}-prompts` | Prompt 模板庫 | System Prompts, User Prompts, Few-shot Examples | `@{{GITHUB_ORG}}/architect` | 不放 Hardcoded Prompts |
+| `ai-asset-architecture-registry` | 資產註冊中心 | Policy/Skill/Prompt Index, Manifests | `@{{GITHUB_ORG}}/architect` | 不放原始碼 (僅 Index) |
 
 ---
 
