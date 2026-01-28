@@ -1,80 +1,68 @@
-# ai-asset-architecture（aaa）最小 Repo 組合草案 v0.1
-> Org：`ai-asset-architecture`  
-> Alias / Prefix：`aaa`  
-> 目標：建立「可重用、可演進」的資產庫（Evals / Templates / Tools / Governance）+ 可複製的模板 Repo，並提供清晰的 Consume / Feedback（回流）機制，支援多 AI + 多人協作的未來專案。
+# AI Asset Architecture (AAA) Blueprint v1.1 (Target: v2.0 Agent OS)
+
+> **Vision**: 從「資產治理」演進為「AI Agent 作業系統 (Agent OS)」，建立可信任、可自治、可擴展的 AI 協作治理層。
 
 ---
 
-## 0) 設計原則（你要的 6 點對應）
-### 0.1 資產分兩類：Copy vs Reference
-- **Copy（一次性複製）**：用於新專案快速起步的骨架（結構、README、初始模板、少量專案級設定）
-- **Reference（可升級引用）**：要「越來越好」的資產（Evals / Tools / CI Workflows / Governance），避免各專案 copy 後分叉
+## 0) 設計原則 (The AAA Manifesto)
+### 0.1 從資產化到語義化 (From Assets to Semantics)
+- **v1.0 (Assets)**：將規範寫成 Evals, Prompts, Templates 與 Runbooks。
+- **v2.0 (Semantics)**：將規則寫成「Agent 可理解的語義 (MCP/Metadata)」，實現自主偵測與修復。
 
-### 0.2 三條管線（必備）
-1. **Bootstrap 管線**：用模板 Repo 生成新專案
-2. **Consume 管線**：新專案引用/同步 AAA 的資產（不靠 copy）
-3. **Feedback 管線**：新專案產出新資產 → 提煉硬化 → 回流 AAA 資產庫 → 版本化
+### 0.2 三大治理層級 (The 3-Tier Governance)
+1. **Semantic Layer (語義層)**：AI-Native 介面、語義註冊表、政策編譯器。確保 Agent 懂規則。
+2. **Guardian Layer (守護層)**：即時監控 (Daemon)、IDE 深度整合、自我修復引擎。確保 Agent 守規則。
+3. **Constitution Layer (憲法層)**：聯邦治理、稽核帳本、最高法院 (Human-in-the-loop)。確保 Agent 知紅線。
 
 ---
 
-## 1) 最小 Repo 組合（MVP Set）
-> 原則：先少而硬，確保「能用、能回流、能升級」，再擴張。
+## 1) 架構藍圖：邁向 v2.0 的三階段演進
 
-### 1.1 現況必備（v0.1 已落地）
-1) **`.github`**（組織級預設治理 + PR/Issue 模板）
-- 定位：治理與模板入口（不是資產大倉庫）
-- 內容：PR 模板、Issue templates、CONTRIBUTING、SECURITY、CODEOWNERS、GOVERNANCE、BOOTSTRAP_PROTOCOL
+### Phase 1: Semantic Era (語義時代 - v1.1~v1.3)
+**核心目標：建立 AI 與治理規範的標準對齊協定。**
+- **v1.1 AI-Native Interface**：支援 `--format=llm`，提供包含提示詞上下文 (Prompt Context) 的錯誤訊息，讓 Agent 能自主理解違規。支援 **MCP (Model Context Protocol)**。
+- **v1.2 Semantic Registry**：將 Registry 升級為能力目錄，支援 `Object-type` 自動治理（如 `fintech-service` 自動載入 GDPR 與安規 Packs）。
+- **v1.3 Governance Compiler**：自然語言政策 (NL Policy) → 自動編譯為 `aaa check` 代碼，實現「政策即代碼」。
 
-2) **`aaa-actions`**（可重用 GitHub Actions workflows）
-- 定位：把 QA / Evals / Lint / Release gate 做成可被其他 repo `workflow_call` 引用的「中央升級」資產
+### Phase 2: Active Guardian (主動守護時代 - v1.4~v1.6)
+**核心目標：從「事後檢查」轉向「事前/事中守護」。**
+- **v1.4 Guardian Daemon**：本地 `aaa watch` 常駐行程，監控檔案變更並在 IDE 內即時給予反饋。
+- **v1.5 Self-Healing Engine**：`aaa gate --auto-fix` 對常見治理錯誤（如資產漏索引、格式錯誤）進行 AI 自動修正與 PR 提交。
+- **v1.6 Multi-Agent Orchestration**：解決「Agent 蜂群」並發衝突，提供 File Locking 與語義仲裁機制。
 
-3) **`aaa-evals`**（Evals 資產庫：規格、資料集、基準、回歸）
-- 定位：評估集（可版本化）、資料、指標定義、基準結果
-- 重點：提供「可回歸」的品質閘門，讓資產可進化
+### Phase 3: Digital Constitution (數位憲法時代 - v1.7~v2.0)
+**核心目標：建立全球化的信任網絡與終極裁決體系。**
+- **v1.7 Federated Governance**：跨組織信任鏈 (Trust Chain)，檢查外部依賴的 AAA 合規報告簽章。
+- **v1.8 Observability 2.0**：治理 KPI 時序化，建立不可篡改的風險帳本 (Audit Ledger)。
+- **v1.9 Supreme Court Interface**：人類最高決策控制台，處理 AI 無法解決的判例衝突與道德兩難。
+- **v2.0 The Agent OS**：完整整合自主權限管理，AAA 成為 AI Agent 的標準運行基石。
 
-4) **`aaa-tools`**（工具庫：CLI / 檢查器 / scaffold / eval runner）
-- 定位：把「規則」變成「可執行」，減少人肉審查成本
-- 推薦：以 CLI 形式提供（本地與 CI 可用）
-- 重要產物：
-  - `runbooks/init/`（初始化 Runbook 與 Schema）
-  - `specs/`（CLI 合約與 Plan Schema）
+---
 
-5) **`aaa-prompts`**（Prompt 資產庫：可版本化配方）
-- 定位：收斂「已驗證的高品質 Prompt」，提供穩定可重用的配方資產
-- 介面：由 `aaa-tools` 提供 `aaa pull prompt:<name>@<version>` 取用
+## 2) 每個 Repo 的責任邊界 (RACI Update)
 
-6) **`aaa-tpl-docs`**（Docs 模板）
-- 定位：AI 協作核心文件 SSOT（ACC/PP/.ai-context/PRD/ADR）
-
-7) **`aaa-tpl-service`**（Service 模板）
-- 定位：最小後端骨架 + CI 接線（aaa-actions）
-
-8) **`aaa-tpl-frontend`**（Frontend 模板）
-- 定位：最小前端骨架 + CI 接線（aaa-actions）
-
-9) **`aaa-observability`**（觀測規範）
-- 定位：事件/告警/Runbook 規範與範例
-
-### 1.2 規劃中（未落地）
-1) **`aaa-tpl-repo`**（最小通用 Repo 模板）
-- 定位：新專案 Repo 的骨架（README/目錄/基本 CI 入口）
-- 用法：新專案建立時「Use this template」→ 生成 `<orgAlias>-<repoName>` 類型 repo
-
-> ✅ 現況必備：以 1.1 清單為準  
-> ⭕ 規劃中：`aaa-tpl-repo`
+| Repo | 定位 | v1.x~v2.0 新增職責 | 不做的事 (Boundary) |
+|---|---|---|---|
+| `aaa-tools` | CLI / 工具 / 核心引擎 | MCP Server, NL Compiler, Self-Healing Engine | 不存放具體業務規格 |
+| `aaa-evals` | 驗證資產庫 | Semantic Check Sets, Security Boundary Evals | 不包含執行環境管理 |
+| `aaa-actions` | CI/CD 自動化 | Federated Check Pipelines, Registry Auto-Build | 不涉及本地運行邏輯 |
+| `aaa-registry` | 合規資產目錄 | Capability-based Index, Trust Chain Signatures | 不執行具體 Evals |
+| `aaa-guardian` | **[NEW]** 本地守護行程 | File Watching, IDE Plugin Backend, Real-time Feedback | 不進行重型 Evals |
+| `.github` | 組織級治理 | Org Ruleset Inheritance, Supreme Court Protocol | 不存放代碼細節 |
 
 ---
 
 ## 2) 每個 Repo 的責任邊界（RACI/Scope）
 ### 2.1 `.github`
 **負責**
-- 組織級 PR/Issue 模板（包含 Asset Promotion Pipeline 的 PR 模板）
-- 組織級貢獻規範與治理檔案（CONTRIBUTING/SECURITY）
-- （可選）CODEOWNERS 與 review 規則引導
-- `.github` 作為治理與流程入口，不作為資產倉庫
+- 組織級治理規則 (Ruleset) 與 分級導入政策 (Tiered Adoption Policy)。
+- 數位憲法之裁決紀錄與判例庫 (Precedent Database)。
+- 跨 Repo 的 PR/Issue 模板、CODEOWNERS 與治理入口文件。
+- **v1.9 Supreme Court Interface**：管理最高決策仲裁流程。
 
 **不負責**
-- 不放大型 eval 資料、工具 binaries、專案實作碼
+- 不存放具體技術實作專用的測試資料或二進位檔案。
+- 不直接執行代碼層級的 CI Checks (委託給 `aaa-actions`)。
 
 ### 2.2 `aaa-tpl-repo`
 **負責**
@@ -86,33 +74,31 @@
 
 ### 2.3 `aaa-actions`
 **負責**
-- 可重用 workflows：lint、tests、eval gates、release gates
-- 統一的 CI 標準（升級一次，全組織逐步採用）
+- **聯邦稽核 (Federated Audit)**：整合外部 AAA 簽章驗證之 CI 流程。
+- 可重用 workflows：Lint, Test, Eval, Release Gates。
+- 統一的 CI 品質基準 (Baseline) 與 版本同步策略。
 
 **不負責**
-- 不放 eval dataset（放 `aaa-evals`）
-- 不放工具源碼（放 `aaa-tools`）
+- 不承擔本地執行邏輯，僅作為 CI 仲裁者。
 
 ### 2.4 `aaa-evals`
 **負責**
-- Eval spec（格式、欄位、指標、通過門檻）
-- Eval datasets / fixtures（能版本化）
-- baseline results（每版的基準）
+- **語義檢查集 (Semantic Checks)**：基於 LLM 的語義一致性與安全邊界檢查。
+- Eval Spec, Datasets & Baselines (需版本化)。
+- 產出標準化、LLM-Optimized 的驗證報告。
 
 **不負責**
-- 不實作多種語言 runner（盡量集中到 `aaa-tools`）
+- 不負責運行腳本的開發 (由 `aaa-tools` 驅動 )。
 
 ### 2.5 `aaa-tools`
 **負責**
-- CLI：`aaa`（或 `aaa-tools`）提供
-  - `aaa scaffold ...`（生成模板骨架、文件）
-  - `aaa lint ...`（檢查 PRD/Docs 必備章節）
-  - `aaa eval run ...`（跑 eval，輸出 JSON/Markdown 報告）
-  - `aaa promote ...`（把 candidates 整理成可回流格式）
-  - `aaa pack ...`（v0.8：資產包安裝與管理）
+- **Governance Compiler (v1.3)**：將自然語言編譯為可執行檢查。
+- **Self-Healing Engine (v1.5)**：核心修復邏輯與 PR 自動生成。
+- **MCP Server Support**：提供 AI Agent 直接呼叫的工具介面。
+- CLI：執行 Scaffold, Lint, Eval Run, Promote, Pack 等核心指令。
 
 **不負責**
-- 不放 project-specific hack（先留在 project 的 candidates）
+- 不直接在 CI 中進行全局狀態監控 (由 `aaa-actions` 或 `aaa-guardian` 處理)。
 
 ### 2.6 `.agent` / `.codex`（Template Repo 內的 Consumer 資料夾）
 **負責**
@@ -142,6 +128,15 @@
 
 **不負責**
 - 不放執行程式碼（程式邏輯應回流至 `aaa-tools`）
+
+### 2.9 `aaa-guardian` (v1.4)
+**負責**
+- **本地守護常駐 (Daemon)**：`aaa watch` 行程，即時攔截違規操作。
+- **IDE 整合**：提供 VS Code / JetBrains 之診斷反饋。
+- **Agent Conflict Resolution (v1.6)**：偵測多 Agent 間的語義衝突。
+
+**不負責**
+- 不承擔靜態資產的永久儲存。
 
 ---
 
@@ -233,20 +228,12 @@ aaa-evals/
 aaa-tools/
   README.md
   aaa/                        # CLI package
-  runbooks/
-    init/
-      AGENT_BOOTSTRAP.md
-      plan.v0.1.json
-      output.schema.json
-  specs/
-    CLI_CONTRACT.md
-    plan.schema.json
-  skills/
-    common/
-    codex/
-    agent/
-  workflows/
-    agent/
+  runbooks/                   # init/upgrade/audit
+  specs/                      # protocol schemas
+  skills/                     # autonomous skills
+  mcp/                        # Model Context Protocol servers
+  compiler/                   # Policy-to-Code NL compiler
+  healing/                    # Auto-fix handlers
 ```
 
 ### 3.6 `aaa-prompts` 目錄（Prompt 資產庫）
