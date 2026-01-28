@@ -403,6 +403,23 @@ git push origin main
 
 ---
 
+## 🏛️ Governance Inheritance (治理繼承)
+
+當您從 AAA 組織繼承或 fork 一個新專案時，**必須**確保治理由此延續：
+
+### 如何繼承里程碑工作流？
+1.  **AI 憲法建立**：每個新 repo 在根目錄應具備 `.ai-context.md`。
+    - 參考：`aaa-tpl-docs/templates/onboarding/AI-CONSTITUTION-TEMPLATE.md`
+2.  **路徑規範對齊**：
+    - 計畫放置於 `internal/development/plans/`
+    - 審計報告放置於 `internal/development/audits/`
+    - 結案詳報放置於 `internal/development/milestones/completion-reports/`
+3.  **三步驟循環**：告知您的 AI Agent 必須執行「Initialization → Completion → Asset Preservation」的工作循環。
+
+**意義**：透過治理繼承，即使是獨立的專案開發，其產出的 Evals 與 Prompts 也能夠輕鬆地回流並貢獻至 AAA 全域資產庫中。
+
+---
+
 **Last Updated**: 2026-01-28  
 **Version**: 1.1  
 **Maintainer**: @aaa/architect

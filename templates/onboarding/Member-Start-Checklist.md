@@ -22,6 +22,11 @@
 - [ ] `aaa init --dry-run` passed
 - [ ] `aaa init --mode pr` executed
 
+## 5. Governance Inheritance (繼承治理)
+- [ ] 將 `templates/onboarding/AI-CONSTITUTION-TEMPLATE.md` 複製並更名為根目錄的 `.ai-context.md`
+- [ ] 檢查 `.ai-context.md` 中的路徑是否符合當前 Repo 結構
+- [ ] 向 AI Agent 介紹新專案的行為準則
+
 ## 5. Review
 - [ ] PRs created
 - [ ] CI checks show `lint` / `test` / `eval`
