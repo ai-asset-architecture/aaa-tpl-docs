@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-28T02:02:29Z",
+  "generated_at": "2026-01-28T16:04:36Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -26,8 +26,15 @@
     },
     {
       "path": "audits/nightly_governance_20260128_0202.md",
-      "title": "Nightly Governance Report (20260128_0202 UTC)",
-      "hash": "48cbba42feaf13daf11122e0042e1533800b272a5ed2454eba50193f459265d5",
+      "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (${REPORT_TS})",
+      "hash": "350a364505358341fbeb4fded8d9d3e563090408d9482c0576fe44bb609696c5",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
+      "path": "audits/nightly_governance_20260128_1604.md",
+      "title": "Nightly Governance Report (20260128_1604 UTC)",
+      "hash": "058e793db9367fde08edb1905c73db8c50a54a1532514e71e193ceec4d8b1f4c",
       "last_modified": "2026-01-28",
       "metadata": {}
     },
@@ -112,6 +119,13 @@
       "path": "github_audit_report_20260128_0202.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "121c75d800a91518eda2f87f35cac3b70e09efac9d2cbc0ae81832c28ae195d5",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
+      "path": "github_audit_report_20260128_1604.md",
+      "title": "GitHub AAA v0.1 Audit Report",
+      "hash": "e0144006d1e0a979c3d7b4f93faa3b64a3fdcb1c472854faa9a99011111adc7a",
       "last_modified": "2026-01-28",
       "metadata": {}
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-28T02:02:29Z",
+  "generated_at": "2026-01-28T16:04:36Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -108,9 +108,26 @@
       }
     },
     {
+      "path": "20260128_v1.1_semantic_era.md",
+      "title": "v1.1 Architecture Definition \u2014 Semantic Era",
+      "hash": "325196f203b1397f46c75174a565f7432c082e236563774ea16a6d43505022f7",
+      "last_modified": "2026-01-28",
+      "metadata": {
+        "summary_zh": "Semantic Era Release\uff1a\u5be6\u4f5c AI \u539f\u751f\u4ecb\u9762\uff08--format=llm\uff09\u3001\u8a9e\u7fa9\u932f\u8aa4\u6620\u5c04\u8207\u5be6\u9a57\u6027 MCP Server\u3002",
+        "summary_en": "Semantic Era Release: implementation of AI-Native interface (--format=llm), semantic error mapping, and experimental MCP Server."
+      }
+    },
+    {
+      "path": "20260128_v1.2_semantic_registry.md",
+      "title": "AAA v1.2 Release: Semantic Registry",
+      "hash": "bf1427e92488289851ae498e8545a1acfbae253ffaf37d18625063ef95d2e1f3",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
       "path": "AAA_roadmap.md",
       "title": "AAA Complete Roadmap (v0.4 \u2192 v2.0)",
-      "hash": "36e9ba295f38a7da84b0f2bf6e58703b5f6e93a151df6b7357ccc3aefb353b27",
+      "hash": "6bfa16954bce029ab42c342c0f86c4689fd5fb7d2fbb6611b72ad19e53f60623",
       "last_modified": "2026-01-28",
       "metadata": {
         "summary_zh": "AAA v1.0\u2192v2.0 \u5b8c\u6574\u8def\u7dda\u5716\uff1a\u5f9e Enterprise-Ready \u6f14\u9032\u81f3 Agent OS\uff0c\u6db5\u84cb\u8a9e\u7fa9\u6642\u4ee3\u3001\u4e3b\u52d5\u5b88\u8b77\u8207\u6578\u4f4d\u61b2\u6cd5\u4e09\u968e\u6bb5\u3002",

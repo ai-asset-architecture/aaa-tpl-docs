@@ -11,6 +11,12 @@
 - milestones/v0.5-modular-runtime.md | v0.5 Modular Runtime Milestone
 - new-project-sop.md | 新專案初始化 SOP (v0.8) - Member Edition
 - plans/MOVED.md | MOVED
+- references/checks-catalog.md | AAA Checks Catalog
+- references/evals-catalog.md | AAA Evals Catalog
+- references/packs-catalog.md | AAA Packs Catalog
+- references/prompts-catalog.md | AAA Prompts Catalog
+- references/runbook-catalog.md | AAA Runbook Catalog
+- references/templates-catalog.md | AAA Templates Catalog
 - registry/template_registry.md | Template Registry
 - repo-checks-guide.md | Repo Checks 指南（集中入口）
 - specs/runbook-runtime-contract.md | Runbook Runtime Contract (v0.6)

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-28T02:02:29Z",
+  "generated_at": "2026-01-28T16:04:36Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -13,7 +13,7 @@
     {
       "path": "asset-contribution-sop.md",
       "title": "AAA \u8cc7\u7522\u56de\u994b\u6d41\u7a0b\uff08\u8349\u6848\uff09",
-      "hash": "51a9ba56dfaf3aa75575474225bdd6c266084a8101aa10c4ea8f3f40103a5031",
+      "hash": "4e53e02e1f0568610b2b7e71519e5e3be34a7ce6534a273cea8357b8fe0cc811",
       "last_modified": "2026-01-28",
       "metadata": {}
     },
@@ -77,6 +77,48 @@
       "path": "plans/MOVED.md",
       "title": "MOVED",
       "hash": "4f307aea9eb2d81672896aab156d5600c461ff987be61d7a3e1b436e2f184e4d",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
+      "path": "references/checks-catalog.md",
+      "title": "AAA Checks Catalog",
+      "hash": "b5ce848a6b85cf6a17699a417d5e75c430dda1c946cd076ddb84bce555c04b35",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
+      "path": "references/evals-catalog.md",
+      "title": "AAA Evals Catalog",
+      "hash": "c99a194c84e7eeed8e856209ae14a638ec6292370e416167f17299d91b0d05d0",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
+      "path": "references/packs-catalog.md",
+      "title": "AAA Packs Catalog",
+      "hash": "76d96ec7fbaf371f69afd544e43a73c4e5a31462c6d2f9c29c599983787e9768",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
+      "path": "references/prompts-catalog.md",
+      "title": "AAA Prompts Catalog",
+      "hash": "c436470c40567abc2baa8ee3745cda244e70e0df1d9e02a4690848d9c1f71455",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
+      "path": "references/runbook-catalog.md",
+      "title": "AAA Runbook Catalog",
+      "hash": "8c5f08cb45356f78b291d0547338e663d2fda7366f4f002df261c8ac7688d921",
+      "last_modified": "2026-01-28",
+      "metadata": {}
+    },
+    {
+      "path": "references/templates-catalog.md",
+      "title": "AAA Templates Catalog",
+      "hash": "3f31241e8920fc5857f6e9c1154a3b117ba0bfe7570cb0b8921084ce9c724105",
       "last_modified": "2026-01-28",
       "metadata": {}
     },
