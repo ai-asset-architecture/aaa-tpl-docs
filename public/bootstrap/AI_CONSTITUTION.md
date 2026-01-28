@@ -22,7 +22,9 @@
 - **要求**: 當版本項目的完成度達到 100% 時，**必須**產出兩份正式文件：
   - **摘要文件**: `aaa-tpl-docs/milestones/YYYYMMDD_vX.Y_<name>.md`
   - **詳細報告**: `aaa-tpl-docs/internal/development/milestones/completion-reports/aaa_vX.Y_completion_report_YYYYMMDD.md`
-- **內容**: 應包含交付物清單、驗證證據、1+2+1 覆蓋率分析與最終狀態。
+- **一致性要求 (Consistency Policy)**:
+  - **Naming**: 檔案命名必須嚴格參考目標資料夾內既有文件的命名慣例。
+  - **Format**: 文件內容結構（含 Metadata、標題層級）必須嚴格參考目標資料夾內既有文件，不得擅自發明新格式。狀態。
 
 ### Step 3: Asset Preservation (資產保存)
 - **要求**: 提取並註冊該版本開發中產生的價值資產（Evals, Templates, Prompts, Runbooks, Checks...）。
