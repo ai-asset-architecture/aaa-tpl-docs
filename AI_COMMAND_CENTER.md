@@ -16,6 +16,39 @@
 
 ---
 
+# 🧠 v1.3+ Prime Directive: The Zero-Learning Curve
+
+> **STRATEGIC PIVOT (2026-01-28)**: AAA development has shifted from "Human-Centric" to "**AI-Centric**".
+> **Core Philosophy**: Extreme Machine Readability. We do not write for humans to learn; we write for Agents to execute instantly.
+
+## 1. The Three Laws of AI-Centric Engineering
+All code, schemas, and documentation must adhere to these laws:
+
+### I. Schema Hardening (Anti-Hallucination)
+* **Concept**: Ambiguity is the enemy.
+* **Rule**: Never use `Any` or vague types. Use strict `Pydantic` models for everything.
+* **Validation**: Every schema must have a corresponding "Validation-by-Code" test. Do not rely on LLM inference capabilities; rely on strict validation errors.
+
+### II. Self-Describing Interfaces (Prompt-Ready)
+* **Concept**: The code *is* the documentation.
+* **Rule**: CLI `--help` messages and MCP Tool descriptions must be written as **Optimized Prompts**.
+* **Test**: An Agent must be able to use a tool correctly on the first try solely by reading its schema/description (Zero-Shot Success).
+
+### III. Context Optimization (Tokenomics)
+* **Concept**: Context windows are finite resources.
+* **Rule**: Prefer strict JSON outputs over verbose Markdown text for data exchange.
+* **Mechanism**: Use `Registry Query` patterns instead of dumping full files. Only load what is needed for the specific task.
+
+## 2. Risk Mitigation Protocols
+
+| Risk | Mitigation Strategy | Implementation |
+| :--- | :--- | :--- |
+| **Semantic Ambiguity** | **Validation-by-Code** | Write unit tests that deliberately feed "ambiguous" inputs to ensure the Schema rejects them. |
+| **Context Overflow** | **Lazy Loading** | Agents must use `aaa registry query` to find capabilities, never scanning the whole `internal/` directory. |
+| **Infinite Loops** | **Circuit Breakers** | All automated repair loops must have a `max_retries=3` hard limit. If it fails 3 times, escalate to human. |
+
+---
+
 ## ⚖️ Global Operational Constraints (全域限制)
 所有 Agent（Architect/Builder/Inspector/Diplomat）必須遵守以下 Scope Policy：
 - **MAX_REPOS_FIRST_PASS**: `3`（初始讀取上限）
