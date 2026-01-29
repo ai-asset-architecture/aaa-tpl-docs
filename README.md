@@ -1,83 +1,19 @@
-# aaa-tpl-docs
+# AAA Private Infrastructure Evidence (aaa-tpl-docs)
 
-> **⚠️ Multi-Repo Workspace**: This is ONE repository within the AAA ecosystem. See [Workspace Architecture](./public/bootstrap/WORKSPACE_ARCHITECTURE.md) for how multiple independent repos work together.
+> [!CAUTION]
+> **INTERNAL USE ONLY.** 
+> This repository contains sensitive development logs, implementation plans, and audit evidence for the AAA project.
 
-## Purpose / Scope
-Template repo for documentation-centric projects. Provides a standard docs skeleton aligned with aaa governance.
+## 📁 Repository Role
+This is the **Private Sovereignty Layer**. Unlike the public specifications, the contents here are specific to the internal execution and milestone verification of the AAA system.
 
-## Ownership / CODEOWNERS
-Owned by the docs maintainers. See `CODEOWNERS` (to be added).
+### Key Contents
+- **`internal/`**: Milestone plans, audit reports, and completion documents.
+- **`milestones/`**: Detailed version history and velocity data.
 
-## Versioning / Release
-Templates are versioned by git tags. Consumers should fork or use a specific tag when generating new repos.
-
-## How to Consume / Use
-Use this repo as a template to initialize a docs repo, then customize content for your org/project.
-
-## Contribution / Promotion Rules
-Template changes must preserve required files and be released with a tag.
-
-## Docs SSOT Rules
-This repo is the single source of truth for project documentation. Do not duplicate docs in code repos.
-
-## Required Files
-- `AI_COMMAND_CENTER.md` (ACC)
-- `PROJECT_PLAYBOOK.md` (PP)
-- `prd/` (PRD files)
-- `adr/` (ADR files)
-
-## Onboarding Templates
-- `templates/onboarding/Member-Start-Checklist.md`
-- `templates/onboarding/Bootstrap-Troubleshooting.md`
-
-## Review Templates
-- `templates/Skill-Review-Checklist.md`
-
-## Contribution Docs
-- `docs/asset-contribution-sop.md`
-
-## Reports Index
-- `reports/skills/skills_v0.2_upgrade_report_20260120_0309.md`
-
-## Milestones vs Reports
-- `milestones/` - architecture definition milestones (specs completed, system definition).
-- `internal/development/milestones/completion-reports/` - implementation/verification reports (changes + validation results).
-
-## .ai-context.md usage
-Include `.ai-context.md` at the repo root to enforce agent behavior and required knowledge loading.
+## 🔗 Public Gateway
+For the official AAA specifications and governance policies, please refer to the public repository:
+👉 **[aaa-docs](../aaa-docs)** (Public Specs)
 
 ---
-
-## 📁 Repository Structure (Updated 2026-01-27)
-
-This repository is organized into the following directories:
-
-### 🌐 [`public/`](public/)
-**For External Users** - Documentation for those who want to use AAA.
-- Quick start guides & MCP server connection
-- Step-by-step tutorials
-- Architecture overview
-- **Future**: Will be extracted as standalone `aaa-docs` (PUBLIC repo)
-
-### 🔒 [`internal/`](internal/)
-**For AAA Core Team Only** - Internal development documentation.
-- `development/` - Milestones, audits, plans, debug logs
-- `operations/` - Runbooks, deployment, monitoring
-- **Future**: Will remain in this repo when it becomes PRIVATE
-
-### 📊 [`milestones/`](milestones/)
-**High-Level Overview** - Architecture definitions & roadmap (Project facade).
-
-### 📦 [`archive/`](archive/)
-**Historical Documents** - Auto-archived documents (> 30 days old).
-
-### 📄 [`templates/`](templates/)
-**Template Files** - Reusable templates for AAA-adopting projects.
-
----
-
-**Note**: This repo is undergoing structure reorganization (Phase 1-2 complete as of 2026-01-28). Legacy directories (`docs/`, `reports/`) are being migrated. Architecture is now in `internal/development/architecture/`.
-
-**Dual-Repo Strategy**: This repo is being prepared for future separation:
-- `public/` → `aaa-docs` (PUBLIC repo, external entry point)
-- Rest of repo (including `internal/`) → becomes PRIVATE
+*Created during Phase 1. Transitioned to Private Status on 2026-01-29.*
