@@ -191,7 +191,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.2** | Semantic Registry | ✅ **Delivered** | [完成報告](milestones/20260128_v1.2_semantic_registry.md) | Registry Schema v2, Version Handshake, Capability Query, Object Types | AI 推薦引擎、Marketplace UI |
 | **v1.3** | Governance Compiler | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.3_completion_report_20260128.md) | Policy DSL Compiler, Interactive Init, 100% Coverage, Tech Debt Repay | 複雜邏輯編譯、完整 GUI Editor |
 | **v1.4** | Guardian Daemon | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.4_completion_report_20260128.md) | Policy Distribution, Registry-based Ops, `aaa check --remote`, Base Governance Pack | Cloud-based Daemon, JetBrains Support |
-| **v1.5** | Self-Healing Engine | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.5_completion_report_20260128.md) | Auto-Fix Handlers, Semantic Checks, Debt Repayment, **Active Menu Compiler** (v1.6 merged) | Complex Logic Repair, Full Agent Integration |
+| **v1.6** | Multi-Agent Orchestration | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.6_completion_report_20260129.md) | Agent Conflict Resolution, File Locking (TTL), Workspace Isolation, CLI Lock Commands | Crowd Agent Management |
 
 ### Interpretation Guidelines
 

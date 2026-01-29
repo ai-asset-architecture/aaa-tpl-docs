@@ -14,7 +14,7 @@
   - **Implementation Plans**: `aaa-tpl-docs/internal/development/plans/YYYY-MM-DD-<feature>-plan.md`
   - **Validation Audits**: `aaa-tpl-docs/internal/development/audits/YYYY-MM-DD-<name>.md`
 - **Debt Check (Stop the Line)**:
-  - Before starting new features, ensure Core Component coverage > 80%.
+  - Before starting new features, ensure Core Component coverage > 90%.
   - If < 80%, **STOP** and repay debt first.
 - **一致性要求 (Consistency Policy)**:
   - **Naming**: Ensure filenames match the patterns defined above.
@@ -48,7 +48,18 @@
 - **通訊**: 計畫必須包含 **Triple-Summary Protocol**。
   - **Requirement**: Content must be concise and focus on **Architectural Decisions**. Avoid fluff. No strict word count.
 
-### Step 2: Completion Documentation (結案存檔)
+### Step 2: Asset Preservation (資產保存)
+- **Goal**: 確保每次迭代都累積可復用的價值 (Reusable Value)。
+- **Mandatory Value Check (價值檢查)**:
+  - 結案前 **必須** 盤點產出的 Evals, Templates, Policy Packs, Tools。
+  - **Zero-Asset Trap**: 如果清單為空，**禁止結案**，除非提供明確的 Reasoning (Justification)。
+- **Action**: **必須**將其註冊至對應的資產目錄 (Catalog) 或 `ai-asset-architecture-registry/registry_index.json`。
+- **Nightly Promotion Criteria**:
+  - Promote tests that cover **Critical User Flows** or **Core Logic** (>20% impact).
+  - Do **NOT** promote trivial UI tests or flaky tests.
+- **產出**: 在結案報告 template 中填寫 `Asset Preservation` 章節。
+
+### Step 3: Completion Documentation (結案存檔)
 - **要求**: 當版本項目的完成度達到 100% 時，**必須**產出兩份正式文件：
   - **摘要文件**: `aaa-tpl-docs/milestones/YYYYMMDD_vX.Y_<name>.md`
   - **詳細報告**: `aaa-tpl-docs/internal/development/milestones/completion-reports/aaa_vX.Y_completion_report_YYYYMMDD.md`
@@ -88,17 +99,6 @@
     *   **Backlog**: ...
     </template>
     ```
-
-### Step 3: Asset Preservation (資產保存)
-- **Goal**: 確保每次迭代都累積可復用的價值 (Reusable Value)。
-- **Mandatory Value Check (價值檢查)**:
-  - 結案前 **必須** 盤點產出的 Evals, Templates, Policy Packs, Tools。
-  - **Zero-Asset Trap**: 如果清單為空，**禁止結案**，除非提供明確的 Reasoning (Justification)。
-- **Action**: **必須**將其註冊至對應的資產目錄 (Catalog) 或 `ai-asset-architecture-registry/registry_index.json`。
-- **Nightly Promotion Criteria**:
-  - Promote tests that cover **Critical User Flows** or **Core Logic** (>20% impact).
-  - Do **NOT** promote trivial UI tests or flaky tests.
-- **產出**: 在結案報告 template 中填寫 `Asset Preservation` 章節。
 
 ## 3. Agent Behavior Profile
 

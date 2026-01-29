@@ -16,16 +16,16 @@
   - **Validation Audits**: `internal/development/audits/YYYY-MM-DD-<name>.md`
 - **通訊**: 計畫必須包含 **Triple-Summary Protocol**（Plan/Schema/Component 摘要，每份 200-300 字）。
 
-### Step 2: Completion Documentation (結案存檔)
+### Step 2: Asset Preservation (資產保存)
+- **要求**: 提取並註冊該版本開發中產生的價值資產（Evals, Templates, Prompts, Runbooks, Checks...）。
+- **行為**: **必須**將其註冊至對應的資產目錄 (Catalog) 或 Central Registry，確保資產可重用性。
+- **產出**: 在結案報告中列出「資產保存清單」。
+
+### Step 3: Completion Documentation (結案存檔)
 - **要求**: 當版本項目的完成度達到 100% 時，**必須**產出兩份正式文件：
   - **摘要文件**: `milestones/YYYYMMDD_vX.Y_<name>.md`
   - **詳細報告**: `internal/development/milestones/completion-reports/aaa_vX.Y_completion_report_YYYYMMDD.md`
 - **內容**: 應包含交付物清單、驗證證據、1+2+1 覆蓋率分析與最終狀態。
-
-### Step 3: Asset Preservation (資產保存)
-- **要求**: 提取並註冊該版本開發中產生的價值資產（Evals, Templates, Prompts, Runbooks, Checks...）。
-- **行為**: **必須**將其註冊至對應的資產目錄 (Catalog) 或 Central Registry，確保資產可重用性。
-- **產出**: 在結案報告中列出「資產保存清單」。
 
 ## 3. Agent Rules
 - **模式限制**: 僅在計畫獲得人類 (Commander) 核准後方可進入代碼實作。
