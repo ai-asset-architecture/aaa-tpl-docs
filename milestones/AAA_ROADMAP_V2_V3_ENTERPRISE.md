@@ -1,6 +1,6 @@
 # AAA v2.0-v3.0 Roadmap (Enterprise Edition)
 
-> **Document Status**: DRAFT v1.9 (Audit-Immune Control Plane - Gold)  
+> **Document Status**: DRAFT v2.0 (Audit-Immune Control Plane - Diamond)  
 > **Target Audience**: CTO / Enterprise Architect / Governance Committee  
 > **Purpose**: Defines the engineering path to extend AAA governance from artifacts (v1.x) to runtime connectivity and autonomous settlement (v2.x-v3.0), prioritizing security boundaries and auditability over feature expansion.
 
@@ -18,6 +18,7 @@
 | **v1.7** | 2026-01-29 | **[CONTROL PLANE]** N=3 Escalation, Incident Schema, SLA Clock, CLI Command Contracts, and Enum Gate. |
 | **v1.8** | 2026-01-29 | **[FINAL HARDENED]** N=3 Rationale, Bundle Contract, Replay Determinism, and Enum Fail-Closed Gate. |
 | **v1.9** | 2026-01-29 | **[GOLD]** N/A usage rules, Triage priority hardening, Bot identity spec, and Audit model split. |
+| **v2.0** | 2026-01-29 | **[DIAMOND]** env_fingerprint fields, hash_chain ordering, zip container contract, and resolution enums. |
 
 ---
 
@@ -51,7 +52,8 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 | **Algorithmic SLA** | *Replaces "Smart Contract"*. Deterministic verification logic (tests/evals) that dictates settlement outcomes. |
 | **Governance-Backed Settlement** | Settlement process driven by hard evidence (Ledger + Court Rulings + Test Results). |
 | **Sidecar** | An architectural pattern where AAA intercepts, audits, and enforces policy without replacing the host system. |
-| **Incident Queue (P2)** | Managed queue for misconfigurations. SLA: Triage within 24h. Schema: `id, category, created_at, triage_at, owner, resolution, evidence_link`. Escalates to Court after `N_default=3` repetitive failures. |
+| **env_fingerprint** | Device/Runtime identity metadata. Fields: `os_v, arch, py_v, aaa_v, policy_hash, capability_pack_hash`. |
+| **Incident Queue (P2)** | Managed queue for misconfigurations. SLA: Triage within 24h. Schema: `id, category, created_at, triage_at, owner, resolution, evidence_link`. Resolution Enum: `MITIGATED | FALSE_POSITIVE | NEEDS_COURT | WONT_FIX`. Escalates to Court after `N_default=3` repetitive failures. |
 | **Governance Parameters** | `N_default=3` (Rationale: Noise suppression vs persistency). Update requires CaseFile + Evidence + 2-person approval. **Bot Approver** MUST be a certified AAA agent identity (Enterprise Cert). |
 
 ---
@@ -228,9 +230,11 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 > **Release Gate Requirement**: All `Repo/Path` entries must be verifiable (`test -f`). All `OMEGA Test ID` entries must be searchable by the runner. All artifact paths must be reproducible during the OMEGA FSAT.  
 > **N/A Policy**: Court Case Type is `N/A` IF AND ONLY IF the DoD states 'No Auto-Court' and the event is non-adjudicative.  
 > **Control Plane Entrypoints**:
-> - Evidence Bundle Generator: `aaa export --evidence --version <ver>` (Package: `ledger_export.jsonl, policy_snapshot.json, test_results.json, hash_chain.txt`)
-> - Replay Entrypoint: `aaa omega replay --bundle <path>` (Identity check: Decisions/Hashes MUST match original bundle)
-> - Enum Consistency Gate: `aaa check --enums` (Enforced via CI; Mismatch fails-closed & blocks Release)
+> **Control Plane Entrypoints**:
+> - Evidence Bundle Generator: `aaa export --evidence --version <ver>` (Package: `ledger_export.jsonl, policy_snapshot.json, test_results.json, hash_chain.txt`. Container MAY be a zip; if so, core files MUST stay at root.)
+> - Replay Entrypoint: `aaa omega replay --bundle <path>` (Identity check: Decisions/Hashes/`env_fingerprint` MUST match original bundle)
+> - Enum Consistency Gate: `aaa check --enums` (Enforced via CI. Mismatch fails-closed + `ERR_AUDIT_SCHEMA_MISSING`)
+> - **hash_chain.txt**: Ordered Sha256 hashes. Rule: Lexical filename order (`case_snapshot`, `ledger_export`, `policy_snapshot`, `test_results`) + `env_fingerprint`.
 > **Canonical Enums**:  
 > - Ledger Event Spec: [ledger_event_enum_v1.md](../specs/ledger_event_enum_v1.md)  
 > - Court CaseType Spec: [court_case_type_enum_v1.md](../specs/court_case_type_enum_v1.md)
@@ -254,6 +258,6 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 | `ERR_REPLAY` | Nonce reused within TTL window. | CRITICAL | **Quarantine (24h; Actor+Conn)** | Yes (CRITICAL_INTRUSION) |
 | `ERR_REVOKED` | Actor ID found in global CRL. | HIGH | Connection Terminated | No (System Policy) |
 | `ERR_RATE_LIMIT` | Request burst exceeds capability budget. | LOW | Throttled (429) | No (Metric Log) |
-| `ERR_POLICY_HASH_MISMATCH`| Node policy hash != Global consensus hash. | HIGH | **Deny + Incident Queue (P2)**| No (DRIFT_INCIDENT) |
+| `ERR_POLICY_HASH_MISMATCH`| Node policy hash != Global consensus hash. | HIGH | **Deny + Incident Queue (P2)** | No |
 | `ERR_AUDIT_SCHEMA_MISSING` | RiskLedger write failure or schema violation. | CRITICAL | Fail-Closed (Deny) | Yes (AUDIT_CORRUPTION) |
 | `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (**SYSTEM_SAFETY_EVENT**) | Yes (**SYSTEM_SAFETY_EVENT**) |

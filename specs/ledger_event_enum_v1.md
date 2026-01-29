@@ -16,6 +16,8 @@
 | `AUTH_SCOPE_ALLOW` | INFO | Capability authorized and executed. |
 | `AUTH_SCOPE_DENY` | HIGH | Capability rejected (Not in allowlist). |
 | `AUTH_SCOPE_VIOLATION` | CRITICAL | Intent-Outcome mismatch detected. |
+| `BRIDGE_ACCESS_DENY` | HIGH | Connection rejected by SSE Bridge (v2.1). |
+| `EP_SANDBOX_VIOLATION`| CRITICAL | Desktop sandbox boundary breach (v2.2). |
 
 ## 3. Security & Integrity Events
 | Event Enum | Severity | Description |
@@ -24,6 +26,7 @@
 | `SEC_POLICY_DRIFT` | HIGH | Node policy hash mismatch. |
 | `SEC_BREACH_ATTEMPT` | CRITICAL | Sandbox escape or raw shell attempt. |
 | `SEC_LEAK_DETECTED` | CRITICAL | PII or Secret pattern found in output. |
+| `CASE_FILED_AUTO` | INFO | Automated case filing event triggered. |
 
 ## 4. Economic Events
 | Event Enum | Severity | Description |
