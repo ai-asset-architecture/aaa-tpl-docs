@@ -13,7 +13,7 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 
 ### In Scope (Commitments)
 *   **Trust Boundary (v2.0.1)**: Identity, Capability, Authorization, Revocation, and Audit Evidence Chain.
-*   **Runtime Governance Sidecar (v2.1–v2.3)**: Secure Bridging, Endpoint Capability Allowlisting, **Exec Sidecar (Allowlisted Commands Only)**, Capability Mesh.
+*   **Runtime Governance Sidecar (v2.1–v2.3)**: Secure Bridging, Endpoint Capability Allowlisting, **Exec Sidecar (No Raw Shell)**, Capability Mesh.
 *   **Governance-Backed Settlement (v2.4–v3.0)**: Compute/Task Settlement based on **Algorithmic SLAs** (Deterministic Verification).
 
 ### Non-Goals (Exclusions)
@@ -169,7 +169,8 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 
 | Risk | Mitigation Strategy |
 | :--- | :--- |
-| **Attack Surface Expansion** | Strict v2.0.1 DoD; Deny-by-Default; Evidence-First Architecture. |
+| **Attack Surface Expansion** | Strict v2.0.1 DoD; Deny-by-default; Evidence-First Architecture. |
+| **Secret Exfiltration** | Privacy Scrubber (v1.8) + Deny-by-default (v2.0.1) + Court Auto-trigger (v1.9) + Evidence Bundle export. |
 | **Product Scope Drift** | Adhere to Sidecar Principle: Wrap/Filter/Enforce, do not Replace. |
 | **Secret Exfiltration / Leaks** | Privacy Scrubber; Raw Shell Ban; Exec Sidecar Inspection; Court Triggers. |
 | **Compliance Panic (Econ)** | Terminology shift: Algorithmic SLA / Governance Settlement; No blockchain. |
@@ -191,14 +192,14 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 
 ---
 
-## Appendix A: Evidence Index (Draft)
+## Appendix A: Evidence Index (Release Gate Standard)
 
-| DoD Item | Related Asset | OMEGA Test ID (Draft) | Ledger Event / Case Type |
-| :--- | :--- | :--- | :--- |
-| **Handshake** | `aaa/trust/handshake.py` | `test_handshake_flow` | `AUTH_HANDSHAKE_OK` |
-| **Replay Protect** | `aaa/trust/nonce.py` | `test_replay_attack` | `SEC_REPLAY_ATTEMPT` |
-| **Scope Enforce** | `aaa/policy/scope.py` | `test_scope_deny` | `AUTH_SCOPE_DENY` |
-| **Bridge Authz** | `aaa/bridge/server.py` | `test_bridge_unauth` | `BRIDGE_ACCESS_DENY` |
-| **Endpoint Sandbox**| `aaa/endpoint/sandbox.py`| `test_sandbox_escape` | `EP_SANDBOX_VIOLATION` |
-| **Settlement** | `aaa/economy/sla.py` | `test_sla_settle` | `ECON_SETTLE_OK` |
-| **Court Trigger** | `aaa/court/trigger.py` | `test_auto_file_case` | `CASE_FILED_AUTO` |
+| DoD Item | Related Asset (Repo/Path) | OMEGA Test ID | Ledger Event | Court Case Type | Evidence Bundle Artifact Path |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Handshake** | `aaa-tools/aaa/trust/handshake.py` | `test_handshake_flow` | `AUTH_HANDSHAKE_OK` | N/A | `artifacts/evidence_bundle/v2.0.1/hshake.zip` |
+| **Replay Protect** | `aaa-tools/aaa/trust/nonce.py` | `test_replay_attack` | `SEC_REPLAY_ATTEMPT` | `CRITICAL_INTRUSION` | `artifacts/evidence_bundle/v2.0.1/replay.zip` |
+| **Scope Enforce** | `aaa-tools/aaa/policy/scope.py` | `test_scope_deny` | `AUTH_SCOPE_DENY` | N/A | `artifacts/evidence_bundle/v2.0.1/scope.zip` |
+| **Bridge Authz** | `aaa-tools/aaa/bridge/server.py` | `test_bridge_unauth` | `BRIDGE_ACCESS_DENY` | `AUTH_VIOLATION` | `artifacts/evidence_bundle/v2.1/bridge.zip` |
+| **Endpoint Sandbox**| `aaa-tools/aaa/endpoint/sandbox.py`| `test_sandbox_escape` | `EP_SANDBOX_VIOLATION`| `SEC_BREACH_ATTEMPT` | `artifacts/evidence_bundle/v2.2/sandbox.zip` |
+| **Settlement** | `aaa-tools/aaa/economy/sla.py` | `test_sla_settle` | `ECON_SETTLE_OK` | N/A | `artifacts/evidence_bundle/v2.4/settle.zip` |
+| **Court Trigger** | `aaa-tools/aaa/court/trigger.py` | `test_auto_file_case` | `CASE_FILED_AUTO` | N/A | `artifacts/evidence_bundle/v2.0.1/court.zip` |
