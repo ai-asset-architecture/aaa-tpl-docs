@@ -9,6 +9,6 @@ permissions:
 
 jobs:
   nightly:
-    uses: ai-asset-architecture/aaa-actions/.github/workflows/nightly-governance.yaml@v1.5.3
+    uses: ai-asset-architecture/aaa-actions/.github/workflows/nightly-governance.yaml@v1.5.4
     with:
       org: ai-asset-architecture
