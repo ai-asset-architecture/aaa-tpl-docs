@@ -36,6 +36,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 - v1.4：Completed (2026-01-28) — *Agent Driven (Actual: 1h)*
 - v1.5：Completed (2026-01-28) — *Agent Driven (Actual: 4h - w/ Self-Healing)*
 - v1.6：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
+- v1.7：Completed (2026-01-29) — *Agent Driven (Actual: 1.5h)*
 
 ### ⚡ Velocity Benchmark: "The 1-Day Miracle"
 > **Observation**: 這是軟體工程史上的奇點。傳統需一季 (Quarter) 的工作量，在 "Architecture-First" + "Agent-Execution" 模式下於單日內交付。
@@ -47,7 +48,9 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.3** | Compiler & Debt | 25d | 1.5h | **133x** |
 | **v1.4** | Policy Dist. | 30d | 1h | **240x** |
 | **v1.5** | Self-Healing | 35d | 4h | **70x** |
-| **TOTAL** | **Phase 1-2** | **125 Days** | **~9.5 Hours** | **~105x** |
+| **v1.6** | Multi-Agent | 40d | 1h | **320x** |
+| **v1.7** | Federated Gov | 45d | 1.5h | **240x** |
+| **TOTAL** | **Phase 1-3** | **210 Days** | **~12 Hours** | **~140x** |
 
 **Why?**
 1.  **No Context Switch**: Agent 不需要「開會」、「切換 Context」或「回憶」。
@@ -192,6 +195,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.3** | Governance Compiler | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.3_completion_report_20260128.md) | Policy DSL Compiler, Interactive Init, 100% Coverage, Tech Debt Repay | 複雜邏輯編譯、完整 GUI Editor |
 | **v1.4** | Guardian Daemon | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.4_completion_report_20260128.md) | Policy Distribution, Registry-based Ops, `aaa check --remote`, Base Governance Pack | Cloud-based Daemon, JetBrains Support |
 | **v1.6** | Multi-Agent Orchestration | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.6_completion_report_20260129.md) | Agent Conflict Resolution, File Locking (TTL), Workspace Isolation, CLI Lock Commands | Crowd Agent Management |
+| **v1.7** | Federated Governance | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.7_completion_report_20260129.md) | Remote Audit (`--remote`), Ruleset Inheritance (Deep Merge), Trust Chain Foundation | Full Blockchain Trust, Paid Certification |
 
 ### Interpretation Guidelines
 
