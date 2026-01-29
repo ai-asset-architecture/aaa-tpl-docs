@@ -214,7 +214,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.8** | Observability 2.0 | ✅ **Delivered** | [摘要報告](milestones/20260129_v1.8_observability_2.0.md) | Time-Series MetricStore (SQLite), RiskLedger (Privacy Scrubber), Trend Dashboard (ASCII) | Cloud BI Integration, Predictive Analytics |
 | **v1.9** | Supreme Court | ✅ **Delivered** | [摘要報告](milestones/20260129_v1.9_supreme_court_interface.md) | `aaa court`, Case #001 (Bootstrapping Precedent), Hybrid Governance | Case Law DB, RAG-based Analysis |
 | **v2.0** | The Agent OS | ✅ **Delivered** | [摘要報告](milestones/20260129_v2.0_the_agent_os.md) | `aaa os`, `aaa trust`, Case #002 (Legal Bootstrap), Enterprise Certification | Agent OS Booted, Phase 1 Complete |
-| **v2.0.1** | Black Box Spec | ⏳ **Backlog** | - | A2A Handshake protocol, Sovereignty Black Box UI, Registry Sanitization | MCP Protocol Alignment, Zero-Knowledge Governance |
+| **v2.0.1** | The Black Box | ⏳ **Backlog** | - | MCP Scope Control, Handshake Stub, Registry Sanitization | Security First Strategy |
 | **v2.1** | The Bridge | 📋 **PLANNED** | - | SSE Bridge Server, Sovereignty Black Box (ACLs), Ephemeral Tokens | Native Mac Agent Connector |
 | **v2.2** | The Shell | 📋 **PLANNED** | - | Agent Shell (`aaa sh`), Session State Persistence, Virtual Workspace | Sandbox-First Execution |
 | **v2.3** | The Mesh | 📋 **PLANNED** | - | Capability Broadcasting, Dynamic Routing, Heartbeat Monitor | Agent Failover |
@@ -624,11 +624,29 @@ FileNotFoundError: [Errno 2] No such file or directory: 'aaa-tools'
 
 **Conclusion**: Even the most capable Agent becomes useless if pinned to a "Lonely Island" without context. v2.1+ explicitly solves this by building the **SSE Bridge** and **Semantic Shell**, turning the isolated Agent into a resident of a governed civilization.
 
+## Phase 2: The Connectivity Era (v2.0.1 - v2.3)
+
+> **目標**：在建立防護盾的前提下，打破 AAA 的單機限制，讓遠端 Agent 安全地接入。
+
+### v2.0.1 — The Black Box (Sovereignty Black Box)
+
+**Goal**  
+遵循 **「先安全，後連線 (Security First, Connectivity Second)」** 戰略。在開放遠端連線前，建立 MCP 權限控制與基礎身分驗證。
+
+**Key Deliverables**
+- **MCP Scope Control**: 實作 `@mcp.tool(scope="public")` 與 `@mcp.tool(scope="admin")` 裝飾器。
+- **Access Rule**: 遠端 Agent 僅限執行 `public` 工具（如 `check`）；`admin` 工具（如 `os boot`）僅限本地執行。
+- **Handshake Stub**: 引入基礎 `X-AAA-Token` 驗證機制，作為 Agent 連線的「數位通行證」原型。
+- **Registry Sanitization**: 確保遠端查詢 Registry 時自動過濾掉敏感的本地路徑與環境變數。
+
+**Success Metrics**
+- 遠端調用 `admin` 工具被 100% 阻斷。
+- 敏感配置在遠端連線中的洩漏率為 0。
+- `X-AAA-Token` 驗證邏輯通過 E2E 測試。
+
+**估時**：約 **10 工作天**
+
 ---
-
-## Phase 2: The Connectivity Era (v2.1 - v2.3)
-
-> **目標**：打破 AAA 的單機限制，讓遠端 Agent 安全地接入，並形成協作網絡。
 
 ### v2.1 — The Bridge (Secure Gateway)
 
