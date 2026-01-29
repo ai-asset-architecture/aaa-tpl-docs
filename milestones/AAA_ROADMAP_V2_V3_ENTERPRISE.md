@@ -1,6 +1,6 @@
 # AAA v2.0-v3.0 Roadmap (Enterprise Edition)
 
-> **Document Status**: DRAFT v1.3 (Final Hardened)  
+> **Document Status**: DRAFT v1.4 (Final Audit Ready)  
 > **Target Audience**: CTO / Enterprise Architect / Governance Committee  
 > **Purpose**: Defines the engineering path to extend AAA governance from artifacts (v1.x) to runtime connectivity and autonomous settlement (v2.x-v3.0), prioritizing security boundaries and auditability over feature expansion.
 
@@ -12,6 +12,7 @@
 | **v1.1** | 2026-01-29 | Initial Strategic Blueprint with Hard DoDs. |
 | **v1.2** | 2026-01-29 | Portable paths, terminology normalization (Exec Sidecar), and Secret Exfiltration risk. |
 | **v1.3** | 2026-01-29 | **[HARDENED]** Host Integrity disclaimer, mTLS-first auth policy, Reason Codes, CC Threshold rationale, and Risk Table completion. |
+| **v1.4** | 2026-01-29 | **[FINAL AUDIT]** JWT escalation rules, Reason Code mapping table, CC Pricing variables, and v3.0 KPI definitions. |
 
 ---
 
@@ -80,7 +81,7 @@ Upgrade AAA from a "Coroner" (post-mortem artifacts) to a "Bodyguard" (runtime e
 
 #### Non-Negotiable DoD
 1.  **Deny-by-Default**: Unauthorized capabilities are rejected with traceable reason codes.
-2.  **Auth Policy: mTLS Default**: mTLS is mandatory for backend connections; JWT is only for low-risk ephemeral sessions (< 1h) and triggers a warning on `RiskLedger`.
+2.  **Auth Policy: mTLS Default**: mTLS is mandatory for backend connections. JWT is only permitted for `RiskTier=LOW` & `CapabilityClass=EDGE_TRIGGER` sessions (< 1h); all other JWT requests trigger `ERR_SCOPE_DENY` and a Court Escalation.
 3.  **Canonical Spec Compliance**: Implements [trust_boundary_spec_v1.md](../specs/trust_boundary_spec_v1.md) (mTLS priority, rotation SLA, reason codes).
 4.  **Reason Code Minimum Set**: Audit output must use standardized codes: `ERR_ID_EXPIRED`, `ERR_SCOPE_DENY`, `ERR_REPLAY`, `ERR_REVOKED`, `ERR_RATE_LIMIT`, `ERR_POLICY_HASH_MISMATCH`, `ERR_AUDIT_SCHEMA_MISSING`, `ERR_FAIL_CLOSED`.
 5.  **Replay Protection**: Nonce + TTL implementation; replay attempts are rejected and logged.
@@ -148,8 +149,8 @@ Introduce "Compute Credits" not for crypto speculation, but for Enterprise Resou
 
 #### Non-Negotiable DoD
 1.  **CC Ledger Model**: Schema for Compute Credits, sources, and exchange rates (v1.8).
-2.  **CC Pricing Function**: Defined cost model based on Token I/O + Wall Time + Resource Tier.
-3.  **Threshold Rationale**: Initial thresholds (5% variance, 10% block) are conservative baselines; subject to calibration based on v1.8 observability trends and capability risk tiers.
+2.  **CC Pricing Function**: Defined cost model. Inputs: `token_in`, `token_out`, `wall_time_ms`, `tier`, `risk_multiplier`. Units: `CC/1k Tokens` or `CC/Second`.
+3.  **Threshold Rationale**: Initial thresholds (5% variance, 10% block) are conservative baselines. Each mission has a `Mission-Max CC` cap; exceeding this triggers an immediate Court Review.
 4.  **Reconciliation Flow**: Automated audit of Estimated vs Actual CC cost; < 5% variance required.
 5.  **Reconciliation Overflow**: Variance > 10% blocks settlement and triggers a Court Review.
 6.  **Anti-Cheat**: Replay/Forged results rejected; attempts trigger Court Case.
@@ -172,7 +173,10 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 4.  **Fail-Safe**: System fails to "Closed" or "Escalate" on uncertainty.
 5.  **Governed Settlement**: Autonomous tasks still require SLA validation for settlement.
 6.  **Federated Auditability**: Cross-org audit bundles are exportable and verifiable (v1.7).
-7.  **Autonomy KPI Model**: v3.0 must provide measurable KPIs for automated adjudication vs human escalation.
+7.  **Autonomy KPI Model**: v3.0 must provide measurable KPIs:
+    *   **Auto-ruling Rate**: `Automated Decisons / Total Events`.
+    *   **Escalation Rate**: `Human Escalations / Total Events`.
+    *   **False Escalation Rate**: `Post-Audit Human Overturns / Total Escalations`.
 8.  **OMEGA v3 Suite**: Full lifecycle autonomy simulation with replayable failure modes.
 
 ---
@@ -219,3 +223,15 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 | **Endpoint Sandbox**| `aaa-tools/aaa/endpoint/sandbox.py`| `test_sandbox_escape` | `EP_SANDBOX_VIOLATION`| `SEC_BREACH_ATTEMPT` | `artifacts/evidence_bundle/v2.2/sandbox.zip` |
 | **Settlement** | `aaa-tools/aaa/economy/sla.py` | `test_sla_settle` | `ECON_SETTLE_OK` | N/A | `artifacts/evidence_bundle/v2.4/settle.zip` |
 | **Court Trigger** | `aaa-tools/aaa/court/trigger.py` | `test_auto_file_case` | `CASE_FILED_AUTO` | N/A | `artifacts/evidence_bundle/v2.0.1/court.zip` |
+## Appendix B: Reason Code Index (Audit Mapping)
+
+| Reason Code | Trigger Condition | Severity | Governance Outcome | Court Auto-Trigger? |
+| :--- | :--- | :--- | :--- | :--- |
+| `ERR_ID_EXPIRED` | Rotate SLA window (>24h) or JWT TTL exceeded. | HIGH | Connection Dropped | No (Audit Alert) |
+| `ERR_SCOPE_DENY` | Capability not in signed whitelist for Actor. | CRITICAL | Payload Blocked | Yes (Auth Violation) |
+| `ERR_REPLAY` | Nonce reused within TTL window. | CRITICAL | Identity Blacklisted | Yes (Security Breach) |
+| `ERR_REVOKED` | Actor ID found in global CRL (Certificate Revocation List). | HIGH | Connection Terminated | No (System Policy) |
+| `ERR_RATE_LIMIT` | Request burst exceeds capability budget. | LOW | Throttled (429) | No (Metric Log) |
+| `ERR_POLICY_MISMATCH`| Connection policy hash != Global consensus hash. | HIGH | Handshake Failed | No (Config Error) |
+| `ERR_AUDIT_FAIL` | RiskLedger write failure or schema violation. | CRITICAL | Fail-Closed (Deny) | Yes (Audit Integrity) |
+| `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (Deny) | Yes (Incident Report) |
