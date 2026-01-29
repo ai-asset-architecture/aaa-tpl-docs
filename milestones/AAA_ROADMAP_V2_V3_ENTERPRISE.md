@@ -1,6 +1,6 @@
 # AAA v2.0-v3.0 Roadmap (Enterprise Edition)
 
-> **Document Status**: DRAFT v1.5 (Audit-Resilient)  
+> **Document Status**: DRAFT v1.6 (Audit-Immune)  
 > **Target Audience**: CTO / Enterprise Architect / Governance Committee  
 > **Purpose**: Defines the engineering path to extend AAA governance from artifacts (v1.x) to runtime connectivity and autonomous settlement (v2.x-v3.0), prioritizing security boundaries and auditability over feature expansion.
 
@@ -14,6 +14,7 @@
 | **v1.3** | 2026-01-29 | **[HARDENED]** Host Integrity disclaimer, mTLS-first auth policy, Reason Codes, CC Threshold rationale, and Risk Table completion. |
 | **v1.4** | 2026-01-29 | **[FINAL AUDIT]** JWT escalation rules, Reason Code mapping table, CC Pricing variables, and v3.0 KPI definitions. |
 | **v1.5** | 2026-01-29 | **[AUDIT-RESILIENT]** Reason Code normalization, JWT/Court triage分流, Quarantine TTL, and KPI precision. |
+| **v1.6** | 2026-01-29 | **[AUDIT-IMMUNE]** Triage SLAs, Quarantine Scope defined, Leak Classes, and Enum Spec anchoring. |
 
 ---
 
@@ -47,6 +48,8 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 | **Algorithmic SLA** | *Replaces "Smart Contract"*. Deterministic verification logic (tests/evals) that dictates settlement outcomes. |
 | **Governance-Backed Settlement** | Settlement process driven by hard evidence (Ledger + Court Rulings + Test Results). |
 | **Sidecar** | An architectural pattern where AAA intercepts, audits, and enforces policy without replacing the host system. |
+| **Auto-Court (P1)** | Automated Case Filing for high-severity violations. SLA: Filed within 5min of detection. |
+| **Incident Queue (P2)** | Managed queue for misconfigurations. SLA: Triage within 24h. Escalates to Court after N repetitive failures. |
 
 ---
 
@@ -55,6 +58,7 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 *   **v1.8 Observability 2.0 / RiskLedger**: The immutable store for all Audit Logs, Metrics, and Risk Events.
 *   **v1.9 Supreme Court / CaseFile**: The final arbiter for violations, disputes, and precedent setting.
 *   **Project OMEGA**: The comprehensive acceptance suite (135+ tests, E2E simulation) used to validate every DoD.
+*   **v1.5/v1.6 Intent Verification**: Pre-implementation contract checks and semantic analysis frameworks.
 
 ---
 
@@ -86,7 +90,7 @@ Upgrade AAA from a "Coroner" (post-mortem artifacts) to a "Bodyguard" (runtime e
     *   **JWT Triage**: Unauthorized capability attempts via JWT trigger `ERR_SCOPE_DENY` + **Auto-Court**. 
     *   **Misconfig Triage**: Policy mismatches trigger `ERR_POLICY_HASH_MISMATCH` + **Incident Queue** (No Auto-Court).
 3.  **Canonical Spec Compliance**: Implements [trust_boundary_spec_v1.md](../specs/trust_boundary_spec_v1.md) (mTLS priority, rotation SLA, reason codes).
-4.  **Reason Code Minimum Set**: Audit output must use standardized codes: `ERR_ID_EXPIRED`, `ERR_SCOPE_DENY`, `ERR_REPLAY`, `ERR_REVOKED`, `ERR_RATE_LIMIT`, `ERR_POLICY_HASH_MISMATCH`, `ERR_AUDIT_SCHEMA_MISSING`, `ERR_FAIL_CLOSED`.
+4.  **Reason Code Minimum Set**: Standardized codes used for audit: `ERR_ID_EXPIRED` (Cert Rotation >24h), `ERR_TOKEN_EXPIRED` (JWT >1h), `ERR_SCOPE_DENY`, `ERR_REPLAY`, `ERR_REVOKED`, `ERR_RATE_LIMIT`, `ERR_POLICY_HASH_MISMATCH`, `ERR_AUDIT_SCHEMA_MISSING`, `ERR_FAIL_CLOSED`.
 5.  **Replay Protection**: Nonce + TTL implementation; replay attempts are rejected and logged.
 6.  **Revocation Enforcement**: Revoked keys/identities result in immediate denial of service.
 7.  **Audit Log Schema**: Minimal viable schema (actor, capability, scope, decision, reason, request_id, hash).
@@ -120,7 +124,8 @@ Expose endpoint capabilities (macOS) via a strictly allowlisted, revocable, and 
 1.  **Allowlist Only**: Only explicitly declared capabilities are exposed; NO raw shell access.
 2.  **Exec Sidecar (v1)**: All command execution is wrapped and audited; no direct process spawning.
 3.  **Sandbox Profile Enforced**: Path, process, and network restrictions are mandatory and unavoidable.
-4.  **Secrets Hygiene**: Environment variables/keys are scrubbed from returns; leaks trigger Court Case.
+4.  **Secrets Hygiene**: Scrubber filters sensitive patterns; leaks trigger Court Case. 
+    *   **Leak Classes**: `API_KEY/TOKEN`, `PII`, `CREDENTIAL`, `PROMPT_SENSITIVE`, `FILE_CONTENT_SENSITIVE`.
 5.  **Revocation Works**: Revoking a capability immediately stops its function on the endpoint.
 6.  **Evidence Bundle**: Exportable proof of endpoint operations (with hash chain).
 7.  **Drift Detection Hook**: Detects if endpoint capabilities drift from policy versions (v0.9/v1.8).
@@ -215,7 +220,10 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 
 ## Appendix A: Evidence Index (Release Gate Standard)
 
-> **Release Gate Requirement**: All `Repo/Path` entries must be verifiable (`test -f`). All `OMEGA Test ID` entries must be searchable by the runner. All artifact paths must be reproducible during the OMEGA FSAT (Full System Acceptance Test).
+> **Release Gate Requirement**: All `Repo/Path` entries must be verifiable (`test -f`). All `OMEGA Test ID` entries must be searchable by the runner. All artifact paths must be reproducible during the OMEGA FSAT.  
+> **Canonical Enums**:  
+> - Ledger Event Spec: [ledger_event_enum_v1.md](../specs/ledger_event_enum_v1.md)  
+> - Court CaseType Spec: [court_case_type_enum_v1.md](../specs/court_case_type_enum_v1.md)
 
 | DoD Item | Related Asset (Repo/Path) | OMEGA Test ID | Ledger Event | Court Case Type | Evidence Bundle Artifact Path |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -230,11 +238,12 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 
 | Reason Code | Trigger Condition | Severity | Governance Outcome | Court Auto-Trigger? |
 | :--- | :--- | :--- | :--- | :--- |
-| `ERR_ID_EXPIRED` | Rotate SLA window (>24h) or JWT TTL exceeded. | HIGH | Connection Dropped | No (Audit Alert) |
-| `ERR_SCOPE_DENY` | Capability not in signed whitelist for Actor. | CRITICAL | Payload Blocked | Yes (Auth Violation) |
-| `ERR_REPLAY` | Nonce reused within TTL window. | CRITICAL | **Quarantine (24h)** + Court Review | Yes (Security Breach) |
+| `ERR_ID_EXPIRED` | Identity rotation window exceeds SLA (>24h). | HIGH | Connection Terminated | No (Audit Alert) |
+| `ERR_TOKEN_EXPIRED`| JWT session TTL exceeded (>1h). | HIGH | Session Dropped | No (Triage Queue) |
+| `ERR_SCOPE_DENY` | Capability not in signed allowlist for Actor. | CRITICAL | Payload Blocked | Yes (AUTH_VIOLATION) |
+| `ERR_REPLAY` | Nonce reused within TTL window. | CRITICAL | **Quarantine (24h; Actor+Conn)** | Yes (CRITICAL_INTRUSION) |
 | `ERR_REVOKED` | Actor ID found in global CRL. | HIGH | Connection Terminated | No (System Policy) |
 | `ERR_RATE_LIMIT` | Request burst exceeds capability budget. | LOW | Throttled (429) | No (Metric Log) |
-| `ERR_POLICY_HASH_MISMATCH`| Connection policy hash != Global consensus hash. | HIGH | Handshake Failed | No (Config Incident) |
-| `ERR_AUDIT_SCHEMA_MISSING` | RiskLedger write failure or schema violation. | CRITICAL | Fail-Closed (Deny) | Yes (Audit Integrity) |
-| `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (Deny) | Yes (Incident Report) |
+| `ERR_POLICY_HASH_MISMATCH`| Node policy hash != Global consensus hash. | HIGH | Connection Denied | No (DRIFT_INCIDENT) |
+| `ERR_AUDIT_SCHEMA_MISSING` | RiskLedger write failure or schema violation. | CRITICAL | Fail-Closed (Deny) | Yes (AUDIT_CORRUPTION) |
+| `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (Deny) | Yes (FAIL_OPEN_EVENT) |
