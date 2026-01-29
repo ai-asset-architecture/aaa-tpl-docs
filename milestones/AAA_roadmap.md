@@ -34,6 +34,8 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 - v1.2：Completed (2026-01-28) — *Agent Driven (Actual: 1h)*
 - v1.3：Completed (2026-01-28) — *Agent Driven (Actual: 1.5h)*
 - v1.4：Completed (2026-01-28) — *Agent Driven (Actual: 1h)*
+- v1.5：Completed (2026-01-28) — *Agent Driven (Actual: 4h - w/ Self-Healing)*
+- v1.6：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
 
 ### ⚡ Velocity Benchmark: "The 1-Day Miracle"
 > **Observation**: 這是軟體工程史上的奇點。傳統需一季 (Quarter) 的工作量，在 "Architecture-First" + "Agent-Execution" 模式下於單日內交付。
@@ -44,7 +46,8 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.2** | Semantic Registry | 20d | 1h | **160x** |
 | **v1.3** | Compiler & Debt | 25d | 1.5h | **133x** |
 | **v1.4** | Policy Dist. | 30d | 1h | **240x** |
-| **TOTAL** | **Phase 1 + Guardian** | **90 Days** | **~5.5 Hours** | **~130x** |
+| **v1.5** | Self-Healing | 35d | 4h | **70x** |
+| **TOTAL** | **Phase 1-2** | **125 Days** | **~9.5 Hours** | **~105x** |
 
 **Why?**
 1.  **No Context Switch**: Agent 不需要「開會」、「切換 Context」或「回憶」。
@@ -188,6 +191,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.2** | Semantic Registry | ✅ **Delivered** | [完成報告](milestones/20260128_v1.2_semantic_registry.md) | Registry Schema v2, Version Handshake, Capability Query, Object Types | AI 推薦引擎、Marketplace UI |
 | **v1.3** | Governance Compiler | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.3_completion_report_20260128.md) | Policy DSL Compiler, Interactive Init, 100% Coverage, Tech Debt Repay | 複雜邏輯編譯、完整 GUI Editor |
 | **v1.4** | Guardian Daemon | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.4_completion_report_20260128.md) | Policy Distribution, Registry-based Ops, `aaa check --remote`, Base Governance Pack | Cloud-based Daemon, JetBrains Support |
+| **v1.5** | Self-Healing Engine | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.5_completion_report_20260128.md) | Auto-Fix Handlers, Semantic Checks, Debt Repayment, **Active Menu Compiler** (v1.6 merged) | Complex Logic Repair, Full Agent Integration |
 
 ### Interpretation Guidelines
 
