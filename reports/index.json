@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T17:59:50Z",
+  "generated_at": "2026-01-29T18:07:37Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -133,6 +133,13 @@
       "path": "github_audit_report_20260129_1759.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "e8a1c8fb288395c8018c0db4ec368c4d60e0664b091ebdbca3aee0012ab31468",
+      "last_modified": "2026-01-29",
+      "metadata": {}
+    },
+    {
+      "path": "github_audit_report_20260129_1807.md",
+      "title": "GitHub AAA v0.1 Audit Report",
+      "hash": "bfcdea4187d5d68939660b5b93059575babde28475d1d8b36fb57d56db1cc7c9",
       "last_modified": "2026-01-29",
       "metadata": {}
     },
