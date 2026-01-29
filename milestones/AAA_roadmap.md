@@ -47,6 +47,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 - v1.7：Completed (2026-01-29) — *Agent Driven (Actual: 1.5h)*
 - v1.8：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
 - v1.9：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
+- v2.0：Completed (2026-01-29) — *The Agent OS (Agent Driven Actual: 1h)*
 
 ### ⚡ Velocity Benchmark: "The 1-Day Miracle"
 > **Observation**: 這是軟體工程史上的奇點。傳統需一季 (Quarter) 的工作量，在 "Architecture-First" + "Agent-Execution" 模式下於單日內交付。
