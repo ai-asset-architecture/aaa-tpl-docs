@@ -13,10 +13,40 @@
 - **要求**: 在開始開發前或開發中，必須初始化以下兩類文件：
   - **Implementation Plans**: `aaa-tpl-docs/internal/development/plans/YYYY-MM-DD-<feature>-plan.md`
   - **Validation Audits**: `aaa-tpl-docs/internal/development/audits/YYYY-MM-DD-<name>.md`
+- **Debt Check (Stop the Line)**:
+  - Before starting new features, ensure Core Component coverage > 80%.
+  - If < 80%, **STOP** and repay debt first.
 - **一致性要求 (Consistency Policy)**:
-  - **Naming**: 檔案命名必須嚴格參考目標資料夾內既有文件的命名慣例。
-  - **Format**: 文件內容結構（含 Metadata、標題層級）必須嚴格參考目標資料夾內既有文件，不得擅自發明新格式。
-- **通訊**: 計畫必須包含 **Triple-Summary Protocol**（Plan/Schema/Component 摘要，每份 200-300 字）。
+  - **Naming**: Ensure filenames match the patterns defined above.
+  - **Format**: **必須** 使用以下 `<template id="plan">`：
+    ```markdown
+    <template id="plan">
+    # Implementation Plan: {Milestone} {Title}
+
+    ## Goal Description
+    {Brief description of what and why}
+
+    ## User Review Required
+    > [!IMPORTANT]
+    > {Critical decisions, standards, or breaking changes}
+
+    ## Proposed Changes
+    ### [{repo-name}]
+    #### [NEW/MODIFY] {path/to/file}
+    - {Description of change}
+
+    ## Triple-Summary Protocol ({Milestone})
+    ### 1. Strategic Plan (戰略計畫摘要)
+    ### 2. Schema Evolution (結構演進摘要)
+    ### 3. Component Architecture (組件架構摘要)
+
+    ## Verification Plan
+    ### Automated Tests
+    ### Manual Verification
+    </template>
+    ```
+- **通訊**: 計畫必須包含 **Triple-Summary Protocol**。
+  - **Requirement**: Content must be concise and focus on **Architectural Decisions**. Avoid fluff. No strict word count.
 
 ### Step 2: Completion Documentation (結案存檔)
 - **要求**: 當版本項目的完成度達到 100% 時，**必須**產出兩份正式文件：
@@ -24,13 +54,51 @@
   - **詳細報告**: `aaa-tpl-docs/internal/development/milestones/completion-reports/aaa_vX.Y_completion_report_YYYYMMDD.md`
 - **一致性要求 (Consistency Policy)**:
   - **Naming**: 檔案命名必須嚴格參考目標資料夾內既有文件的命名慣例。
-  - **Format**: 文件內容結構（含 Metadata、標題層級）必須嚴格參考目標資料夾內既有文件，不得擅自發明新格式。狀態。
+  - **Format**: **必須** 使用以下 `<template id="completion-report">`：
+    ```markdown
+    <template id="completion-report">
+    # Milestone Completion Report: {Milestone} {Title}
+
+    ## Metadata
+    *   **Milestone**: {vX.Y}
+    *   **Release Name**: {Name}
+    *   **Status**: COMPLETED
+    *   **Date**: {YYYY-MM-DD}
+    *   **Hash**: {Commit Hash}
+
+    ## 1. Executive Summary
+    {High-level achievement summary}
+
+    ## 2. Deliverables Status
+    ### A. {Component Area}
+    | Component | Function | Status | Coverage |
+    | :--- | :--- | :--- | :--- |
+    | `{path}` | {desc} | ✅ Done | {N}% |
+
+    ## 3. Verification Evidence
+    *   **Snapshot Tests**: ...
+    *   **Unit Tests**: ...
+    *   **Manual Verification**: ...
+
+    ## 4. Asset Preservation (Nightly Candidates)
+    1.  `{test_path}` ({reason})
+
+    ## 5. Next Steps
+    *   **{Next Version}**: ...
+    *   **Backlog**: ...
+    </template>
+    ```
 
 ### Step 3: Asset Preservation (資產保存)
-- **要求**: 提取並註冊該版本開發中產生的價值資產（Evals, Templates, Prompts, Runbooks, Checks...）。
-- **行為**: **必須**將其註冊至對應的資產目錄 (Catalog) 或 `ai-asset-architecture-registry/registry_index.json`。
-- **Nightly Promotion**: 評估是否有高價值的測試案例 (Test Cases) 值得升級為 Nightly Test Suite 的一部分。
-- **產出**: 在結案報告中列出「資產保存清單」與「Nightly Test Candidates」。
+- **Goal**: 確保每次迭代都累積可復用的價值 (Reusable Value)。
+- **Mandatory Value Check (價值檢查)**:
+  - 結案前 **必須** 盤點產出的 Evals, Templates, Policy Packs, Tools。
+  - **Zero-Asset Trap**: 如果清單為空，**禁止結案**，除非提供明確的 Reasoning (Justification)。
+- **Action**: **必須**將其註冊至對應的資產目錄 (Catalog) 或 `ai-asset-architecture-registry/registry_index.json`。
+- **Nightly Promotion Criteria**:
+  - Promote tests that cover **Critical User Flows** or **Core Logic** (>20% impact).
+  - Do **NOT** promote trivial UI tests or flaky tests.
+- **產出**: 在結案報告 template 中填寫 `Asset Preservation` 章節。
 
 ## 3. Agent Behavior Profile
 

@@ -4,9 +4,9 @@
   "last_updated": "2026-01-27",
   "description": "AAA core development documentation (For contributors only)",
   "latest_versions": {
-    "milestone": "v1.2",
+    "milestone": "v1.3",
     "milestone_overview": "../milestones/AAA_roadmap.md",
-    "completion_report": "development/milestones/completion-reports/aaa_v1.2_completion_report_20260128.md",
+    "completion_report": "development/milestones/completion-reports/LATEST.md",
     "nightly_audit": "development/audits/LATEST_nightly.md"
   },
   "active_work": {
@@ -26,6 +26,23 @@
       "status": "completed",
       "started_at": "2026-01-28T19:55:00",
       "completed_at": "2026-01-28T20:56:00"
+    },
+    {
+      "id": "v1.3",
+      "status": "completed",
+      "started_at": "2026-01-28T21:30:00",
+      "completed_at": "2026-01-28T22:30:00"
+    },
+    {
+      "id": "v1.4",
+      "status": "completed",
+      "started_at": "2026-01-28T22:35:00",
+      "completed_at": "2026-01-28T23:00:00"
+    },
+    {
+      "id": "v1.5",
+      "status": "in-progress",
+      "started_at": "2026-01-28T23:25:00"
     }
   ]
 }
