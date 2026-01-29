@@ -28,8 +28,16 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 ## Roadmap 概覽 (v0.4 → v1.0)
 
 ## Status (已完成項目)
-- v0.4：Completed（2026-01-21）
-- v0.5：Completed（2026-01-21）
+- v0.1：Completed (2026-01-03)
+- v0.2：Completed (2026-01-05)
+- v0.3：Completed (2026-01-08)
+- v0.4：Completed (2026-01-21)
+- v0.5：Completed (2026-01-21)
+- v0.6：Completed (2026-01-22)
+- v0.7：Completed (2026-01-23)
+- v0.9：Completed (2026-01-23)
+- v0.8：Completed (2026-01-24)
+- v1.0：Completed (2026-01-28) — *Enterprise Ready Certified*
 - v1.1：Completed (2026-01-28) — *Agent Driven (Actual: 2h)*
 - v1.2：Completed (2026-01-28) — *Agent Driven (Actual: 1h)*
 - v1.3：Completed (2026-01-28) — *Agent Driven (Actual: 1.5h)*
@@ -38,6 +46,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 - v1.6：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
 - v1.7：Completed (2026-01-29) — *Agent Driven (Actual: 1.5h)*
 - v1.8：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
+- v1.9：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
 
 ### ⚡ Velocity Benchmark: "The 1-Day Miracle"
 > **Observation**: 這是軟體工程史上的奇點。傳統需一季 (Quarter) 的工作量，在 "Architecture-First" + "Agent-Execution" 模式下於單日內交付。
