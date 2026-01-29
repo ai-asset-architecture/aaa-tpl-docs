@@ -14,6 +14,8 @@
 - Nightly workflow covers v2.0 core repo inventory and publishes dashboard to aaa-docs.
 - Dashboard templates in aaa-tools align with v2.0.2 UI/UX layout.
 - Nightly trigger uses reusable workflow ref v1.5.0 to resolve nightly-governance.
+- Nightly workflow installs aaa-tools dependencies (pydantic) without runtime errors.
+- Commit step in aaa-tpl-docs uses `git add -A` to avoid pathspec failures.
 
 ## Validation Checklist
 - [x] KPI: Evidence Bundle Compliance present.
@@ -27,6 +29,8 @@
 - [ ] KPI Repo Total/Active equals Repo Inventory count.
 - [x] Nightly governance repo coverage matches v2.0 core repo inventory (config updated).
 - [x] Nightly trigger references `@v1.5.0` reusable workflow.
+- [ ] Nightly run installs aaa-tools deps (pydantic) without ModuleNotFoundError.
+- [ ] Commit step no longer fails with missing pathspec (git add -A).
 
 ## Evidence Log
 - Evidence commit (aaa-docs): `4de087b`
