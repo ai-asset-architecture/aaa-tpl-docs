@@ -214,7 +214,6 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.8** | Observability 2.0 | ✅ **Delivered** | [摘要報告](milestones/20260129_v1.8_observability_2.0.md) | Time-Series MetricStore (SQLite), RiskLedger (Privacy Scrubber), Trend Dashboard (ASCII) | Cloud BI Integration, Predictive Analytics |
 | **v1.9** | Supreme Court | ✅ **Delivered** | [摘要報告](milestones/20260129_v1.9_supreme_court_interface.md) | `aaa court`, Case #001 (Bootstrapping Precedent), Hybrid Governance | Case Law DB, RAG-based Analysis |
 | **v2.0** | The Agent OS | ✅ **Delivered** | [摘要報告](milestones/20260129_v2.0_the_agent_os.md) | `aaa os`, `aaa trust`, Case #002 (Legal Bootstrap), Enterprise Certification | Agent OS Booted, Phase 1 Complete |
-| **v2.0.1** | The Black Box | ⏳ **Backlog** | - | MCP Scope Control, Handshake Stub, Registry Sanitization | Security First Strategy |
 | **v2.1** | The Bridge | 📋 **PLANNED** | - | SSE Bridge Server, Sovereignty Black Box (ACLs), Ephemeral Tokens | Native Mac Agent Connector |
 | **v2.2** | The Shell | 📋 **PLANNED** | - | Agent Shell (`aaa sh`), Session State Persistence, Virtual Workspace | Sandbox-First Execution |
 | **v2.3** | The Mesh | 📋 **PLANNED** | - | Capability Broadcasting, Dynamic Routing, Heartbeat Monitor | Agent Failover |
@@ -777,5 +776,4 @@ FileNotFoundError: [Errno 2] No such file or directory: 'aaa-tools'
 - 2026-01-27：新增 v1.1 至 v2.0 完整規劃（Phase 1-3）
 - 2026-01-28：新增 v1.0 Release Certification 與 Known Limitations 章節
 - 2026-01-28：明確化「人為開發」估時基準，紀錄 v1.1 之 60x AI 加速實績
-
 
