@@ -37,6 +37,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 - v1.5：Completed (2026-01-28) — *Agent Driven (Actual: 4h - w/ Self-Healing)*
 - v1.6：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
 - v1.7：Completed (2026-01-29) — *Agent Driven (Actual: 1.5h)*
+- v1.8：Completed (2026-01-29) — *Agent Driven (Actual: 1h)*
 
 ### ⚡ Velocity Benchmark: "The 1-Day Miracle"
 > **Observation**: 這是軟體工程史上的奇點。傳統需一季 (Quarter) 的工作量，在 "Architecture-First" + "Agent-Execution" 模式下於單日內交付。
@@ -50,6 +51,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.5** | Self-Healing | 35d | 4h | **70x** |
 | **v1.6** | Multi-Agent | 40d | 1h | **320x** |
 | **v1.7** | Federated Gov | 45d | 1.5h | **240x** |
+| **v1.8** | Observability 2.0 | 30d | 1h | **240x** |
 | **TOTAL** | **Phase 1-3** | **210 Days** | **~12 Hours** | **~140x** |
 
 **Why?**
@@ -196,6 +198,7 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.4** | Guardian Daemon | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.4_completion_report_20260128.md) | Policy Distribution, Registry-based Ops, `aaa check --remote`, Base Governance Pack | Cloud-based Daemon, JetBrains Support |
 | **v1.6** | Multi-Agent Orchestration | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.6_completion_report_20260129.md) | Agent Conflict Resolution, File Locking (TTL), Workspace Isolation, CLI Lock Commands | Crowd Agent Management |
 | **v1.7** | Federated Governance | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.7_completion_report_20260129.md) | Remote Audit (`--remote`), Ruleset Inheritance (Deep Merge), Trust Chain Foundation | Full Blockchain Trust, Paid Certification |
+| **v1.8** | Observability 2.0 | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.8_completion_report_20260129.md) | Time-Series MetricStore (SQLite), RiskLedger (Privacy Scrubber), Trend Dashboard (ASCII) | Cloud BI Integration, Predictive Analytics |
 
 ### Interpretation Guidelines
 
