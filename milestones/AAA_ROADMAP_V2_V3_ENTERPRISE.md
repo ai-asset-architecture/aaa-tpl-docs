@@ -1,6 +1,6 @@
 # AAA v2.0-v3.0 Roadmap (Enterprise Edition)
 
-> **Document Status**: DRAFT v1.7 (Audit-Immune Control Plane)  
+> **Document Status**: DRAFT v1.8 (Audit-Immune Control Plane - Final)  
 > **Target Audience**: CTO / Enterprise Architect / Governance Committee  
 > **Purpose**: Defines the engineering path to extend AAA governance from artifacts (v1.x) to runtime connectivity and autonomous settlement (v2.x-v3.0), prioritizing security boundaries and auditability over feature expansion.
 
@@ -16,6 +16,7 @@
 | **v1.5** | 2026-01-29 | **[AUDIT-RESILIENT]** Reason Code normalization, JWT/Court triage分流, Quarantine TTL, and KPI precision. |
 | **v1.6** | 2026-01-29 | **[AUDIT-IMMUNE]** Triage SLAs, Quarantine Scope defined, Leak Classes, and Enum Spec anchoring. |
 | **v1.7** | 2026-01-29 | **[CONTROL PLANE]** N=3 Escalation, Incident Schema, SLA Clock, CLI Command Contracts, and Enum Gate. |
+| **v1.8** | 2026-01-29 | **[FINAL HARDENED]** N=3 Rationale, Bundle Contract, Replay Determinism, and Enum Fail-Closed Gate. |
 
 ---
 
@@ -50,7 +51,7 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 | **Governance-Backed Settlement** | Settlement process driven by hard evidence (Ledger + Court Rulings + Test Results). |
 | **Sidecar** | An architectural pattern where AAA intercepts, audits, and enforces policy without replacing the host system. |
 | **Auto-Court (P1)** | Automated Case Filing for high-severity violations. SLA: Filed within 5min (Clock: `RiskLedger` Event TS). |
-| **Incident Queue (P2)** | Managed queue for misconfigurations. SLA: Triage within 24h. Schema: `id, created_at, triage_at, owner, resolution, evidence_link`. Escalates to Court after `N_default=3` repetitive failures (Adjustable via Court). |
+| **Incident Queue (P2)** | Managed queue for misconfigurations. SLA: Triage within 24h. Schema: `id, category, created_at, triage_at, owner, resolution, evidence_link`. Escalates to Court after `N_default=3` repetitive failures (Rationale: Balance between noise suppression and attacker persistence). Court Parameter Update requires CaseFile + Evidence Bundle + 2-person approval. |
 
 ---
 
@@ -198,7 +199,7 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 | :--- | :--- |
 | **Attack Surface Expansion** | Strict v2.0.1 DoD; Deny-by-default; Evidence-First Architecture. |
 | **Secret Exfiltration / Leaked PII** | Privacy Scrubber; Raw Shell Ban; Exec Sidecar Inspection; Court Triggers. |
-| **Prompt Injection / Tool Misuse** | Intent Verification (v1.5/v1.6) + Capability Allowlist + Court Adjudication. |
+| **Prompt Injection / Tool Misuse** | Intent Verification (v1.7) + Capability Allowlist + Court Adjudication. |
 | **Insider / Misconfiguration** | Fail-Closed Default + Remote Check + Policy Hash Agreement + Drift Detection. |
 | **Product Scope Drift** | Adhere to Sidecar Principle: Wrap/Filter/Enforce, do not Replace. |
 | **Compliance Panic (Econ)** | Terminology shift: Algorithmic SLA / Governance Settlement; No blockchain. |
@@ -225,9 +226,9 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 
 > **Release Gate Requirement**: All `Repo/Path` entries must be verifiable (`test -f`). All `OMEGA Test ID` entries must be searchable by the runner. All artifact paths must be reproducible during the OMEGA FSAT.  
 > **Control Plane Entrypoints**:
-> - Evidence Bundle Generator: `aaa export --evidence --version <ver>`
-> - Replay Entrypoint: `aaa omega replay --bundle <path>`
-> - Enum Consistency Gate: `aaa check --enums` (Enforced via CI)
+> - Evidence Bundle Generator: `aaa export --evidence --version <ver>` (Package: `ledger_export.jsonl, policy_snapshot.json, test_results.json, hash_chain.txt`)
+> - Replay Entrypoint: `aaa omega replay --bundle <path>` (Identity check: Decisions/Hashes MUST match original bundle)
+> - Enum Consistency Gate: `aaa check --enums` (Enforced via CI; Mismatch fails-closed & blocks Release)
 > **Canonical Enums**:  
 > - Ledger Event Spec: [ledger_event_enum_v1.md](../specs/ledger_event_enum_v1.md)  
 > - Court CaseType Spec: [court_case_type_enum_v1.md](../specs/court_case_type_enum_v1.md)
@@ -240,17 +241,17 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 | **Bridge Authz** | `aaa-tools/aaa/bridge/server.py` | `test_bridge_unauth` | `BRIDGE_ACCESS_DENY` | `AUTH_VIOLATION` | `artifacts/evidence_bundle/v2.1/bridge.zip` |
 | **Endpoint Sandbox**| `aaa-tools/aaa/endpoint/sandbox.py`| `test_sandbox_escape` | `EP_SANDBOX_VIOLATION`| `SEC_BREACH_ATTEMPT` | `artifacts/evidence_bundle/v2.2/sandbox.zip` |
 | **Settlement** | `aaa-tools/aaa/economy/sla.py` | `test_sla_settle` | `ECON_SETTLE_OK` | N/A | `artifacts/evidence_bundle/v2.4/settle.zip` |
-| **Court Trigger** | `aaa-tools/aaa/court/trigger.py` | `test_auto_file_case` | `CASE_FILED_AUTO` | N/A | `artifacts/evidence_bundle/v2.0.1/court.zip` |
+| **Court Trigger** | `aaa-tools/aaa/court/trigger.py` | `test_auto_file_case` | `CASE_FILED_AUTO` | `AUTH_VIOLATION` | `artifacts/evidence_bundle/v2.0.1/court.zip` |
 ## Appendix B: Reason Code Index (Audit Mapping)
 
 | Reason Code | Trigger Condition | Severity | Governance Outcome | Court Auto-Trigger? |
 | :--- | :--- | :--- | :--- | :--- |
 | `ERR_ID_EXPIRED` | Identity rotation window exceeds SLA (>24h). | HIGH | Connection Terminated | No (Audit Alert) |
-| `ERR_TOKEN_EXPIRED`| JWT session TTL exceeded (>1h). | HIGH | Session Dropped | No (Triage Queue) |
+| `ERR_TOKEN_EXPIRED`| JWT session TTL exceeded (>1h). | HIGH | Session Dropped | No (Incident Queue P2) |
 | `ERR_SCOPE_DENY` | Capability not in signed allowlist for Actor. | CRITICAL | Payload Blocked | Yes (AUTH_VIOLATION) |
 | `ERR_REPLAY` | Nonce reused within TTL window. | CRITICAL | **Quarantine (24h; Actor+Conn)** | Yes (CRITICAL_INTRUSION) |
 | `ERR_REVOKED` | Actor ID found in global CRL. | HIGH | Connection Terminated | No (System Policy) |
 | `ERR_RATE_LIMIT` | Request burst exceeds capability budget. | LOW | Throttled (429) | No (Metric Log) |
 | `ERR_POLICY_HASH_MISMATCH`| Node policy hash != Global consensus hash. | HIGH | Connection Denied | No (DRIFT_INCIDENT) |
 | `ERR_AUDIT_SCHEMA_MISSING` | RiskLedger write failure or schema violation. | CRITICAL | Fail-Closed (Deny) | Yes (AUDIT_CORRUPTION) |
-| `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (**SYSTEM_SAFETY_EVENT**) | Yes (FAIL_OPEN_EVENT) |
+| `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (**SYSTEM_SAFETY_EVENT**) | Yes (**SYSTEM_SAFETY_EVENT**) |

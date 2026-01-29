@@ -14,6 +14,7 @@
 | :--- | :--- | :--- |
 | `DRIFT_INCIDENT` | P2 | Persistent policy or version mismatch across nodes. |
 | `AUDIT_CORRUPTION` | P0 | Ledger integrity failure or missing evidence bundles. |
+| `SYSTEM_SAFETY_EVENT` | P1 | System entered fail-closed state due to internal safety check or limit. |
 | `FAIL_OPEN_EVENT` | P1 | System entered fail-open state without manual override. |
 
 ## 3. Economic Disputes
