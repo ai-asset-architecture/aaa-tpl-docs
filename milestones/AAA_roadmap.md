@@ -28,16 +28,16 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 ## Roadmap 概覽 (v0.4 → v1.0)
 
 ## Status (已完成項目)
-- v0.1：Completed (2026-01-03)
-- v0.2：Completed (2026-01-05)
-- v0.3：Completed (2026-01-08)
+- v0.1：Completed (2026-01-18)
+- v0.2：Completed (2026-01-20)
+- v0.3：Completed (2026-01-21)
 - v0.4：Completed (2026-01-21)
 - v0.5：Completed (2026-01-21)
 - v0.6：Completed (2026-01-22)
 - v0.7：Completed (2026-01-23)
-- v0.9：Completed (2026-01-23)
 - v0.8：Completed (2026-01-24)
-- v1.0：Completed (2026-01-28) — *Enterprise Ready Certified*
+- v0.9：Completed (2026-01-23)
+- v1.0：Completed (2026-01-24) — *Gate-First Enterprise Governance*
 - v1.1：Completed (2026-01-28) — *Agent Driven (Actual: 2h)*
 - v1.2：Completed (2026-01-28) — *Agent Driven (Actual: 1h)*
 - v1.3：Completed (2026-01-28) — *Agent Driven (Actual: 1.5h)*
