@@ -215,6 +215,12 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.9** | Supreme Court | ✅ **Delivered** | [摘要報告](milestones/20260129_v1.9_supreme_court_interface.md) | `aaa court`, Case #001 (Bootstrapping Precedent), Hybrid Governance | Case Law DB, RAG-based Analysis |
 | **v2.0** | The Agent OS | ✅ **Delivered** | [摘要報告](milestones/20260129_v2.0_the_agent_os.md) | `aaa os`, `aaa trust`, Case #002 (Legal Bootstrap), Enterprise Certification | Agent OS Booted, Phase 1 Complete |
 | **v2.0.1** | Black Box Spec | ⏳ **Backlog** | - | A2A Handshake protocol, Sovereignty Black Box UI, Registry Sanitization | MCP Protocol Alignment, Zero-Knowledge Governance |
+| **v2.1** | The Bridge | 📋 **PLANNED** | - | SSE Bridge Server, Sovereignty Black Box (ACLs), Ephemeral Tokens | Native Mac Agent Connector |
+| **v2.2** | The Shell | 📋 **PLANNED** | - | Agent Shell (`aaa sh`), Session State Persistence, Virtual Workspace | Sandbox-First Execution |
+| **v2.3** | The Mesh | 📋 **PLANNED** | - | Capability Broadcasting, Dynamic Routing, Heartbeat Monitor | Agent Failover |
+| **v2.4** | The Ledger | 📋 **PLANNED** | - | Token Budgeting, Cost Analytics, Rate Limiting | Resource Shaping |
+| **v2.5** | The Contract | 📋 **PLANNED** | - | Task Bounties, Smart Contracts, Escrow Protocol | A2A Negotiation |
+| **v3.0** | The Civilization | 📋 **PLANNED** | - | Reputation System, Decentralized Governance (DAO), Macro-Optimization | Autonomous Society |
 
 ### Interpretation Guidelines
 
@@ -597,7 +603,74 @@ AAA v1.2 至 v2.0 的演進分為三大階段，總計約 **275 工作天**：
 
 ---
 
-## 路線圖總結
+## Case Study: The Lonely Island Problem (Disconnected Agent)
+
+**Scenario**: A powerful Agent is tasked with maintenance, but lacks the "Bridge" to the workspace environment.
+
+```python
+import os
+# Attempting to explore the environment without local context
+print(os.listdir('aaa-tools')) 
+if os.path.exists('aaa-tools/tests'):
+    print(os.listdir('aaa-tools/tests'))
+```
+
+**Result**:
+```text
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'aaa-tools'
+```
+
+**Conclusion**: Even the most capable Agent becomes useless if pinned to a "Lonely Island" without context. v2.1+ explicitly solves this by building the **SSE Bridge** and **Semantic Shell**, turning the isolated Agent into a resident of a governed civilization.
+
+---
+
+## Phase 2: The Connectivity Era (v2.1 - v2.3)
+
+> **目標**：打破 AAA 的單機限制，讓遠端 Agent 安全地接入，並形成協作網絡。
+
+### v2.1 — The Bridge (Secure Gateway)
+
+*   **SSE Bridge Server**: 建立一個常駐的 HTTP/SSE 伺服器 (`aaa serve`)，讓遠端 Agent (如 Claude Desktop) 可以透過標準 Web 協議與本地 Kernel 通訊，取代脆弱的 SSH 隧道。
+*   **Sovereignty Black Box (ACLs)**: 實作細顆粒度的權限控制。定義哪些 MCP Tool 是 `public` (如 `check`)，哪些是 `restricted` (如 `os boot`)，確保遠端連接不會駭入內核。
+*   **Ephemeral Tokens**: 引入「一次性會話金鑰」，遠端 Agent 每次連接需進行握手驗證，避免長期 API Key 洩漏風險。
+
+### v2.2 — The Shell (Agent Runtime Environment)
+
+*   **Standardized Agent Shell (`aaa sh`)**: 這是專為 AI 設計的 Bash 替代品。它優化了 JSON 輸出與錯誤處理，讓 Agent 在執行指令時不會因為 Formatting Error 而崩潰。
+*   **Session State Persistence**: 讓 Kernel 擁有「短期記憶」。當 Agent 在 Shell 中設定變數或環境時，狀態會保留到下一次指令，減少 Context Window 的重複傳輸。
+*   **Virtual Workspace (Sandboxing)**: 為每個連入的遠端 Agent 建立臨時的虛擬工作區（Copy-on-Write），確保它們的操作不會直接汙染主分支，直到通過檢查。
+
+### v2.3 — The Mesh (Service Discovery)
+
+*   **Capability Broadcasting**: 讓 Agent 可以「廣播」自己的專長。例如 Cursor 廣播 "I am good at Refactoring"，Devin 廣播 "I am good at Testing"。
+*   **Dynamic Routing**: Kernel 充當路由器。當 User 下達 "Fix this bug"，Kernel 自動將任務路由給當前空閒且具備對應能力的 Agent。
+*   **Heartbeat Monitor**: 實時監控所有連接 Agent 的健康狀態。如果某個 Agent 斷線或卡死，自動將任務轉移給其他 Agent (Failover)。
+
+---
+
+## Phase 3: The Economy Era (v2.4 - v3.0)
+
+> **目標**：引入資源與激勵機制，讓 Agent 之間的協作具備市場效率。
+
+### v2.4 — The Ledger (Resource Management)
+
+*   **Token Budgeting**: 為每個 Agent 設定「預算上限」。防止某個失控的 Agent 在無限迴圈中耗盡 User 的 API Quota。
+*   **Cost Analytics**: 整合 `aaa observe`，提供「成本帳單」。您可以清楚看到 "Refactoring" 花了多少錢，"Testing" 花了多少錢。
+*   **Rate Limiting**: 針對高頻操作實作流量整形 (Traffic Shaping)，避免並發請求過多導致 Github API 或 LLM Provider 鎖定帳號。
+
+### v2.5 — The Contract (A2A Negotiation)
+
+*   **Task Bounties**: 引入「懸賞機制」。Kernel 發布任務 "Fix test_login.py"，並附帶 "Max 1000 Tokens"。Agent 可以根據自己的能力決定是否接單。
+*   **Smart Contracts (Output Verification)**: 定義「驗收標準」作為合約。Agent 必須提交通過 `aaa check` 的代碼才能獲得「支付」（或提升信譽）。
+*   **Escrow Protocol (託管協議)**: 在任務完成並通過驗收前，鎖定資源。確保 Agent 不會「拿錢不辦事」或提交劣質代碼。
+
+### v3.0 — The Civilization (Autonomous Society)
+
+*   **Reputation System (Credit Score)**: 根據 Agent 的歷史表現（修復率、合規率、成本效率）給予評分。Kernel 會優先將重要任務分配給「高信譽 Agent」。
+*   **Decentralized Governance (DAO)**: 允許高信譽 Agent 對某些非關鍵規則進行「投票修訂」。例如，如果大家發現某個 Linter 規則太過時，可以集體提議修改，經 Supreme Court 批准後生效。
+*   **Macro-Optimization**: 系統具備「宏觀調控」能力。例如發現最近測試失敗率高，自動調高 "Testing" 類任務的懸賞權重，引導更多 Agent 投入測試修補。
 
 ### 階段概覽
 
