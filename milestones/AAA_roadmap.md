@@ -212,7 +212,8 @@ AAA 是一個「多 repo 的 AI 工程治理層」：用可驗證的規範、可
 | **v1.7** | Federated Governance | ✅ **Delivered** | [完成報告](internal/development/milestones/completion-reports/aaa_v1.7_completion_report_20260129.md) | Remote Audit (`--remote`), Ruleset Inheritance (Deep Merge), Trust Chain Foundation | Full Blockchain Trust, Paid Certification |
 | **v1.8** | Observability 2.0 | ✅ **Delivered** | [摘要報告](milestones/20260129_v1.8_observability_2.0.md) | Time-Series MetricStore (SQLite), RiskLedger (Privacy Scrubber), Trend Dashboard (ASCII) | Cloud BI Integration, Predictive Analytics |
 | **v1.9** | Supreme Court | ✅ **Delivered** | [摘要報告](milestones/20260129_v1.9_supreme_court_interface.md) | `aaa court`, Case #001 (Bootstrapping Precedent), Hybrid Governance | Case Law DB, RAG-based Analysis |
-| **v2.0** | The Agent OS | ✅ **Delivered** | [摘要報告](milestones/20260129_v2.0_the_agent_os.md) | `aaa os`, `aaa trust`, Case #002 (Legal Bootstrap), Enterprise Certification | Agent Marketplace, Global Trust Network |
+| **v2.0** | The Agent OS | ✅ **Delivered** | [摘要報告](milestones/20260129_v2.0_the_agent_os.md) | `aaa os`, `aaa trust`, Case #002 (Legal Bootstrap), Enterprise Certification | Agent OS Booted, Phase 1 Complete |
+| **v2.0.1** | Black Box Spec | ⏳ **Backlog** | - | A2A Handshake protocol, Sovereignty Black Box UI, Registry Sanitization | MCP Protocol Alignment, Zero-Knowledge Governance |
 
 ### Interpretation Guidelines
 
