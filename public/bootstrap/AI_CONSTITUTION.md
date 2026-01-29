@@ -7,7 +7,12 @@
 - `aaa-tpl-docs/PROJECT_PLAYBOOK.md` (專案憲法)
 
 ## 2. Milestone Lifecycle Workflow (vx.y)
-任何版本 (vx.y) 的開發必須遵循以下三個步驟（3-Step Lifecycle）：
+任何版本 (vx.y) 的開發必須遵循以下三個步驟（3-Step Lifecycle）。
+
+> **⚠️ 嚴格執行紀律 (Strict Discipline)**：
+> 1.  **禁止有損壓縮 (No Lossy Compression)**：在建立 `task.md` 時，嚴禁將下方列出的任何交付項目「合併」或「簡化」。每一項要求（如「摘要文件」與「詳細報告」）都必須轉換為獨立的 Checkbox。
+> 2.  **分段批准 (Step-by-Step Approval)**：每完成一個步驟 (Step 1 / 2 / 3)，**必須暫停 (STOP)**，向指揮官回報該步驟的總結，並等待獲得明確批准後，才可進入下一個步驟。
+
 
 ### Step 1: Initialization (啟動與追蹤)
 - **要求**: 在開始開發前或開發中，必須初始化以下兩類文件：
