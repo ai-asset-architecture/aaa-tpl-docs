@@ -4,6 +4,21 @@
 > **INTERNAL USE ONLY.** 
 > This repository contains sensitive development logs, implementation plans, and audit evidence for the AAA project.
 
+## Purpose / Scope
+Internal governance evidence, plans, and audits for AAA milestones.
+
+## Ownership / CODEOWNERS
+Ownership is defined in CODEOWNERS at the repo root.
+
+## Versioning / Release
+Internal artifacts are versioned through Git history and milestone records.
+
+## How to Consume / Use
+Use this repo for internal audit trails and milestone verification artifacts.
+
+## Contribution / Promotion Rules
+All changes must follow AAA governance workflows and approval gates.
+
 ## 📁 Repository Role
 This is the **Private Sovereignty Layer**. Unlike the public specifications, the contents here are specific to the internal execution and milestone verification of the AAA system.
 
