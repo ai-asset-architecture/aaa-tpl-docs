@@ -1,6 +1,6 @@
 # AAA v2.0-v3.0 Roadmap (Enterprise Edition)
 
-> **Document Status**: DRAFT v1.4 (Final Audit Ready)  
+> **Document Status**: DRAFT v1.5 (Audit-Resilient)  
 > **Target Audience**: CTO / Enterprise Architect / Governance Committee  
 > **Purpose**: Defines the engineering path to extend AAA governance from artifacts (v1.x) to runtime connectivity and autonomous settlement (v2.x-v3.0), prioritizing security boundaries and auditability over feature expansion.
 
@@ -13,6 +13,7 @@
 | **v1.2** | 2026-01-29 | Portable paths, terminology normalization (Exec Sidecar), and Secret Exfiltration risk. |
 | **v1.3** | 2026-01-29 | **[HARDENED]** Host Integrity disclaimer, mTLS-first auth policy, Reason Codes, CC Threshold rationale, and Risk Table completion. |
 | **v1.4** | 2026-01-29 | **[FINAL AUDIT]** JWT escalation rules, Reason Code mapping table, CC Pricing variables, and v3.0 KPI definitions. |
+| **v1.5** | 2026-01-29 | **[AUDIT-RESILIENT]** Reason Code normalization, JWT/Court triage分流, Quarantine TTL, and KPI precision. |
 
 ---
 
@@ -81,7 +82,9 @@ Upgrade AAA from a "Coroner" (post-mortem artifacts) to a "Bodyguard" (runtime e
 
 #### Non-Negotiable DoD
 1.  **Deny-by-Default**: Unauthorized capabilities are rejected with traceable reason codes.
-2.  **Auth Policy: mTLS Default**: mTLS is mandatory for backend connections. JWT is only permitted for `RiskTier=LOW` & `CapabilityClass=EDGE_TRIGGER` sessions (< 1h); all other JWT requests trigger `ERR_SCOPE_DENY` and a Court Escalation.
+2.  **Auth Policy: mTLS Default**: mTLS is mandatory for backend connections. JWT is only permitted for `RiskTier=LOW` & `CapabilityClass=EDGE_TRIGGER` sessions (< 1h).
+    *   **JWT Triage**: Unauthorized capability attempts via JWT trigger `ERR_SCOPE_DENY` + **Auto-Court**. 
+    *   **Misconfig Triage**: Policy mismatches trigger `ERR_POLICY_HASH_MISMATCH` + **Incident Queue** (No Auto-Court).
 3.  **Canonical Spec Compliance**: Implements [trust_boundary_spec_v1.md](../specs/trust_boundary_spec_v1.md) (mTLS priority, rotation SLA, reason codes).
 4.  **Reason Code Minimum Set**: Audit output must use standardized codes: `ERR_ID_EXPIRED`, `ERR_SCOPE_DENY`, `ERR_REPLAY`, `ERR_REVOKED`, `ERR_RATE_LIMIT`, `ERR_POLICY_HASH_MISMATCH`, `ERR_AUDIT_SCHEMA_MISSING`, `ERR_FAIL_CLOSED`.
 5.  **Replay Protection**: Nonce + TTL implementation; replay attempts are rejected and logged.
@@ -174,9 +177,9 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 5.  **Governed Settlement**: Autonomous tasks still require SLA validation for settlement.
 6.  **Federated Auditability**: Cross-org audit bundles are exportable and verifiable (v1.7).
 7.  **Autonomy KPI Model**: v3.0 must provide measurable KPIs:
-    *   **Auto-ruling Rate**: `Automated Decisons / Total Events`.
+    *   **Auto-ruling Rate**: `Automated Decisions / Total Events`.
     *   **Escalation Rate**: `Human Escalations / Total Events`.
-    *   **False Escalation Rate**: `Post-Audit Human Overturns / Total Escalations`.
+    *   **False Escalation Rate**: `Post-Audit Overturns / Total Escalations` (Overturn = Human reversal of a system-proposed auto-ruling).
 8.  **OMEGA v3 Suite**: Full lifecycle autonomy simulation with replayable failure modes.
 
 ---
@@ -229,9 +232,9 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 | :--- | :--- | :--- | :--- | :--- |
 | `ERR_ID_EXPIRED` | Rotate SLA window (>24h) or JWT TTL exceeded. | HIGH | Connection Dropped | No (Audit Alert) |
 | `ERR_SCOPE_DENY` | Capability not in signed whitelist for Actor. | CRITICAL | Payload Blocked | Yes (Auth Violation) |
-| `ERR_REPLAY` | Nonce reused within TTL window. | CRITICAL | Identity Blacklisted | Yes (Security Breach) |
-| `ERR_REVOKED` | Actor ID found in global CRL (Certificate Revocation List). | HIGH | Connection Terminated | No (System Policy) |
+| `ERR_REPLAY` | Nonce reused within TTL window. | CRITICAL | **Quarantine (24h)** + Court Review | Yes (Security Breach) |
+| `ERR_REVOKED` | Actor ID found in global CRL. | HIGH | Connection Terminated | No (System Policy) |
 | `ERR_RATE_LIMIT` | Request burst exceeds capability budget. | LOW | Throttled (429) | No (Metric Log) |
-| `ERR_POLICY_MISMATCH`| Connection policy hash != Global consensus hash. | HIGH | Handshake Failed | No (Config Error) |
-| `ERR_AUDIT_FAIL` | RiskLedger write failure or schema violation. | CRITICAL | Fail-Closed (Deny) | Yes (Audit Integrity) |
+| `ERR_POLICY_HASH_MISMATCH`| Connection policy hash != Global consensus hash. | HIGH | Handshake Failed | No (Config Incident) |
+| `ERR_AUDIT_SCHEMA_MISSING` | RiskLedger write failure or schema violation. | CRITICAL | Fail-Closed (Deny) | Yes (Audit Integrity) |
 | `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (Deny) | Yes (Incident Report) |
