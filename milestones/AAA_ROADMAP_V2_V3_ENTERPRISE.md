@@ -1,6 +1,6 @@
 # AAA v2.0-v3.0 Roadmap (Enterprise Edition)
 
-> **Document Status**: DRAFT v1.6 (Audit-Immune)  
+> **Document Status**: DRAFT v1.7 (Audit-Immune Control Plane)  
 > **Target Audience**: CTO / Enterprise Architect / Governance Committee  
 > **Purpose**: Defines the engineering path to extend AAA governance from artifacts (v1.x) to runtime connectivity and autonomous settlement (v2.x-v3.0), prioritizing security boundaries and auditability over feature expansion.
 
@@ -15,6 +15,7 @@
 | **v1.4** | 2026-01-29 | **[FINAL AUDIT]** JWT escalation rules, Reason Code mapping table, CC Pricing variables, and v3.0 KPI definitions. |
 | **v1.5** | 2026-01-29 | **[AUDIT-RESILIENT]** Reason Code normalization, JWT/Court triage分流, Quarantine TTL, and KPI precision. |
 | **v1.6** | 2026-01-29 | **[AUDIT-IMMUNE]** Triage SLAs, Quarantine Scope defined, Leak Classes, and Enum Spec anchoring. |
+| **v1.7** | 2026-01-29 | **[CONTROL PLANE]** N=3 Escalation, Incident Schema, SLA Clock, CLI Command Contracts, and Enum Gate. |
 
 ---
 
@@ -48,8 +49,8 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 | **Algorithmic SLA** | *Replaces "Smart Contract"*. Deterministic verification logic (tests/evals) that dictates settlement outcomes. |
 | **Governance-Backed Settlement** | Settlement process driven by hard evidence (Ledger + Court Rulings + Test Results). |
 | **Sidecar** | An architectural pattern where AAA intercepts, audits, and enforces policy without replacing the host system. |
-| **Auto-Court (P1)** | Automated Case Filing for high-severity violations. SLA: Filed within 5min of detection. |
-| **Incident Queue (P2)** | Managed queue for misconfigurations. SLA: Triage within 24h. Escalates to Court after N repetitive failures. |
+| **Auto-Court (P1)** | Automated Case Filing for high-severity violations. SLA: Filed within 5min (Clock: `RiskLedger` Event TS). |
+| **Incident Queue (P2)** | Managed queue for misconfigurations. SLA: Triage within 24h. Schema: `id, created_at, triage_at, owner, resolution, evidence_link`. Escalates to Court after `N_default=3` repetitive failures (Adjustable via Court). |
 
 ---
 
@@ -58,7 +59,7 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 *   **v1.8 Observability 2.0 / RiskLedger**: The immutable store for all Audit Logs, Metrics, and Risk Events.
 *   **v1.9 Supreme Court / CaseFile**: The final arbiter for violations, disputes, and precedent setting.
 *   **Project OMEGA**: The comprehensive acceptance suite (135+ tests, E2E simulation) used to validate every DoD.
-*   **v1.5/v1.6 Intent Verification**: Pre-implementation contract checks and semantic analysis frameworks.
+*   **v1.5/v1.6 Intent Verification**: [intent_verification_spec_v1.md](../specs/intent_verification_spec_v1.md) (Compliance Checks).
 
 ---
 
@@ -125,7 +126,9 @@ Expose endpoint capabilities (macOS) via a strictly allowlisted, revocable, and 
 2.  **Exec Sidecar (v1)**: All command execution is wrapped and audited; no direct process spawning.
 3.  **Sandbox Profile Enforced**: Path, process, and network restrictions are mandatory and unavoidable.
 4.  **Secrets Hygiene**: Scrubber filters sensitive patterns; leaks trigger Court Case. 
-    *   **Leak Classes**: `API_KEY/TOKEN`, `PII`, `CREDENTIAL`, `PROMPT_SENSITIVE`, `FILE_CONTENT_SENSITIVE`.
+    *   **Leak Classes & Triage**: 
+        *   `CREDENTIAL/API_KEY` → **Auto-Court**.
+        *   `PII/PROMPT_SENSITIVE/FILE_CONTENT_SENSITIVE` → **Incident Queue** (Escalate on N=3).
 5.  **Revocation Works**: Revoking a capability immediately stops its function on the endpoint.
 6.  **Evidence Bundle**: Exportable proof of endpoint operations (with hash chain).
 7.  **Drift Detection Hook**: Detects if endpoint capabilities drift from policy versions (v0.9/v1.8).
@@ -221,6 +224,10 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 ## Appendix A: Evidence Index (Release Gate Standard)
 
 > **Release Gate Requirement**: All `Repo/Path` entries must be verifiable (`test -f`). All `OMEGA Test ID` entries must be searchable by the runner. All artifact paths must be reproducible during the OMEGA FSAT.  
+> **Control Plane Entrypoints**:
+> - Evidence Bundle Generator: `aaa export --evidence --version <ver>`
+> - Replay Entrypoint: `aaa omega replay --bundle <path>`
+> - Enum Consistency Gate: `aaa check --enums` (Enforced via CI)
 > **Canonical Enums**:  
 > - Ledger Event Spec: [ledger_event_enum_v1.md](../specs/ledger_event_enum_v1.md)  
 > - Court CaseType Spec: [court_case_type_enum_v1.md](../specs/court_case_type_enum_v1.md)
@@ -246,4 +253,4 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 | `ERR_RATE_LIMIT` | Request burst exceeds capability budget. | LOW | Throttled (429) | No (Metric Log) |
 | `ERR_POLICY_HASH_MISMATCH`| Node policy hash != Global consensus hash. | HIGH | Connection Denied | No (DRIFT_INCIDENT) |
 | `ERR_AUDIT_SCHEMA_MISSING` | RiskLedger write failure or schema violation. | CRITICAL | Fail-Closed (Deny) | Yes (AUDIT_CORRUPTION) |
-| `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (Deny) | Yes (FAIL_OPEN_EVENT) |
+| `ERR_FAIL_CLOSED` | System internal error or circuit breaker trip. | HIGH | Safe State (**SYSTEM_SAFETY_EVENT**) | Yes (FAIL_OPEN_EVENT) |
