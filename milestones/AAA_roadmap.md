@@ -633,6 +633,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'aaa-tools'
 ### v2.1 — The Bridge (Secure Gateway)
 
 *   **SSE Bridge Server**: 建立一個常駐的 HTTP/SSE 伺服器 (`aaa serve`)，讓遠端 Agent (如 Claude Desktop) 可以透過標準 Web 協議與本地 Kernel 通訊，取代脆弱的 SSH 隧道。
+*   **Desktop Bridge (macOS)**: **[Reference Client]** 建立原生 Mac 工具列應用程式，作為本地 Gateway 的展示窗口。支援原生通知、`aaa://` Deep Links 與高效率的 FSEvents 監聽。
 *   **Sovereignty Black Box (ACLs)**: 實作細顆粒度的權限控制。定義哪些 MCP Tool 是 `public` (如 `check`)，哪些是 `restricted` (如 `os boot`)，確保遠端連接不會駭入內核。
 *   **Ephemeral Tokens**: 引入「一次性會話金鑰」，遠端 Agent 每次連接需進行握手驗證，避免長期 API Key 洩漏風險。
 
@@ -662,9 +663,10 @@ FileNotFoundError: [Errno 2] No such file or directory: 'aaa-tools'
 
 ### v2.5 — The Contract (A2A Negotiation)
 
-*   **Task Bounties**: 引入「懸賞機制」。Kernel 發布任務 "Fix test_login.py"，並附帶 "Max 1000 Tokens"。Agent 可以根據自己的能力決定是否接單。
-*   **Smart Contracts (Output Verification)**: 定義「驗收標準」作為合約。Agent 必須提交通過 `aaa check` 的代碼才能獲得「支付」（或提升信譽）。
-*   **Escrow Protocol (託管協議)**: 在任務完成並通過驗收前，鎖定資源。確保 Agent 不會「拿錢不辦事」或提交劣質代碼。
+*   **Resource-Backed Economy**: **[Compute Credits (CC)]** 建立以算力為本位的經濟模型。`1 CC` 錨定 `1k Input Tokens` 或標準化運算單位，確保 Agent 協作具備物理限制與真實成本意識。
+*   **Task Bounties**: 引入「懸賞機制」。Kernel 發布任務 "Fix test_login.py"，並以 CC 計價。Agent 根據預算預估 (Cost Estimation) 決定是否接單。
+*   **Smart Contracts (Output Verification)**: 定義「驗收標準」作為合約。Agent 必須提交通過 `aaa check` 的代碼才能獲得 CC 支付。
+*   **Escrow Protocol (託管協議)**: 在任務完成並通過驗收前，託管 CC 資源。確保 Agent 不會「拿錢不辦事」。
 
 ### v3.0 — The Civilization (Autonomous Society)
 
