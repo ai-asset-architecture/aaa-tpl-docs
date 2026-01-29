@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T18:06:04Z",
+  "generated_at": "2026-01-29T18:22:44Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -7,7 +7,7 @@
       "path": "20260118_v0.1_executable_architecture.md",
       "title": "Milestone: v0.1 Executable Architecture (20260118_1323)",
       "hash": "41c3b7547393a01162aa89647d7cf33b5569489d9212ee5701be0956312f1a97",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "\u5b8c\u6210\u53ef\u57f7\u884c\u67b6\u69cb\u57fa\u7dda\u8207\u6cbb\u7406\u898f\u7bc4\u3002",
         "summary_en": "Completed executable architecture baseline and governance specs."
@@ -17,7 +17,7 @@
       "path": "20260120_v0.2_architecture_definition.md",
       "title": "Milestone: v0.2 Architecture Definition (20260120)",
       "hash": "6f057d698cc4959ca3a840a47dec9632bd1132512b7826a0b48c9eac94fc79d9",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "\u5efa\u7acb\u6c7a\u7b56\u6a39\u8207\u53ef\u6cbb\u7406/\u53ef\u8def\u7531/\u53ef\u964d\u7d1a\u67b6\u69cb\u3002",
         "summary_en": "Established decision-tree skills and governable/routable/degradable architecture."
@@ -27,7 +27,7 @@
       "path": "20260121_v0.3_architecture_definition.md",
       "title": "Milestone: v0.3 Architecture Definition (20260121)",
       "hash": "2a9f36626a99b6083d894eb5bf447a58151166f3fc214cca8801abad1c3e90d9",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "\u4e0a\u7dda onboarding \u6587\u4ef6\u4e00\u81f4\u6027\u8207 CI \u7a69\u5b9a\u6cbb\u7406\u3002",
         "summary_en": "Introduced onboarding doc drift checks and CI stability governance."
@@ -37,7 +37,7 @@
       "path": "20260121_v0.4_architecture_definition.md",
       "title": "Milestone: v0.4 Architecture Definition (20260121)",
       "hash": "c83a0496223392376d7e2b82ed81928eb381095459a2032220db2795ae8d0b26",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "SOP \u8207 CLI \u5408\u7d04\u5c0d\u9f4a\uff0c\u52a0\u5165 post-init audit \u9589\u74b0\u3002",
         "summary_en": "Aligned SOP and CLI contracts with post-init audit loop."
@@ -47,7 +47,7 @@
       "path": "20260122_v0.5_architecture_definition.md",
       "title": "Milestone: v0.5 Architecture Definition (20260122)",
       "hash": "ab2d938a8c8be3b8ddf9768e149bd9133b5ebabd094c466aa9dca4a127969126",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "Runbook runtime \u8207\u6a19\u6e96 action library \u6210\u5f62\u3002",
         "summary_en": "Runbook runtime and standard action library established."
@@ -57,7 +57,7 @@
       "path": "20260122_v0.6_architecture_definition.md",
       "title": "Milestone: v0.6 Architecture Definition (20260122)",
       "hash": "fec036c3e693f20a63165c2307bce7d84160289f4c78182c7a377b8640885bb9",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "Agent safety \u908a\u754c\u8207\u5b89\u5168\u6e2c\u8a66\u57fa\u7dda\u5b8c\u6210\u3002",
         "summary_en": "Agent safety boundaries and security test baseline completed."
@@ -67,7 +67,7 @@
       "path": "20260123_v0.7_architecture_definition.md",
       "title": "Milestone: v0.7 Architecture Definition (20260123)",
       "hash": "3e69e0796d9f66b037679eb3bf37505a1ebee1bc430300e03ac844e7fe20fa9b",
-      "last_modified": "2026-01-23",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "SSOT checks \u8207 repo_type \u6301\u4e45\u5316\u843d\u5730\u3002",
         "summary_en": "SSOT checks and repo_type persistence implemented."
@@ -77,7 +77,7 @@
       "path": "20260124_v0.8_architecture_definition.md",
       "title": "v0.8 Architecture Definition \u2014 Marketplace Assets",
       "hash": "c5e7452ad237245a59b27bd5678d24cd3ef2e264c03b3f4422bc54a64b9f2f25",
-      "last_modified": "2026-01-24",
+      "last_modified": "2026-01-29",
       "metadata": {
         "status": "Completed",
         "owner": "AAA Governance",
@@ -89,7 +89,7 @@
       "path": "20260124_v0.9_architecture_definition.md",
       "title": "v0.9 Architecture Definition \u2014 Governance Compliance Dashboard",
       "hash": "95ede785844d071cf34faf7f2fc725d3686cb59898ebc9a86b5da2f515ba012f",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-29",
       "metadata": {
         "status": "Planned",
         "owner": "AAA Governance",
@@ -101,7 +101,7 @@
       "path": "20260124_v1.0_architecture_definition.md",
       "title": "v1.0 Architecture Definition \u2014 Enterprise Delivery",
       "hash": "5628603283ca58e7381fa0a512d317265b62631d99798f058a34d29d153a8c3c",
-      "last_modified": "2026-01-27",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "Gate-First Enterprise Governance\uff1aorg ruleset \u5f37\u5236 governance-gate\uff0c\u63d0\u4f9b CLI \u8b49\u64da\u93c8\u8207 release integrity check\u3002",
         "summary_en": "Gate-first enterprise governance with org ruleset enforcement, CLI evidence chain, and a release integrity check."
@@ -111,7 +111,7 @@
       "path": "20260128_v1.1_semantic_era.md",
       "title": "v1.1 Architecture Definition \u2014 Semantic Era",
       "hash": "325196f203b1397f46c75174a565f7432c082e236563774ea16a6d43505022f7",
-      "last_modified": "2026-01-28",
+      "last_modified": "2026-01-29",
       "metadata": {
         "summary_zh": "Semantic Era Release\uff1a\u5be6\u4f5c AI \u539f\u751f\u4ecb\u9762\uff08--format=llm\uff09\u3001\u8a9e\u7fa9\u932f\u8aa4\u6620\u5c04\u8207\u5be6\u9a57\u6027 MCP Server\u3002",
         "summary_en": "Semantic Era Release: implementation of AI-Native interface (--format=llm), semantic error mapping, and experimental MCP Server."
@@ -121,28 +121,28 @@
       "path": "20260128_v1.2_semantic_registry.md",
       "title": "AAA v1.2 Release: Semantic Registry",
       "hash": "bf1427e92488289851ae498e8545a1acfbae253ffaf37d18625063ef95d2e1f3",
-      "last_modified": "2026-01-28",
+      "last_modified": "2026-01-29",
       "metadata": {}
     },
     {
       "path": "20260128_v1.3_Governance_Compiler.md",
       "title": "Milestone: v1.3 Governance Compiler",
       "hash": "f7ecf53289878be4f4d40892cf2ec6365097b635e66ca12c03bbad09595beb0f",
-      "last_modified": "2026-01-28",
+      "last_modified": "2026-01-29",
       "metadata": {}
     },
     {
       "path": "20260128_v1.4_Policy_Distribution.md",
       "title": "Milestone: v1.4 Policy Distribution",
       "hash": "1d21543600c64f7ef6c49e7fdee1ba527737238440aad25e5495c02ec71ba5a4",
-      "last_modified": "2026-01-28",
+      "last_modified": "2026-01-29",
       "metadata": {}
     },
     {
       "path": "20260128_v1.5_Self_Healing_Engine.md",
       "title": "Milestone Summary: v1.5 Self-Healing Engine",
       "hash": "881e1d824e8416fc757ca2f59be13cf9444a627629df964b58f972af4e4393bd",
-      "last_modified": "2026-01-28",
+      "last_modified": "2026-01-29",
       "metadata": {}
     },
     {
