@@ -20,6 +20,7 @@
 | **v1.9** | 2026-01-29 | **[GOLD]** N/A usage rules, Triage priority hardening, Bot identity spec, and Audit model split. |
 | **v2.0** | 2026-01-29 | **[DIAMOND]** env_fingerprint fields, hash_chain ordering, zip container contract, and resolution enums. |
 | **v2.1** | 2026-01-29 | **[DIAMOND REFINED]** 5 Core Files (case_snapshot), Canonical JSON spec, and Artifact SSOT. |
+| **v2.0.1** | 2026-01-29 | **[TRUST BOUNDARY]** Identity Signing, Path Scoping, and Replay Verification. |
 
 ---
 
@@ -72,7 +73,7 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 
 | Version | Theme | Goal | Core Deliverable |
 | :--- | :--- | :--- | :--- |
-| **v2.0.1** | **Trust Boundary Release** | Runtime Security Foundation | Production-Ready Handshake + Scope Enforcement + Audit Evidence |
+| **v2.0.1** | **Trust Boundary Release** | Runtime Security Foundation | ✅ Trust Core (Identity/Scope/Revoke) + Signed Evidence |
 | **v2.1** | **Bridge MVP** | Controlled Channel | SSE Bridge (authz/limit/audit/deny) |
 | **v2.2** | **Endpoint MVP** | Controlled Endpoint | macOS Desktop Bridge (allowlist + revocation + sandbox) |
 | **v2.3** | **Mesh MVP** | Governed Mesh | Capability Mesh (schema/discovery/version/remote check) |
@@ -84,8 +85,8 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 
 ## 5. Version Details & Non-Negotiable DoDs
 
-### v2.0.1 — Trust Boundary Release
-*Target: The boundary becomes a verifiable security baseline.*
+### v2.0.1 — Trust Boundary Release (2026-01-29)
+*Status: ✅ **VERIFIED & ACTIVE***
 
 #### Value Proposition
 Upgrade AAA from a "Coroner" (post-mortem artifacts) to a "Bodyguard" (runtime enforcement). No runtime operation happens without ID, Authorization, Scope, and Evidence.
