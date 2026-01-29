@@ -170,9 +170,8 @@ Autonomy is not "removing humans," but "humans handling exceptions only." Routin
 | Risk | Mitigation Strategy |
 | :--- | :--- |
 | **Attack Surface Expansion** | Strict v2.0.1 DoD; Deny-by-default; Evidence-First Architecture. |
-| **Secret Exfiltration** | Privacy Scrubber (v1.8) + Deny-by-default (v2.0.1) + Court Auto-trigger (v1.9) + Evidence Bundle export. |
+| **Secret Exfiltration** | Privacy Scrubber (v1.8) + Deny-by-default (v2.0.1) + Exec Sidecar Inspection + Court Auto-trigger (v1.9) + Evidence Bundle export. |
 | **Product Scope Drift** | Adhere to Sidecar Principle: Wrap/Filter/Enforce, do not Replace. |
-| **Secret Exfiltration / Leaks** | Privacy Scrubber; Raw Shell Ban; Exec Sidecar Inspection; Court Triggers. |
 | **Compliance Panic (Econ)** | Terminology shift: Algorithmic SLA / Governance Settlement; No blockchain. |
 | **DoD Degradation** | Mandatory OMEGA suite extension for every release version. |
 
