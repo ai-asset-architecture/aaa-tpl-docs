@@ -14,4 +14,15 @@
 | 20260124_v1.0_architecture_definition.md | v1.0 Architecture Definition — Enterprise Delivery | Gate-First Enterprise Governance：org ruleset 強制 governance-gate，提供 CLI 證據鏈與 release integrity check。 | Gate-first enterprise governance with org ruleset enforcement, CLI evidence chain, and a release integrity check. |
 | 20260128_v1.1_semantic_era.md | v1.1 Architecture Definition — Semantic Era | Semantic Era Release：實作 AI 原生介面（--format=llm）、語義錯誤映射與實驗性 MCP Server。 | Semantic Era Release: implementation of AI-Native interface (--format=llm), semantic error mapping, and experimental MCP Server. |
 | 20260128_v1.2_semantic_registry.md | AAA v1.2 Release: Semantic Registry |  |  |
+| 20260128_v1.3_Governance_Compiler.md | Milestone: v1.3 Governance Compiler |  |  |
+| 20260128_v1.4_Policy_Distribution.md | Milestone: v1.4 Policy Distribution |  |  |
+| 20260128_v1.5_Self_Healing_Engine.md | Milestone Summary: v1.5 Self-Healing Engine |  |  |
+| 20260129_omega_acceptance_summary.md | Milestone Summary: Project OMEGA (Ultimate Validation) |  |  |
+| 20260129_v1.6_Multi_Agent_Orchestration.md | Milestone Summary: v1.6 Multi-Agent Orchestration |  |  |
+| 20260129_v1.7_federated_governance.md | Metric: v1.7 Federated Governance |  |  |
+| 20260129_v1.8_observability_2.0.md | Milestone: v1.8 Observability 2.0 |  |  |
+| 20260129_v1.9_supreme_court_interface.md | Milestone: v1.9 Supreme Court Interface |  |  |
+| 20260129_v2.0.1_trust_boundary.md | v2.0.1 Milestone: Trust Boundary (2026-01-29) |  |  |
+| 20260129_v2.0_the_agent_os.md | Milestone: v2.0 The Agent OS |  |  |
+| AAA_ROADMAP_V2_V3_ENTERPRISE.md | AAA v2.0-v3.0 Roadmap (Enterprise Edition) |  |  |
 | AAA_roadmap.md | AAA Complete Roadmap (v0.4 → v2.0) | AAA v1.0→v2.0 完整路線圖：從 Enterprise-Ready 演進至 Agent OS，涵蓋語義時代、主動守護與數位憲法三階段。 | AAA v1.0→v2.0 complete roadmap: evolving from Enterprise-Ready to Agent OS, covering Semantic Era, Active Guardian, and Digital Constitution phases. |
