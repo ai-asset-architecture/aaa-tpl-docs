@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T16:52:43Z",
+  "generated_at": "2026-01-30T17:45:20Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -213,10 +213,7 @@
       "title": "v2.0.4 Milestone: Init Plan Presets (2026-01-30)",
       "hash": "01ccdfcbcb4113f7fd41d312c2eccf4b498f7b5682b6fa28ebe3d34afa1307b6",
       "last_modified": "2026-01-30",
-      "metadata": {
-        "summary_zh": "\u5b8c\u6210 v2.0 init presets\uff08governance_native/lean\uff09\u3001default_preset \u8207 `.github` \u5fc5\u542b\u8207 resolver/CLI \u8986\u5beb\u3002",
-        "summary_en": "Delivered v2.0 init presets (governance_native/lean), default_preset, required `.github`, and resolver/CLI override."
-      }
+      "metadata": {}
     },
     {
       "path": "AAA_ROADMAP_V2_V3_ENTERPRISE.md",

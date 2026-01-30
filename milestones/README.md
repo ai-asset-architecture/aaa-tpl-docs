@@ -26,6 +26,6 @@
 | 20260129_v2.0.2_nightly_governance_recovery.md | v2.0.2 Milestone: Nightly Governance Recovery (2026-01-29) |  |  |
 | 20260129_v2.0_the_agent_os.md | Milestone: v2.0 The Agent OS |  |  |
 | 20260130_v2.0.3_repo_checks_runtime_hint.md | v2.0.3 Milestone: Repo-Checks Runtime Hint (2026-01-30) |  |  |
-| 20260130_v2.0.4_init_plan_presets.md | v2.0.4 Milestone: Init Plan Presets (2026-01-30) | 完成 v2.0 init presets（governance_native/lean）、default_preset 與 `.github` 必含與 resolver/CLI 覆寫。 | Delivered v2.0 init presets (governance_native/lean), default_preset, required `.github`, and resolver/CLI override. |
+| 20260130_v2.0.4_init_plan_presets.md | v2.0.4 Milestone: Init Plan Presets (2026-01-30) |  |  |
 | AAA_ROADMAP_V2_V3_ENTERPRISE.md | AAA v2.0-v3.0 Roadmap (Enterprise Edition) |  |  |
 | AAA_roadmap.md | AAA Complete Roadmap (v0.4 → v2.0) | AAA v1.0→v2.0 完整路線圖：從 Enterprise-Ready 演進至 Agent OS，涵蓋語義時代、主動守護與數位憲法三階段。 | AAA v1.0→v2.0 complete roadmap: evolving from Enterprise-Ready to Agent OS, covering Semantic Era, Active Guardian, and Digital Constitution phases. |
