@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-24T16:46:41Z",
+  "generated_at": "2026-01-30T05:35:46Z",
   "source_dir": "aaa-tpl-docs/internal/development/milestones/completion-reports",
   "hash_algo": "sha256",
   "files": [
@@ -181,6 +181,16 @@
       "metadata": {
         "summary_zh": "v0.1 \u6cbb\u7406\u8207\u6a21\u677f\u57fa\u7dda\u5b8c\u6210\u5831\u544a\u3002",
         "summary_en": "v0.1 governance and template baseline completion report."
+      }
+    },
+    {
+      "path": "aaa_v2.0.3_completion_report_20260130.md",
+      "title": "AAA v2.0.3 Completion Report (2026-01-30)",
+      "hash": "ec4f1b4b787bf40731661268786fdcbe0a10173d420eb565f1e0c98adf099ece",
+      "last_modified": "2026-01-30",
+      "metadata": {
+        "summary_zh": "v2.0.3 CLI \u6210\u529f\u8f38\u51fa\u65b0\u589e repo-checks \u5fc5\u8dd1\u63d0\u793a\u3002",
+        "summary_en": "v2.0.3 adds a post-init repo-checks hint to successful CLI output."
       }
     }
   ]
