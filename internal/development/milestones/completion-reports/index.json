@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T16:52:56Z",
+  "generated_at": "2026-01-30T21:23:09Z",
   "source_dir": "aaa-tpl-docs/internal/development/milestones/completion-reports",
   "hash_algo": "sha256",
   "files": [
@@ -9,17 +9,17 @@
       "hash": "b08517d38ec386cbf994cda9b6c02a3366d5c2cebd3d142b27b2cc3690a82613",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "P0 \u4e00\u81f4\u6027\u554f\u984c\u4fee\u88dc\u3002",
+        "summary_zh": "P0 一致性問題修補。",
         "summary_en": "P0 consistency hotfix."
       }
     },
     {
       "path": "aaa_v0.2_improvement_report_20260120_0322.md",
-      "title": "AAA v0.2 \u6539\u5584\u6458\u8981\u5831\u544a (2026-01-20 03:22)",
+      "title": "AAA v0.2 改善摘要報告 (2026-01-20 03:22)",
       "hash": "03c4718421b104d9f656d1fb2ed090a0e68b073aab4368241ad9fe69134630de",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.2 \u6539\u5584\u6458\u8981\u8207\u6cbb\u7406\u5f37\u5316\u3002",
+        "summary_zh": "v0.2 改善摘要與治理強化。",
         "summary_en": "v0.2 improvement summary and governance uplift."
       }
     },
@@ -29,7 +29,7 @@
       "hash": "7b32cc089b3e8df24336c07438649afec7d1d0ddc43c7d417a7b8161761454e7",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "\u88dc\u9f4a onboarding evals \u8207\u57fa\u7dda\u3002",
+        "summary_zh": "補齊 onboarding evals 與基線。",
         "summary_en": "Added onboarding evals and baselines."
       }
     },
@@ -39,7 +39,7 @@
       "hash": "084d658d871d7fb4da6931136cbc48cb6ae74636b192fb8d4d9ceb8951436b77",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.3 onboarding \u4e00\u81f4\u6027\u6cbb\u7406\u5b8c\u6210\u3002",
+        "summary_zh": "v0.3 onboarding 一致性治理完成。",
         "summary_en": "v0.3 onboarding consistency governance complete."
       }
     },
@@ -49,7 +49,7 @@
       "hash": "c2fc93bef57b637b751108477fe1ffdf7f54b1525638a7b0c3ef0322b6e36085",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.4 \u96d9\u5c64\u5408\u7d04\u8207 post-init audit \u5b8c\u6210\u3002",
+        "summary_zh": "v0.4 雙層合約與 post-init audit 完成。",
         "summary_en": "v0.4 dual contract and post-init audit completion."
       }
     },
@@ -59,7 +59,7 @@
       "hash": "74bca7192e5fe0c945ec0f079a9d5e789bf438b11752b56e15fc9aa7fd653279",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.5 runbooks \u57fa\u7dda\u8207 schema/registry \u5b8c\u6210\u3002",
+        "summary_zh": "v0.5 runbooks 基線與 schema/registry 完成。",
         "summary_en": "v0.5 runbooks baseline with schema/registry complete."
       }
     },
@@ -69,7 +69,7 @@
       "hash": "acb50ac0d2397ea7b8229f45dc66166e5a2d5a03a5fa09d9691e4799274c20fd",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "\u5168\u57df\u7d22\u5f15\u56de\u586b\u5b8c\u6210\u3002",
+        "summary_zh": "全域索引回填完成。",
         "summary_en": "Governance index backfill complete."
       }
     },
@@ -79,7 +79,7 @@
       "hash": "98df4dc89a0fe80990f317b9a84b74d97b0219b269b48aff2223f5c9e01d15bb",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.5 \u5347\u7d1a/\u7a3d\u6838 runbooks \u8207 pipeline \u88dc\u9f4a\u5b8c\u6210\u3002",
+        "summary_zh": "v0.5 升級/稽核 runbooks 與 pipeline 補齊完成。",
         "summary_en": "v0.5 upgrade/audit runbooks and pipelines completed."
       }
     },
@@ -89,7 +89,7 @@
       "hash": "ce72ea39f56347dc0843b1028bddb4a5df470957c992c42c75de501ee684ce89",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.6 agent safety \u8207 CI \u63a5\u5165\u5b8c\u6210\u3002",
+        "summary_zh": "v0.6 agent safety 與 CI 接入完成。",
         "summary_en": "v0.6 agent safety and CI integration complete."
       }
     },
@@ -99,7 +99,7 @@
       "hash": "81653cb6dd17d4d603d047b73f0d28704406802be9a3ad66940d9ad44d57921c",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.7 SSOT + repo_type \u5b8c\u6210\u3002",
+        "summary_zh": "v0.7 SSOT + repo_type 完成。",
         "summary_en": "v0.7 SSOT + repo_type completion."
       }
     },
@@ -109,7 +109,7 @@
       "hash": "e40b8a6df7ad3d1688d584986fe8e015883a343524594df8895954c35922941e",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.7 Gate \u8b49\u64da\u93c8\u6458\u8981\u3002",
+        "summary_zh": "v0.7 Gate 證據鏈摘要。",
         "summary_en": "v0.7 gate evidence summary."
       }
     },
@@ -119,7 +119,7 @@
       "hash": "67c083c556b15417b56fea78bce3a7f8eee0571f5ceb98e2abc5b2b7b087671c",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "\u53ef\u63d2\u62d4\u8cc7\u7522\u5e02\u5834\u5b8c\u6210\uff08Pack \u5efa\u7f6e\u3001Registry \u7d22\u5f15\u3001Local \u5b89\u88dd\u8207 Pack checks \u8f09\u5165\uff09\u3002",
+        "summary_zh": "可插拔資產市場完成（Pack 建置、Registry 索引、Local 安裝與 Pack checks 載入）。",
         "summary_en": "Pluggable asset marketplace completed (pack build, registry indexing, local install, and pack checks loading)."
       }
     },
@@ -129,7 +129,7 @@
       "hash": "28f193d05e04e07fbea18cafc12b575fa7c7233402f78a7f1d59b3860d2aa861",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "\u5408\u898f\u7387\u5100\u8868\u677f MVP \u5b8c\u6210\uff08nightly governance JSON\u3001MD/HTML \u6e32\u67d3\u3001threshold gate\uff09\u3002",
+        "summary_zh": "合規率儀表板 MVP 完成（nightly governance JSON、MD/HTML 渲染、threshold gate）。",
         "summary_en": "Compliance dashboard MVP delivered (nightly governance JSON, MD/HTML rendering, threshold gate)."
       }
     },
@@ -139,7 +139,7 @@
       "hash": "72ce25bea4f046b560a5659a64adda042129d4ca956b6b425da06ebc4b179f66",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "Nightly governance \u6210\u529f\u7522\u51fa\u7a3d\u6838\u5831\u544a\u8207 Pages dashboard\uff0cthreshold gate \u672a\u5931\u6557\u3002",
+        "summary_zh": "Nightly governance 成功產出稽核報告與 Pages dashboard，threshold gate 未失敗。",
         "summary_en": "Nightly governance produced audit reports and the Pages dashboard with the threshold gate enabled and passing."
       }
     },
@@ -149,7 +149,7 @@
       "hash": "4ba325b7b1012aaefc89f25063ddb8d3b0fae3d936b9a1a305dfba3f42e3c56d",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.9 \u89c0\u6e2c\u5347\u7d1a\uff1a\u65b0\u589e\u6f02\u79fb\u7387\u8207 repo \u5065\u5eb7\u5ea6\u6307\u6a19\uff0cnightly \u52a0\u5165\u9580\u6abb\u8207 post-mortem \u767c\u4f48\u3002",
+        "summary_zh": "v0.9 觀測升級：新增漂移率與 repo 健康度指標，nightly 加入門檻與 post-mortem 發佈。",
         "summary_en": "v0.9 observability upgrade: added drift/repo health metrics and post-mortem publishing in nightly."
       }
     },
@@ -159,7 +159,7 @@
       "hash": "d480c0d242938f460a16e48a13a377ba07de5e0a70ed920bfcd4cd8eb8ee27ec",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "\u5c0d\u5916\u6210\u679c\uff1a\u5408\u898f\u7387\u5100\u8868\u677f MVP\u3001\u6cbb\u7406\u4fe1\u4efb\u93c8\u9589\u74b0\uff0c\u4e26\u767c\u5e03 v0.9.1\u3002",
+        "summary_zh": "對外成果：合規率儀表板 MVP、治理信任鏈閉環，並發布 v0.9.1。",
         "summary_en": "External summary: compliance dashboard MVP, governance trust chain closure, and v0.9.1 release."
       }
     },
@@ -169,7 +169,7 @@
       "hash": "052cd2646dd05115f3a5ae92eec8bc94a5b82cc3b9b3a567ad0c054dd604c5e6",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "Gate-First Enterprise Governance \u5b8c\u6210\uff08org ruleset \u5f37\u5236 gate\u3001CLI \u8b49\u64da\u93c8\u3001release integrity check\uff09\u3002",
+        "summary_zh": "Gate-First Enterprise Governance 完成（org ruleset 強制 gate、CLI 證據鏈、release integrity check）。",
         "summary_en": "Gate-first enterprise governance complete (org ruleset enforced gate, CLI evidence chain, release integrity check)."
       }
     },
@@ -179,7 +179,7 @@
       "hash": "ec4f1b4b787bf40731661268786fdcbe0a10173d420eb565f1e0c98adf099ece",
       "last_modified": "2026-01-30",
       "metadata": {
-        "summary_zh": "v2.0.3 CLI \u6210\u529f\u8f38\u51fa\u65b0\u589e repo-checks \u5fc5\u8dd1\u63d0\u793a\u3002",
+        "summary_zh": "v2.0.3 CLI 成功輸出新增 repo-checks 必跑提示。",
         "summary_en": "v2.0.3 adds a post-init repo-checks hint to successful CLI output."
       }
     },
@@ -189,8 +189,18 @@
       "hash": "4bebe667292eed14397801ff00b8a66fe491d0c32f67bcb6aafc932e05e768db",
       "last_modified": "2026-01-30",
       "metadata": {
-        "summary_zh": "v2.0 init presets \u8207 resolver \u5b8c\u6210\uff08default_preset\u3001.github \u5fc5\u542b\u3001--preset \u8986\u5beb\u3001\u8b49\u64da\u9f4a\u5099\uff09\u3002",
+        "summary_zh": "v2.0 init presets 與 resolver 完成（default_preset、.github 必含、--preset 覆寫、證據齊備）。",
         "summary_en": "v2.0 init presets and resolver complete (default_preset, required .github, --preset override, evidence complete)."
+      }
+    },
+    {
+      "path": "aaa_v2.0.5_completion_report_20260131.md",
+      "title": "AAA v2.0.5 Completion Report (2026-01-31)",
+      "hash": "06f9bad1ff493e5a6bf3d7789d91b51d311883ab52cc222f6e2c22d0b1ddcdf3",
+      "last_modified": "2026-01-30",
+      "metadata": {
+        "summary_zh": "v2.0.5 repo_type SSOT 與 soft WARN / fail-fast 完成。",
+        "summary_en": "v2.0.5 repo_type SSOT with soft WARN and fail-fast completed."
       }
     },
     {
@@ -199,7 +209,7 @@
       "hash": "6d48e0fb277616689261c1fe60ef338f26ec9f0fdcac095faa9c96587d5a817e",
       "last_modified": "2026-01-24",
       "metadata": {
-        "summary_zh": "v0.1 \u6cbb\u7406\u8207\u6a21\u677f\u57fa\u7dda\u5b8c\u6210\u5831\u544a\u3002",
+        "summary_zh": "v0.1 治理與模板基線完成報告。",
         "summary_en": "v0.1 governance and template baseline completion report."
       }
     }
