@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T05:35:46Z",
+  "generated_at": "2026-01-30T16:52:56Z",
   "source_dir": "aaa-tpl-docs/internal/development/milestones/completion-reports",
   "hash_algo": "sha256",
   "files": [
@@ -174,16 +174,6 @@
       }
     },
     {
-      "path": "v0.1_completion_report_20260118_1235.md",
-      "title": "v0.1 Completion Report (20260118_1235)",
-      "hash": "6d48e0fb277616689261c1fe60ef338f26ec9f0fdcac095faa9c96587d5a817e",
-      "last_modified": "2026-01-24",
-      "metadata": {
-        "summary_zh": "v0.1 \u6cbb\u7406\u8207\u6a21\u677f\u57fa\u7dda\u5b8c\u6210\u5831\u544a\u3002",
-        "summary_en": "v0.1 governance and template baseline completion report."
-      }
-    },
-    {
       "path": "aaa_v2.0.3_completion_report_20260130.md",
       "title": "AAA v2.0.3 Completion Report (2026-01-30)",
       "hash": "ec4f1b4b787bf40731661268786fdcbe0a10173d420eb565f1e0c98adf099ece",
@@ -191,6 +181,26 @@
       "metadata": {
         "summary_zh": "v2.0.3 CLI \u6210\u529f\u8f38\u51fa\u65b0\u589e repo-checks \u5fc5\u8dd1\u63d0\u793a\u3002",
         "summary_en": "v2.0.3 adds a post-init repo-checks hint to successful CLI output."
+      }
+    },
+    {
+      "path": "aaa_v2.0.4_completion_report_20260130.md",
+      "title": "AAA v2.0.4 Completion Report (2026-01-30)",
+      "hash": "4bebe667292eed14397801ff00b8a66fe491d0c32f67bcb6aafc932e05e768db",
+      "last_modified": "2026-01-30",
+      "metadata": {
+        "summary_zh": "v2.0 init presets \u8207 resolver \u5b8c\u6210\uff08default_preset\u3001.github \u5fc5\u542b\u3001--preset \u8986\u5beb\u3001\u8b49\u64da\u9f4a\u5099\uff09\u3002",
+        "summary_en": "v2.0 init presets and resolver complete (default_preset, required .github, --preset override, evidence complete)."
+      }
+    },
+    {
+      "path": "v0.1_completion_report_20260118_1235.md",
+      "title": "v0.1 Completion Report (20260118_1235)",
+      "hash": "6d48e0fb277616689261c1fe60ef338f26ec9f0fdcac095faa9c96587d5a817e",
+      "last_modified": "2026-01-24",
+      "metadata": {
+        "summary_zh": "v0.1 \u6cbb\u7406\u8207\u6a21\u677f\u57fa\u7dda\u5b8c\u6210\u5831\u544a\u3002",
+        "summary_en": "v0.1 governance and template baseline completion report."
       }
     }
   ]
