@@ -24,6 +24,7 @@
 | **v2.0.2** | 2026-01-29 | **[NIGHTLY RECOVERY]** repo_type anchors + README compliance, evidence persistence, dashboard sync handoff. |
 | **v2.0.3** | 2026-01-30 | **[CLI HINTS]** repo-checks runtime hints on init success for human/agent visibility. |
 | **v2.0.4** | 2026-01-30 | **[INIT PRESETS]** presets + default_preset, Governance-Native default, legacy compatibility. |
+| **v2.0.5** | 2026-01-31 | **[REPO TYPE SSOT]** repo_type map SSOT + missing-mapping fail-fast + soft WARN. |
 
 ---
 
@@ -80,6 +81,7 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 | **v2.0.2** | **Nightly Governance Recovery** | Evidence Pipeline Stability | ✅ repo_type anchors + evidence JSON/JSONL + dashboard sync handoff |
 | **v2.0.3** | **Repo-Checks Runtime Hint** | Human/Agent Visibility | ✅ post-init repo-checks hint in CLI success path |
 | **v2.0.4** | **Init Plan Presets** | Governance-Native Defaults | ✅ presets + default_preset + legacy compatibility |
+| **v2.0.5** | **Repo Type Map SSOT + Soft Enum** | Repo-Type Consistency | ✅ SSOT map + missing-mapping fail-fast + soft WARN |
 | **v2.1** | **Bridge MVP** | Controlled Channel | SSE Bridge (authz/limit/audit/deny) |
 | **v2.2** | **Endpoint MVP** | Controlled Endpoint | macOS Desktop Bridge (allowlist + revocation + sandbox) |
 | **v2.3** | **Mesh MVP** | Governed Mesh | Capability Mesh (schema/discovery/version/remote check) |
@@ -145,6 +147,20 @@ Default Governance-Native init without breaking legacy plans.
 2. **.github Required**: Default preset includes `.github` and fails fast if missing.
 3. **Legacy Compatibility**: `repos` still accepted with explicit legacy/mixed tokens.
 4. **CLI Override**: `--preset` supported with fail-fast on unknown preset.
+
+### v2.0.5 — Repo Type Map SSOT + Soft Enum (2026-01-31)
+*Status: ✅ **COMPLETED***
+
+#### Value Proposition
+Eliminate repo_type drift by centralizing mapping into a single SSOT file, while adding missing-mapping fail-fast and soft WARNs without changing schema enum.
+
+#### Non-Negotiable DoD
+1. **SSOT Map**: `repo_type_map.json` is the single source of truth for nightly mapping.
+2. **Fail-Fast**: Missing mapping emits `ERROR missing_repo_type_mapping` and fails.
+3. **Soft Enum**: Unknown repo_type emits `WARN unknown_repo_type` (no schema enum change).
+4. **Coverage**: Nightly reports `repo_type_map_coverage=100%`.
+5. **Evidence**: Happy/edge/negative cases recorded in audit (CMD/OUT/HASH).
+6. **Artifacts**: Milestone summary + completion report linked and registered.
 
 ### v2.1 — Bridge MVP (SSE Bridge Server)
 *Target: A controlled channel for Agent-to-Runtime communication.*
