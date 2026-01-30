@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T21:05:26Z",
+  "generated_at": "2026-01-30T21:07:50Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -133,6 +133,13 @@
       "path": "audits/nightly_governance_20260131_0505.md",
       "title": "Nightly Governance Report (20260131_0505 Asia/Taipei)",
       "hash": "c746d296299658aa667c2f154087a8059b837a07ab56406f07d623be2552cd46",
+      "last_modified": "2026-01-30",
+      "metadata": {}
+    },
+    {
+      "path": "audits/nightly_governance_20260131_0507.md",
+      "title": "nightly_governance_20260131_0507",
+      "hash": "0a811ff30a0e719a8a69db0fe7ece23ef5d94308431b4c32bd5c0f11c55948e5",
       "last_modified": "2026-01-30",
       "metadata": {}
     },
@@ -336,6 +343,13 @@
       "path": "github_audit_report_20260130_2105.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9212af58acb071f0ab4aded80539e4a7adf2070aef0ed31b59de75588cfcd2da",
+      "last_modified": "2026-01-30",
+      "metadata": {}
+    },
+    {
+      "path": "github_audit_report_20260130_2107.md",
+      "title": "GitHub AAA v0.1 Audit Report",
+      "hash": "16ecfa5f5869efd6811958d7719b46719ffc3ef17ba83ca36986e17453618aa8",
       "last_modified": "2026-01-30",
       "metadata": {}
     },
