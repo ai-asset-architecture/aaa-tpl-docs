@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T05:35:34Z",
+  "generated_at": "2026-01-30T11:53:38Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -202,6 +202,13 @@
       "metadata": {}
     },
     {
+      "path": "20260130_v2.0.3_repo_checks_runtime_hint.md",
+      "title": "v2.0.3 Milestone: Repo-Checks Runtime Hint (2026-01-30)",
+      "hash": "4a7214ef574a75a8d7871b40fa7486ea2e08828ac4fbb1f397fbc5636ed42e1a",
+      "last_modified": "2026-01-30",
+      "metadata": {}
+    },
+    {
       "path": "AAA_ROADMAP_V2_V3_ENTERPRISE.md",
       "title": "AAA v2.0-v3.0 Roadmap (Enterprise Edition)",
       "hash": "449766207547e64d176e9cc1776bcdfb4821837ede5c45d7688f31b8497264af",
@@ -216,16 +223,6 @@
       "metadata": {
         "summary_zh": "AAA v1.0\u2192v2.0 \u5b8c\u6574\u8def\u7dda\u5716\uff1a\u5f9e Enterprise-Ready \u6f14\u9032\u81f3 Agent OS\uff0c\u6db5\u84cb\u8a9e\u7fa9\u6642\u4ee3\u3001\u4e3b\u52d5\u5b88\u8b77\u8207\u6578\u4f4d\u61b2\u6cd5\u4e09\u968e\u6bb5\u3002",
         "summary_en": "AAA v1.0\u2192v2.0 complete roadmap: evolving from Enterprise-Ready to Agent OS, covering Semantic Era, Active Guardian, and Digital Constitution phases."
-      }
-    },
-    {
-      "path": "20260130_v2.0.3_repo_checks_runtime_hint.md",
-      "title": "v2.0.3 Milestone: Repo-Checks Runtime Hint (2026-01-30)",
-      "hash": "4a7214ef574a75a8d7871b40fa7486ea2e08828ac4fbb1f397fbc5636ed42e1a",
-      "last_modified": "2026-01-30",
-      "metadata": {
-        "summary_zh": "\u65b0 repo \u5b8c\u6210\u5f8c\u5373\u986f\u793a repo-checks \u5fc5\u8dd1\u63d0\u793a\uff0c\u907f\u514d\u907a\u6f0f\u6cbb\u7406\u9a57\u8b49\u3002",
-        "summary_en": "Adds a post-init repo-checks hint after repo creation to prevent missed governance validation."
       }
     }
   ]
