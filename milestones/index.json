@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T20:05:12Z",
+  "generated_at": "2026-01-30T21:00:26Z",
   "source_dir": "aaa-tpl-docs/milestones",
   "hash_algo": "sha256",
   "files": [
@@ -219,7 +219,7 @@
       "path": "AAA_ROADMAP_V2_V3_ENTERPRISE.md",
       "title": "AAA v2.0-v3.0 Roadmap (Enterprise Edition)",
       "hash": "9b38acc7d6591a567e18e0b7457f6a3bd3b5a23583372456015e3b4f6df59ac6",
-      "last_modified": "2026-01-31",
+      "last_modified": "2026-01-30",
       "metadata": {}
     },
     {
