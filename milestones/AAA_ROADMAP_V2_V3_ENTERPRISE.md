@@ -21,6 +21,9 @@
 | **v2.0** | 2026-01-29 | **[DIAMOND]** env_fingerprint fields, hash_chain ordering, zip container contract, and resolution enums. |
 | **v2.1** | 2026-01-29 | **[DIAMOND REFINED]** 5 Core Files (case_snapshot), Canonical JSON spec, and Artifact SSOT. |
 | **v2.0.1** | 2026-01-29 | **[TRUST BOUNDARY]** Identity Signing, Path Scoping, and Replay Verification. |
+| **v2.0.2** | 2026-01-29 | **[NIGHTLY RECOVERY]** repo_type anchors + README compliance, evidence persistence, dashboard sync handoff. |
+| **v2.0.3** | 2026-01-30 | **[CLI HINTS]** repo-checks runtime hints on init success for human/agent visibility. |
+| **v2.0.4** | 2026-01-30 | **[INIT PRESETS]** presets + default_preset, Governance-Native default, legacy compatibility. |
 
 ---
 
@@ -74,6 +77,9 @@ The goal of AAA v2.x–v3.x is not "more features," but to extend the governance
 | Version | Theme | Goal | Core Deliverable |
 | :--- | :--- | :--- | :--- |
 | **v2.0.1** | **Trust Boundary Release** | Runtime Security Foundation | ✅ Trust Core (Identity/Scope/Revoke) + Signed Evidence |
+| **v2.0.2** | **Nightly Governance Recovery** | Evidence Pipeline Stability | ✅ repo_type anchors + evidence JSON/JSONL + dashboard sync handoff |
+| **v2.0.3** | **Repo-Checks Runtime Hint** | Human/Agent Visibility | ✅ post-init repo-checks hint in CLI success path |
+| **v2.0.4** | **Init Plan Presets** | Governance-Native Defaults | ✅ presets + default_preset + legacy compatibility |
 | **v2.1** | **Bridge MVP** | Controlled Channel | SSE Bridge (authz/limit/audit/deny) |
 | **v2.2** | **Endpoint MVP** | Controlled Endpoint | macOS Desktop Bridge (allowlist + revocation + sandbox) |
 | **v2.3** | **Mesh MVP** | Governed Mesh | Capability Mesh (schema/discovery/version/remote check) |
@@ -104,6 +110,41 @@ Upgrade AAA from a "Coroner" (post-mortem artifacts) to a "Bodyguard" (runtime e
 8.  **RiskLedger Integration**: All allow/deny decisions persist to [v1.8 Ledger](./20260129_v1.8_observability_2.0.md).
 9.  **Court Auto-Trigger**: Unauthorized access/replay attacks file a [v1.9 Court Case](./20260129_v1.9_supreme_court_interface.md). **Priority**: Auto-trigger respects triage; misconfig/policy mismatch MUST NOT file court directly.
 10. **OMEGA Extension**: New test suite for Handshake, Replay, Revoke, Deny, and Court Trigger.
+
+### v2.0.2 — Nightly Governance Recovery (2026-01-29)
+*Status: ✅ **COMPLETED***
+
+#### Value Proposition
+Restore an end-to-end nightly governance pipeline that is verifiable, traceable, and publishable.
+
+#### Non-Negotiable DoD
+1. **repo_type Anchors**: `.aaa/metadata.json` enforced across core repos.
+2. **README/CODEOWNERS Compliance**: Required governance sections and CODEOWNERS present.
+3. **Evidence Persistence**: Nightly persists JSON evidence + repo-checks JSONL.
+4. **Dashboard Sync Handoff**: Publishing moved to `aaa-docs` via `dashboard-sync`.
+
+### v2.0.3 — Repo-Checks Runtime Hint (2026-01-30)
+*Status: ✅ **COMPLETED***
+
+#### Value Proposition
+Make post-init governance validation visible to humans/agents immediately after repo creation.
+
+#### Non-Negotiable DoD
+1. **Standard Post-init Hint**: CLI outputs required `aaa init repo-checks --suite governance`.
+2. **Success-Path Coverage**: `aaa init` and `aaa init enterprise` include the hint.
+3. **Audit Evidence**: Verification logs recorded with timestamp.
+
+### v2.0.4 — Init Plan Presets (2026-01-30)
+*Status: ✅ **COMPLETED***
+
+#### Value Proposition
+Default Governance-Native init without breaking legacy plans.
+
+#### Non-Negotiable DoD
+1. **Presets + default_preset**: Single plan with `governance_native` + `lean`.
+2. **.github Required**: Default preset includes `.github` and fails fast if missing.
+3. **Legacy Compatibility**: `repos` still accepted with explicit legacy/mixed tokens.
+4. **CLI Override**: `--preset` supported with fail-fast on unknown preset.
 
 ### v2.1 — Bridge MVP (SSE Bridge Server)
 *Target: A controlled channel for Agent-to-Runtime communication.*
