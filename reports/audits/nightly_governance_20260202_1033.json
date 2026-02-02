@@ -1,0 +1,404 @@
+{
+  "generated_at": "20260202_1033",
+  "org": "ai-asset-architecture",
+  "repo_count": 12,
+  "compliance_rate": 0.0,
+  "repos": [
+    {
+      "name": "aaa-tools",
+      "repo_type": "tooling",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-actions",
+      "repo_type": "actions",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "skip aaa-actions self-check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-evals",
+      "repo_type": "evals",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-policies",
+      "repo_type": "policies",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-observability",
+      "repo_type": "observability",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": ".github",
+      "repo_type": "governance",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "ai-asset-architecture-registry",
+      "repo_type": "registry",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-prompts",
+      "repo_type": "prompts",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-docs",
+      "repo_type": "docs",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-tpl-docs",
+      "repo_type": "templates",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-tpl-service",
+      "repo_type": "service",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-tpl-frontend",
+      "repo_type": "frontend",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    }
+  ]
+}
