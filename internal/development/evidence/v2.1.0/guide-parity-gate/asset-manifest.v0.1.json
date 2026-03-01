@@ -50,8 +50,8 @@
       "asset_type": "run_evidence_bundle",
       "source_step": "step2",
       "source_paths": [
-        "docs/reviews/2026-03-01-v2.1.0-guide-parity-gate-run-evidence.md",
-        "docs/reviews/2026-03-01-v2.1.0-step2-exit-checklist.md"
+        "internal/development/reviews/2026-03-01-v2.1.0-guide-parity-gate-run-evidence.md",
+        "internal/development/reviews/2026-03-01-v2.1.0-step2-exit-checklist.md"
       ],
       "reuse_target": [
         "AAA core"

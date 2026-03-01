@@ -10,10 +10,10 @@
 - conclusion: `success`
 
 ## Bundle Files
-- `docs/evidence/v2.1.0/guide-parity-gate/result.json`
-- `docs/evidence/v2.1.0/guide-parity-gate/index.json`
-- `docs/evidence/v2.1.0/guide-parity-gate/run-evidence.md`
-- `docs/evidence/v2.1.0/guide-parity-gate/asset-manifest.v0.1.json`
+- `internal/development/evidence/v2.1.0/guide-parity-gate/result.json`
+- `internal/development/evidence/v2.1.0/guide-parity-gate/index.json`
+- `internal/development/evidence/v2.1.0/guide-parity-gate/run-evidence.md`
+- `internal/development/evidence/v2.1.0/guide-parity-gate/asset-manifest.v0.1.json`
 
 ## Digest Summary
 - `inputs_digest`: core guide sha256
