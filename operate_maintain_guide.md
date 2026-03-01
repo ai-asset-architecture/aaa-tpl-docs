@@ -123,12 +123,40 @@ ExitChecklistVerdict: PASS|FAIL|N/A
 - [ ] index 對應列完成 Step2 回寫
 
 ### Step 3: Asset Preservation
-**目標**：保存可重用資產，建立可追溯沉澱。
+**目標**：把 Step1/Step2 產生的可重用成果轉成 AAA 資產，形成可回放、可匯入、可審計的資產鏈。
 
-必做：
-1. 盤點可沉澱資產（templates/policies/evals/tools）。
-2. 保存證據檔（若有）：`result.json`, `index.json`, `run-evidence.md`。
-3. 補齊 digest 欄位（如 `inputs_digest`, `policy_digest`, `dataset_digest`）。
+AAA Valuable Assets（MUST）：
+1. Templates：
+   - 例：`docs/templates/**`、可被繼承專案直接套用的 SOP/規格模板。
+2. Prompts：
+   - 例：`prompts/**`、agent/system prompt bundles、審核提示詞。
+3. Contracts：
+   - 例：`docs/contracts/**/*.schema.json`、reason-codes、pass/fail fixtures。
+4. Workflows/Gates：
+   - 例：`.github/workflows/*.yml`、`scripts/gates/**`。
+5. Evals/Test Assets：
+   - 例：`evals/**`、測試資料、驗證案例與 replay inputs。
+6. Runbooks/Operational Guides：
+   - 例：`docs/runbooks/**`、`docs/reviews/*-checklist.md`。
+7. UI/Observability Assets（若有）：
+   - 例：dashboard spec、MCP screenshots、ops/version page mapping docs。
+
+來源規則（MUST）：
+1. Step1 產物：以「治理可重用」為主（templates/contracts/gates/workflow specs）。
+2. Step2 產物：以「可執行證據可重用」為主（run evidence/evals/replay assets）。
+3. Step3 必須明確標示每項資產來自 Step1 或 Step2，不得混寫為不明來源。
+
+最小保存交付（MUST）：
+1. `docs/evidence/<version>/<asset>/result.json`
+2. `docs/evidence/<version>/<asset>/index.json`
+3. `docs/evidence/<version>/<asset>/run-evidence.md`
+4. `docs/evidence/<version>/<asset>/asset-manifest.v0.1.json`
+   - 至少欄位：`asset_id`, `asset_type`, `source_step`, `source_paths`, `reuse_target`, `owner`, `digest`
+
+Value Gate（MUST）：
+1. 若本版本沒有任何可沉澱 AAA 資產，必須在 Step3 checklist 填寫 `No-Asset Justification`（不可留空）。
+2. 若有資產，`asset-manifest.v0.1.json` 至少 1 筆 `reuse_target` 必須是 `AAA core` 或 `AAA inherited projects`。
+3. 每筆資產都要有對應 digest（如 `inputs_digest`, `policy_digest`, `dataset_digest`, `asset_digest`）。
 
 #### Step 3 Exit Checklist
 ```yaml
@@ -138,8 +166,11 @@ ExitChecklistOwner: <ai-or-human-role>
 ExitChecklistVerdict: PASS|FAIL|N/A
 ```
 - [ ] Value Check 完成
-- [ ] 證據檔已保存（若有產出）
-- [ ] digest 欄位齊全
+- [ ] Valuable Assets 已分類（Templates/Prompts/Contracts/Workflows/Evals/Runbooks/UI）
+- [ ] 每項資產已標註 `source_step`（Step1 或 Step2）
+- [ ] `asset-manifest.v0.1.json` 已建立（或有 No-Asset Justification）
+- [ ] 證據檔已保存（`result.json`, `index.json`, `run-evidence.md`）
+- [ ] digest 欄位齊全（含 asset_digest 類欄位）
 - [ ] milestone 摘要已建立
 
 ### Step 4: Completion & Delivery
