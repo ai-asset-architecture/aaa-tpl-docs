@@ -36,7 +36,7 @@
       "asset_type": "contract_schema",
       "source_step": "step1",
       "source_paths": [
-        "docs/contracts/ops/ops-version-step-block.v0.1.schema.json"
+        "internal/development/contracts/ops/ops-version-step-block.v0.1.schema.json"
       ],
       "reuse_target": [
         "AAA core",

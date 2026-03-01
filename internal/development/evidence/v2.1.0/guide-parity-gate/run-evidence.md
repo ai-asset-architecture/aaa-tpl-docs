@@ -23,6 +23,6 @@
 
 ## Asset Classification
 - Templates/Prompts: N/A in this version
-- Contracts: `docs/contracts/ops/guide-parity-report.v0.1.schema.json`, `docs/contracts/ops/ops-version-step-block.v0.1.schema.json`
+- Contracts: `internal/development/contracts/ops/guide-parity-report.v0.1.schema.json`, `internal/development/contracts/ops/ops-version-step-block.v0.1.schema.json`
 - Workflows/Gates: `.github/workflows/v2-1-0-guide-parity-gate.yml`, `scripts/gates/verify_operate_maintain_guides.py`
 - Evals/Runbooks/UI: N/A in this version
