@@ -5,6 +5,6 @@
   "ok": false,
   "errors": [
     "template missing section 4",
-    "Step 2 checklist version mismatch: core=v2.0.1, tpl=v2.0.0"
+    "Step 2 checklist version mismatch: core=v2.1.0, tpl=v2.0.0"
   ]
 }

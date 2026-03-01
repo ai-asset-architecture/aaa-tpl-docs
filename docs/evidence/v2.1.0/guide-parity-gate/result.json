@@ -1,8 +1,8 @@
 {
-  "version": "v2.0.1",
+  "version": "v2.1.0",
   "step": "step3",
   "asset": "guide-parity-gate",
-  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tpl-docs@.github/workflows/v2-0-1-guide-parity-gate.yml#22546764942",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tpl-docs@.github/workflows/v2-1-0-guide-parity-gate.yml#22546764942",
   "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tpl-docs/actions/runs/22546764942",
   "conclusion": "success",
   "inputs_digest": "sha256:5d9bbb83fd31f860244b8f1981cc6d77cd83a927b6e87c36a878795de13e8093",

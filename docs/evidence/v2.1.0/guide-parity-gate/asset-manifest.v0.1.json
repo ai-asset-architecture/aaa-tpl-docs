@@ -1,14 +1,14 @@
 {
-  "version": "v2.0.1",
+  "version": "v2.1.0",
   "asset_group": "guide-parity-gate",
   "generated_at_taipei": "2026-03-02T00:08:00+08:00",
   "assets": [
     {
-      "asset_id": "workflow.v2-0-1-guide-parity-gate",
+      "asset_id": "workflow.v2-1-0-guide-parity-gate",
       "asset_type": "workflow",
       "source_step": "step1",
       "source_paths": [
-        ".github/workflows/v2-0-1-guide-parity-gate.yml"
+        ".github/workflows/v2-1-0-guide-parity-gate.yml"
       ],
       "reuse_target": [
         "AAA core",
@@ -46,12 +46,12 @@
       "digest": "sha256:b23c30d928a610f9572b56b84513f86696e7ac245881291cadc6d75edcbdb24f"
     },
     {
-      "asset_id": "evidence.bundle.v2.0.1-guide-parity",
+      "asset_id": "evidence.bundle.v2.1.0-guide-parity",
       "asset_type": "run_evidence_bundle",
       "source_step": "step2",
       "source_paths": [
-        "docs/reviews/2026-03-01-v2.0.1-guide-parity-gate-run-evidence.md",
-        "docs/reviews/2026-03-01-v2.0.1-step2-exit-checklist.md"
+        "docs/reviews/2026-03-01-v2.1.0-guide-parity-gate-run-evidence.md",
+        "docs/reviews/2026-03-01-v2.1.0-step2-exit-checklist.md"
       ],
       "reuse_target": [
         "AAA core"
