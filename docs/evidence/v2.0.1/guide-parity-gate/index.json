@@ -1,0 +1,11 @@
+{
+  "version": "v2.0.1",
+  "asset": "guide-parity-gate",
+  "files": [
+    "docs/evidence/v2.0.1/guide-parity-gate/result.json",
+    "docs/evidence/v2.0.1/guide-parity-gate/index.json",
+    "docs/evidence/v2.0.1/guide-parity-gate/run-evidence.md"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tpl-docs@.github/workflows/v2-0-1-guide-parity-gate.yml#22546764942",
+  "computed_at_taipei": "2026-03-01T23:58:00+08:00"
+}
