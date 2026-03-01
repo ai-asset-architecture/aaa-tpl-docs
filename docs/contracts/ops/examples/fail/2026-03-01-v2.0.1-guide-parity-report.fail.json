@@ -1,0 +1,10 @@
+{
+  "gate": "operate_maintain_guide_parity_v2_0_1",
+  "core_guide": "external/aaa-docs/bootstrap/operate_maintain_guide.md",
+  "tpl_guide": "operate_maintain_guide.md",
+  "ok": false,
+  "errors": [
+    "template missing section 4",
+    "Step 2 checklist version mismatch: core=v2.0.1, tpl=v2.0.0"
+  ]
+}

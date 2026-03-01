@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aaa/ops/contracts/guide-parity-report.v0.1.schema.json",
+  "title": "GuideParityReportV0_1",
+  "type": "object",
+  "required": ["gate", "core_guide", "tpl_guide", "ok", "errors"],
+  "properties": {
+    "gate": {"type": "string", "const": "operate_maintain_guide_parity_v2_0_1"},
+    "core_guide": {"type": "string", "minLength": 1},
+    "tpl_guide": {"type": "string", "minLength": 1},
+    "ok": {"type": "boolean"},
+    "errors": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "additionalProperties": false
+}

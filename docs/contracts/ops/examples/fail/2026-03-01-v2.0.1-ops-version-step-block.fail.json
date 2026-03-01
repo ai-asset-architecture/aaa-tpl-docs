@@ -1,0 +1,17 @@
+{
+  "step1": {
+    "title": "Step1 契約基線",
+    "status": "COMPLETED",
+    "artifacts": []
+  },
+  "step2": {
+    "title": "Step2 實作與執行",
+    "status": "DONE",
+    "artifacts": []
+  },
+  "step4": {
+    "title": "Step4 結案交付",
+    "status": "N/A",
+    "artifacts": []
+  }
+}

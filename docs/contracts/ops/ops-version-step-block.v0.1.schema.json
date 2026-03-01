@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aaa/ops/contracts/ops-version-step-block.v0.1.schema.json",
+  "title": "OpsVersionStepBlockV0_1",
+  "type": "object",
+  "required": ["step1", "step2", "step3", "step4"],
+  "properties": {
+    "step1": {"$ref": "#/$defs/step"},
+    "step2": {"$ref": "#/$defs/step"},
+    "step3": {"$ref": "#/$defs/step"},
+    "step4": {"$ref": "#/$defs/step"}
+  },
+  "$defs": {
+    "step": {
+      "type": "object",
+      "required": ["title", "status", "artifacts"],
+      "properties": {
+        "title": {"type": "string"},
+        "status": {"type": "string", "enum": ["UNVERIFIED", "IN_PROGRESS", "COMPLETED", "N/A"]},
+        "run_ref": {"type": "string"},
+        "artifacts": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
