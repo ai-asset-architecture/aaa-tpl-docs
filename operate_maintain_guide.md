@@ -23,8 +23,8 @@
 
 ## 2. Canonical Sources（MUST）
 以下兩份檔案是 `ops-registry` / `ops-version` 類頁面的 raw data SSOT：
-- `aaa-tpl-docs/version_index.md`
-- `aaa-tpl-docs/workflow_index.md`
+- `aaa-tpl-docs/ops/index/version_index.md`
+- `aaa-tpl-docs/ops/index/workflow_index.md`
 
 硬規則：
 1. 每次版本開發 Step1，必須新增或更新 `version_index.md` 對應列。
@@ -71,8 +71,8 @@
 5. 至少 1 組 pass example + 1 組 fail example
 
 Step1 Index Blocking（MUST）：
-1. `aaa-tpl-docs/version_index.md` 必須有新版本列（或更新既有列）。
-2. 涉及 workflow 時，`aaa-tpl-docs/workflow_index.md` 必須有新列（或更新既有列）。
+1. `aaa-tpl-docs/ops/index/version_index.md` 必須有新版本列（或更新既有列）。
+2. 涉及 workflow 時，`aaa-tpl-docs/ops/index/workflow_index.md` 必須有新列（或更新既有列）。
 3. 排序規則：日期 DESC；同日期下版本/ID DESC。
 4. Step1 可使用 `run_ref=N/A (step2-pending)`，但不得宣稱 Step2 PASS。
 
