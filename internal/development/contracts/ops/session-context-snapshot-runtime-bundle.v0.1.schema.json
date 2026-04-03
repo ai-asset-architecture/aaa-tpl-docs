@@ -13,6 +13,7 @@
     "snapshot_persistence_mode",
     "reload_semantics",
     "replay_semantics",
+    "canonical_writeback_allowed",
     "canonical_truth_promotion_allowed",
     "prose_fallback_allowed"
   ],
@@ -84,6 +85,10 @@
     "replay_semantics": {
       "type": "string",
       "const": "canonical_recheck_before_replay"
+    },
+    "canonical_writeback_allowed": {
+      "type": "boolean",
+      "const": false
     },
     "canonical_truth_promotion_allowed": {
       "type": "boolean",

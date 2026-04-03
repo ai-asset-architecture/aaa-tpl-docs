@@ -18,6 +18,7 @@
   "snapshot_persistence_mode": "session_snapshot_store",
   "reload_semantics": "explicit_reload_only",
   "replay_semantics": "canonical_recheck_before_replay",
+  "canonical_writeback_allowed": false,
   "canonical_truth_promotion_allowed": false,
   "prose_fallback_allowed": false
 }

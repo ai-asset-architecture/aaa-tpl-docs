@@ -13,8 +13,11 @@
     "request_received",
     "dispatch_resolved"
   ],
-  "write_back_modes": [
-    "evidence_index_update"
+  "write_back_destination_classes": [
+    "runtime_artifact_only",
+    "evidence_candidate_only",
+    "promotion_gated_only",
+    "forbidden_canonical_writeback"
   ],
   "promotion_gate_bypass_allowed": true,
   "snapshot_boundary_bypass_allowed": true,

@@ -17,8 +17,11 @@
     "evidence_gate_applied",
     "readiness_evaluated"
   ],
-  "write_back_modes": [
-    "result_artifact_only"
+  "write_back_destination_classes": [
+    "runtime_artifact_only",
+    "evidence_candidate_only",
+    "promotion_gated_only",
+    "forbidden_canonical_writeback"
   ],
   "promotion_gate_bypass_allowed": false,
   "snapshot_boundary_bypass_allowed": false,

@@ -7,6 +7,7 @@
   "evidence_class": "audit_evidence",
   "promotion_eligibility": "promotable",
   "promotion_decision_source": "machine_checkable_gate",
+  "evidence_source": "promotion_gated_evidence_bundle",
   "supporting_review_sources": [
     "manual_review_note",
     "completion_report"

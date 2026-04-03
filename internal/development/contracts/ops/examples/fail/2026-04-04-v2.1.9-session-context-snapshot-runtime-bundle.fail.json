@@ -16,6 +16,7 @@
   "snapshot_persistence_mode": "ephemeral_cache",
   "reload_semantics": "implicit_auto_reload",
   "replay_semantics": "replay_without_recheck",
+  "canonical_writeback_allowed": true,
   "canonical_truth_promotion_allowed": true,
   "prose_fallback_allowed": true
 }

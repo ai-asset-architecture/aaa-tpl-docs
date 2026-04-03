@@ -11,6 +11,7 @@
     "evidence_class",
     "promotion_eligibility",
     "promotion_decision_source",
+    "evidence_source",
     "supporting_review_sources",
     "sole_manual_decision_allowed",
     "prose_fallback_allowed"
@@ -61,6 +62,13 @@
     "promotion_decision_source": {
       "type": "string",
       "const": "machine_checkable_gate"
+    },
+    "evidence_source": {
+      "type": "string",
+      "enum": [
+        "eligible_result_artifact",
+        "promotion_gated_evidence_bundle"
+      ]
     },
     "supporting_review_sources": {
       "type": "array",
