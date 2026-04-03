@@ -1,0 +1,33 @@
+{
+  "version": "v0.1",
+  "command_id": "readiness-inspect",
+  "binding_mode": "machine_parseable",
+  "target_scope": "repo_or_worktree",
+  "target_kind": "workspace_root",
+  "target_path": ".",
+  "allowed_authority": [
+    "analysis_only"
+  ],
+  "tool_chain_refs": [
+    "governance.validate-tool-command-adoption",
+    "governance.validate-multi-repo-worktree-identity",
+    "governance.validate-context-runtime-preflight",
+    "governance.validate-session-readiness-state"
+  ],
+  "current_truth_sources": [
+    "canonical_contract_docs",
+    "local_operation_logs"
+  ],
+  "supporting_sources": [
+    "local_operation_logs"
+  ],
+  "preflight_checks": [
+    "anti_contamination_check"
+  ],
+  "readiness_surface": "readiness_panel",
+  "readiness_checks": [
+    "context_loaded"
+  ],
+  "expected_output_artifact": "readiness_state_report",
+  "prose_fallback_allowed": true
+}

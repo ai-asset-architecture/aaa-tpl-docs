@@ -1,0 +1,42 @@
+{
+  "version": "v0.1",
+  "command_id": "readiness-inspect",
+  "binding_mode": "machine_parseable",
+  "target_scope": "repo_or_worktree",
+  "target_kind": "legal_worktree_instance",
+  "target_path": ".worktrees/aaa-tools-v215-readiness",
+  "allowed_authority": [
+    "read_only",
+    "analysis_only"
+  ],
+  "tool_chain_refs": [
+    "governance.validate-tool-command-adoption",
+    "governance.validate-multi-repo-worktree-identity",
+    "governance.validate-context-runtime-preflight",
+    "governance.validate-session-readiness-state"
+  ],
+  "current_truth_sources": [
+    "canonical_contract_docs",
+    "canonical_registries_indexes",
+    "repo_tracked_files"
+  ],
+  "supporting_sources": [
+    "external_execution_outputs",
+    "generated_runtime_summaries"
+  ],
+  "preflight_checks": [
+    "current_truth_source_check",
+    "supporting_source_check",
+    "anti_contamination_check",
+    "promotion_block_check"
+  ],
+  "readiness_surface": "gate_status_surface",
+  "readiness_checks": [
+    "context_loaded",
+    "authority_resolved",
+    "preflight_passed",
+    "evidence_path_bound"
+  ],
+  "expected_output_artifact": "readiness_state_report",
+  "prose_fallback_allowed": false
+}
