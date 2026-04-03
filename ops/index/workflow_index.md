@@ -1,11 +1,12 @@
 # Workflow Index (Canonical Source)
 
-- updated_at_taipei: 2026-03-02T11:20:00+08:00
+- updated_at_taipei: 2026-04-04T02:33:48+08:00
 - source_of_truth: raw rows for `/ops-registry?tab=workflows`
 - maintenance_rule: workflow change MUST append/update in Step1
 
 | 日期 | ID | 工作流程 | 目的 | 目標 | 場合 | 觸發時機 | 模式 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-04-04 | aaa-tools/.github/workflows/v2-1-1-tool-command-adoption.yml | v2.1.1 Tool Command Adoption | 驗證 `aaa-tools` 的 tool/command adoption validator 可執行、可拒絕 prose-only binding，並對 canonical pass/fail bundles 產生穩定結果。 | 讓 `v2.1.1` 的 executable adoption 與 machine-parseable command binding 在 Step2 有 remote smoke run 與可審計 run_ref。 | v2.1.1 capability-law executable adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23957470365; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.1-tool-command-adoption-run-evidence.md） |
 | 2026-03-01 | .github/workflows/v2-1-0-guide-parity-gate.yml | v2.1.0 Guide Parity Gate | PR 自動比對 core/template guide canonical sections，不一致即 fail。 | 保證 workflow law 在核心與模板層長期一致，並提供 workflow_dispatch auto-fix PR 選項。 | operate_maintain_workflow_v2 governance | pull_request(main) + workflow_dispatch(auto_fix_pr) | auto+manual（latest_run:22546764942; conclusion:success; evidence:internal/development/reviews/2026-03-01-v2.1.0-guide-parity-gate-run-evidence.md） |
 | 2026-03-01 | operate_maintain_workflow_v2 | AAA 4-Step Version Development Workflow | 定義 Step1~Step4 的唯一權威流程與 evidence gate。 | 確保版本治理可追溯、可審計、可被繼承專案匯入。 | AAA core + inherited projects | version development lifecycle | manual+automation |
 | 2026-01-29 | governance:legacy_trust_boundary_archive | Legacy Trust-Boundary Archive Workflow | 將既有 v2.0.1 Trust Boundary 以歷史軌方式納入現行 registry/detail。 | 讓 legacy 版本可在同一治理介面中可視、可追溯、可比對。 | legacy_trust_boundary historical records | historical backfill / index sync | manual(backfill)+read-only |
