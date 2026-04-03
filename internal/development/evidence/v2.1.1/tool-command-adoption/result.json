@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.1",
+  "step": "step3",
+  "asset": "tool-command-adoption",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-1-tool-command-adoption.yml#23957470365",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23957470365",
+  "conclusion": "success",
+  "inputs_digest": "sha256:6776051347f6ff59e69ab1f55d954b1ac0a4acfe17017d0b59e42b08709ab9e2",
+  "contract_digest": "sha256:a09668f649cb0a3bb72177f77f1dd372877687b897ff17b341c287173f059a56",
+  "fixture_digest": "sha256:936fbc0344841a12fe4cb53c08c944b16a94adc826deb68378a13c6551b00837",
+  "runtime_digest": "sha256:a6107572a88049f4c6585daa38aa089999fb96b42ed3b40acb3cfd2dc5df3c83",
+  "workflow_digest": "sha256:61808fefb35be0d21fedbdaeb34cdfd373123d5ad83a761941b3747e3334bb26",
+  "evidence_digest": "sha256:ad5e1e20045768b0e0f18b9b9aae6f9f3055da1f1f4e9122ef8bd46bd897c9ff",
+  "computed_at_taipei": "2026-04-04T02:36:35+08:00"
+}

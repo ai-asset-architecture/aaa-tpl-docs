@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.1",
+  "asset": "tool-command-adoption",
+  "files": [
+    "internal/development/evidence/v2.1.1/tool-command-adoption/result.json",
+    "internal/development/evidence/v2.1.1/tool-command-adoption/index.json",
+    "internal/development/evidence/v2.1.1/tool-command-adoption/run-evidence.md",
+    "internal/development/evidence/v2.1.1/tool-command-adoption/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-1-tool-command-adoption.yml#23957470365",
+  "computed_at_taipei": "2026-04-04T02:36:35+08:00"
+}
