@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.5",
+  "step": "step3",
+  "asset": "runtime-adoption-baseline",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-5-runtime-adoption-baseline.yml#23961062180",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23961062180",
+  "conclusion": "success",
+  "inputs_digest": "sha256:be71bc82ef27012eb3f15c0768de6597d505dcfce5a9ab430a6b595aaa8402e9",
+  "contract_digest": "sha256:6f365e460653a333c5bb555c9971795d86657195a4b7739b0dd09aa121cca4cc",
+  "fixture_digest": "sha256:415f2a506f210ccfcad659523a00418ca37af1b06e490c15fccc937c8b5887e8",
+  "runtime_digest": "sha256:31dd2280be3594d80f238029c74e664292bdb48777dd612cfa1a3c456348ec3e",
+  "workflow_digest": "sha256:955d23b88628dfd2c51e3d102f63c6266384a0bcde7876f154298bd4f841ed35",
+  "evidence_digest": "sha256:07f08bd4973e4bd5d3df4b85b861c1389237284cc6e4f4139c7d4c56d5dcbe82",
+  "computed_at_taipei": "2026-04-04T04:30:59+08:00"
+}

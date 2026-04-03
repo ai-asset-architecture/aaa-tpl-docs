@@ -1,0 +1,83 @@
+{
+  "version": "v2.1.5",
+  "asset_group": "runtime-adoption-baseline",
+  "generated_at_taipei": "2026-04-04T04:30:59+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.runtime-adoption-readiness-inspect.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/runtime-adoption-readiness-inspect-bundle.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:6f365e460653a333c5bb555c9971795d86657195a4b7739b0dd09aa121cca4cc"
+    },
+    {
+      "asset_id": "fixtures.runtime-adoption-readiness-inspect.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.5-runtime-adoption-readiness-inspect-bundle.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.5-runtime-adoption-readiness-inspect-bundle.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:415f2a506f210ccfcad659523a00418ca37af1b06e490c15fccc937c8b5887e8"
+    },
+    {
+      "asset_id": "runtime.readiness-inspect-validator.v2.1.5",
+      "asset_type": "runtime_validator_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/runtime_adoption_readiness_inspect.py",
+        "aaa-tools/aaa/tool_command_adoption.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_runtime_adoption_readiness_inspect.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:31dd2280be3594d80f238029c74e664292bdb48777dd612cfa1a3c456348ec3e"
+    },
+    {
+      "asset_id": "workflow.v2-1-5-runtime-adoption-baseline",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-5-runtime-adoption-baseline.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:955d23b88628dfd2c51e3d102f63c6266384a0bcde7876f154298bd4f841ed35"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.5-runtime-adoption-baseline",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.5-runtime-adoption-baseline-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.5-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:07f08bd4973e4bd5d3df4b85b861c1389237284cc6e4f4139c7d4c56d5dcbe82"
+    }
+  ]
+}

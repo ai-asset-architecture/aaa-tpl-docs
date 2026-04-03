@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.5",
+  "asset": "runtime-adoption-baseline",
+  "files": [
+    "internal/development/evidence/v2.1.5/runtime-adoption-baseline/result.json",
+    "internal/development/evidence/v2.1.5/runtime-adoption-baseline/index.json",
+    "internal/development/evidence/v2.1.5/runtime-adoption-baseline/run-evidence.md",
+    "internal/development/evidence/v2.1.5/runtime-adoption-baseline/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-5-runtime-adoption-baseline.yml#23961062180",
+  "computed_at_taipei": "2026-04-04T04:30:59+08:00"
+}
