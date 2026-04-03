@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.3",
+  "step": "step3",
+  "asset": "context-runtime-preflight",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-3-context-runtime-preflight.yml#23959028416",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23959028416",
+  "conclusion": "success",
+  "inputs_digest": "sha256:372604089febc4a4aec763859f877e8a56507cf275a3026c9b9be4d8ed7014b8",
+  "contract_digest": "sha256:6662fbf8a41409477cd1f5461a80fb009bb3732cae5772892c8c5645a790eb09",
+  "fixture_digest": "sha256:43bdb09b80298e6f43a61dcad1e0931892a31dfe46ff3379456ec4fa73e7c35c",
+  "runtime_digest": "sha256:ec69fe7f346f71d71ca98920bde91162354f3cb305e41667960a23a558b18cab",
+  "workflow_digest": "sha256:4336a96987dc2b4c19ec94b0f1c6f5b4acefc0e3704a7cf63e42c2a3c7c1d0d9",
+  "evidence_digest": "sha256:30aa28bafcbae1d5291c4b5844b7f8197c8a5f7447aaa8d2935ea069d819fb1c",
+  "computed_at_taipei": "2026-04-04T03:25:18+08:00"
+}

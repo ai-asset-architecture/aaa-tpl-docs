@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.3",
+  "asset": "context-runtime-preflight",
+  "files": [
+    "internal/development/evidence/v2.1.3/context-runtime-preflight/result.json",
+    "internal/development/evidence/v2.1.3/context-runtime-preflight/index.json",
+    "internal/development/evidence/v2.1.3/context-runtime-preflight/run-evidence.md",
+    "internal/development/evidence/v2.1.3/context-runtime-preflight/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-3-context-runtime-preflight.yml#23959028416",
+  "computed_at_taipei": "2026-04-04T03:25:18+08:00"
+}
