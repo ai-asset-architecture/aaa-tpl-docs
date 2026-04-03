@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.2",
+  "step": "step3",
+  "asset": "multi-repo-worktree-identity",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-2-multi-repo-worktree-identity.yml#23958123189",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23958123189",
+  "conclusion": "success",
+  "inputs_digest": "sha256:91361e7ee3627f89e0cab908bb30490f78fe16182208c8d83e726f20d8eb8ae1",
+  "contract_digest": "sha256:e1d0abf3370141323bdc19716b485e108f545e7cf3e89dc0a6c1390d5be2d91d",
+  "fixture_digest": "sha256:93e301acb26f1bf6f4090071fe217d88d7d7ec93b9da484377eaa2fc58d7d2a3",
+  "runtime_digest": "sha256:031d8f3da7dd4a6944a6dcf1b4d49445f920ad3b0e2f64ffc5f330812daa796d",
+  "workflow_digest": "sha256:01724a7bc7de650ecf3f786567902ab32867b4a0ed75cca8a6609d6e181dba2c",
+  "evidence_digest": "sha256:e5f137d8d69840460f217000157129604072eeb3e81c19f8c97d465cc9f7c1a9",
+  "computed_at_taipei": "2026-04-04T02:56:00+08:00"
+}

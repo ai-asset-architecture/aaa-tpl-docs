@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.2",
+  "asset": "multi-repo-worktree-identity",
+  "files": [
+    "internal/development/evidence/v2.1.2/multi-repo-worktree-identity/result.json",
+    "internal/development/evidence/v2.1.2/multi-repo-worktree-identity/index.json",
+    "internal/development/evidence/v2.1.2/multi-repo-worktree-identity/run-evidence.md",
+    "internal/development/evidence/v2.1.2/multi-repo-worktree-identity/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-2-multi-repo-worktree-identity.yml#23958123189",
+  "computed_at_taipei": "2026-04-04T02:56:00+08:00"
+}

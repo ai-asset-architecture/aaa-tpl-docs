@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.2",
+  "asset_group": "multi-repo-worktree-identity",
+  "generated_at_taipei": "2026-04-04T02:56:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.multi-repo-worktree-identity-guard.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/multi-repo-worktree-identity-guard.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:e1d0abf3370141323bdc19716b485e108f545e7cf3e89dc0a6c1390d5be2d91d"
+    },
+    {
+      "asset_id": "fixtures.multi-repo-worktree-identity-guard.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.2-multi-repo-worktree-identity-guard.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.2-multi-repo-worktree-identity-guard.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:93e301acb26f1bf6f4090071fe217d88d7d7ec93b9da484377eaa2fc58d7d2a3"
+    },
+    {
+      "asset_id": "runtime.multi-repo-worktree-identity-validator.v2.1.2",
+      "asset_type": "runtime_validator_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/multi_repo_worktree_identity.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_multi_repo_worktree_identity.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:031d8f3da7dd4a6944a6dcf1b4d49445f920ad3b0e2f64ffc5f330812daa796d"
+    },
+    {
+      "asset_id": "workflow.v2-1-2-multi-repo-worktree-identity",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-2-multi-repo-worktree-identity.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:01724a7bc7de650ecf3f786567902ab32867b4a0ed75cca8a6609d6e181dba2c"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.2-multi-repo-worktree-identity",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.2-multi-repo-worktree-identity-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.2-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:e5f137d8d69840460f217000157129604072eeb3e81c19f8c97d465cc9f7c1a9"
+    }
+  ]
+}
