@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shared Command Dispatch Runtime Bundle v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "dispatch_runtime_id",
+    "runtime_plane_mode",
+    "consumed_command_registry_ref",
+    "command_id",
+    "dispatch_entry_ref",
+    "target_resolution_ref",
+    "context_preflight_ref",
+    "common_output_envelope",
+    "exit_semantics",
+    "primary_command_law_mode",
+    "family_expansion_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "v0.1"
+    },
+    "dispatch_runtime_id": {
+      "type": "string",
+      "const": "shared_command_dispatch"
+    },
+    "runtime_plane_mode": {
+      "type": "string",
+      "const": "command_dispatch"
+    },
+    "consumed_command_registry_ref": {
+      "type": "string",
+      "const": "internal/development/contracts/ops/command-registry-contract.v0.1.md"
+    },
+    "command_id": {
+      "type": "string",
+      "enum": [
+        "readiness-inspect",
+        "repo-check"
+      ]
+    },
+    "dispatch_entry_ref": {
+      "type": "string",
+      "enum": [
+        "governance.readiness-inspect",
+        "governance.repo-check"
+      ]
+    },
+    "target_resolution_ref": {
+      "type": "string",
+      "const": "governance.validate-multi-repo-worktree-identity"
+    },
+    "context_preflight_ref": {
+      "type": "string",
+      "const": "governance.validate-context-runtime-preflight"
+    },
+    "common_output_envelope": {
+      "type": "array",
+      "minItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "status",
+          "valid",
+          "errors",
+          "result_artifact"
+        ]
+      }
+    },
+    "exit_semantics": {
+      "type": "string",
+      "const": "fail_closed"
+    },
+    "primary_command_law_mode": {
+      "type": "string",
+      "const": "referenced_only"
+    },
+    "family_expansion_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "prose_fallback_allowed": {
+      "type": "boolean",
+      "const": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+{
+  "version": "v0.1",
+  "orchestration_runtime_id": "query_orchestration",
+  "runtime_plane_mode": "orchestration_loop",
+  "dispatch_runtime_ref": "internal/development/contracts/ops/shared-command-dispatch-runtime-bundle.v0.1.schema.json",
+  "result_gate_ref": "internal/development/contracts/ops/result-artifact-eligibility-and-evidence-promotion-gate.v0.1.schema.json",
+  "snapshot_runtime_ref": "internal/development/contracts/ops/session-context-snapshot-runtime-bundle.v0.1.schema.json",
+  "supported_command_ids": [
+    "readiness-inspect",
+    "repo-check"
+  ],
+  "turn_lifecycle": [
+    "request_received",
+    "snapshot_loaded",
+    "dispatch_resolved",
+    "execution_completed",
+    "evidence_gate_applied",
+    "readiness_evaluated"
+  ],
+  "write_back_modes": [
+    "result_artifact_only"
+  ],
+  "promotion_gate_bypass_allowed": false,
+  "snapshot_boundary_bypass_allowed": false,
+  "primary_law_creation_allowed": false,
+  "family_expansion_allowed": false,
+  "prose_fallback_allowed": false
+}

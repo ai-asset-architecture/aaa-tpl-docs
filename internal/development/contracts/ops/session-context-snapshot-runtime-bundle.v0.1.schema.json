@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Session Context Snapshot Runtime Bundle v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "snapshot_runtime_id",
+    "runtime_plane_mode",
+    "context_assembly_ref",
+    "static_context_refs",
+    "dynamic_context_refs",
+    "disallowed_input_sources",
+    "snapshot_persistence_mode",
+    "reload_semantics",
+    "replay_semantics",
+    "canonical_truth_promotion_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "v0.1"
+    },
+    "snapshot_runtime_id": {
+      "type": "string",
+      "const": "session_context_snapshot"
+    },
+    "runtime_plane_mode": {
+      "type": "string",
+      "const": "context_snapshot"
+    },
+    "context_assembly_ref": {
+      "type": "string",
+      "const": "internal/development/contracts/ops/context-assembly-contract.v0.1.md"
+    },
+    "static_context_refs": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "canonical_contract_docs",
+          "canonical_registries_indexes",
+          "preserved_completion_audit_artifacts"
+        ]
+      }
+    },
+    "dynamic_context_refs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "repo_tracked_files",
+          "worktree_state"
+        ]
+      }
+    },
+    "disallowed_input_sources": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "local_operation_logs",
+          "generated_runtime_summaries"
+        ]
+      }
+    },
+    "snapshot_persistence_mode": {
+      "type": "string",
+      "enum": [
+        "session_snapshot_store",
+        "ephemeral_cache"
+      ]
+    },
+    "reload_semantics": {
+      "type": "string",
+      "const": "explicit_reload_only"
+    },
+    "replay_semantics": {
+      "type": "string",
+      "const": "canonical_recheck_before_replay"
+    },
+    "canonical_truth_promotion_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "prose_fallback_allowed": {
+      "type": "boolean",
+      "const": false
+    }
+  },
+  "additionalProperties": false
+}

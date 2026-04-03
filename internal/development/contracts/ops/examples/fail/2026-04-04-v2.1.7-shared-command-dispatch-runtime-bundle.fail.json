@@ -1,0 +1,20 @@
+{
+  "version": "v0.1",
+  "dispatch_runtime_id": "shared_command_dispatch",
+  "runtime_plane_mode": "command_dispatch",
+  "consumed_command_registry_ref": "internal/development/contracts/ops/command-registry-contract.v0.1.md",
+  "command_id": "orchestration-debug",
+  "dispatch_entry_ref": "governance.repo-check",
+  "target_resolution_ref": "governance.validate-multi-repo-worktree-identity",
+  "context_preflight_ref": "governance.validate-context-runtime-preflight",
+  "common_output_envelope": [
+    "status",
+    "valid",
+    "errors",
+    "result_artifact"
+  ],
+  "exit_semantics": "fail_open",
+  "primary_command_law_mode": "rewritten_locally",
+  "family_expansion_allowed": true,
+  "prose_fallback_allowed": true
+}

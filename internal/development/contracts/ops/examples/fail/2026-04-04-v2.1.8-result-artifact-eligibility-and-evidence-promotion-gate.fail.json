@@ -1,0 +1,15 @@
+{
+  "version": "v0.1",
+  "promotion_gate_id": "result_artifact_evidence_promotion_gate",
+  "runtime_plane_mode": "result_evidence_gate",
+  "result_artifact_kind": "dispatch_result_envelope",
+  "artifact_eligibility": "eligible",
+  "evidence_class": "completion_evidence",
+  "promotion_eligibility": "promotable",
+  "promotion_decision_source": "completion_report",
+  "supporting_review_sources": [
+    "operator_narrative"
+  ],
+  "sole_manual_decision_allowed": true,
+  "prose_fallback_allowed": true
+}

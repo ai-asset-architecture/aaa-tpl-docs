@@ -1,0 +1,21 @@
+{
+  "version": "v0.1",
+  "snapshot_runtime_id": "session_context_snapshot",
+  "runtime_plane_mode": "context_snapshot",
+  "context_assembly_ref": "internal/development/contracts/ops/context-assembly-contract.v0.1.md",
+  "static_context_refs": [
+    "canonical_contract_docs",
+    "local_operation_logs"
+  ],
+  "dynamic_context_refs": [
+    "repo_tracked_files"
+  ],
+  "disallowed_input_sources": [
+    "generated_runtime_summaries"
+  ],
+  "snapshot_persistence_mode": "ephemeral_cache",
+  "reload_semantics": "implicit_auto_reload",
+  "replay_semantics": "replay_without_recheck",
+  "canonical_truth_promotion_allowed": true,
+  "prose_fallback_allowed": true
+}

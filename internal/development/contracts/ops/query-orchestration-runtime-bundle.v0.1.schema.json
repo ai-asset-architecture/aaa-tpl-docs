@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Query Orchestration Runtime Bundle v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "orchestration_runtime_id",
+    "runtime_plane_mode",
+    "dispatch_runtime_ref",
+    "result_gate_ref",
+    "snapshot_runtime_ref",
+    "supported_command_ids",
+    "turn_lifecycle",
+    "write_back_modes",
+    "promotion_gate_bypass_allowed",
+    "snapshot_boundary_bypass_allowed",
+    "primary_law_creation_allowed",
+    "family_expansion_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "v0.1"
+    },
+    "orchestration_runtime_id": {
+      "type": "string",
+      "const": "query_orchestration"
+    },
+    "runtime_plane_mode": {
+      "type": "string",
+      "const": "orchestration_loop"
+    },
+    "dispatch_runtime_ref": {
+      "type": "string",
+      "const": "internal/development/contracts/ops/shared-command-dispatch-runtime-bundle.v0.1.schema.json"
+    },
+    "result_gate_ref": {
+      "type": "string",
+      "const": "internal/development/contracts/ops/result-artifact-eligibility-and-evidence-promotion-gate.v0.1.schema.json"
+    },
+    "snapshot_runtime_ref": {
+      "type": "string",
+      "const": "internal/development/contracts/ops/session-context-snapshot-runtime-bundle.v0.1.schema.json"
+    },
+    "supported_command_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "readiness-inspect",
+          "repo-check"
+        ]
+      }
+    },
+    "turn_lifecycle": {
+      "type": "array",
+      "minItems": 6,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "request_received",
+          "snapshot_loaded",
+          "dispatch_resolved",
+          "execution_completed",
+          "evidence_gate_applied",
+          "readiness_evaluated"
+        ]
+      }
+    },
+    "write_back_modes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "result_artifact_only",
+          "evidence_index_update"
+        ]
+      }
+    },
+    "promotion_gate_bypass_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "snapshot_boundary_bypass_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "primary_law_creation_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "family_expansion_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "prose_fallback_allowed": {
+      "type": "boolean",
+      "const": false
+    }
+  },
+  "additionalProperties": false
+}

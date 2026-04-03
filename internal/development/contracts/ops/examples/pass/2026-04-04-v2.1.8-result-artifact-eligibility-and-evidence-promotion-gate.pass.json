@@ -1,0 +1,16 @@
+{
+  "version": "v0.1",
+  "promotion_gate_id": "result_artifact_evidence_promotion_gate",
+  "runtime_plane_mode": "result_evidence_gate",
+  "result_artifact_kind": "repo_check_report",
+  "artifact_eligibility": "eligible",
+  "evidence_class": "audit_evidence",
+  "promotion_eligibility": "promotable",
+  "promotion_decision_source": "machine_checkable_gate",
+  "supporting_review_sources": [
+    "manual_review_note",
+    "completion_report"
+  ],
+  "sole_manual_decision_allowed": false,
+  "prose_fallback_allowed": false
+}
