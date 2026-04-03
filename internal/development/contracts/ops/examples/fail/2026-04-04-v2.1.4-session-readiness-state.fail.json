@@ -1,0 +1,9 @@
+{
+  "version": "v0.1",
+  "orchestration_mode": "interactive_session",
+  "query_state_store": "session_memory",
+  "readiness_surface": "invalid_surface",
+  "readiness_checks": [
+    "context_loaded"
+  ]
+}

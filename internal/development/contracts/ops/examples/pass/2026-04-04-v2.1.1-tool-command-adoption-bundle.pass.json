@@ -1,0 +1,21 @@
+{
+  "version": "v0.1",
+  "tool_refs": [
+    "ops.registry.inspect",
+    "ops.registry.rebuild"
+  ],
+  "command_refs": [
+    "aaa.ops.registry.rebuild"
+  ],
+  "binding_mode": "machine_parseable",
+  "allowed_authority_map": {
+    "aaa.ops.registry.rebuild": [
+      "analysis_only",
+      "mutation_repo"
+    ]
+  },
+  "evidence_targets": [
+    "registry_snapshot",
+    "artifact_report"
+  ]
+}

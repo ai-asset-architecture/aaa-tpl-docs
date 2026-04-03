@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "canonical_repo_root": "",
+  "worktree_instances": [
+    "/repo/aaa-workspace"
+  ],
+  "validator_rules": [
+    "reject_unknown_worktree_target"
+  ],
+  "runtime_guards": [
+    "target_scope_guard"
+  ]
+}

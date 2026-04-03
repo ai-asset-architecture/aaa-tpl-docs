@@ -1,0 +1,14 @@
+{
+  "version": "v0.1",
+  "bundle_id": "context.bundle.ops.step2.preflight.v0.1",
+  "current_truth_sources": [
+    "canonical_contract_docs",
+    "local_operation_logs"
+  ],
+  "supporting_sources": [
+    "generated_runtime_summaries"
+  ],
+  "preflight_checks": [
+    "anti_contamination_check"
+  ]
+}

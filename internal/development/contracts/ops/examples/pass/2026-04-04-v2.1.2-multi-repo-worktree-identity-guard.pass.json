@@ -1,0 +1,15 @@
+{
+  "version": "v0.1",
+  "canonical_repo_root": "/repo/aaa-tpl-docs",
+  "worktree_instances": [
+    "/repo/aaa-tpl-docs/.worktrees/v2-1-2"
+  ],
+  "validator_rules": [
+    "require_canonical_repo_root",
+    "reject_workspace_root_as_repo_target"
+  ],
+  "runtime_guards": [
+    "canonical_root_guard",
+    "worktree_target_guard"
+  ]
+}

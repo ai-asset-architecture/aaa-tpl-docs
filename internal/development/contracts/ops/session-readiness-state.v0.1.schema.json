@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Session Readiness State v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "orchestration_mode",
+    "query_state_store",
+    "readiness_surface",
+    "readiness_checks"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "v0.1"
+    },
+    "orchestration_mode": {
+      "type": "string",
+      "enum": [
+        "interactive_session",
+        "headless_session",
+        "operator_review_session"
+      ]
+    },
+    "query_state_store": {
+      "type": "string",
+      "enum": [
+        "session_memory",
+        "transcript_store",
+        "readiness_snapshot"
+      ]
+    },
+    "readiness_surface": {
+      "type": "string",
+      "enum": [
+        "operator_summary",
+        "gate_status_surface",
+        "readiness_panel"
+      ]
+    },
+    "readiness_checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "context_loaded",
+          "authority_resolved",
+          "preflight_passed",
+          "evidence_path_bound"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

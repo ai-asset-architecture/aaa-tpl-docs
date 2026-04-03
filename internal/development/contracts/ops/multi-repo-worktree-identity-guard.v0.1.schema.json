@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Multi Repo Worktree Identity Guard v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "canonical_repo_root",
+    "worktree_instances",
+    "validator_rules",
+    "runtime_guards"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "v0.1"
+    },
+    "canonical_repo_root": {
+      "type": "string",
+      "minLength": 1
+    },
+    "worktree_instances": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "validator_rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "require_canonical_repo_root",
+          "reject_workspace_root_as_repo_target",
+          "reject_unknown_worktree_target"
+        ]
+      }
+    },
+    "runtime_guards": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "canonical_root_guard",
+          "worktree_target_guard",
+          "target_scope_guard"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

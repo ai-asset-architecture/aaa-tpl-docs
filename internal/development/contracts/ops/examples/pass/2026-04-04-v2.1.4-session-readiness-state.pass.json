@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "orchestration_mode": "operator_review_session",
+  "query_state_store": "readiness_snapshot",
+  "readiness_surface": "readiness_panel",
+  "readiness_checks": [
+    "context_loaded",
+    "authority_resolved",
+    "preflight_passed",
+    "evidence_path_bound"
+  ]
+}

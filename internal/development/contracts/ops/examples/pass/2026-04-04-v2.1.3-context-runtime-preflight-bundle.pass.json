@@ -1,0 +1,18 @@
+{
+  "version": "v0.1",
+  "bundle_id": "context.bundle.ops.step2.preflight.v0.1",
+  "current_truth_sources": [
+    "canonical_contract_docs",
+    "canonical_registries_indexes"
+  ],
+  "supporting_sources": [
+    "external_execution_outputs",
+    "local_operation_logs"
+  ],
+  "preflight_checks": [
+    "current_truth_source_check",
+    "supporting_source_check",
+    "anti_contamination_check",
+    "promotion_block_check"
+  ]
+}
