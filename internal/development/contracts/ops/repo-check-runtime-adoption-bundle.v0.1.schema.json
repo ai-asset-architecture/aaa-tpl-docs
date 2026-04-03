@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aaa/contracts/ops/repo-check-runtime-adoption-bundle.v0.1.schema.json",
+  "title": "Repo Check Runtime Adoption Bundle v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "command_id",
+    "binding_mode",
+    "target_scope",
+    "target_kind",
+    "target_path",
+    "allowed_authority",
+    "tool_contract_ref",
+    "command_contract_ref",
+    "identity_contract_ref",
+    "context_contract_ref",
+    "readiness_contract_ref",
+    "result_shape_contract",
+    "readiness_consumer_relation",
+    "current_truth_sources",
+    "supporting_sources",
+    "preflight_checks",
+    "required_check_results",
+    "expected_output_artifact",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": {
+      "const": "v0.1"
+    },
+    "command_id": {
+      "const": "repo-check"
+    },
+    "binding_mode": {
+      "const": "machine_parseable"
+    },
+    "target_scope": {
+      "const": "repo_or_worktree"
+    },
+    "target_kind": {
+      "type": "string",
+      "enum": [
+        "canonical_repo_root",
+        "legal_worktree_instance"
+      ]
+    },
+    "target_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "allowed_authority": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "analysis_only",
+          "governance_gate"
+        ]
+      }
+    },
+    "tool_contract_ref": {
+      "const": "internal/development/contracts/ops/tool-contract.v0.1.md"
+    },
+    "command_contract_ref": {
+      "const": "internal/development/contracts/ops/command-registry-contract.v0.1.md"
+    },
+    "identity_contract_ref": {
+      "const": "internal/development/contracts/ops/multi-repo-worktree-identity-guard.v0.1.schema.json"
+    },
+    "context_contract_ref": {
+      "const": "internal/development/contracts/ops/context-assembly-contract.v0.1.md"
+    },
+    "readiness_contract_ref": {
+      "const": "internal/development/contracts/ops/session-readiness-state.v0.1.schema.json"
+    },
+    "result_shape_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "result_kind",
+        "required_fields",
+        "machine_checkable"
+      ],
+      "properties": {
+        "result_kind": {
+          "const": "repo_check_result_bundle"
+        },
+        "required_fields": {
+          "type": "array",
+          "uniqueItems": true,
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "enum": [
+              "repo_id",
+              "suite_id",
+              "check_results",
+              "overall_status",
+              "evidence_refs"
+            ]
+          }
+        },
+        "machine_checkable": {
+          "const": true
+        }
+      }
+    },
+    "readiness_consumer_relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "relation_mode",
+        "consumer_surface",
+        "machine_checkable"
+      ],
+      "properties": {
+        "relation_mode": {
+          "const": "consumable_by_readiness_surface"
+        },
+        "consumer_surface": {
+          "type": "string",
+          "enum": [
+            "operator_summary",
+            "gate_status_surface",
+            "readiness_panel"
+          ]
+        },
+        "machine_checkable": {
+          "const": true
+        }
+      }
+    },
+    "current_truth_sources": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "canonical_contract_docs",
+          "canonical_registries_indexes",
+          "repo_tracked_files"
+        ]
+      }
+    },
+    "supporting_sources": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "external_execution_outputs",
+          "generated_runtime_summaries",
+          "local_operation_logs"
+        ]
+      }
+    },
+    "preflight_checks": {
+      "type": "array",
+      "minItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "current_truth_source_check",
+          "supporting_source_check",
+          "anti_contamination_check",
+          "promotion_block_check"
+        ]
+      }
+    },
+    "required_check_results": {
+      "type": "array",
+      "minItems": 3,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "repo_identity_resolved",
+          "suite_resolved",
+          "checks_executed",
+          "overall_status_computed",
+          "evidence_refs_bound"
+        ]
+      }
+    },
+    "expected_output_artifact": {
+      "const": "repo_check_result_bundle"
+    },
+    "prose_fallback_allowed": {
+      "const": false
+    }
+  }
+}

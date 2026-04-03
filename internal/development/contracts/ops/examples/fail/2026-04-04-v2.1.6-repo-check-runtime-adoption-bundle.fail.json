@@ -1,0 +1,44 @@
+{
+  "version": "v0.1",
+  "command_id": "repo-check",
+  "binding_mode": "machine_parseable",
+  "target_scope": "repo_or_worktree",
+  "target_kind": "workspace_root",
+  "target_path": ".",
+  "allowed_authority": [
+    "analysis_only"
+  ],
+  "tool_contract_ref": "internal/development/contracts/ops/tool-contract.v0.1.md",
+  "command_contract_ref": "internal/development/contracts/ops/command-registry-contract.v0.1.md",
+  "identity_contract_ref": "internal/development/contracts/ops/multi-repo-worktree-identity-guard.v0.1.schema.json",
+  "context_contract_ref": "internal/development/contracts/ops/context-assembly-contract.v0.1.md",
+  "readiness_contract_ref": "internal/development/contracts/ops/session-readiness-state.v0.1.schema.json",
+  "result_shape_contract": {
+    "result_kind": "repo_check_result_bundle",
+    "required_fields": [
+      "repo_id",
+      "overall_status"
+    ],
+    "machine_checkable": true
+  },
+  "readiness_consumer_relation": {
+    "relation_mode": "consumable_by_readiness_surface",
+    "consumer_surface": "readiness_panel",
+    "machine_checkable": true
+  },
+  "current_truth_sources": [
+    "canonical_contract_docs",
+    "local_operation_logs"
+  ],
+  "supporting_sources": [
+    "local_operation_logs"
+  ],
+  "preflight_checks": [
+    "anti_contamination_check"
+  ],
+  "required_check_results": [
+    "repo_identity_resolved"
+  ],
+  "expected_output_artifact": "repo_check_result_bundle",
+  "prose_fallback_allowed": true
+}
