@@ -1,11 +1,12 @@
 # Workflow Index (Canonical Source)
 
-- updated_at_taipei: 2026-04-04T03:23:00+08:00
+- updated_at_taipei: 2026-04-04T03:37:18+08:00
 - source_of_truth: raw rows for `/ops-registry?tab=workflows`
 - maintenance_rule: workflow change MUST append/update in Step1
 
 | 日期 | ID | 工作流程 | 目的 | 目標 | 場合 | 觸發時機 | 模式 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-04-04 | aaa-tools/.github/workflows/v2-1-4-session-readiness-state.yml | v2.1.4 Session Readiness State | 驗證 session readiness validator 可辨識合法 orchestration mode、readiness surface、state store 與 gating checks。 | 讓 `v2.1.4` 的 readiness-law baseline 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.4 readiness-law executable adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23959496478; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.4-session-readiness-state-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-3-context-runtime-preflight.yml | v2.1.3 Context Runtime Preflight | 驗證 context runtime preflight validator 可辨識合法 current truth source、允許 supporting source、並阻擋 `local_operation_logs` 非法升格。 | 讓 `v2.1.3` 的 truth-law 與 anti-contamination baseline 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.3 truth-law executable adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23959028416; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.3-context-runtime-preflight-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-2-multi-repo-worktree-identity.yml | v2.1.2 Multi Repo Worktree Identity | 驗證 multi-repo/worktree identity validator 可辨識 canonical repo root、拒絕 workspace-level target，並對 canonical pass/fail bundles 產生穩定結果。 | 讓 `v2.1.2` 的 target-law validator 與 runtime guard baseline 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.2 target-law executable adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23958123189; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.2-multi-repo-worktree-identity-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-1-tool-command-adoption.yml | v2.1.1 Tool Command Adoption | 驗證 `aaa-tools` 的 tool/command adoption validator 可執行、可拒絕 prose-only binding，並對 canonical pass/fail bundles 產生穩定結果。 | 讓 `v2.1.1` 的 executable adoption 與 machine-parseable command binding 在 Step2 有 remote smoke run 與可審計 run_ref。 | v2.1.1 capability-law executable adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23957470365; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.1-tool-command-adoption-run-evidence.md） |
