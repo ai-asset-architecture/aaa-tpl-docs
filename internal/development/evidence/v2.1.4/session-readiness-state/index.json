@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.4",
+  "asset": "session-readiness-state",
+  "files": [
+    "internal/development/evidence/v2.1.4/session-readiness-state/result.json",
+    "internal/development/evidence/v2.1.4/session-readiness-state/index.json",
+    "internal/development/evidence/v2.1.4/session-readiness-state/run-evidence.md",
+    "internal/development/evidence/v2.1.4/session-readiness-state/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-4-session-readiness-state.yml#23959496478",
+  "computed_at_taipei": "2026-04-04T03:39:11+08:00"
+}

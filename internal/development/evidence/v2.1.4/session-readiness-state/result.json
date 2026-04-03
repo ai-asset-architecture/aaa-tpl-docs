@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.4",
+  "step": "step3",
+  "asset": "session-readiness-state",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-4-session-readiness-state.yml#23959496478",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23959496478",
+  "conclusion": "success",
+  "inputs_digest": "sha256:08abd1d6b4f39809c315097afc910a59cf0cf413f297418a61f7d79735ae2be8",
+  "contract_digest": "sha256:a257023f97ce70bed094184734c145859d4a9b28c99bbe46b0cef48c918de869",
+  "fixture_digest": "sha256:f8498c0e5013e3860409cc1cd7c77fe85f5b62476589288765b4c97acec03cc1",
+  "runtime_digest": "sha256:d94ec86abdda5b875563740c5d8b77215bc59e68760b05fbd3bf02571e4222f3",
+  "workflow_digest": "sha256:99308b1bd10ca2bc2db484638df4053992f0212c8f45ea83ab7102f200affc96",
+  "evidence_digest": "sha256:fa9156447c122e80a6c35b5ae0c74b2fa4b2a783657f172bda6d56c323cf72c9",
+  "computed_at_taipei": "2026-04-04T03:39:11+08:00"
+}
