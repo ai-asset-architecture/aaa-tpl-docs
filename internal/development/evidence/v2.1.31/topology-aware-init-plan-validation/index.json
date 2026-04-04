@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.31",
+  "asset": "topology-aware-init-plan-validation",
+  "files": [
+    "internal/development/evidence/v2.1.31/topology-aware-init-plan-validation/result.json",
+    "internal/development/evidence/v2.1.31/topology-aware-init-plan-validation/index.json",
+    "internal/development/evidence/v2.1.31/topology-aware-init-plan-validation/run-evidence.md",
+    "internal/development/evidence/v2.1.31/topology-aware-init-plan-validation/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-31-topology-aware-init-plan-validation.yml#23977187809",
+  "computed_at_taipei": "2026-04-04T18:38:30+08:00"
+}

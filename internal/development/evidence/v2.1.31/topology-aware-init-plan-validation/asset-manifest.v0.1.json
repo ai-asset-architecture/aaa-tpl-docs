@@ -1,0 +1,85 @@
+{
+  "version": "v2.1.31",
+  "asset_group": "topology-aware-init-plan-validation",
+  "generated_at_taipei": "2026-04-04T18:38:30+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.topology-aware-init-plan-validation.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/topology-aware-init-plan-validation.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:d973158daf2678dc2718601e40ef15ed0a3cb0bec0a8cd2aa64140715455f85d"
+    },
+    {
+      "asset_id": "fixtures.topology-aware-init-plan-validation.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.31-topology-aware-init-plan-validation.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.31-topology-aware-init-plan-validation.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:42318de24a4aba2bfeee6c4632a27b15cdb46118015a1be16073c26c8865b437"
+    },
+    {
+      "asset_id": "runtime.topology-aware-init-plan-validation.v2.1.31",
+      "asset_type": "init_validation_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/topology_aware_init_plan_validation.py",
+        "aaa-tools/aaa/init_commands.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/specs/plan.schema.json",
+        "aaa-tools/runbooks/init/plan.v2.0.json",
+        "aaa-tools/tests/test_init_plan_presets.py",
+        "aaa-tools/tests/test_topology_aware_init_plan_validation.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:82fedb01553471acb0ec9d41782827166774766e9c09b16992f88f7c72e77d32"
+    },
+    {
+      "asset_id": "workflow.v2-1-31-topology-aware-init-plan-validation",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-31-topology-aware-init-plan-validation.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:2e139e64d59827626dab444e595c643c49c7800fdcd054894806b673a645ae55"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.31-topology-aware-init-plan-validation",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.31-topology-aware-init-plan-validation-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.31-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:f11246c5c7ed884579943c98f38c101fb627af1ea7cb08d7c813a18276da033e"
+    }
+  ]
+}
