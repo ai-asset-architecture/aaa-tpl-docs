@@ -1,0 +1,21 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "outside_in_validation_and_evidence_promotion_baseline",
+  "line_class": "outside_in_follow_up_line",
+  "validation_mode": "outside_in_remote_client",
+  "disposable_workspace_class": "tmp_sandbox",
+  "canonical_evidence_plane": "aaa_tpl_docs_canonical_evidence",
+  "canonical_evidence_plane_is_disposable": false,
+  "explicit_promotion_required": true,
+  "fixed_report_sections": [
+    "execution_steps",
+    "observed_outputs",
+    "topology_assumption_summary",
+    "blockers",
+    "evidence_to_preserve",
+    "follow_up_tests"
+  ],
+  "comparison_ready_result_bundle": true,
+  "promotion_candidate_manifest": true,
+  "prose_fallback_allowed": false
+}

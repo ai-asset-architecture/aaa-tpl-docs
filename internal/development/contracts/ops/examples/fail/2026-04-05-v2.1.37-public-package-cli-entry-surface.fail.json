@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "public_package_cli_entry_surface",
+  "line_class": "outside_in_follow_up_line",
+  "package_cli_surface_mode": "new_truth_center",
+  "package_level_enum": ["lite", "core", "enterprise"],
+  "commands_exposed": ["package_select", "package_resolve", "package_status"],
+  "package_definition_authority_source": "aaa-docs/bootstrap/offering_definition_skeleton.md",
+  "cli_is_authority_source": true,
+  "topology_consumption_required": true,
+  "prose_fallback_allowed": false
+}

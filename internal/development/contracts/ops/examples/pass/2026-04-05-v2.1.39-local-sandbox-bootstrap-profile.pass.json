@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "local_sandbox_bootstrap_profile",
+  "line_class": "outside_in_follow_up_line",
+  "profile_name": "local_sandbox",
+  "profile_class": "supported_bootstrap_environment",
+  "dry_run_alias": false,
+  "requires_github_side_effects": false,
+  "requires_org_repo_creation": false,
+  "produces_bootstrap_report": true,
+  "produces_candidate_evidence_bundle": true,
+  "prose_fallback_allowed": false
+}

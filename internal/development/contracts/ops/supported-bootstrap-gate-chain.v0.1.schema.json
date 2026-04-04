@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Supported Bootstrap Gate Chain v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "canonical_supported_path_count",
+    "canonical_bootstrap_steps",
+    "alternate_sequence_classification",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "supported_bootstrap_gate_chain" },
+    "line_class": { "type": "string", "const": "outside_in_follow_up_line" },
+    "canonical_supported_path_count": { "type": "integer", "const": 1 },
+    "canonical_bootstrap_steps": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "string", "const": "package_select" },
+        { "type": "string", "const": "package_resolve" },
+        { "type": "string", "const": "init_validate_plan" },
+        { "type": "string", "const": "prerequisite_gate" },
+        { "type": "string", "const": "topology_status_check" }
+      ],
+      "minItems": 5,
+      "maxItems": 5
+    },
+    "alternate_sequence_classification": { "type": "string", "const": "diagnostic_or_internal_only" },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

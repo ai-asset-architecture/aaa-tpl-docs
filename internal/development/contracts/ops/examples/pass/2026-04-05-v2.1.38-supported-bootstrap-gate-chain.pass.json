@@ -1,0 +1,15 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "supported_bootstrap_gate_chain",
+  "line_class": "outside_in_follow_up_line",
+  "canonical_supported_path_count": 1,
+  "canonical_bootstrap_steps": [
+    "package_select",
+    "package_resolve",
+    "init_validate_plan",
+    "prerequisite_gate",
+    "topology_status_check"
+  ],
+  "alternate_sequence_classification": "diagnostic_or_internal_only",
+  "prose_fallback_allowed": false
+}

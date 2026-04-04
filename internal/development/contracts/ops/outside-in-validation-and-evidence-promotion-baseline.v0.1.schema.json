@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Outside-In Validation and Evidence Promotion Baseline v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "validation_mode",
+    "disposable_workspace_class",
+    "canonical_evidence_plane",
+    "canonical_evidence_plane_is_disposable",
+    "explicit_promotion_required",
+    "fixed_report_sections",
+    "comparison_ready_result_bundle",
+    "promotion_candidate_manifest",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "outside_in_validation_and_evidence_promotion_baseline" },
+    "line_class": { "type": "string", "const": "outside_in_follow_up_line" },
+    "validation_mode": { "type": "string", "const": "outside_in_remote_client" },
+    "disposable_workspace_class": { "type": "string", "const": "tmp_sandbox" },
+    "canonical_evidence_plane": { "type": "string", "const": "aaa_tpl_docs_canonical_evidence" },
+    "canonical_evidence_plane_is_disposable": { "type": "boolean", "const": false },
+    "explicit_promotion_required": { "type": "boolean", "const": true },
+    "fixed_report_sections": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "string",
+        "enum": [
+          "execution_steps",
+          "observed_outputs",
+          "topology_assumption_summary",
+          "blockers",
+          "evidence_to_preserve",
+          "follow_up_tests"
+        ]
+      }
+    },
+    "comparison_ready_result_bundle": { "type": "boolean", "const": true },
+    "promotion_candidate_manifest": { "type": "boolean", "const": true },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

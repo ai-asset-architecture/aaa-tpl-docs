@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public Package CLI Entry Surface v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "package_cli_surface_mode",
+    "package_level_enum",
+    "commands_exposed",
+    "package_definition_authority_source",
+    "cli_is_authority_source",
+    "topology_consumption_required",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "public_package_cli_entry_surface" },
+    "line_class": { "type": "string", "const": "outside_in_follow_up_line" },
+    "package_cli_surface_mode": { "type": "string", "const": "access_surface_only" },
+    "package_level_enum": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "string", "const": "lite" },
+        { "type": "string", "const": "core" },
+        { "type": "string", "const": "full" }
+      ],
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "commands_exposed": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "string", "const": "package_select" },
+        { "type": "string", "const": "package_resolve" },
+        { "type": "string", "const": "package_status" }
+      ],
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "package_definition_authority_source": {
+      "type": "string",
+      "const": "aaa-docs/bootstrap/offering_definition_skeleton.md"
+    },
+    "cli_is_authority_source": { "type": "boolean", "const": false },
+    "topology_consumption_required": { "type": "boolean", "const": true },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

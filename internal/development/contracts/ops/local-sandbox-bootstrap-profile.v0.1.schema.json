@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local Sandbox Bootstrap Profile v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "profile_name",
+    "profile_class",
+    "dry_run_alias",
+    "requires_github_side_effects",
+    "requires_org_repo_creation",
+    "produces_bootstrap_report",
+    "produces_candidate_evidence_bundle",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "local_sandbox_bootstrap_profile" },
+    "line_class": { "type": "string", "const": "outside_in_follow_up_line" },
+    "profile_name": { "type": "string", "const": "local_sandbox" },
+    "profile_class": { "type": "string", "const": "supported_bootstrap_environment" },
+    "dry_run_alias": { "type": "boolean", "const": false },
+    "requires_github_side_effects": { "type": "boolean", "const": false },
+    "requires_org_repo_creation": { "type": "boolean", "const": false },
+    "produces_bootstrap_report": { "type": "boolean", "const": true },
+    "produces_candidate_evidence_bundle": { "type": "boolean", "const": true },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}
