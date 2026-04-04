@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.18",
+  "step": "step3",
+  "asset": "skill-and-plugin-extension-runtime",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-18-skill-and-plugin-extension-runtime.yml#23973785714",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23973785714",
+  "conclusion": "success",
+  "inputs_digest": "sha256:429966a4be9864318c5eefd6c62c522af3c01ca6e7ed6dd17537887d5a41b1c4",
+  "contract_digest": "sha256:a81dbe20f49fa13cc556b4d308b31d06ae1094d22f3677e5c1b347030797f817",
+  "fixture_digest": "sha256:429966a4be9864318c5eefd6c62c522af3c01ca6e7ed6dd17537887d5a41b1c4",
+  "runtime_digest": "sha256:73a0d1c659f0dfa91e906d566e63a60f7aaa9a0fa713fc13277da4def4ad45fb",
+  "workflow_digest": "sha256:1c5d15a868a70b278ae2431de713c1d268905e00686089d15ef42f9e31ab3424",
+  "evidence_digest": "sha256:69508f7deca858c3039b7afd9067a022b85fd2f8c6cd8e5f4a4565259876589d",
+  "computed_at_taipei": "2026-04-04T15:04:30+08:00"
+}

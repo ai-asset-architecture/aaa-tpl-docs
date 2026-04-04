@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.18",
+  "asset_group": "skill-and-plugin-extension-runtime",
+  "generated_at_taipei": "2026-04-04T15:04:30+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.skill-and-plugin-extension-runtime.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/skill-and-plugin-extension-runtime.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:a81dbe20f49fa13cc556b4d308b31d06ae1094d22f3677e5c1b347030797f817"
+    },
+    {
+      "asset_id": "fixtures.skill-and-plugin-extension-runtime.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.18-skill-and-plugin-extension-runtime.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.18-skill-and-plugin-extension-runtime.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:429966a4be9864318c5eefd6c62c522af3c01ca6e7ed6dd17537887d5a41b1c4"
+    },
+    {
+      "asset_id": "runtime.skill-and-plugin-extension-runtime.v2.1.18",
+      "asset_type": "extension_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/skill_and_plugin_extension_runtime.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_skill_and_plugin_extension_runtime.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:73a0d1c659f0dfa91e906d566e63a60f7aaa9a0fa713fc13277da4def4ad45fb"
+    },
+    {
+      "asset_id": "workflow.v2-1-18-skill-and-plugin-extension-runtime",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-18-skill-and-plugin-extension-runtime.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:1c5d15a868a70b278ae2431de713c1d268905e00686089d15ef42f9e31ab3424"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.18-skill-and-plugin-extension-runtime",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.18-skill-and-plugin-extension-runtime-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.18-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:69508f7deca858c3039b7afd9067a022b85fd2f8c6cd8e5f4a4565259876589d"
+    }
+  ]
+}

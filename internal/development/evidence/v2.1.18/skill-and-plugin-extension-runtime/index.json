@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.18",
+  "asset": "skill-and-plugin-extension-runtime",
+  "files": [
+    "internal/development/evidence/v2.1.18/skill-and-plugin-extension-runtime/result.json",
+    "internal/development/evidence/v2.1.18/skill-and-plugin-extension-runtime/index.json",
+    "internal/development/evidence/v2.1.18/skill-and-plugin-extension-runtime/run-evidence.md",
+    "internal/development/evidence/v2.1.18/skill-and-plugin-extension-runtime/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-18-skill-and-plugin-extension-runtime.yml#23973785714",
+  "computed_at_taipei": "2026-04-04T15:04:30+08:00"
+}
