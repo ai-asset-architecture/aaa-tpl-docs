@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.34",
+  "step": "step3",
+  "asset": "topology-aware-materialization-and-bootstrap-mapping",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-34-topology-aware-materialization-and-bootstrap-mapping.yml#23978080760",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23978080760",
+  "conclusion": "success",
+  "inputs_digest": "sha256:a187ca8ffdd4294e57e3353d50157bda650b2e0db5b75d59b0a400846b742e64",
+  "contract_digest": "sha256:439aa9a381df0bf9aeffeabef04bffbeef574a59a26289a8657f8cc2e5aa7806",
+  "fixture_digest": "sha256:a187ca8ffdd4294e57e3353d50157bda650b2e0db5b75d59b0a400846b742e64",
+  "runtime_digest": "sha256:ac515d525ac1611adbc7a54a570a92a6c8cc8259a950f9cf45ab2a0fa089a00b",
+  "workflow_digest": "sha256:9ba05c14e2f6305c1f7dd6b1b2e3a60667041851d9d25dbc5d01e3a34ebc2000",
+  "evidence_digest": "sha256:9905a759fb688ff648473fd8c0d2ac3e8952f2c373eee142346bcc7eec846dc6",
+  "computed_at_taipei": "2026-04-04T19:44:00+08:00"
+}
