@@ -1,0 +1,83 @@
+{
+  "version": "v2.1.39",
+  "asset_group": "local-sandbox-bootstrap-profile",
+  "generated_at_taipei": "2026-04-05T14:45:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.local-sandbox-bootstrap-profile.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/local-sandbox-bootstrap-profile.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:da0be6638b8e2915bcc32eb95b8497db0a9cd8547699244deea72e3a87bfc8b6"
+    },
+    {
+      "asset_id": "fixtures.local-sandbox-bootstrap-profile.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-05-v2.1.39-local-sandbox-bootstrap-profile.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-05-v2.1.39-local-sandbox-bootstrap-profile.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:a2a59e22933fb8b081735fbb304e54efc091e552a233acfc35a5bb8d0bc19289"
+    },
+    {
+      "asset_id": "runtime.local-sandbox-bootstrap-profile.v2.1.39",
+      "asset_type": "local_sandbox_bootstrap_profile_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/bootstrap_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/init_commands.py",
+        "aaa-tools/tests/test_local_sandbox_bootstrap_profile.py",
+        "aaa-tpl-docs/AI_COMMAND_CENTER.md",
+        "aaa-tpl-docs/PROJECT_PLAYBOOK.md"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:e1f7c29f09a4f5b11452b1879455e24cc125f48e1ae1ec1fc00702af111ff4b0"
+    },
+    {
+      "asset_id": "workflow.v2-1-39-local-sandbox-bootstrap-profile",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-39-local-sandbox-bootstrap-profile.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:ea41d079da08e17e4d131dbdc3385c642e7b2248c3a46d5901ad77aa2b895832"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.39-local-sandbox-bootstrap-profile",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-05-v2.1.39-local-sandbox-bootstrap-profile-run-evidence.md",
+        "internal/development/reviews/2026-04-05-v2.1.39-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:65e9632f7b5e00dde799dc415aaf48a27ff592ae51848eb35a58bd8606e2714c"
+    }
+  ]
+}

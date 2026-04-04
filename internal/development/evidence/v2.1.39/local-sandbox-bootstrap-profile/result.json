@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.39",
+  "step": "step3",
+  "asset": "local-sandbox-bootstrap-profile",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-39-local-sandbox-bootstrap-profile.yml#23985117013",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23985117013",
+  "conclusion": "success",
+  "inputs_digest": "sha256:a2a59e22933fb8b081735fbb304e54efc091e552a233acfc35a5bb8d0bc19289",
+  "contract_digest": "sha256:da0be6638b8e2915bcc32eb95b8497db0a9cd8547699244deea72e3a87bfc8b6",
+  "fixture_digest": "sha256:a2a59e22933fb8b081735fbb304e54efc091e552a233acfc35a5bb8d0bc19289",
+  "runtime_digest": "sha256:e1f7c29f09a4f5b11452b1879455e24cc125f48e1ae1ec1fc00702af111ff4b0",
+  "workflow_digest": "sha256:ea41d079da08e17e4d131dbdc3385c642e7b2248c3a46d5901ad77aa2b895832",
+  "evidence_digest": "sha256:65e9632f7b5e00dde799dc415aaf48a27ff592ae51848eb35a58bd8606e2714c",
+  "computed_at_taipei": "2026-04-05T14:45:00+08:00"
+}

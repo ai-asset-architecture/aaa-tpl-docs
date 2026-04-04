@@ -296,7 +296,7 @@ Source of truth:
 - 這是一條 **publicly documented sequence**
 - 不是 environment profile
 - 其他序列只能是 `diagnostic` 或 `internal-only`
-- 後續 `local_sandbox` 若啟用，屬 execution profile，不構成第二條 supported path
+- `local_sandbox` 已是 supported execution profile，但不構成第二條 supported path
 
 ---
 

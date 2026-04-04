@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.39",
+  "asset": "local-sandbox-bootstrap-profile",
+  "files": [
+    "internal/development/evidence/v2.1.39/local-sandbox-bootstrap-profile/result.json",
+    "internal/development/evidence/v2.1.39/local-sandbox-bootstrap-profile/index.json",
+    "internal/development/evidence/v2.1.39/local-sandbox-bootstrap-profile/run-evidence.md",
+    "internal/development/evidence/v2.1.39/local-sandbox-bootstrap-profile/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-39-local-sandbox-bootstrap-profile.yml#23985117013",
+  "computed_at_taipei": "2026-04-05T14:45:00+08:00"
+}

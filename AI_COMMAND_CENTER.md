@@ -66,7 +66,7 @@ All code, schemas, and documentation must adhere to these laws:
 硬規則：
 - public docs 只能暴露這一條 supported path
 - 其他命令組合只能視為 `diagnostic` 或 `internal-only`
-- environment profile 不等於 supported path；`local_sandbox` 若後續啟用，也不是第二條 public path
+- environment profile 不等於 supported path；`local_sandbox` 已是 supported execution profile，但不是第二條 public path
 
 ---
 
