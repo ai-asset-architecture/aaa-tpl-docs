@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.9",
+  "asset_group": "session-context-snapshot",
+  "generated_at_taipei": "2026-04-04T12:42:30+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.session-context-snapshot.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/session-context-snapshot-runtime-bundle.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:af8e2488b8a6662f1457389bb7ef495fc8af4da94d15fb2fe70cd4ca4d31077a"
+    },
+    {
+      "asset_id": "fixtures.session-context-snapshot.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.9-session-context-snapshot-runtime-bundle.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.9-session-context-snapshot-runtime-bundle.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:73f92e2c8eeb56c64c812538094aa5f8619f87144d5c803902ac249ea46e120d"
+    },
+    {
+      "asset_id": "runtime.session-context-snapshot.v2.1.9",
+      "asset_type": "runtime_snapshot_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/session_context_snapshot_runtime.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_session_context_snapshot_runtime.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:cec782052248dc15fdaab52337f20686b835bc28c697b272e76f105a11219892"
+    },
+    {
+      "asset_id": "workflow.v2-1-9-session-context-snapshot",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-9-session-context-snapshot.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:26f99c63177369308e6eafdebad1bbe0e20405c6299d522ee19b03cca73f9d25"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.9-session-context-snapshot",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.9-session-context-snapshot-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.9-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:ca633e8f6f62fd963a6b3f045f2b6d86f092d96eed107c224550e177a4054e07"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.9",
+  "asset": "session-context-snapshot",
+  "files": [
+    "internal/development/evidence/v2.1.9/session-context-snapshot/result.json",
+    "internal/development/evidence/v2.1.9/session-context-snapshot/index.json",
+    "internal/development/evidence/v2.1.9/session-context-snapshot/run-evidence.md",
+    "internal/development/evidence/v2.1.9/session-context-snapshot/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-9-session-context-snapshot.yml#23971546565",
+  "computed_at_taipei": "2026-04-04T12:42:30+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.9",
+  "step": "step3",
+  "asset": "session-context-snapshot",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-9-session-context-snapshot.yml#23971546565",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23971546565",
+  "conclusion": "success",
+  "inputs_digest": "sha256:73f92e2c8eeb56c64c812538094aa5f8619f87144d5c803902ac249ea46e120d",
+  "contract_digest": "sha256:af8e2488b8a6662f1457389bb7ef495fc8af4da94d15fb2fe70cd4ca4d31077a",
+  "fixture_digest": "sha256:73f92e2c8eeb56c64c812538094aa5f8619f87144d5c803902ac249ea46e120d",
+  "runtime_digest": "sha256:cec782052248dc15fdaab52337f20686b835bc28c697b272e76f105a11219892",
+  "workflow_digest": "sha256:26f99c63177369308e6eafdebad1bbe0e20405c6299d522ee19b03cca73f9d25",
+  "evidence_digest": "sha256:ca633e8f6f62fd963a6b3f045f2b6d86f092d96eed107c224550e177a4054e07",
+  "computed_at_taipei": "2026-04-04T12:42:30+08:00"
+}
