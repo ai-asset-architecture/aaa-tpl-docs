@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.14",
+  "step": "step3",
+  "asset": "runtime-budget-retry-and-recovery-control",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-14-runtime-budget-retry-and-recovery-control.yml#23972955667",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23972955667",
+  "conclusion": "success",
+  "inputs_digest": "sha256:b7971b68e7f74259e1f1328cc56899c5825e29fc1088ccbe4233c58fd8f5f631",
+  "contract_digest": "sha256:01a0094f583013045b0df6e1e8f2b704390808f3d7cba63a9bcf4976cb8eca55",
+  "fixture_digest": "sha256:b7971b68e7f74259e1f1328cc56899c5825e29fc1088ccbe4233c58fd8f5f631",
+  "runtime_digest": "sha256:36c5e047bd54d6bd1975257d620391aa24a194c842ac710f0c57788119c0eb53",
+  "workflow_digest": "sha256:f8ecaf0e59799ee19950583b9fdc47e97883aa63b56bf1897d567deaa7c3ae56",
+  "evidence_digest": "sha256:56a1dc8093a1cfde9ca381e15f672280c13fab1946a90216e4f770c41c4f8280",
+  "computed_at_taipei": "2026-04-04T15:20:00+08:00"
+}

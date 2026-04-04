@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.14",
+  "asset_group": "runtime-budget-retry-and-recovery-control",
+  "generated_at_taipei": "2026-04-04T15:20:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.runtime-budget-retry-and-recovery-control.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/runtime-budget-retry-and-recovery-control.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:01a0094f583013045b0df6e1e8f2b704390808f3d7cba63a9bcf4976cb8eca55"
+    },
+    {
+      "asset_id": "fixtures.runtime-budget-retry-and-recovery-control.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.14-runtime-budget-retry-and-recovery-control.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.14-runtime-budget-retry-and-recovery-control.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:b7971b68e7f74259e1f1328cc56899c5825e29fc1088ccbe4233c58fd8f5f631"
+    },
+    {
+      "asset_id": "runtime.runtime-budget-retry-and-recovery-control.v2.1.14",
+      "asset_type": "runtime_control_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/runtime_budget_retry_and_recovery_control.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_runtime_budget_retry_and_recovery_control.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:36c5e047bd54d6bd1975257d620391aa24a194c842ac710f0c57788119c0eb53"
+    },
+    {
+      "asset_id": "workflow.v2-1-14-runtime-budget-retry-and-recovery-control",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-14-runtime-budget-retry-and-recovery-control.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:f8ecaf0e59799ee19950583b9fdc47e97883aa63b56bf1897d567deaa7c3ae56"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.14-runtime-budget-retry-and-recovery-control",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.14-runtime-budget-retry-and-recovery-control-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.14-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:56a1dc8093a1cfde9ca381e15f672280c13fab1946a90216e4f770c41c4f8280"
+    }
+  ]
+}
