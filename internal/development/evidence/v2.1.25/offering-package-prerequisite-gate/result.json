@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.25",
+  "step": "step3",
+  "asset": "offering-package-prerequisite-gate",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-25-offering-package-prerequisite-gate.yml#23979798616",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23979798616",
+  "conclusion": "success",
+  "inputs_digest": "sha256:4c4d55cc4338f997332d0b395d53d0f65d126d01543853b9c8f917dd2b131b95",
+  "contract_digest": "sha256:0885b5a24f2a599b515b68567a3b4eaaa29016c6494d0c5372c48fe34f4d4d50",
+  "fixture_digest": "sha256:2bb83505916e94ba437651d73dbbae21641bf36601f21c908292cff817294253",
+  "runtime_digest": "sha256:cd280670f65797f18a1ae2fe3624ca699c4930ddc90ab46a2191e9b0f1cc9e6f",
+  "workflow_digest": "sha256:a75564a58c256142f5de881c6fde73d3763bde2a05ee83d2cbc50148b1f49240",
+  "evidence_digest": "sha256:2a701a30857c2119ea2527bd95046dbd1cbbdd9fb5a7a7e17515eb5282593f74",
+  "computed_at_taipei": "2026-04-04T22:55:00+08:00"
+}

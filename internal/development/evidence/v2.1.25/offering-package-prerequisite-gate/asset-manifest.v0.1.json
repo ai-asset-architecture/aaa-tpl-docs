@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.25",
+  "asset_group": "offering-package-prerequisite-gate",
+  "generated_at_taipei": "2026-04-04T22:55:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.offering-package-prerequisite-gate.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/offering-package-prerequisite-gate.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:0885b5a24f2a599b515b68567a3b4eaaa29016c6494d0c5372c48fe34f4d4d50"
+    },
+    {
+      "asset_id": "fixtures.offering-package-prerequisite-gate.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.25-offering-package-prerequisite-gate.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.25-offering-package-prerequisite-gate.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:2bb83505916e94ba437651d73dbbae21641bf36601f21c908292cff817294253"
+    },
+    {
+      "asset_id": "runtime.offering-package-prerequisite-gate.v2.1.25",
+      "asset_type": "package_prerequisite_gate_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/offering_package_prerequisite_gate.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_offering_package_prerequisite_gate.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:cd280670f65797f18a1ae2fe3624ca699c4930ddc90ab46a2191e9b0f1cc9e6f"
+    },
+    {
+      "asset_id": "workflow.v2-1-25-offering-package-prerequisite-gate",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-25-offering-package-prerequisite-gate.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:a75564a58c256142f5de881c6fde73d3763bde2a05ee83d2cbc50148b1f49240"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.25-offering-package-prerequisite-gate",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.25-offering-package-prerequisite-gate-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.25-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:2a701a30857c2119ea2527bd95046dbd1cbbdd9fb5a7a7e17515eb5282593f74"
+    }
+  ]
+}
