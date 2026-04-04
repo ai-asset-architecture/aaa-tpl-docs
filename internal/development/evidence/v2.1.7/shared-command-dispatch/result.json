@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.7",
+  "step": "step3",
+  "asset": "shared-command-dispatch",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-7-shared-command-dispatch.yml#23968268431",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23968268431",
+  "conclusion": "success",
+  "inputs_digest": "sha256:e3c04779956b0290c90f4021345f8c7daef6a92b149d0003f1b4643f8f1c5dff",
+  "contract_digest": "sha256:ed46d6ebbb72e9193307c4969958cb7800ae7ed2a880b0c8f8f9b74ae6d86490",
+  "fixture_digest": "sha256:2aa4adfebf997b171fb3961969f47962cd734d45a99af4d156ae871beaf555aa",
+  "runtime_digest": "sha256:b673e6a5f2fe4c29d558e2eada61069f4d1f6c3a0495e4c7859950543922e7b9",
+  "workflow_digest": "sha256:27a1d1fd9c8b97142530d2f9575adb8e090a363a795adb859ff1b9b241c0368c",
+  "evidence_digest": "sha256:2ea6efd382f96030eac7cbf6f6e3589e0105820628fd317c5607dcb66acd8869",
+  "computed_at_taipei": "2026-04-04T09:24:38+08:00"
+}

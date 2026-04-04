@@ -1,0 +1,84 @@
+{
+  "version": "v2.1.7",
+  "asset_group": "shared-command-dispatch",
+  "generated_at_taipei": "2026-04-04T09:24:38+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.shared-command-dispatch-runtime.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/shared-command-dispatch-runtime-bundle.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:ed46d6ebbb72e9193307c4969958cb7800ae7ed2a880b0c8f8f9b74ae6d86490"
+    },
+    {
+      "asset_id": "fixtures.shared-command-dispatch-runtime.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.7-shared-command-dispatch-runtime-bundle.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.7-shared-command-dispatch-runtime-bundle.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:2aa4adfebf997b171fb3961969f47962cd734d45a99af4d156ae871beaf555aa"
+    },
+    {
+      "asset_id": "runtime.shared-command-dispatch.v2.1.7",
+      "asset_type": "runtime_dispatch_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/shared_command_dispatch_runtime.py",
+        "aaa-tools/aaa/repo_check_runtime_adoption.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_repo_check_runtime_adoption.py",
+        "aaa-tools/tests/test_shared_command_dispatch_runtime.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:b673e6a5f2fe4c29d558e2eada61069f4d1f6c3a0495e4c7859950543922e7b9"
+    },
+    {
+      "asset_id": "workflow.v2-1-7-shared-command-dispatch",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-7-shared-command-dispatch.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:27a1d1fd9c8b97142530d2f9575adb8e090a363a795adb859ff1b9b241c0368c"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.7-shared-command-dispatch",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.7-shared-command-dispatch-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.7-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:2ea6efd382f96030eac7cbf6f6e3589e0105820628fd317c5607dcb66acd8869"
+    }
+  ]
+}

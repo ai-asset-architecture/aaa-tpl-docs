@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.7",
+  "asset": "shared-command-dispatch",
+  "files": [
+    "internal/development/evidence/v2.1.7/shared-command-dispatch/result.json",
+    "internal/development/evidence/v2.1.7/shared-command-dispatch/index.json",
+    "internal/development/evidence/v2.1.7/shared-command-dispatch/run-evidence.md",
+    "internal/development/evidence/v2.1.7/shared-command-dispatch/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-7-shared-command-dispatch.yml#23968268431",
+  "computed_at_taipei": "2026-04-04T09:24:38+08:00"
+}
