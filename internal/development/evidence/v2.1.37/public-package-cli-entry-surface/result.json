@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.37",
+  "step": "step3",
+  "asset": "public-package-cli-entry-surface",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-37-public-package-cli-entry-surface.yml#23984524564",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23984524564",
+  "conclusion": "success",
+  "inputs_digest": "sha256:48f99821573200f98879041be6b8f893a56b504e29895d598442a3cd3de189bb",
+  "contract_digest": "sha256:0aa03d21706b4a95af90c0690705e8a93ce306ee47873fcb544b6926ee6068bf",
+  "fixture_digest": "sha256:48f99821573200f98879041be6b8f893a56b504e29895d598442a3cd3de189bb",
+  "runtime_digest": "sha256:32b4308c012b20d340aa1ec2f9cd28df6d055d4c819aa7cbcd34f472eb27c7dd",
+  "workflow_digest": "sha256:76e2de765131afc7d10412db096df54debf534171ba7410ab2ba39bd92c4496b",
+  "evidence_digest": "sha256:a2c558a755ce451c4db8d37d1e115cc63dbd5a2b7f65413d0f351798bd6f5662",
+  "computed_at_taipei": "2026-04-05T13:40:00+08:00"
+}

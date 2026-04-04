@@ -1,0 +1,80 @@
+{
+  "version": "v2.1.37",
+  "asset_group": "public-package-cli-entry-surface",
+  "generated_at_taipei": "2026-04-05T13:40:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.public-package-cli-entry-surface.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/public-package-cli-entry-surface.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:0aa03d21706b4a95af90c0690705e8a93ce306ee47873fcb544b6926ee6068bf"
+    },
+    {
+      "asset_id": "fixtures.public-package-cli-entry-surface.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-05-v2.1.37-public-package-cli-entry-surface.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-05-v2.1.37-public-package-cli-entry-surface.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:48f99821573200f98879041be6b8f893a56b504e29895d598442a3cd3de189bb"
+    },
+    {
+      "asset_id": "runtime.public-package-cli-entry-surface.v2.1.37",
+      "asset_type": "public_package_cli_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/package_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/tests/test_public_package_cli_entry_surface.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:32b4308c012b20d340aa1ec2f9cd28df6d055d4c819aa7cbcd34f472eb27c7dd"
+    },
+    {
+      "asset_id": "workflow.v2-1-37-public-package-cli-entry-surface",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-37-public-package-cli-entry-surface.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:76e2de765131afc7d10412db096df54debf534171ba7410ab2ba39bd92c4496b"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.37-public-package-cli-entry-surface",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-05-v2.1.37-public-package-cli-entry-surface-run-evidence.md",
+        "internal/development/reviews/2026-04-05-v2.1.37-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:a2c558a755ce451c4db8d37d1e115cc63dbd5a2b7f65413d0f351798bd6f5662"
+    }
+  ]
+}
