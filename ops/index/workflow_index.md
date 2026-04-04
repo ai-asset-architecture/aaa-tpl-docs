@@ -1,11 +1,12 @@
 # Workflow Index (Canonical Source)
 
-- updated_at_taipei: 2026-04-04T12:42:30+08:00
+- updated_at_taipei: 2026-04-04T13:07:00+08:00
 - source_of_truth: raw rows for `/ops-registry?tab=workflows`
 - maintenance_rule: workflow change MUST append/update in Step1
 
 | 日期 | ID | 工作流程 | 目的 | 目標 | 場合 | 觸發時機 | 模式 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-04-04 | aaa-tools/.github/workflows/v2-1-10-query-orchestration-runtime.yml | v2.1.10 Query Orchestration Runtime | 驗證 query orchestration runtime 可把 shared dispatch、result/evidence gate 與 session snapshot 收斂為最小可重放 orchestration loop。 | 讓 `v2.1.10` 的 orchestration runtime 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.10 query orchestration runtime adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23971728965; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.10-query-orchestration-runtime-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-9-session-context-snapshot.yml | v2.1.9 Session Context Snapshot | 驗證 session context snapshot runtime 可固定 snapshot、reload 與 replay 邊界，並拒絕 canonical truth promotion。 | 讓 `v2.1.9` 的 context snapshot plane 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.9 session context snapshot runtime adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23971546565; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.9-session-context-snapshot-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-8-result-evidence-promotion-gate.yml | v2.1.8 Result Evidence Promotion Gate | 驗證 result artifact eligibility 與 evidence promotion gate 可拒絕人工敘事單獨決策，並固定 promotion decision source。 | 讓 `v2.1.8` 的 result/evidence gate 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.8 result evidence promotion gate runtime adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23971353018; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.8-result-evidence-promotion-gate-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-7-shared-command-dispatch.yml | v2.1.7 Shared Command Dispatch | 驗證 shared command dispatch runtime 可把 `readiness-inspect` 與 `repo-check` 收斂到共同 routing、common output envelope 與 fail-closed exit semantics。 | 讓 `v2.1.7` 的 shared dispatch plane 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.7 shared command runtime adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23968268431; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.7-shared-command-dispatch-run-evidence.md） |
