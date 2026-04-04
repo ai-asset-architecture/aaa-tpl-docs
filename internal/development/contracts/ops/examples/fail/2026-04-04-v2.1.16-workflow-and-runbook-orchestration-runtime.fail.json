@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "workflow_runtime",
+  "line_class": "mandatory_core_absorption_line",
+  "workflow_id": "governance-closeout",
+  "step_id": "step3-closeout",
+  "dependency_mode": "independent_step",
+  "handoff_artifact_class": "readiness_snapshot",
+  "step_outcome": "passed",
+  "workflow_gate_mode": "explicit_continue",
+  "bpm_platform_expansion_allowed": true,
+  "prose_fallback_allowed": true
+}

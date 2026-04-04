@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "session_persistence",
+  "line_class": "mandatory_core_absorption_line",
+  "session_store_mode": "persistent_store",
+  "transcript_class": "compacted_transcript",
+  "compaction_mode": "summarized_boundary",
+  "compacted_transcript_replay_allowed": true,
+  "canonical_truth_promotion_allowed": true,
+  "audit_reproducibility_required": false,
+  "prose_fallback_allowed": true
+}

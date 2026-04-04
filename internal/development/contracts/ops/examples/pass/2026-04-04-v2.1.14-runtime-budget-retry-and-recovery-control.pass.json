@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "runtime_control",
+  "line_class": "mandatory_core_absorption_line",
+  "budget_scope": "per_turn",
+  "failure_class": "retryable",
+  "retry_mode": "limited_retry",
+  "fallback_mode": "same_path_recovery",
+  "stop_condition": "retry_limit_reached",
+  "provider_business_layer_allowed": false,
+  "prose_fallback_allowed": false
+}

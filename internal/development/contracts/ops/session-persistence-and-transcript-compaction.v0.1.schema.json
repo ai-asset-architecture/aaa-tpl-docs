@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Session Persistence and Transcript Compaction v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "session_store_mode",
+    "transcript_class",
+    "compaction_mode",
+    "compacted_transcript_replay_allowed",
+    "canonical_truth_promotion_allowed",
+    "audit_reproducibility_required",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "session_persistence" },
+    "line_class": { "type": "string", "const": "mandatory_core_absorption_line" },
+    "session_store_mode": { "type": "string", "enum": ["persistent_store", "ephemeral_store"] },
+    "transcript_class": { "type": "string", "enum": ["raw_transcript", "compacted_transcript"] },
+    "compaction_mode": { "type": "string", "enum": ["lossless_boundary", "summarized_boundary"] },
+    "compacted_transcript_replay_allowed": { "type": "boolean" },
+    "canonical_truth_promotion_allowed": { "type": "boolean", "const": false },
+    "audit_reproducibility_required": { "type": "boolean", "const": true },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

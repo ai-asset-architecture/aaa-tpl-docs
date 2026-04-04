@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agent Delegation and Task Lifecycle Runtime v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "task_id",
+    "task_state",
+    "ownership_scope",
+    "handoff_evidence_class",
+    "verification_required",
+    "extension_loading_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "delegation_lifecycle" },
+    "line_class": { "type": "string", "const": "mandatory_core_absorption_line" },
+    "task_id": { "type": "string", "minLength": 1 },
+    "task_state": { "type": "string", "enum": ["queued", "running", "completed", "failed", "blocked"] },
+    "ownership_scope": { "type": "string", "enum": ["bounded_write_scope", "read_only_scope"] },
+    "handoff_evidence_class": { "type": "string", "enum": ["task_result", "verification_record"] },
+    "verification_required": { "type": "boolean" },
+    "extension_loading_allowed": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

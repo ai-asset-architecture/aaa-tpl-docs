@@ -1,0 +1,21 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "composition_root",
+  "line_class": "mandatory_core_absorption_line",
+  "closeout_role": "core_line_closeout",
+  "bootstrap_order": [
+    "permission_gate",
+    "event_stream",
+    "result_normalization"
+  ],
+  "consumed_runtime_planes": [
+    "permission_gate",
+    "event_stream",
+    "result_normalization"
+  ],
+  "startup_boundary": "core_plus_conditional",
+  "assembly_outcome": "assembled",
+  "new_primary_law_allowed": true,
+  "conditional_expansion_enabled": true,
+  "prose_fallback_allowed": true
+}

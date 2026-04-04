@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "event_stream",
+  "line_class": "mandatory_core_absorption_line",
+  "event_stream_id": "shared_runtime_event_stream",
+  "signal_class": "progress_signal",
+  "event_phase": "running",
+  "canonical_truth_promotion_allowed": false,
+  "result_promotion_allowed": false,
+  "evidence_promotion_allowed": false,
+  "prose_fallback_allowed": false
+}

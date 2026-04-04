@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Workflow and Runbook Orchestration Runtime v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "workflow_id",
+    "step_id",
+    "dependency_mode",
+    "handoff_artifact_class",
+    "step_outcome",
+    "workflow_gate_mode",
+    "bpm_platform_expansion_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "workflow_runtime" },
+    "line_class": { "type": "string", "const": "mandatory_core_absorption_line" },
+    "workflow_id": { "type": "string", "minLength": 1 },
+    "step_id": { "type": "string", "minLength": 1 },
+    "dependency_mode": { "type": "string", "enum": ["strict_prerequisite", "independent_step"] },
+    "handoff_artifact_class": { "type": "string", "enum": ["result_artifact", "evidence_candidate", "readiness_snapshot"] },
+    "step_outcome": { "type": "string", "enum": ["pending", "passed", "failed", "blocked"] },
+    "workflow_gate_mode": { "type": "string", "enum": ["fail_closed", "explicit_continue"] },
+    "bpm_platform_expansion_allowed": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

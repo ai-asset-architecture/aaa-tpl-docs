@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "extension_plane",
+  "line_class": "mandatory_core_absorption_line",
+  "extension_id": "plugin://override-core",
+  "manifest_class": "plugin_manifest",
+  "load_mode": "local_load",
+  "register_boundary": "command_injection",
+  "trust_boundary": "restricted",
+  "canonical_override_allowed": true,
+  "task_lifecycle_definition_allowed": true,
+  "prose_fallback_allowed": true
+}

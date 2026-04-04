@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "permission_gate",
+  "line_class": "mandatory_core_absorption_line",
+  "permission_context_ref": "internal/development/contracts/ops/tool-contract.v0.1.md",
+  "command_id": "readiness-inspect",
+  "allowed_authority": ["read_only", "analysis_only"],
+  "decision_mode": "allow",
+  "interactive_mode": "prompt_not_required",
+  "non_interactive_mode": "preauthorized_only",
+  "primary_law_creation_allowed": false,
+  "prose_fallback_allowed": false
+}

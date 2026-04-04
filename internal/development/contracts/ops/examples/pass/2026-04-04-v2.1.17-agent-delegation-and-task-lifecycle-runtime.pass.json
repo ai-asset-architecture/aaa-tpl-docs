@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "delegation_lifecycle",
+  "line_class": "mandatory_core_absorption_line",
+  "task_id": "task-001",
+  "task_state": "completed",
+  "ownership_scope": "bounded_write_scope",
+  "handoff_evidence_class": "verification_record",
+  "verification_required": true,
+  "extension_loading_allowed": false,
+  "prose_fallback_allowed": false
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tool Progress and Runtime Event Stream v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "event_stream_id",
+    "signal_class",
+    "event_phase",
+    "canonical_truth_promotion_allowed",
+    "result_promotion_allowed",
+    "evidence_promotion_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "event_stream" },
+    "line_class": { "type": "string", "const": "mandatory_core_absorption_line" },
+    "event_stream_id": { "type": "string", "const": "shared_runtime_event_stream" },
+    "signal_class": { "type": "string", "enum": ["progress_signal", "result_signal", "evidence_signal"] },
+    "event_phase": { "type": "string", "enum": ["started", "running", "waiting", "completed", "failed"] },
+    "canonical_truth_promotion_allowed": { "type": "boolean", "const": false },
+    "result_promotion_allowed": { "type": "boolean" },
+    "evidence_promotion_allowed": { "type": "boolean" },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

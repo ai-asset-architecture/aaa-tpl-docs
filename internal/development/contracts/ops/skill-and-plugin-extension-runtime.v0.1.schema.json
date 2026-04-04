@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skill and Plugin Extension Runtime v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "extension_id",
+    "manifest_class",
+    "load_mode",
+    "register_boundary",
+    "trust_boundary",
+    "canonical_override_allowed",
+    "task_lifecycle_definition_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "extension_plane" },
+    "line_class": { "type": "string", "const": "mandatory_core_absorption_line" },
+    "extension_id": { "type": "string", "minLength": 1 },
+    "manifest_class": { "type": "string", "enum": ["skill_manifest", "plugin_manifest"] },
+    "load_mode": { "type": "string", "enum": ["local_load", "registered_load"] },
+    "register_boundary": { "type": "string", "enum": ["command_injection", "tool_injection"] },
+    "trust_boundary": { "type": "string", "enum": ["trusted", "restricted"] },
+    "canonical_override_allowed": { "type": "boolean", "const": false },
+    "task_lifecycle_definition_allowed": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "permission_gate",
+  "line_class": "mandatory_core_absorption_line",
+  "permission_context_ref": "internal/development/contracts/ops/tool-contract.v0.1.md",
+  "command_id": "repo-check",
+  "allowed_authority": ["governance_gate"],
+  "decision_mode": "allow",
+  "interactive_mode": "prompt_allowed",
+  "non_interactive_mode": "auto_deny",
+  "primary_law_creation_allowed": true,
+  "prose_fallback_allowed": true
+}

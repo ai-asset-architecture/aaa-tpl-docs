@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "extension_plane",
+  "line_class": "mandatory_core_absorption_line",
+  "extension_id": "skill://repo-check-helper",
+  "manifest_class": "skill_manifest",
+  "load_mode": "registered_load",
+  "register_boundary": "tool_injection",
+  "trust_boundary": "trusted",
+  "canonical_override_allowed": false,
+  "task_lifecycle_definition_allowed": false,
+  "prose_fallback_allowed": false
+}

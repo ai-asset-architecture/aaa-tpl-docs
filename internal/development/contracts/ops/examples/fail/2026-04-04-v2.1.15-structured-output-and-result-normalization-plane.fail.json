@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "result_normalization",
+  "line_class": "mandatory_core_absorption_line",
+  "output_class": "human_safe",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "artifact_refs": [],
+  "normalized_payload_class": "structured_result",
+  "prose_only_result_allowed": true
+}

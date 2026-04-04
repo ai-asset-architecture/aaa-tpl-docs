@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Structured Output and Result Normalization Plane v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "output_class",
+    "status",
+    "errors",
+    "warnings",
+    "artifact_refs",
+    "normalized_payload_class",
+    "prose_only_result_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "result_normalization" },
+    "line_class": { "type": "string", "const": "mandatory_core_absorption_line" },
+    "output_class": { "type": "string", "enum": ["machine_safe", "human_safe", "operator_safe"] },
+    "status": { "type": "string", "enum": ["ok", "error", "warning"] },
+    "errors": { "type": "array", "items": { "type": "string" } },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "artifact_refs": { "type": "array", "items": { "type": "string" } },
+    "normalized_payload_class": { "type": "string", "enum": ["structured_result", "structured_error"] },
+    "prose_only_result_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,31 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "composition_root",
+  "line_class": "mandatory_core_absorption_line",
+  "closeout_role": "core_line_closeout",
+  "bootstrap_order": [
+    "permission_gate",
+    "event_stream",
+    "session_persistence",
+    "runtime_control",
+    "result_normalization",
+    "workflow_runtime",
+    "delegation_lifecycle",
+    "extension_plane"
+  ],
+  "consumed_runtime_planes": [
+    "permission_gate",
+    "event_stream",
+    "session_persistence",
+    "runtime_control",
+    "result_normalization",
+    "workflow_runtime",
+    "delegation_lifecycle",
+    "extension_plane"
+  ],
+  "startup_boundary": "core_line_only",
+  "assembly_outcome": "assembled",
+  "new_primary_law_allowed": false,
+  "conditional_expansion_enabled": false,
+  "prose_fallback_allowed": false
+}
