@@ -9,6 +9,7 @@
     "package_level",
     "selection_artifact_mode",
     "free_text_alias_allowed",
+    "package_level_alias_forbidden",
     "definition_resolution_included",
     "prerequisite_judgment_included",
     "prose_fallback_allowed"
@@ -20,6 +21,7 @@
     "package_level": { "type": "string", "enum": ["lite", "core", "full"] },
     "selection_artifact_mode": { "type": "string", "const": "explicit_selection_artifact" },
     "free_text_alias_allowed": { "type": "boolean", "const": false },
+    "package_level_alias_forbidden": { "type": "boolean", "const": true },
     "definition_resolution_included": { "type": "boolean", "const": false },
     "prerequisite_judgment_included": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }

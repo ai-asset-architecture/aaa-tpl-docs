@@ -9,6 +9,7 @@
     "closeout_role",
     "consumed_package_runtime_stages",
     "consumed_stage_set_mode",
+    "consumed_stage_set_hash",
     "closeout_scope",
     "offering_semantics_rejudgment_allowed",
     "conditional_expansion_triggered",
@@ -36,6 +37,10 @@
       }
     },
     "consumed_stage_set_mode": { "type": "string", "const": "explicit_enumeration" },
+    "consumed_stage_set_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{8,64}$"
+    },
     "closeout_scope": { "type": "string", "const": "package_runtime_core_only" },
     "offering_semantics_rejudgment_allowed": { "type": "boolean", "const": false },
     "conditional_expansion_triggered": { "type": "boolean", "const": false },

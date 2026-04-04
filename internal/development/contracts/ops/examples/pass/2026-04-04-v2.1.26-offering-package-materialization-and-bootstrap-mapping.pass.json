@@ -19,6 +19,7 @@
     "operate_maintain_workflow_v2_reduced"
   ],
   "materialization_target_mode": "repo_template_workflow_asset_mapping",
+  "mapping_completeness": "complete",
   "package_status_assertion_included": false,
   "prose_fallback_allowed": false
 }

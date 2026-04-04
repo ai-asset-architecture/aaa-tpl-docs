@@ -9,6 +9,7 @@
   "evidence_refs": [
     "internal/development/evidence/offering-package/core/materialization/index.json"
   ],
+  "runtime_activity_requires_minimum_evidence_refs": true,
   "prerequisite_verdict_used_as_activation": false,
   "narrative_only_status_allowed": false,
   "prose_fallback_allowed": false

@@ -8,6 +8,7 @@
     "line_class",
     "interface_scope",
     "exposed_payloads",
+    "cli_output_mapping_mode",
     "read_only_boundary",
     "ai_orchestration_claimed",
     "remote_session_semantics_included",
@@ -32,6 +33,7 @@
         ]
       }
     },
+    "cli_output_mapping_mode": { "type": "string", "const": "isomorphic_human_json_mapping" },
     "read_only_boundary": { "type": "boolean", "const": true },
     "ai_orchestration_claimed": { "type": "boolean", "const": false },
     "remote_session_semantics_included": { "type": "boolean", "const": false },

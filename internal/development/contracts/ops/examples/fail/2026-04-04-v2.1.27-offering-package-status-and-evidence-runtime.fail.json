@@ -7,6 +7,7 @@
   "package_compliance_status": "active",
   "package_runtime_activity": "active",
   "evidence_refs": [],
+  "runtime_activity_requires_minimum_evidence_refs": false,
   "prerequisite_verdict_used_as_activation": true,
   "narrative_only_status_allowed": true,
   "prose_fallback_allowed": true

@@ -12,6 +12,7 @@
     "machine_read_boundary"
   ],
   "consumed_stage_set_mode": "explicit_enumeration",
+  "consumed_stage_set_hash": "sha256:23a4c5d6e7f809ab",
   "closeout_scope": "package_runtime_core_only",
   "offering_semantics_rejudgment_allowed": false,
   "conditional_expansion_triggered": false,

@@ -4,6 +4,7 @@
   "line_class": "offering_package_runtime_enablement_line",
   "package_level": "core",
   "source_definition_artifact": "aaa-docs/bootstrap/offering_definition_skeleton.md",
+  "source_definition_artifact_ref": "bootstrap/offering_definition_skeleton.md",
   "minimum_repo_set": [
     ".github",
     "aaa-tpl-docs",

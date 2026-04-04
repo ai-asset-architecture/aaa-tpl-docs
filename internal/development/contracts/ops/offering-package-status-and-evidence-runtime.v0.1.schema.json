@@ -11,6 +11,7 @@
     "package_compliance_status",
     "package_runtime_activity",
     "evidence_refs",
+    "runtime_activity_requires_minimum_evidence_refs",
     "prerequisite_verdict_used_as_activation",
     "narrative_only_status_allowed",
     "prose_fallback_allowed"
@@ -28,6 +29,7 @@
       "minItems": 1,
       "items": { "type": "string" }
     },
+    "runtime_activity_requires_minimum_evidence_refs": { "type": "boolean", "const": true },
     "prerequisite_verdict_used_as_activation": { "type": "boolean", "const": false },
     "narrative_only_status_allowed": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }

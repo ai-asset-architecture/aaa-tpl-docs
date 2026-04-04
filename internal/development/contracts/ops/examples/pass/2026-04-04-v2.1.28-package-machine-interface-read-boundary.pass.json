@@ -10,6 +10,7 @@
     "package_status",
     "package_evidence_refs"
   ],
+  "cli_output_mapping_mode": "isomorphic_human_json_mapping",
   "read_only_boundary": true,
   "ai_orchestration_claimed": false,
   "remote_session_semantics_included": false,

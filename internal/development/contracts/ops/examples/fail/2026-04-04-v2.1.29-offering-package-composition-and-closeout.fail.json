@@ -9,6 +9,7 @@
     "status_evidence_runtime"
   ],
   "consumed_stage_set_mode": "implicit_totality_claim",
+  "consumed_stage_set_hash": "narrative-only",
   "closeout_scope": "package_runtime_core_only",
   "offering_semantics_rejudgment_allowed": true,
   "conditional_expansion_triggered": true,

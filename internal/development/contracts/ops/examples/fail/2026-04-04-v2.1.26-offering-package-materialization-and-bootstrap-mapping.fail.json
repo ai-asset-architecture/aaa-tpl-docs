@@ -13,6 +13,7 @@
     "ai_command_center"
   ],
   "materialization_target_mode": "repo_template_workflow_asset_mapping",
+  "mapping_completeness": "partial",
   "package_status_assertion_included": true,
   "prose_fallback_allowed": true
 }

@@ -5,6 +5,7 @@
   "package_level": "lite-bootstrap",
   "selection_artifact_mode": "implicit_cli_flag_only",
   "free_text_alias_allowed": true,
+  "package_level_alias_forbidden": false,
   "definition_resolution_included": true,
   "prerequisite_judgment_included": true,
   "prose_fallback_allowed": true

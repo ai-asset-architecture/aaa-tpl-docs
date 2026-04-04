@@ -13,6 +13,7 @@
     "workflow_enablement_required",
     "governance_asset_load_list",
     "materialization_target_mode",
+    "mapping_completeness",
     "package_status_assertion_included",
     "prose_fallback_allowed"
   ],
@@ -58,6 +59,7 @@
       }
     },
     "materialization_target_mode": { "type": "string", "const": "repo_template_workflow_asset_mapping" },
+    "mapping_completeness": { "type": "string", "enum": ["complete", "partial"] },
     "package_status_assertion_included": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }
   },

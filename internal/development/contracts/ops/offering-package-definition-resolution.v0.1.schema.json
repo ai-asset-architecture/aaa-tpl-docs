@@ -8,6 +8,7 @@
     "line_class",
     "package_level",
     "source_definition_artifact",
+    "source_definition_artifact_ref",
     "minimum_repo_set",
     "workflow_inclusion_level",
     "client_prerequisites",
@@ -21,6 +22,7 @@
     "line_class": { "type": "string", "const": "offering_package_runtime_enablement_line" },
     "package_level": { "type": "string", "enum": ["lite", "core", "full"] },
     "source_definition_artifact": { "type": "string", "const": "aaa-docs/bootstrap/offering_definition_skeleton.md" },
+    "source_definition_artifact_ref": { "type": "string", "const": "bootstrap/offering_definition_skeleton.md" },
     "minimum_repo_set": {
       "type": "array",
       "minItems": 3,
