@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.19",
+  "asset": "runtime-composition-root-and-system-assembly",
+  "files": [
+    "internal/development/evidence/v2.1.19/runtime-composition-root-and-system-assembly/result.json",
+    "internal/development/evidence/v2.1.19/runtime-composition-root-and-system-assembly/index.json",
+    "internal/development/evidence/v2.1.19/runtime-composition-root-and-system-assembly/run-evidence.md",
+    "internal/development/evidence/v2.1.19/runtime-composition-root-and-system-assembly/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-19-runtime-composition-root-and-system-assembly.yml#23974219465",
+  "computed_at_taipei": "2026-04-04T15:58:00+08:00"
+}

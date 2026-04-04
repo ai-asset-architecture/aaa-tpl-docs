@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.19",
+  "step": "step3",
+  "asset": "runtime-composition-root-and-system-assembly",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-19-runtime-composition-root-and-system-assembly.yml#23974219465",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23974219465",
+  "conclusion": "success",
+  "inputs_digest": "sha256:ccf29546c5429098d4f0cd6d871c91b087ba1bf182075711b891fde7be745e0d",
+  "contract_digest": "sha256:ebf2575f0f8b4e20bbbfa445cfe791ace7e212b8eae7c9562a5b2517b75e0a51",
+  "fixture_digest": "sha256:ccf29546c5429098d4f0cd6d871c91b087ba1bf182075711b891fde7be745e0d",
+  "runtime_digest": "sha256:959ea416a22db8280ab8b03013ec45c3bb1364a29222f243eb3908265a2bf8b3",
+  "workflow_digest": "sha256:5a4a311538f0f4c6c0c632344b763541bb9fdebe8dfd87c5a3c6b26a385c3214",
+  "evidence_digest": "sha256:497091e21d191d37c744fd20d3f87775d5a6994cda0b3881cf39bfdfff4c4063",
+  "computed_at_taipei": "2026-04-04T15:58:00+08:00"
+}

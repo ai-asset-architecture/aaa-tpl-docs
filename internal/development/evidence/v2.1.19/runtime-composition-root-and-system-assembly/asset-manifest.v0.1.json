@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.19",
+  "asset_group": "runtime-composition-root-and-system-assembly",
+  "generated_at_taipei": "2026-04-04T15:58:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.runtime-composition-root-and-system-assembly.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/runtime-composition-root-and-system-assembly.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:ebf2575f0f8b4e20bbbfa445cfe791ace7e212b8eae7c9562a5b2517b75e0a51"
+    },
+    {
+      "asset_id": "fixtures.runtime-composition-root-and-system-assembly.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.19-runtime-composition-root-and-system-assembly.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.19-runtime-composition-root-and-system-assembly.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:ccf29546c5429098d4f0cd6d871c91b087ba1bf182075711b891fde7be745e0d"
+    },
+    {
+      "asset_id": "runtime.runtime-composition-root-and-system-assembly.v2.1.19",
+      "asset_type": "composition_root_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/runtime_composition_root_and_system_assembly.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_runtime_composition_root_and_system_assembly.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:959ea416a22db8280ab8b03013ec45c3bb1364a29222f243eb3908265a2bf8b3"
+    },
+    {
+      "asset_id": "workflow.v2-1-19-runtime-composition-root-and-system-assembly",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-19-runtime-composition-root-and-system-assembly.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:5a4a311538f0f4c6c0c632344b763541bb9fdebe8dfd87c5a3c6b26a385c3214"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.19-runtime-composition-root-and-system-assembly",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.19-runtime-composition-root-and-system-assembly-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.19-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:497091e21d191d37c744fd20d3f87775d5a6994cda0b3881cf39bfdfff4c4063"
+    }
+  ]
+}
