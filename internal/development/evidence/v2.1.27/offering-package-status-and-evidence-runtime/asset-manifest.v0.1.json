@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.27",
+  "asset_group": "offering-package-status-and-evidence-runtime",
+  "generated_at_taipei": "2026-04-04T22:00:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.offering-package-status-and-evidence-runtime.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/offering-package-status-and-evidence-runtime.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:19f8087e6860f067738f7b02ade4130f649a288fed602d29912b6d8182fada2a"
+    },
+    {
+      "asset_id": "fixtures.offering-package-status-and-evidence-runtime.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.27-offering-package-status-and-evidence-runtime.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.27-offering-package-status-and-evidence-runtime.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:64d76b3a84f4c939e3882995936fd920c2ace75ed15f1819dab9a22e3ac8ae2d"
+    },
+    {
+      "asset_id": "runtime.offering-package-status-and-evidence-runtime.v2.1.27",
+      "asset_type": "package_status_evidence_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/offering_package_status_and_evidence_runtime.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_offering_package_status_and_evidence_runtime.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:70eab316ba5dc8e798c1e9f4b91ff574d09608523a12e007e548d74a0bdccf14"
+    },
+    {
+      "asset_id": "workflow.v2-1-27-offering-package-status-and-evidence-runtime",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-27-offering-package-status-and-evidence-runtime.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:04bbfe1812d391e185cb11027fcc59b22763dedd93c86b100b382a126eca98f5"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.27-offering-package-status-and-evidence-runtime",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.27-offering-package-status-and-evidence-runtime-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.27-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:d218aaba7a812ba6681ef68968db38abadfa867244c939a0c9b17a6a47444df9"
+    }
+  ]
+}

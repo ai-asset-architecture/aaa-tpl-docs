@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.27",
+  "asset": "offering-package-status-and-evidence-runtime",
+  "files": [
+    "internal/development/evidence/v2.1.27/offering-package-status-and-evidence-runtime/result.json",
+    "internal/development/evidence/v2.1.27/offering-package-status-and-evidence-runtime/index.json",
+    "internal/development/evidence/v2.1.27/offering-package-status-and-evidence-runtime/run-evidence.md",
+    "internal/development/evidence/v2.1.27/offering-package-status-and-evidence-runtime/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-27-offering-package-status-and-evidence-runtime.yml#23980259260",
+  "computed_at_taipei": "2026-04-04T22:00:00+08:00"
+}

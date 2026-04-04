@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.27",
+  "step": "step3",
+  "asset": "offering-package-status-and-evidence-runtime",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-27-offering-package-status-and-evidence-runtime.yml#23980259260",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23980259260",
+  "conclusion": "success",
+  "inputs_digest": "sha256:07c28534d5da42fc2deebb96ecfefcfeb716d74e947b1ab4993b1fd500f0cd86",
+  "contract_digest": "sha256:19f8087e6860f067738f7b02ade4130f649a288fed602d29912b6d8182fada2a",
+  "fixture_digest": "sha256:64d76b3a84f4c939e3882995936fd920c2ace75ed15f1819dab9a22e3ac8ae2d",
+  "runtime_digest": "sha256:70eab316ba5dc8e798c1e9f4b91ff574d09608523a12e007e548d74a0bdccf14",
+  "workflow_digest": "sha256:04bbfe1812d391e185cb11027fcc59b22763dedd93c86b100b382a126eca98f5",
+  "evidence_digest": "sha256:d218aaba7a812ba6681ef68968db38abadfa867244c939a0c9b17a6a47444df9",
+  "computed_at_taipei": "2026-04-04T22:00:00+08:00"
+}
