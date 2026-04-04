@@ -1,0 +1,19 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_composition_closeout",
+  "line_class": "offering_package_runtime_enablement_line",
+  "closeout_role": "package_runtime_core_closeout",
+  "consumed_package_runtime_stages": [
+    "package_selection",
+    "definition_resolution",
+    "prerequisite_gate",
+    "materialization_mapping",
+    "status_evidence_runtime",
+    "machine_read_boundary"
+  ],
+  "consumed_stage_set_mode": "explicit_enumeration",
+  "closeout_scope": "package_runtime_core_only",
+  "offering_semantics_rejudgment_allowed": false,
+  "conditional_expansion_triggered": false,
+  "prose_fallback_allowed": false
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Package Machine Interface Read Boundary v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "interface_scope",
+    "exposed_payloads",
+    "read_only_boundary",
+    "ai_orchestration_claimed",
+    "remote_session_semantics_included",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "package_machine_interface_read_boundary" },
+    "line_class": { "type": "string", "const": "offering_package_runtime_enablement_line" },
+    "interface_scope": { "type": "string", "const": "machine_read_boundary_only" },
+    "exposed_payloads": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "package_selection",
+          "resolved_definition",
+          "prerequisite_verdict",
+          "package_status",
+          "package_evidence_refs"
+        ]
+      }
+    },
+    "read_only_boundary": { "type": "boolean", "const": true },
+    "ai_orchestration_claimed": { "type": "boolean", "const": false },
+    "remote_session_semantics_included": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

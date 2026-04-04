@@ -1,0 +1,24 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_materialization_mapping",
+  "line_class": "offering_package_runtime_enablement_line",
+  "package_level": "lite",
+  "minimum_repo_set": [
+    ".github",
+    "aaa-actions",
+    "aaa-tools",
+    "aaa-tpl-docs",
+    "aaa-tpl-service"
+  ],
+  "workflow_inclusion_level": "reduced",
+  "template_sync_required": true,
+  "workflow_enablement_required": true,
+  "governance_asset_load_list": [
+    "ai_command_center",
+    "project_playbook",
+    "operate_maintain_workflow_v2_reduced"
+  ],
+  "materialization_target_mode": "repo_template_workflow_asset_mapping",
+  "package_status_assertion_included": false,
+  "prose_fallback_allowed": false
+}

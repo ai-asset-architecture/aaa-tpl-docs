@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offering Package Composition and Closeout v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "closeout_role",
+    "consumed_package_runtime_stages",
+    "consumed_stage_set_mode",
+    "closeout_scope",
+    "offering_semantics_rejudgment_allowed",
+    "conditional_expansion_triggered",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "offering_package_composition_closeout" },
+    "line_class": { "type": "string", "const": "offering_package_runtime_enablement_line" },
+    "closeout_role": { "type": "string", "const": "package_runtime_core_closeout" },
+    "consumed_package_runtime_stages": {
+      "type": "array",
+      "minItems": 6,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "package_selection",
+          "definition_resolution",
+          "prerequisite_gate",
+          "materialization_mapping",
+          "status_evidence_runtime",
+          "machine_read_boundary"
+        ]
+      }
+    },
+    "consumed_stage_set_mode": { "type": "string", "const": "explicit_enumeration" },
+    "closeout_scope": { "type": "string", "const": "package_runtime_core_only" },
+    "offering_semantics_rejudgment_allowed": { "type": "boolean", "const": false },
+    "conditional_expansion_triggered": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

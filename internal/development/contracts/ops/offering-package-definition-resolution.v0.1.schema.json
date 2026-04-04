@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offering Package Definition Resolution v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "package_level",
+    "source_definition_artifact",
+    "minimum_repo_set",
+    "workflow_inclusion_level",
+    "client_prerequisites",
+    "back_write_allowed",
+    "reinterpretation_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "offering_package_definition_resolution" },
+    "line_class": { "type": "string", "const": "offering_package_runtime_enablement_line" },
+    "package_level": { "type": "string", "enum": ["lite", "core", "full"] },
+    "source_definition_artifact": { "type": "string", "const": "aaa-docs/bootstrap/offering_definition_skeleton.md" },
+    "minimum_repo_set": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string",
+        "enum": [
+          ".github",
+          "aaa-actions",
+          "aaa-evals",
+          "aaa-tools",
+          "aaa-prompts",
+          "aaa-tpl-docs",
+          "aaa-tpl-service",
+          "aaa-tpl-frontend"
+        ]
+      }
+    },
+    "workflow_inclusion_level": { "type": "string", "enum": ["reduced", "core", "full"] },
+    "client_prerequisites": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "basic_ci",
+          "ci_discipline",
+          "contract_first",
+          "mock_first",
+          "review_evidence_discipline",
+          "asset_feedback_loop",
+          "ai_governance"
+        ]
+      }
+    },
+    "back_write_allowed": { "type": "boolean", "const": false },
+    "reinterpretation_allowed": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

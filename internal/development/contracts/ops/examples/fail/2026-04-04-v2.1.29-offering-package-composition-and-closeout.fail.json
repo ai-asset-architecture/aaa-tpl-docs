@@ -1,0 +1,16 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_composition_closeout",
+  "line_class": "offering_package_runtime_enablement_line",
+  "closeout_role": "package_runtime_core_closeout",
+  "consumed_package_runtime_stages": [
+    "package_selection",
+    "definition_resolution",
+    "status_evidence_runtime"
+  ],
+  "consumed_stage_set_mode": "implicit_totality_claim",
+  "closeout_scope": "package_runtime_core_only",
+  "offering_semantics_rejudgment_allowed": true,
+  "conditional_expansion_triggered": true,
+  "prose_fallback_allowed": true
+}

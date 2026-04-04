@@ -1,0 +1,18 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_materialization_mapping",
+  "line_class": "offering_package_runtime_enablement_line",
+  "package_level": "full",
+  "minimum_repo_set": [
+    ".github"
+  ],
+  "workflow_inclusion_level": "full",
+  "template_sync_required": false,
+  "workflow_enablement_required": false,
+  "governance_asset_load_list": [
+    "ai_command_center"
+  ],
+  "materialization_target_mode": "repo_template_workflow_asset_mapping",
+  "package_status_assertion_included": true,
+  "prose_fallback_allowed": true
+}

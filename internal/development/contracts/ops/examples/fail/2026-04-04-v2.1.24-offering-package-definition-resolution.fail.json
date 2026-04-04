@@ -1,0 +1,17 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_definition_resolution",
+  "line_class": "offering_package_runtime_enablement_line",
+  "package_level": "full",
+  "source_definition_artifact": "aaa-docs/bootstrap/offering_definition_skeleton.md",
+  "minimum_repo_set": [
+    ".github"
+  ],
+  "workflow_inclusion_level": "partial",
+  "client_prerequisites": [
+    "human_judgment_only"
+  ],
+  "back_write_allowed": true,
+  "reinterpretation_allowed": true,
+  "prose_fallback_allowed": true
+}

@@ -1,0 +1,11 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_selection",
+  "line_class": "offering_package_runtime_enablement_line",
+  "package_level": "core",
+  "selection_artifact_mode": "explicit_selection_artifact",
+  "free_text_alias_allowed": false,
+  "definition_resolution_included": false,
+  "prerequisite_judgment_included": false,
+  "prose_fallback_allowed": false
+}

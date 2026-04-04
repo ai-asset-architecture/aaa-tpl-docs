@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_status_evidence",
+  "line_class": "offering_package_runtime_enablement_line",
+  "package_level": "full",
+  "package_stage": "active",
+  "package_compliance_status": "active",
+  "package_runtime_activity": "active",
+  "evidence_refs": [],
+  "prerequisite_verdict_used_as_activation": true,
+  "narrative_only_status_allowed": true,
+  "prose_fallback_allowed": true
+}

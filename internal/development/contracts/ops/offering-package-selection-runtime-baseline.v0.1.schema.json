@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offering Package Selection Runtime Baseline v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "package_level",
+    "selection_artifact_mode",
+    "free_text_alias_allowed",
+    "definition_resolution_included",
+    "prerequisite_judgment_included",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "offering_package_selection" },
+    "line_class": { "type": "string", "const": "offering_package_runtime_enablement_line" },
+    "package_level": { "type": "string", "enum": ["lite", "core", "full"] },
+    "selection_artifact_mode": { "type": "string", "const": "explicit_selection_artifact" },
+    "free_text_alias_allowed": { "type": "boolean", "const": false },
+    "definition_resolution_included": { "type": "boolean", "const": false },
+    "prerequisite_judgment_included": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

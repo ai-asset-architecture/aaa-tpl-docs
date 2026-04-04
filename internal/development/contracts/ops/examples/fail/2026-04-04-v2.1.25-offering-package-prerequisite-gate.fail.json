@@ -1,0 +1,15 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_prerequisite_gate",
+  "line_class": "offering_package_runtime_enablement_line",
+  "package_level": "core",
+  "gate_scope": "pre_adoption_only",
+  "checked_prerequisites": [
+    "ci_discipline"
+  ],
+  "prerequisite_verdict": "pass_with_gap",
+  "activation_implied": true,
+  "readiness_implied": true,
+  "completion_implied": true,
+  "prose_fallback_allowed": true
+}

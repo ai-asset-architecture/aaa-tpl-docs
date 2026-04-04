@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offering Package Prerequisite Gate v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "package_level",
+    "gate_scope",
+    "checked_prerequisites",
+    "prerequisite_verdict",
+    "activation_implied",
+    "readiness_implied",
+    "completion_implied",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "offering_package_prerequisite_gate" },
+    "line_class": { "type": "string", "const": "offering_package_runtime_enablement_line" },
+    "package_level": { "type": "string", "enum": ["lite", "core", "full"] },
+    "gate_scope": { "type": "string", "const": "pre_adoption_only" },
+    "checked_prerequisites": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "basic_ci",
+          "ci_discipline",
+          "contract_first",
+          "mock_first",
+          "review_evidence_discipline",
+          "asset_feedback_loop",
+          "ai_governance",
+          "minimum_repo_presence"
+        ]
+      }
+    },
+    "prerequisite_verdict": { "type": "string", "enum": ["pass", "fail", "pass_with_gap"] },
+    "activation_implied": { "type": "boolean", "const": false },
+    "readiness_implied": { "type": "boolean", "const": false },
+    "completion_implied": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

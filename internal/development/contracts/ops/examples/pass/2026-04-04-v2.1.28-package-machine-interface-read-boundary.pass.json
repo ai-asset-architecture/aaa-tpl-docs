@@ -1,0 +1,17 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "package_machine_interface_read_boundary",
+  "line_class": "offering_package_runtime_enablement_line",
+  "interface_scope": "machine_read_boundary_only",
+  "exposed_payloads": [
+    "package_selection",
+    "resolved_definition",
+    "prerequisite_verdict",
+    "package_status",
+    "package_evidence_refs"
+  ],
+  "read_only_boundary": true,
+  "ai_orchestration_claimed": false,
+  "remote_session_semantics_included": false,
+  "prose_fallback_allowed": false
+}

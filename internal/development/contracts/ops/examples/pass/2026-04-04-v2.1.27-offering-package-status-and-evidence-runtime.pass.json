@@ -1,0 +1,15 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_status_evidence",
+  "line_class": "offering_package_runtime_enablement_line",
+  "package_level": "core",
+  "package_stage": "materialized",
+  "package_compliance_status": "compliant_with_gap",
+  "package_runtime_activity": "inactive",
+  "evidence_refs": [
+    "internal/development/evidence/offering-package/core/materialization/index.json"
+  ],
+  "prerequisite_verdict_used_as_activation": false,
+  "narrative_only_status_allowed": false,
+  "prose_fallback_allowed": false
+}

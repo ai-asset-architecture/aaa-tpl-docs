@@ -1,0 +1,28 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "offering_package_definition_resolution",
+  "line_class": "offering_package_runtime_enablement_line",
+  "package_level": "core",
+  "source_definition_artifact": "aaa-docs/bootstrap/offering_definition_skeleton.md",
+  "minimum_repo_set": [
+    ".github",
+    "aaa-tpl-docs",
+    "aaa-actions",
+    "aaa-evals",
+    "aaa-tools",
+    "aaa-prompts",
+    "aaa-tpl-service",
+    "aaa-tpl-frontend"
+  ],
+  "workflow_inclusion_level": "core",
+  "client_prerequisites": [
+    "ci_discipline",
+    "contract_first",
+    "mock_first",
+    "review_evidence_discipline",
+    "ai_governance"
+  ],
+  "back_write_allowed": false,
+  "reinterpretation_allowed": false,
+  "prose_fallback_allowed": false
+}
