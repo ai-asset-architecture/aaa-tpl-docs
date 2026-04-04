@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.8",
+  "step": "step3",
+  "asset": "result-evidence-promotion-gate",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-8-result-evidence-promotion-gate.yml#23971353018",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23971353018",
+  "conclusion": "success",
+  "inputs_digest": "sha256:206f134581f6b0b86f4d0a29e6382ed6cd68b416c6f060372c71d43aa0310fd9",
+  "contract_digest": "sha256:d6bd719675abe2597ff57983138a0a0021c35b2cdf6db558bdd0fd4d9cceb588",
+  "fixture_digest": "sha256:357e537991d0f65dee62e49ba8d8b43d4cc29e8b01eb2d33ec37b50795909f16",
+  "runtime_digest": "sha256:11491f7ac230b11d2612d128134893b15e32e454ddb70f02920647b1fcfe4f02",
+  "workflow_digest": "sha256:1202cf45c75c5504125bff3079ee8383b46be992a47023e9df03f0bc60f38828",
+  "evidence_digest": "sha256:25f0d73b15c5dcda1a0e41c9c0beb01063b06e74a4002ab311a1ef286075bf55",
+  "computed_at_taipei": "2026-04-04T12:31:05+08:00"
+}

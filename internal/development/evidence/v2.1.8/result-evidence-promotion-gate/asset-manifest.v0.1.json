@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.8",
+  "asset_group": "result-evidence-promotion-gate",
+  "generated_at_taipei": "2026-04-04T12:31:05+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.result-evidence-promotion-gate.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/result-artifact-eligibility-and-evidence-promotion-gate.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:d6bd719675abe2597ff57983138a0a0021c35b2cdf6db558bdd0fd4d9cceb588"
+    },
+    {
+      "asset_id": "fixtures.result-evidence-promotion-gate.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.8-result-artifact-eligibility-and-evidence-promotion-gate.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.8-result-artifact-eligibility-and-evidence-promotion-gate.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:357e537991d0f65dee62e49ba8d8b43d4cc29e8b01eb2d33ec37b50795909f16"
+    },
+    {
+      "asset_id": "runtime.result-evidence-promotion-gate.v2.1.8",
+      "asset_type": "runtime_gate_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/result_artifact_eligibility_and_evidence_promotion_gate.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_result_artifact_eligibility_and_evidence_promotion_gate.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:11491f7ac230b11d2612d128134893b15e32e454ddb70f02920647b1fcfe4f02"
+    },
+    {
+      "asset_id": "workflow.v2-1-8-result-evidence-promotion-gate",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-8-result-evidence-promotion-gate.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:1202cf45c75c5504125bff3079ee8383b46be992a47023e9df03f0bc60f38828"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.8-result-evidence-promotion-gate",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.8-result-evidence-promotion-gate-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.8-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:25f0d73b15c5dcda1a0e41c9c0beb01063b06e74a4002ab311a1ef286075bf55"
+    }
+  ]
+}

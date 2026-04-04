@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.8",
+  "asset": "result-evidence-promotion-gate",
+  "files": [
+    "internal/development/evidence/v2.1.8/result-evidence-promotion-gate/result.json",
+    "internal/development/evidence/v2.1.8/result-evidence-promotion-gate/index.json",
+    "internal/development/evidence/v2.1.8/result-evidence-promotion-gate/run-evidence.md",
+    "internal/development/evidence/v2.1.8/result-evidence-promotion-gate/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-8-result-evidence-promotion-gate.yml#23971353018",
+  "computed_at_taipei": "2026-04-04T12:31:05+08:00"
+}
