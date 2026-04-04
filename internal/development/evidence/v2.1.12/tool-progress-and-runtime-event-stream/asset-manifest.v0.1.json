@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.12",
+  "asset_group": "tool-progress-and-runtime-event-stream",
+  "generated_at_taipei": "2026-04-04T14:18:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.tool-progress-and-runtime-event-stream.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/tool-progress-and-runtime-event-stream.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:253199c2bd559c1c556e3392a89aa066c06bddb97803b9caab9dc8f8b84d8fb8"
+    },
+    {
+      "asset_id": "fixtures.tool-progress-and-runtime-event-stream.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.12-tool-progress-and-runtime-event-stream.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.12-tool-progress-and-runtime-event-stream.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:e059154f44587dac4705c78bd8f3bcb502da822919b7c8e237c511ac6473b34e"
+    },
+    {
+      "asset_id": "runtime.tool-progress-and-runtime-event-stream.v2.1.12",
+      "asset_type": "runtime_event_stream_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/tool_progress_and_runtime_event_stream.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_tool_progress_and_runtime_event_stream.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:1b54b89fe62aa98a3aaec6e86eedd761d29d252d2f0f32ea25fda0c22e56150a"
+    },
+    {
+      "asset_id": "workflow.v2-1-12-tool-progress-and-runtime-event-stream",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-12-tool-progress-and-runtime-event-stream.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:1289cf357d8997d7f88afbd8568708abe76ed025d80fcefd208066307b9d86e4"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.12-tool-progress-and-runtime-event-stream",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.12-tool-progress-and-runtime-event-stream-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.12-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:9b71a71d72516ba37aedb98576ab17e6845f7b60bc8333c3b6c6d10683123651"
+    }
+  ]
+}
