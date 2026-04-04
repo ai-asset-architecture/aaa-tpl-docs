@@ -6,7 +6,9 @@
   "task_state": "completed",
   "ownership_scope": "bounded_write_scope",
   "handoff_evidence_class": "task_result",
-  "verification_required": false,
+  "verification_required": true,
+  "verification_closure_state": "pending_verification",
+  "handoff_completion_before_verification_allowed": false,
   "extension_loading_allowed": true,
   "prose_fallback_allowed": true
 }

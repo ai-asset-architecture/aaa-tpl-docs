@@ -11,6 +11,7 @@
     "load_mode",
     "register_boundary",
     "trust_boundary",
+    "injection_target",
     "canonical_override_allowed",
     "task_lifecycle_definition_allowed",
     "prose_fallback_allowed"
@@ -24,6 +25,7 @@
     "load_mode": { "type": "string", "enum": ["local_load", "registered_load"] },
     "register_boundary": { "type": "string", "enum": ["command_injection", "tool_injection"] },
     "trust_boundary": { "type": "string", "enum": ["trusted", "restricted"] },
+    "injection_target": { "type": "string", "enum": ["command_registry_slot", "tool_registry_slot"] },
     "canonical_override_allowed": { "type": "boolean", "const": false },
     "task_lifecycle_definition_allowed": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }

@@ -13,8 +13,10 @@
     "event_stream",
     "result_normalization"
   ],
+  "consumed_runtime_plane_set_mode": "explicit_enumeration",
   "startup_boundary": "core_plus_conditional",
   "assembly_outcome": "assembled",
+  "consumed_plane_semantics_rejudgment_allowed": true,
   "new_primary_law_allowed": true,
   "conditional_expansion_enabled": true,
   "prose_fallback_allowed": true

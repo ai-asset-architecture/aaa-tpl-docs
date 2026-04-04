@@ -7,6 +7,7 @@
   "load_mode": "registered_load",
   "register_boundary": "tool_injection",
   "trust_boundary": "trusted",
+  "injection_target": "tool_registry_slot",
   "canonical_override_allowed": false,
   "task_lifecycle_definition_allowed": false,
   "prose_fallback_allowed": false

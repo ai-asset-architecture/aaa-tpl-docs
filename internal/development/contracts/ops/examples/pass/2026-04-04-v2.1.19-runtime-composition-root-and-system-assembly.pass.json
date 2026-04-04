@@ -23,8 +23,10 @@
     "delegation_lifecycle",
     "extension_plane"
   ],
+  "consumed_runtime_plane_set_mode": "explicit_enumeration",
   "startup_boundary": "core_line_only",
   "assembly_outcome": "assembled",
+  "consumed_plane_semantics_rejudgment_allowed": false,
   "new_primary_law_allowed": false,
   "conditional_expansion_enabled": false,
   "prose_fallback_allowed": false

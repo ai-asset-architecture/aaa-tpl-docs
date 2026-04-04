@@ -11,6 +11,8 @@
     "ownership_scope",
     "handoff_evidence_class",
     "verification_required",
+    "verification_closure_state",
+    "handoff_completion_before_verification_allowed",
     "extension_loading_allowed",
     "prose_fallback_allowed"
   ],
@@ -23,6 +25,8 @@
     "ownership_scope": { "type": "string", "enum": ["bounded_write_scope", "read_only_scope"] },
     "handoff_evidence_class": { "type": "string", "enum": ["task_result", "verification_record"] },
     "verification_required": { "type": "boolean" },
+    "verification_closure_state": { "type": "string", "enum": ["not_required", "pending_verification", "verified"] },
+    "handoff_completion_before_verification_allowed": { "type": "boolean", "const": false },
     "extension_loading_allowed": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }
   },

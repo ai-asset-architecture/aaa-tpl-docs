@@ -7,6 +7,8 @@
   "ownership_scope": "bounded_write_scope",
   "handoff_evidence_class": "verification_record",
   "verification_required": true,
+  "verification_closure_state": "verified",
+  "handoff_completion_before_verification_allowed": false,
   "extension_loading_allowed": false,
   "prose_fallback_allowed": false
 }

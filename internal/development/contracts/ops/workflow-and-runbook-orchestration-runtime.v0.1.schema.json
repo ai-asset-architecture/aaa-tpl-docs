@@ -12,6 +12,7 @@
     "handoff_artifact_class",
     "step_outcome",
     "workflow_gate_mode",
+    "workflow_gate_decision",
     "bpm_platform_expansion_allowed",
     "prose_fallback_allowed"
   ],
@@ -25,6 +26,7 @@
     "handoff_artifact_class": { "type": "string", "enum": ["result_artifact", "evidence_candidate", "readiness_snapshot"] },
     "step_outcome": { "type": "string", "enum": ["pending", "passed", "failed", "blocked"] },
     "workflow_gate_mode": { "type": "string", "enum": ["fail_closed", "explicit_continue"] },
+    "workflow_gate_decision": { "type": "string", "enum": ["gate_passed", "gate_failed", "gate_blocked"] },
     "bpm_platform_expansion_allowed": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }
   },

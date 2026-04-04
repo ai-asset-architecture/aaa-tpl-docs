@@ -9,8 +9,10 @@
     "closeout_role",
     "bootstrap_order",
     "consumed_runtime_planes",
+    "consumed_runtime_plane_set_mode",
     "startup_boundary",
     "assembly_outcome",
+    "consumed_plane_semantics_rejudgment_allowed",
     "new_primary_law_allowed",
     "conditional_expansion_enabled",
     "prose_fallback_allowed"
@@ -41,10 +43,24 @@
       "type": "array",
       "minItems": 8,
       "uniqueItems": true,
-      "items": { "type": "string" }
+      "items": {
+        "type": "string",
+        "enum": [
+          "permission_gate",
+          "event_stream",
+          "session_persistence",
+          "runtime_control",
+          "result_normalization",
+          "workflow_runtime",
+          "delegation_lifecycle",
+          "extension_plane"
+        ]
+      }
     },
+    "consumed_runtime_plane_set_mode": { "type": "string", "const": "explicit_enumeration" },
     "startup_boundary": { "type": "string", "enum": ["core_line_only", "core_plus_conditional"] },
     "assembly_outcome": { "type": "string", "enum": ["assembled", "blocked"] },
+    "consumed_plane_semantics_rejudgment_allowed": { "type": "boolean", "const": false },
     "new_primary_law_allowed": { "type": "boolean", "const": false },
     "conditional_expansion_enabled": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }

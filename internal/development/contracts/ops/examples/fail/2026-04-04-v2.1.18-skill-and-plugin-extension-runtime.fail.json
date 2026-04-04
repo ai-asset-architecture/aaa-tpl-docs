@@ -7,6 +7,7 @@
   "load_mode": "local_load",
   "register_boundary": "command_injection",
   "trust_boundary": "restricted",
+  "injection_target": "command_registry_slot",
   "canonical_override_allowed": true,
   "task_lifecycle_definition_allowed": true,
   "prose_fallback_allowed": true
