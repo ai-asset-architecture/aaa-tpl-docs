@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.30",
+  "step": "step3",
+  "asset": "github-governance-topology-contract-baseline",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-30-github-governance-topology-contract-baseline.yml#23982545538",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23982545538",
+  "conclusion": "success",
+  "inputs_digest": "sha256:0f0ab14d3652e01060e67f36f6a82844f3582b50198cdbcf565ebd5518a8f265",
+  "contract_digest": "sha256:2c055fb9e271a152c7e0369a5ae4e46d6ce25da002616dfa9d6e1edf62af2752",
+  "fixture_digest": "sha256:0f0ab14d3652e01060e67f36f6a82844f3582b50198cdbcf565ebd5518a8f265",
+  "runtime_digest": "sha256:acd2f7fa392f39d5d2669ff18f5a20db7374336fa7b9114d8ca1d97371eeebf3",
+  "workflow_digest": "sha256:fb17724f753cfc6db5245f1c7cfe771e2faa8121d12532c2dce19a68f43b027e",
+  "evidence_digest": "sha256:3cbc3b61fffa66ced9debda66c14fe733c5d9bd66ccfd7e56558c50cf1de6523",
+  "computed_at_taipei": "2026-04-05T00:20:00+08:00"
+}

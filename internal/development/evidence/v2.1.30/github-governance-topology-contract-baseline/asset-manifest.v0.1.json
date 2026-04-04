@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.30",
+  "asset_group": "github-governance-topology-contract-baseline",
+  "generated_at_taipei": "2026-04-05T00:20:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.github-governance-topology-contract-baseline.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/github-governance-topology-contract-baseline.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:2c055fb9e271a152c7e0369a5ae4e46d6ce25da002616dfa9d6e1edf62af2752"
+    },
+    {
+      "asset_id": "fixtures.github-governance-topology-contract-baseline.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.30-github-governance-topology-contract-baseline.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.30-github-governance-topology-contract-baseline.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:0f0ab14d3652e01060e67f36f6a82844f3582b50198cdbcf565ebd5518a8f265"
+    },
+    {
+      "asset_id": "runtime.github-governance-topology-contract-baseline.v2.1.30",
+      "asset_type": "topology_contract_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/github_governance_topology_contract_baseline.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_github_governance_topology_contract_baseline.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:acd2f7fa392f39d5d2669ff18f5a20db7374336fa7b9114d8ca1d97371eeebf3"
+    },
+    {
+      "asset_id": "workflow.v2-1-30-github-governance-topology-contract-baseline",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-30-github-governance-topology-contract-baseline.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:fb17724f753cfc6db5245f1c7cfe771e2faa8121d12532c2dce19a68f43b027e"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.30-github-governance-topology-contract-baseline",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.30-github-governance-topology-contract-baseline-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.30-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:3cbc3b61fffa66ced9debda66c14fe733c5d9bd66ccfd7e56558c50cf1de6523"
+    }
+  ]
+}
