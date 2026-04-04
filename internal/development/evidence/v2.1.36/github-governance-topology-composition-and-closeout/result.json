@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.36",
+  "step": "step3",
+  "asset": "github-governance-topology-composition-and-closeout",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-36-github-governance-topology-composition-and-closeout.yml#23978444400",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23978444400",
+  "conclusion": "success",
+  "inputs_digest": "sha256:7543fda9992675dd58f3d20a083ecd679cb23b7d768b4aa5abeaa21b1f760b7a",
+  "contract_digest": "sha256:9430119c251507f2b74419398974df793ca8109399f415ed653b10a3ac4c227f",
+  "fixture_digest": "sha256:7543fda9992675dd58f3d20a083ecd679cb23b7d768b4aa5abeaa21b1f760b7a",
+  "runtime_digest": "sha256:59019805cc0a2b21d61f5a5745fd99a2bbff0e9b3e148a083b2cc6e1f41c950a",
+  "workflow_digest": "sha256:0002cbc25809a17a5f96b37790940593276a5a7f34683841f6d673fd0a1c9071",
+  "evidence_digest": "sha256:d8f26867bf78dd3ff86cd951ce4c99a2d602e0a744e2ee9cf48d0007f8bc845d",
+  "computed_at_taipei": "2026-04-04T20:28:00+08:00"
+}

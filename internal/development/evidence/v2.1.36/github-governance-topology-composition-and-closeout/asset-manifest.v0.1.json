@@ -1,0 +1,81 @@
+{
+  "version": "v2.1.36",
+  "asset_group": "github-governance-topology-composition-and-closeout",
+  "generated_at_taipei": "2026-04-04T20:28:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.github-governance-topology-composition-and-closeout.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/github-governance-topology-composition-and-closeout.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:9430119c251507f2b74419398974df793ca8109399f415ed653b10a3ac4c227f"
+    },
+    {
+      "asset_id": "fixtures.github-governance-topology-composition-and-closeout.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.36-github-governance-topology-composition-and-closeout.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.36-github-governance-topology-composition-and-closeout.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:7543fda9992675dd58f3d20a083ecd679cb23b7d768b4aa5abeaa21b1f760b7a"
+    },
+    {
+      "asset_id": "runtime.github-governance-topology-composition-and-closeout.v2.1.36",
+      "asset_type": "topology_composition_closeout_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/github_governance_topology_composition_and_closeout.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/tests/test_github_governance_topology_composition_and_closeout.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:59019805cc0a2b21d61f5a5745fd99a2bbff0e9b3e148a083b2cc6e1f41c950a"
+    },
+    {
+      "asset_id": "workflow.v2-1-36-github-governance-topology-composition-and-closeout",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-36-github-governance-topology-composition-and-closeout.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:0002cbc25809a17a5f96b37790940593276a5a7f34683841f6d673fd0a1c9071"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.36-github-governance-topology-composition-and-closeout",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.36-github-governance-topology-composition-and-closeout-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.36-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:d8f26867bf78dd3ff86cd951ce4c99a2d602e0a744e2ee9cf48d0007f8bc845d"
+    }
+  ]
+}
