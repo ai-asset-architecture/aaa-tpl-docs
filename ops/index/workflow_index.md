@@ -1,11 +1,12 @@
 # Workflow Index (Canonical Source)
 
-- updated_at_taipei: 2026-04-04T09:21:58+08:00
+- updated_at_taipei: 2026-04-04T12:31:05+08:00
 - source_of_truth: raw rows for `/ops-registry?tab=workflows`
 - maintenance_rule: workflow change MUST append/update in Step1
 
 | 日期 | ID | 工作流程 | 目的 | 目標 | 場合 | 觸發時機 | 模式 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-04-04 | aaa-tools/.github/workflows/v2-1-8-result-evidence-promotion-gate.yml | v2.1.8 Result Evidence Promotion Gate | 驗證 result artifact eligibility 與 evidence promotion gate 可拒絕人工敘事單獨決策，並固定 promotion decision source。 | 讓 `v2.1.8` 的 result/evidence gate 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.8 result evidence promotion gate runtime adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23971353018; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.8-result-evidence-promotion-gate-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-7-shared-command-dispatch.yml | v2.1.7 Shared Command Dispatch | 驗證 shared command dispatch runtime 可把 `readiness-inspect` 與 `repo-check` 收斂到共同 routing、common output envelope 與 fail-closed exit semantics。 | 讓 `v2.1.7` 的 shared dispatch plane 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.7 shared command runtime adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23968268431; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.7-shared-command-dispatch-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-5-runtime-adoption-baseline.yml | v2.1.5 Runtime Adoption Baseline | 驗證 `readiness-inspect` adoption validator 可串接 capability、target、truth 與 readiness 四段治理鏈，並拒絕 workspace-root 與 truth contamination。 | 讓 `v2.1.5` 的第一條 runtime adoption path 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.5 runtime-adoption executable baseline | push(main) + workflow_dispatch | auto+manual（latest_run:23961062180; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.5-runtime-adoption-baseline-run-evidence.md） |
 | 2026-04-04 | aaa-tools/.github/workflows/v2-1-4-session-readiness-state.yml | v2.1.4 Session Readiness State | 驗證 session readiness validator 可辨識合法 orchestration mode、readiness surface、state store 與 gating checks。 | 讓 `v2.1.4` 的 readiness-law baseline 在 Step2 擁有 remote smoke run 與可審計 run_ref。 | v2.1.4 readiness-law executable adoption | push(main) + workflow_dispatch | auto+manual（latest_run:23959496478; conclusion:success; evidence:internal/development/reviews/2026-04-04-v2.1.4-session-readiness-state-run-evidence.md） |
