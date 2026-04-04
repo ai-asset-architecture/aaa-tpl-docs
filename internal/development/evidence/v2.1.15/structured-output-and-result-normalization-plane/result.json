@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.15",
+  "step": "step3",
+  "asset": "structured-output-and-result-normalization-plane",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-15-structured-output-and-result-normalization-plane.yml#23973216576",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23973216576",
+  "conclusion": "success",
+  "inputs_digest": "sha256:bd3d008449439d014d084da72d306fa92e1b7be481080018e6afd569230e0a31",
+  "contract_digest": "sha256:a49679f102efbafc1958dbfcc40e1f8fbb8e255dba02fc3d24c457a26643127f",
+  "fixture_digest": "sha256:bd3d008449439d014d084da72d306fa92e1b7be481080018e6afd569230e0a31",
+  "runtime_digest": "sha256:955c7eb6853f1149c27af55162511ae51a8c90f934954d434c7fe707c9e30ea9",
+  "workflow_digest": "sha256:1f22caa399d21663926ca409f023628e13b16ea732f3c9e1c5eba3ba5a373ba5",
+  "evidence_digest": "sha256:409b653d950749c870fa9040fa599026f01a35f3d151bdb82c340f07af10eb24",
+  "computed_at_taipei": "2026-04-04T14:36:00+08:00"
+}

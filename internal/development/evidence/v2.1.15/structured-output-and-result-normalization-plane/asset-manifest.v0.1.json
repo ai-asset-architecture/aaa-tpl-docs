@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.15",
+  "asset_group": "structured-output-and-result-normalization-plane",
+  "generated_at_taipei": "2026-04-04T14:36:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.structured-output-and-result-normalization-plane.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/structured-output-and-result-normalization-plane.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:a49679f102efbafc1958dbfcc40e1f8fbb8e255dba02fc3d24c457a26643127f"
+    },
+    {
+      "asset_id": "fixtures.structured-output-and-result-normalization-plane.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.15-structured-output-and-result-normalization-plane.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.15-structured-output-and-result-normalization-plane.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:bd3d008449439d014d084da72d306fa92e1b7be481080018e6afd569230e0a31"
+    },
+    {
+      "asset_id": "runtime.structured-output-and-result-normalization-plane.v2.1.15",
+      "asset_type": "runtime_normalization_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/structured_output_and_result_normalization_plane.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_structured_output_and_result_normalization_plane.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:955c7eb6853f1149c27af55162511ae51a8c90f934954d434c7fe707c9e30ea9"
+    },
+    {
+      "asset_id": "workflow.v2-1-15-structured-output-and-result-normalization-plane",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-15-structured-output-and-result-normalization-plane.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:1f22caa399d21663926ca409f023628e13b16ea732f3c9e1c5eba3ba5a373ba5"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.15-structured-output-and-result-normalization-plane",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.15-structured-output-and-result-normalization-plane-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.15-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:409b653d950749c870fa9040fa599026f01a35f3d151bdb82c340f07af10eb24"
+    }
+  ]
+}

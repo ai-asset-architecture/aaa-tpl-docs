@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.15",
+  "asset": "structured-output-and-result-normalization-plane",
+  "files": [
+    "internal/development/evidence/v2.1.15/structured-output-and-result-normalization-plane/result.json",
+    "internal/development/evidence/v2.1.15/structured-output-and-result-normalization-plane/index.json",
+    "internal/development/evidence/v2.1.15/structured-output-and-result-normalization-plane/run-evidence.md",
+    "internal/development/evidence/v2.1.15/structured-output-and-result-normalization-plane/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-15-structured-output-and-result-normalization-plane.yml#23973216576",
+  "computed_at_taipei": "2026-04-04T14:36:00+08:00"
+}
