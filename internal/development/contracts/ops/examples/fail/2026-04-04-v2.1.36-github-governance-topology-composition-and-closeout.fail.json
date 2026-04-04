@@ -1,0 +1,15 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "github_governance_topology_composition_and_closeout",
+  "line_class": "github_governance_topology_support_program",
+  "closeout_role": "topology_support_closeout",
+  "consumed_topology_stages": [
+    "topology_contract_baseline",
+    "topology_aware_definition_resolution",
+    "topology_aware_status_repo_checks"
+  ],
+  "consumed_stage_set_hash": "narrative-only",
+  "semantics_rejudgment_allowed": true,
+  "conditional_expansion_triggered": true,
+  "prose_fallback_allowed": true
+}

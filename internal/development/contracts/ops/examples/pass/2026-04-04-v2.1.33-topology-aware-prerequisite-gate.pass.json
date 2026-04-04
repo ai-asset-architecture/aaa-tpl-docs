@@ -1,0 +1,11 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "topology_aware_prerequisite_gate",
+  "line_class": "github_governance_topology_support_program",
+  "topology_expected": "hybrid",
+  "topology_detected": "hybrid",
+  "topology_compliance_verdict": "pass",
+  "evidence_sufficiency_verdict": "sufficient",
+  "gate_verdict_is_activation": false,
+  "prose_fallback_allowed": false
+}

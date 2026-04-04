@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "topology_aware_materialization_and_bootstrap_mapping",
+  "line_class": "github_governance_topology_support_program",
+  "topology_mode": "repo_local",
+  "materialization_mapping_by_topology": ["org_repo_only"],
+  "workflow_target_scope": "org_repo",
+  "codeowners_target_scope": "org_repo",
+  "mapping_completeness": "partial",
+  "package_active_asserted": true,
+  "prose_fallback_allowed": true
+}

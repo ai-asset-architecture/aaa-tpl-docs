@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Topology-Aware Init Plan Validation v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "topology_mode",
+    "required_structure_by_topology",
+    "github_repo_existence_required",
+    "dual_side_evidence_required",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "topology_aware_init_plan_validation" },
+    "line_class": { "type": "string", "const": "github_governance_topology_support_program" },
+    "topology_mode": { "type": "string", "enum": ["dedicated_repo", "repo_local", "hybrid"] },
+    "required_structure_by_topology": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "enum": ["dedicated_dot_github_repo", "repo_local_dot_github", "hybrid_dual_presence"] }
+    },
+    "github_repo_existence_required": { "type": "boolean" },
+    "dual_side_evidence_required": { "type": "boolean" },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

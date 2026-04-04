@@ -1,0 +1,13 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "github_governance_topology_contract_baseline",
+  "line_class": "github_governance_topology_support_program",
+  "topology_mode": "hybrid",
+  "authority_split": "mixed_authority",
+  "asset_class_authority_model": [],
+  "precedence_law": "machine_checkable_precedence_required",
+  "conflict_law": "machine_checkable_conflict_verdict_required",
+  "evidence_sufficiency_law": "machine_checkable_evidence_sufficiency_required",
+  "dedicated_repo_existence_is_only_truth": true,
+  "prose_fallback_allowed": true
+}

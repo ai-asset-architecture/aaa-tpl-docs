@@ -1,0 +1,11 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "topology_aware_prerequisite_gate",
+  "line_class": "github_governance_topology_support_program",
+  "topology_expected": "repo_local",
+  "topology_detected": "dedicated_repo",
+  "topology_compliance_verdict": "fail",
+  "evidence_sufficiency_verdict": "insufficient",
+  "gate_verdict_is_activation": true,
+  "prose_fallback_allowed": true
+}

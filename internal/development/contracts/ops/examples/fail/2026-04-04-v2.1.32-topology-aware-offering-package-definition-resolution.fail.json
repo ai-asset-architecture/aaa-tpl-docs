@@ -1,0 +1,14 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "topology_aware_offering_package_definition_resolution",
+  "line_class": "github_governance_topology_support_program",
+  "package_level": "core",
+  "topology_mode": "repo_local",
+  "source_definition_artifact_ref": "aaa-docs/bootstrap/offering_definition_skeleton.md",
+  "minimum_repo_set_by_topology": [".github", "aaa-actions"],
+  "workflow_inclusion_level_by_topology": "core",
+  "governance_asset_placement_rules": ["org_repo_only"],
+  "back_write_allowed": true,
+  "reinterpretation_allowed": true,
+  "prose_fallback_allowed": true
+}

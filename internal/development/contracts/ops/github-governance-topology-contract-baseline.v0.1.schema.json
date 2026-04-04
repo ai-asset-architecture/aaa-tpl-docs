@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GitHub Governance Topology Contract Baseline v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "topology_mode",
+    "authority_split",
+    "asset_class_authority_model",
+    "precedence_law",
+    "conflict_law",
+    "evidence_sufficiency_law",
+    "dedicated_repo_existence_is_only_truth",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "github_governance_topology_contract_baseline" },
+    "line_class": { "type": "string", "const": "github_governance_topology_support_program" },
+    "topology_mode": { "type": "string", "enum": ["dedicated_repo", "repo_local", "hybrid"] },
+    "authority_split": { "type": "string", "enum": ["org_centralized", "repo_distributed", "mixed_authority"] },
+    "asset_class_authority_model": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["asset_class", "allowed_topology_modes", "authority_owner", "placement_mode", "precedence_rule", "conflict_rule", "evidence_requirements"],
+        "properties": {
+          "asset_class": {
+            "type": "string",
+            "enum": [
+              "org_profile_metadata",
+              "issue_template_assets",
+              "pull_request_template_assets",
+              "org_level_governance_docs",
+              "reusable_workflow_carriers",
+              "repo_local_workflows",
+              "codeowners",
+              "branch_protection_binding",
+              "governance_policy_refs"
+            ]
+          },
+          "allowed_topology_modes": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "enum": ["dedicated_repo", "repo_local", "hybrid"] }
+          },
+          "authority_owner": { "type": "string", "enum": ["org_centralized", "repo_distributed", "mixed_authority"] },
+          "placement_mode": { "type": "string", "enum": ["org_repo_only", "repo_local_only", "hybrid_split"] },
+          "precedence_rule": { "type": "string", "enum": ["org_precedence", "repo_precedence", "single_source_only"] },
+          "conflict_rule": { "type": "string", "enum": ["hard_fail", "degraded", "not_evaluable"] },
+          "evidence_requirements": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "precedence_law": { "type": "string", "const": "machine_checkable_precedence_required" },
+    "conflict_law": { "type": "string", "const": "machine_checkable_conflict_verdict_required" },
+    "evidence_sufficiency_law": { "type": "string", "const": "machine_checkable_evidence_sufficiency_required" },
+    "dedicated_repo_existence_is_only_truth": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

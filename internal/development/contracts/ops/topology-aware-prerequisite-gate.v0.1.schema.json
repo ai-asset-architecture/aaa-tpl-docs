@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Topology-Aware Prerequisite Gate v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "topology_expected",
+    "topology_detected",
+    "topology_compliance_verdict",
+    "evidence_sufficiency_verdict",
+    "gate_verdict_is_activation",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "topology_aware_prerequisite_gate" },
+    "line_class": { "type": "string", "const": "github_governance_topology_support_program" },
+    "topology_expected": { "type": "string", "enum": ["dedicated_repo", "repo_local", "hybrid"] },
+    "topology_detected": { "type": "string", "enum": ["dedicated_repo", "repo_local", "hybrid", "unknown"] },
+    "topology_compliance_verdict": { "type": "string", "enum": ["pass", "fail", "degraded", "not_evaluable"] },
+    "evidence_sufficiency_verdict": { "type": "string", "enum": ["sufficient", "insufficient", "partially_sufficient"] },
+    "gate_verdict_is_activation": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

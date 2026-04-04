@@ -1,0 +1,18 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "github_governance_topology_composition_and_closeout",
+  "line_class": "github_governance_topology_support_program",
+  "closeout_role": "topology_support_closeout",
+  "consumed_topology_stages": [
+    "topology_contract_baseline",
+    "topology_aware_init_validation",
+    "topology_aware_definition_resolution",
+    "topology_aware_prerequisite_gate",
+    "topology_aware_materialization_mapping",
+    "topology_aware_status_repo_checks"
+  ],
+  "consumed_stage_set_hash": "sha256:30a31b32c33d34ef",
+  "semantics_rejudgment_allowed": false,
+  "conditional_expansion_triggered": false,
+  "prose_fallback_allowed": false
+}

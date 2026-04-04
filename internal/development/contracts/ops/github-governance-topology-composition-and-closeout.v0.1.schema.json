@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GitHub Governance Topology Composition and Closeout v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "closeout_role",
+    "consumed_topology_stages",
+    "consumed_stage_set_hash",
+    "semantics_rejudgment_allowed",
+    "conditional_expansion_triggered",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "github_governance_topology_composition_and_closeout" },
+    "line_class": { "type": "string", "const": "github_governance_topology_support_program" },
+    "closeout_role": { "type": "string", "const": "topology_support_closeout" },
+    "consumed_topology_stages": {
+      "type": "array",
+      "minItems": 6,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "topology_contract_baseline",
+          "topology_aware_init_validation",
+          "topology_aware_definition_resolution",
+          "topology_aware_prerequisite_gate",
+          "topology_aware_materialization_mapping",
+          "topology_aware_status_repo_checks"
+        ]
+      }
+    },
+    "consumed_stage_set_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{8,64}$"
+    },
+    "semantics_rejudgment_allowed": { "type": "boolean", "const": false },
+    "conditional_expansion_triggered": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

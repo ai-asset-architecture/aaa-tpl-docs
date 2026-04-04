@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Topology-Aware Offering Package Definition Resolution v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "line_class",
+    "package_level",
+    "topology_mode",
+    "source_definition_artifact_ref",
+    "minimum_repo_set_by_topology",
+    "workflow_inclusion_level_by_topology",
+    "governance_asset_placement_rules",
+    "back_write_allowed",
+    "reinterpretation_allowed",
+    "prose_fallback_allowed"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "topology_aware_offering_package_definition_resolution" },
+    "line_class": { "type": "string", "const": "github_governance_topology_support_program" },
+    "package_level": { "type": "string", "enum": ["lite", "core", "full"] },
+    "topology_mode": { "type": "string", "enum": ["dedicated_repo", "repo_local", "hybrid"] },
+    "source_definition_artifact_ref": { "type": "string", "const": "aaa-docs/bootstrap/offering_definition_skeleton.md" },
+    "minimum_repo_set_by_topology": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "enum": [".github", "aaa-actions", "aaa-evals", "aaa-tools", "aaa-prompts", "aaa-tpl-docs", "aaa-tpl-service", "aaa-tpl-frontend"] }
+    },
+    "workflow_inclusion_level_by_topology": { "type": "string", "enum": ["reduced", "core", "full"] },
+    "governance_asset_placement_rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "enum": ["org_repo_only", "repo_local_only", "hybrid_split"] }
+    },
+    "back_write_allowed": { "type": "boolean", "const": false },
+    "reinterpretation_allowed": { "type": "boolean", "const": false },
+    "prose_fallback_allowed": { "type": "boolean", "const": false }
+  },
+  "additionalProperties": false
+}

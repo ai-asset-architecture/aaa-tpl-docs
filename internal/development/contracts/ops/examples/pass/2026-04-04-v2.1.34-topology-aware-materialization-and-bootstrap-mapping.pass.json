@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "topology_aware_materialization_and_bootstrap_mapping",
+  "line_class": "github_governance_topology_support_program",
+  "topology_mode": "hybrid",
+  "materialization_mapping_by_topology": ["hybrid_split"],
+  "workflow_target_scope": "split",
+  "codeowners_target_scope": "repo_local",
+  "mapping_completeness": "complete",
+  "package_active_asserted": false,
+  "prose_fallback_allowed": false
+}
