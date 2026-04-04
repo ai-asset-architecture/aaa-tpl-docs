@@ -55,6 +55,19 @@ All code, schemas, and documentation must adhere to these laws:
 - **MAX_REPOS_EXTENDED**: `6`（擴充讀取上限，需觸發條件）
 - **NO_GLOBAL_SCAN**: `TRUE`（嚴禁掃描整個 Workspace）
 
+## Public Bootstrap Path (Outside-In Canonical)
+對 remote client / first-contact AI 而言，目前只公開 **一條** canonical supported bootstrap path：
+1. `aaa package select --level <lite|core|full> --format json`
+2. `aaa package resolve --level <lite|core|full> --topology-mode <dedicated_repo|repo_local|hybrid> --format json`
+3. `aaa init validate-plan --plan <plan_path> --schema specs/plan.schema.json --jsonl`
+4. `aaa governance topology-aware-prerequisite-gate --bundle <prerequisite_bundle_path> --format json`
+5. `aaa package status --level <lite|core|full> --topology-mode <...> --workspace <workspace_root> --format json`
+
+硬規則：
+- public docs 只能暴露這一條 supported path
+- 其他命令組合只能視為 `diagnostic` 或 `internal-only`
+- environment profile 不等於 supported path；`local_sandbox` 若後續啟用，也不是第二條 public path
+
 ---
 
 

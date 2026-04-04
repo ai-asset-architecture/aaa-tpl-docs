@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.38",
+  "asset_group": "supported-bootstrap-gate-chain",
+  "generated_at_taipei": "2026-04-05T14:05:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.supported-bootstrap-gate-chain.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/supported-bootstrap-gate-chain.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:8fa917abe758bb8807c09044c47765a3c5583dcb4681c2f07b4be308c6d7c6de"
+    },
+    {
+      "asset_id": "fixtures.supported-bootstrap-gate-chain.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-05-v2.1.38-supported-bootstrap-gate-chain.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-05-v2.1.38-supported-bootstrap-gate-chain.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:538a2d6b3b9d754a1bdd2e5f9277bce4b5d5ae3f5673ff129092583b5ef74b67"
+    },
+    {
+      "asset_id": "runtime.supported-bootstrap-gate-chain.v2.1.38",
+      "asset_type": "supported_bootstrap_gate_chain_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/bootstrap_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/tests/test_supported_bootstrap_gate_chain.py",
+        "aaa-tpl-docs/AI_COMMAND_CENTER.md",
+        "aaa-tpl-docs/PROJECT_PLAYBOOK.md"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:636877dda40e9cee8568979531f7d1dbc6722f0ee0e60eb2f3349cdf18288805"
+    },
+    {
+      "asset_id": "workflow.v2-1-38-supported-bootstrap-gate-chain",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-38-supported-bootstrap-gate-chain.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:0f8217be9124f42e90830529ec54db5a5c43e487524c072814f04c19b9d245f5"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.38-supported-bootstrap-gate-chain",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-05-v2.1.38-supported-bootstrap-gate-chain-run-evidence.md",
+        "internal/development/reviews/2026-04-05-v2.1.38-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:f59d0bb57b7d9337042a5fb3214d23ea60f6aaff2bf39a65e1636bc03cd0239c"
+    }
+  ]
+}

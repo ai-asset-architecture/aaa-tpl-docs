@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.38",
+  "step": "step3",
+  "asset": "supported-bootstrap-gate-chain",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-38-supported-bootstrap-gate-chain.yml#23984874514",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23984874514",
+  "conclusion": "success",
+  "inputs_digest": "sha256:538a2d6b3b9d754a1bdd2e5f9277bce4b5d5ae3f5673ff129092583b5ef74b67",
+  "contract_digest": "sha256:8fa917abe758bb8807c09044c47765a3c5583dcb4681c2f07b4be308c6d7c6de",
+  "fixture_digest": "sha256:538a2d6b3b9d754a1bdd2e5f9277bce4b5d5ae3f5673ff129092583b5ef74b67",
+  "runtime_digest": "sha256:636877dda40e9cee8568979531f7d1dbc6722f0ee0e60eb2f3349cdf18288805",
+  "workflow_digest": "sha256:0f8217be9124f42e90830529ec54db5a5c43e487524c072814f04c19b9d245f5",
+  "evidence_digest": "sha256:f59d0bb57b7d9337042a5fb3214d23ea60f6aaff2bf39a65e1636bc03cd0239c",
+  "computed_at_taipei": "2026-04-05T14:05:00+08:00"
+}

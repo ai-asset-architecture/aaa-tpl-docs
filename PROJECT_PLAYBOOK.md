@@ -284,6 +284,20 @@ Source of truth:
 
 > 規則：治理資產放置位置會受到 topology 影響，但 **placement 不等於 authority**；若為 `hybrid`，必須能明確說明哪一類 asset 由 org-level source 管理、哪一類由 repo-local source 管理。
 
+## Canonical Supported Bootstrap Path
+對外部 remote client 而言，AAA 目前只支持一條公開 bootstrap gate chain：
+1. `aaa package select`
+2. `aaa package resolve`
+3. `aaa init validate-plan`
+4. `aaa governance topology-aware-prerequisite-gate`
+5. `aaa package status`
+
+約束：
+- 這是一條 **publicly documented sequence**
+- 不是 environment profile
+- 其他序列只能是 `diagnostic` 或 `internal-only`
+- 後續 `local_sandbox` 若啟用，屬 execution profile，不構成第二條 supported path
+
 ---
 
 ## 2. 專案核心協作哲學
