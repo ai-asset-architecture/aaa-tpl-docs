@@ -2,14 +2,14 @@
   "version": "v2.1.31",
   "step": "step3",
   "asset": "topology-aware-init-plan-validation",
-  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-31-topology-aware-init-plan-validation.yml#23977187809",
-  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23977187809",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-31-topology-aware-init-plan-validation.yml#23983899794",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23983899794",
   "conclusion": "success",
-  "inputs_digest": "sha256:42318de24a4aba2bfeee6c4632a27b15cdb46118015a1be16073c26c8865b437",
-  "contract_digest": "sha256:d973158daf2678dc2718601e40ef15ed0a3cb0bec0a8cd2aa64140715455f85d",
-  "fixture_digest": "sha256:42318de24a4aba2bfeee6c4632a27b15cdb46118015a1be16073c26c8865b437",
-  "runtime_digest": "sha256:82fedb01553471acb0ec9d41782827166774766e9c09b16992f88f7c72e77d32",
-  "workflow_digest": "sha256:2e139e64d59827626dab444e595c643c49c7800fdcd054894806b673a645ae55",
-  "evidence_digest": "sha256:f11246c5c7ed884579943c98f38c101fb627af1ea7cb08d7c813a18276da033e",
-  "computed_at_taipei": "2026-04-04T18:40:14+08:00"
+  "inputs_digest": "sha256:626db6220f790fc805738c7a2704231309a1e3e25bb80aab0e3233b7cfb8aa5c",
+  "contract_digest": "sha256:c0f7ad5fd764be8077688357b0b668f95a4993b9f9f34970fade0717ac8df533",
+  "fixture_digest": "sha256:626db6220f790fc805738c7a2704231309a1e3e25bb80aab0e3233b7cfb8aa5c",
+  "runtime_digest": "sha256:7f8624adb0aab4c4963f3ecf9575c72ee5cef2af2ee8550690d69a504228137a",
+  "workflow_digest": "sha256:1238437afc0d4f4312ff0e68872d2121520ecdd5179d64718de0fa195580e6fc",
+  "evidence_digest": "sha256:9d10bf3b6d6ac0c3ca536a206e703abee4efd8b2fadb4ba698b2444e5c9632d0",
+  "computed_at_taipei": "2026-04-05T11:42:00+08:00"
 }
