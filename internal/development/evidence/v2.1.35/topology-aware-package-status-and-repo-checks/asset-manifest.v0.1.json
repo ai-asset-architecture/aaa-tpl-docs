@@ -1,7 +1,7 @@
 {
   "version": "v2.1.35",
   "asset_group": "topology-aware-package-status-and-repo-checks",
-  "generated_at_taipei": "2026-04-04T20:05:00+08:00",
+  "generated_at_taipei": "2026-04-05T12:40:00+08:00",
   "assets": [
     {
       "asset_id": "contract.topology-aware-package-status-and-repo-checks.v0.1",
@@ -47,7 +47,7 @@
         "AAA inherited projects"
       ],
       "owner": "aaa-tools",
-      "digest": "sha256:c1f7f0f3d45c4a2166fe2831d96d839f0ac9990f39729ef609c11109908a1151"
+      "digest": "sha256:d2643c96f9bc636b34b2d262861b5f435f251db06cae71ea82d601969d3d2e34"
     },
     {
       "asset_id": "workflow.v2-1-35-topology-aware-package-status-and-repo-checks",
@@ -75,7 +75,7 @@
         "AAA core"
       ],
       "owner": "aaa-tpl-docs",
-      "digest": "sha256:9cba6817efb8f9de470a763a70c215f2fb1c8914bcefdc62a48a290fc28077dc"
+      "digest": "sha256:e11f06ccef88566857609004247f8c5461fa5e09cee55bada29b5fde6db099f9"
     }
   ]
 }

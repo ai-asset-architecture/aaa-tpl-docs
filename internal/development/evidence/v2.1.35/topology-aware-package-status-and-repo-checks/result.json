@@ -2,14 +2,14 @@
   "version": "v2.1.35",
   "step": "step3",
   "asset": "topology-aware-package-status-and-repo-checks",
-  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-35-topology-aware-package-status-and-repo-checks.yml#23978265972",
-  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23978265972",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-35-topology-aware-package-status-and-repo-checks.yml#23984236626",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23984236626",
   "conclusion": "success",
   "inputs_digest": "sha256:8612e4fee935fb208fe44f63902e87f5513e7ab3d569234640041427ec9b68a2",
   "contract_digest": "sha256:d8d0f7a97f45845a55bbb1e5d383d058622af2eb358976aeb789d25aa537d12f",
   "fixture_digest": "sha256:8612e4fee935fb208fe44f63902e87f5513e7ab3d569234640041427ec9b68a2",
-  "runtime_digest": "sha256:c1f7f0f3d45c4a2166fe2831d96d839f0ac9990f39729ef609c11109908a1151",
+  "runtime_digest": "sha256:d2643c96f9bc636b34b2d262861b5f435f251db06cae71ea82d601969d3d2e34",
   "workflow_digest": "sha256:83c3e73e8bfb0e355eff4474be0e6c72cc7a4dc6ebc260cff93ed01447c1bcd1",
-  "evidence_digest": "sha256:9cba6817efb8f9de470a763a70c215f2fb1c8914bcefdc62a48a290fc28077dc",
-  "computed_at_taipei": "2026-04-04T20:05:00+08:00"
+  "evidence_digest": "sha256:e11f06ccef88566857609004247f8c5461fa5e09cee55bada29b5fde6db099f9",
+  "computed_at_taipei": "2026-04-05T12:40:00+08:00"
 }
