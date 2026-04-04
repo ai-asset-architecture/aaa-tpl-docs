@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.28",
+  "asset": "package-machine-interface-read-boundary",
+  "files": [
+    "internal/development/evidence/v2.1.28/package-machine-interface-read-boundary/result.json",
+    "internal/development/evidence/v2.1.28/package-machine-interface-read-boundary/index.json",
+    "internal/development/evidence/v2.1.28/package-machine-interface-read-boundary/run-evidence.md",
+    "internal/development/evidence/v2.1.28/package-machine-interface-read-boundary/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-28-package-machine-interface-read-boundary.yml#23980423580",
+  "computed_at_taipei": "2026-04-04T22:32:00+08:00"
+}

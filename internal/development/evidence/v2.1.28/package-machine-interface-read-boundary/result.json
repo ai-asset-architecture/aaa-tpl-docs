@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.28",
+  "step": "step3",
+  "asset": "package-machine-interface-read-boundary",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-28-package-machine-interface-read-boundary.yml#23980423580",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23980423580",
+  "conclusion": "success",
+  "inputs_digest": "sha256:0f15c225021b115fa758d8ec938d62a47b22a5f3f5454061ef05021fe2a7c4a6",
+  "contract_digest": "sha256:1c639e8d8ad07f49fba9a387a1519ef0451619931d13dbd459d17f836be2ec6c",
+  "fixture_digest": "sha256:e9b17a6148051b65f51a67787f93669996e9d4c409df5fb1a7b69a48ed57096f",
+  "runtime_digest": "sha256:c78f6f0fc0068f30ef1c4beabf0d914b67d77061953afc223471cd93eb9e4944",
+  "workflow_digest": "sha256:8701f3947027aaeb02872a69091bb833bb5e47d012a0ffb9154633160f42de31",
+  "evidence_digest": "sha256:a0bb60a744bc00cdc7670975f8bff353681eb4247ea22c3b84c33ff61fe4d668",
+  "computed_at_taipei": "2026-04-04T22:32:00+08:00"
+}

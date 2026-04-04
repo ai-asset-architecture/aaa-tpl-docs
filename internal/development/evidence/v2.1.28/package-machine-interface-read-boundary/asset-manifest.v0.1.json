@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.28",
+  "asset_group": "package-machine-interface-read-boundary",
+  "generated_at_taipei": "2026-04-04T22:32:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.package-machine-interface-read-boundary.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/package-machine-interface-read-boundary.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:1c639e8d8ad07f49fba9a387a1519ef0451619931d13dbd459d17f836be2ec6c"
+    },
+    {
+      "asset_id": "fixtures.package-machine-interface-read-boundary.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.28-package-machine-interface-read-boundary.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.28-package-machine-interface-read-boundary.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:e9b17a6148051b65f51a67787f93669996e9d4c409df5fb1a7b69a48ed57096f"
+    },
+    {
+      "asset_id": "runtime.package-machine-interface-read-boundary.v2.1.28",
+      "asset_type": "package_machine_interface_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/package_machine_interface_read_boundary.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_package_machine_interface_read_boundary.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:c78f6f0fc0068f30ef1c4beabf0d914b67d77061953afc223471cd93eb9e4944"
+    },
+    {
+      "asset_id": "workflow.v2-1-28-package-machine-interface-read-boundary",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-28-package-machine-interface-read-boundary.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:8701f3947027aaeb02872a69091bb833bb5e47d012a0ffb9154633160f42de31"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.28-package-machine-interface-read-boundary",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.28-package-machine-interface-read-boundary-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.28-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:a0bb60a744bc00cdc7670975f8bff353681eb4247ea22c3b84c33ff61fe4d668"
+    }
+  ]
+}
