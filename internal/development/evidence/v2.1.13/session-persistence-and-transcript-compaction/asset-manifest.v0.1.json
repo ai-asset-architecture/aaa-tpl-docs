@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.13",
+  "asset_group": "session-persistence-and-transcript-compaction",
+  "generated_at_taipei": "2026-04-04T14:47:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.session-persistence-and-transcript-compaction.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/session-persistence-and-transcript-compaction.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:75935d772288bd7db62ca9d0f09f2e4afb56046e096d5c66522fba6828838d9b"
+    },
+    {
+      "asset_id": "fixtures.session-persistence-and-transcript-compaction.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.13-session-persistence-and-transcript-compaction.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.13-session-persistence-and-transcript-compaction.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:965a5391f87c5612640392991d9ead26d47e15086bf16ad8e9bb77e3836363ca"
+    },
+    {
+      "asset_id": "runtime.session-persistence-and-transcript-compaction.v2.1.13",
+      "asset_type": "runtime_session_persistence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/session_persistence_and_transcript_compaction.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_session_persistence_and_transcript_compaction.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:4c2ed935d5f7266a04ea6cf304486a9da72dd3908ab6f583b2ecb8e4e614a2bf"
+    },
+    {
+      "asset_id": "workflow.v2-1-13-session-persistence-and-transcript-compaction",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-13-session-persistence-and-transcript-compaction.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:d350e41e8eb426bb0181a460ce72d49ae16eeb3ad32cbd66eb9c1c825ce35573"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.13-session-persistence-and-transcript-compaction",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.13-session-persistence-and-transcript-compaction-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.13-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:40e76364e79ba451161194fde65a904bf48f0bae82561dfe3e3d4c3132715071"
+    }
+  ]
+}

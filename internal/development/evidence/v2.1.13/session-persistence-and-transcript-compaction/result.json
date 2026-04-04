@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.13",
+  "step": "step3",
+  "asset": "session-persistence-and-transcript-compaction",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-13-session-persistence-and-transcript-compaction.yml#23972678968",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23972678968",
+  "conclusion": "success",
+  "inputs_digest": "sha256:965a5391f87c5612640392991d9ead26d47e15086bf16ad8e9bb77e3836363ca",
+  "contract_digest": "sha256:75935d772288bd7db62ca9d0f09f2e4afb56046e096d5c66522fba6828838d9b",
+  "fixture_digest": "sha256:965a5391f87c5612640392991d9ead26d47e15086bf16ad8e9bb77e3836363ca",
+  "runtime_digest": "sha256:4c2ed935d5f7266a04ea6cf304486a9da72dd3908ab6f583b2ecb8e4e614a2bf",
+  "workflow_digest": "sha256:d350e41e8eb426bb0181a460ce72d49ae16eeb3ad32cbd66eb9c1c825ce35573",
+  "evidence_digest": "sha256:40e76364e79ba451161194fde65a904bf48f0bae82561dfe3e3d4c3132715071",
+  "computed_at_taipei": "2026-04-04T14:47:00+08:00"
+}
