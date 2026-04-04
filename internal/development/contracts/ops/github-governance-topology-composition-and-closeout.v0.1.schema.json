@@ -10,6 +10,7 @@
     "consumed_topology_stages",
     "consumed_stage_set_hash",
     "semantics_rejudgment_allowed",
+    "primary_semantics_backfill_allowed",
     "conditional_expansion_triggered",
     "prose_fallback_allowed"
   ],
@@ -39,6 +40,7 @@
       "pattern": "^sha256:[0-9a-f]{8,64}$"
     },
     "semantics_rejudgment_allowed": { "type": "boolean", "const": false },
+    "primary_semantics_backfill_allowed": { "type": "boolean", "const": false },
     "conditional_expansion_triggered": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }
   },

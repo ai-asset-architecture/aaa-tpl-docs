@@ -11,6 +11,7 @@
     "workflow_target_scope",
     "codeowners_target_scope",
     "mapping_completeness",
+    "materialization_scope_implies_governance_authority",
     "package_active_asserted",
     "prose_fallback_allowed"
   ],
@@ -27,6 +28,7 @@
     "workflow_target_scope": { "type": "string", "enum": ["org_repo", "repo_local", "split"] },
     "codeowners_target_scope": { "type": "string", "enum": ["org_repo", "repo_local", "split"] },
     "mapping_completeness": { "type": "string", "enum": ["complete", "partial"] },
+    "materialization_scope_implies_governance_authority": { "type": "boolean", "const": false },
     "package_active_asserted": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }
   },

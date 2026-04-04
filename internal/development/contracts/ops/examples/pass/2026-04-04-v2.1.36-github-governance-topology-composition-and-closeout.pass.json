@@ -13,6 +13,7 @@
   ],
   "consumed_stage_set_hash": "sha256:30a31b32c33d34ef",
   "semantics_rejudgment_allowed": false,
+  "primary_semantics_backfill_allowed": false,
   "conditional_expansion_triggered": false,
   "prose_fallback_allowed": false
 }

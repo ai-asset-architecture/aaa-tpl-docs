@@ -7,6 +7,7 @@
   "workflow_target_scope": "org_repo",
   "codeowners_target_scope": "org_repo",
   "mapping_completeness": "partial",
+  "materialization_scope_implies_governance_authority": true,
   "package_active_asserted": true,
   "prose_fallback_allowed": true
 }

@@ -10,6 +10,7 @@
   ],
   "consumed_stage_set_hash": "narrative-only",
   "semantics_rejudgment_allowed": true,
+  "primary_semantics_backfill_allowed": true,
   "conditional_expansion_triggered": true,
   "prose_fallback_allowed": true
 }

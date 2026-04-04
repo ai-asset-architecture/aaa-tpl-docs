@@ -4,6 +4,7 @@
   "line_class": "github_governance_topology_support_program",
   "topology_mode_expected": "repo_local",
   "topology_mode_detected": "repo_local",
+  "topology_mode_resolved": "degraded",
   "topology_compliance_status": "compliant",
   "missing_governance_assets": [".github repo"],
   "misplaced_governance_assets": [],

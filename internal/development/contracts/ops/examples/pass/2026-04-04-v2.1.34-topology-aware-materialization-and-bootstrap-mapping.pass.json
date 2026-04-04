@@ -7,6 +7,7 @@
   "workflow_target_scope": "split",
   "codeowners_target_scope": "repo_local",
   "mapping_completeness": "complete",
+  "materialization_scope_implies_governance_authority": false,
   "package_active_asserted": false,
   "prose_fallback_allowed": false
 }

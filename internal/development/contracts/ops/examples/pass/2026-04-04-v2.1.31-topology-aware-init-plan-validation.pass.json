@@ -3,8 +3,10 @@
   "runtime_plane_mode": "topology_aware_init_plan_validation",
   "line_class": "github_governance_topology_support_program",
   "topology_mode": "repo_local",
+  "validation_scope": "declared_planned_structure_compatibility",
   "required_structure_by_topology": ["repo_local_dot_github"],
   "github_repo_existence_required": false,
   "dual_side_evidence_required": false,
+  "runtime_detected_topology_verdict_emitted": false,
   "prose_fallback_allowed": false
 }
