@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.16",
+  "asset_group": "workflow-and-runbook-orchestration-runtime",
+  "generated_at_taipei": "2026-04-04T14:41:28+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.workflow-and-runbook-orchestration-runtime.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/workflow-and-runbook-orchestration-runtime.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:56e8704fa24fbe952e6f748a95e666e868e457dd99901194af32e9607390ae23"
+    },
+    {
+      "asset_id": "fixtures.workflow-and-runbook-orchestration-runtime.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.16-workflow-and-runbook-orchestration-runtime.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.16-workflow-and-runbook-orchestration-runtime.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:57ff7d803d71291d5547b09972af7376b966195e65a4dfba01579b5a9111aea8"
+    },
+    {
+      "asset_id": "runtime.workflow-and-runbook-orchestration-runtime.v2.1.16",
+      "asset_type": "workflow_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/workflow_and_runbook_orchestration_runtime.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_workflow_and_runbook_orchestration_runtime.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:0c3ba8b0af4e3061861384b7694a7a9f107f0d70221580991ba2885e8019b02c"
+    },
+    {
+      "asset_id": "workflow.v2-1-16-workflow-and-runbook-orchestration-runtime",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-16-workflow-and-runbook-orchestration-runtime.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:41865abaf2c9937833b286284e8b23ab6381cbb2272db6d1091326cb36432884"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.16-workflow-and-runbook-orchestration-runtime",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.16-workflow-and-runbook-orchestration-runtime-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.16-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:7912f237ad94fc34f019330d1443d0f5fe921cc09e679db5e54aa6dbb8fa1c9f"
+    }
+  ]
+}

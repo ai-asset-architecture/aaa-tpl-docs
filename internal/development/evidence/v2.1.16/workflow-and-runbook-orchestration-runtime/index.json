@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.16",
+  "asset": "workflow-and-runbook-orchestration-runtime",
+  "files": [
+    "internal/development/evidence/v2.1.16/workflow-and-runbook-orchestration-runtime/result.json",
+    "internal/development/evidence/v2.1.16/workflow-and-runbook-orchestration-runtime/index.json",
+    "internal/development/evidence/v2.1.16/workflow-and-runbook-orchestration-runtime/run-evidence.md",
+    "internal/development/evidence/v2.1.16/workflow-and-runbook-orchestration-runtime/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-16-workflow-and-runbook-orchestration-runtime.yml#23973393809",
+  "computed_at_taipei": "2026-04-04T14:41:28+08:00"
+}

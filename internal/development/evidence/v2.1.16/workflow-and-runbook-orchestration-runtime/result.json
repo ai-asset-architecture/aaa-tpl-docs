@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.16",
+  "step": "step3",
+  "asset": "workflow-and-runbook-orchestration-runtime",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-16-workflow-and-runbook-orchestration-runtime.yml#23973393809",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23973393809",
+  "conclusion": "success",
+  "inputs_digest": "sha256:57ff7d803d71291d5547b09972af7376b966195e65a4dfba01579b5a9111aea8",
+  "contract_digest": "sha256:56e8704fa24fbe952e6f748a95e666e868e457dd99901194af32e9607390ae23",
+  "fixture_digest": "sha256:57ff7d803d71291d5547b09972af7376b966195e65a4dfba01579b5a9111aea8",
+  "runtime_digest": "sha256:0c3ba8b0af4e3061861384b7694a7a9f107f0d70221580991ba2885e8019b02c",
+  "workflow_digest": "sha256:41865abaf2c9937833b286284e8b23ab6381cbb2272db6d1091326cb36432884",
+  "evidence_digest": "sha256:7912f237ad94fc34f019330d1443d0f5fe921cc09e679db5e54aa6dbb8fa1c9f",
+  "computed_at_taipei": "2026-04-04T14:41:28+08:00"
+}
