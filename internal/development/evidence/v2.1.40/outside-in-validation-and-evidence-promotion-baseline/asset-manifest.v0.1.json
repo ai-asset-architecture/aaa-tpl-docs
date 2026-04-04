@@ -1,0 +1,69 @@
+{
+  "version": "v2.1.40",
+  "asset_group": "outside-in-validation-and-evidence-promotion-baseline",
+  "generated_at_taipei": "2026-04-05T17:25:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.outside-in-validation-and-evidence-promotion-baseline.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/outside-in-validation-and-evidence-promotion-baseline.v0.1.schema.json"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:f65053fb4893ace0ebaba9c91d438e389ae75d2f0bcd802dc15cbff21c08e20d"
+    },
+    {
+      "asset_id": "fixtures.outside-in-validation-and-evidence-promotion-baseline.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-05-v2.1.40-outside-in-validation-and-evidence-promotion-baseline.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-05-v2.1.40-outside-in-validation-and-evidence-promotion-baseline.fail.json"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:1ac538fc2f6ab1f0c4ff09be1c5681e56081f113e67fd92bf652f2e6dc7653c2"
+    },
+    {
+      "asset_id": "runtime.outside-in-validation-and-evidence-promotion-baseline.v2.1.40",
+      "asset_type": "outside_in_validation_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/outside_in_validation_and_evidence_promotion_baseline.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_outside_in_validation_and_evidence_promotion_baseline.py",
+        "aaa-tpl-docs/internal/development/reviews/2026-04-05-outside-in-remote-client-validation-note.md"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tools",
+      "digest": "sha256:a5b90f093cf77bf2f9deb1f81c115fe43d25e5279d09190c947b0db5ac59e7e9"
+    },
+    {
+      "asset_id": "workflow.v2-1-40-outside-in-validation-and-evidence-promotion-baseline",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-40-outside-in-validation-and-evidence-promotion-baseline.yml"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tools",
+      "digest": "sha256:18ed47568afe2864951829eccd664954e2a91bb8015f398773741b0c95eaf9fb"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.40-outside-in-validation-and-evidence-promotion-baseline",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-05-v2.1.40-outside-in-validation-and-evidence-promotion-baseline-run-evidence.md",
+        "internal/development/reviews/2026-04-05-v2.1.40-step2-exit-checklist.md",
+        "internal/development/reviews/2026-04-05-outside-in-remote-client-validation-note.md"
+      ],
+      "reuse_target": ["AAA core"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:b3f79dca8d3bff147ce6db0e90a254284712072d4e7a4fc67b9b7e86354974eb"
+    }
+  ]
+}

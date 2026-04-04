@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.40",
+  "step": "step3",
+  "asset": "outside-in-validation-and-evidence-promotion-baseline",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-40-outside-in-validation-and-evidence-promotion-baseline.yml#23985827793",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23985827793",
+  "conclusion": "success",
+  "inputs_digest": "sha256:10d0b6e33913b79a6fc246542d676fa9ccf52788e7b2392bd74e8791f82920b3",
+  "contract_digest": "sha256:f65053fb4893ace0ebaba9c91d438e389ae75d2f0bcd802dc15cbff21c08e20d",
+  "fixture_digest": "sha256:1ac538fc2f6ab1f0c4ff09be1c5681e56081f113e67fd92bf652f2e6dc7653c2",
+  "runtime_digest": "sha256:a5b90f093cf77bf2f9deb1f81c115fe43d25e5279d09190c947b0db5ac59e7e9",
+  "workflow_digest": "sha256:18ed47568afe2864951829eccd664954e2a91bb8015f398773741b0c95eaf9fb",
+  "evidence_digest": "sha256:b3f79dca8d3bff147ce6db0e90a254284712072d4e7a4fc67b9b7e86354974eb",
+  "computed_at_taipei": "2026-04-05T17:25:00+08:00"
+}

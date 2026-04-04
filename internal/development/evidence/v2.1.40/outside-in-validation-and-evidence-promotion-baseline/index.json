@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.40",
+  "asset": "outside-in-validation-and-evidence-promotion-baseline",
+  "files": [
+    "internal/development/evidence/v2.1.40/outside-in-validation-and-evidence-promotion-baseline/result.json",
+    "internal/development/evidence/v2.1.40/outside-in-validation-and-evidence-promotion-baseline/index.json",
+    "internal/development/evidence/v2.1.40/outside-in-validation-and-evidence-promotion-baseline/run-evidence.md",
+    "internal/development/evidence/v2.1.40/outside-in-validation-and-evidence-promotion-baseline/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-40-outside-in-validation-and-evidence-promotion-baseline.yml#23985827793",
+  "computed_at_taipei": "2026-04-05T17:25:00+08:00"
+}
