@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.10",
+  "asset": "query-orchestration-runtime",
+  "files": [
+    "internal/development/evidence/v2.1.10/query-orchestration-runtime/result.json",
+    "internal/development/evidence/v2.1.10/query-orchestration-runtime/index.json",
+    "internal/development/evidence/v2.1.10/query-orchestration-runtime/run-evidence.md",
+    "internal/development/evidence/v2.1.10/query-orchestration-runtime/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-10-query-orchestration-runtime.yml#23971728965",
+  "computed_at_taipei": "2026-04-04T13:30:00+08:00"
+}

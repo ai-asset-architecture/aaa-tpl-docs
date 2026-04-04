@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.10",
+  "asset_group": "query-orchestration-runtime",
+  "generated_at_taipei": "2026-04-04T13:30:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.query-orchestration-runtime.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/query-orchestration-runtime-bundle.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:c5927b479bcd9cf31c3bde3b282a8b6a73cb10f3462b4cbea0041a9bc14e257f"
+    },
+    {
+      "asset_id": "fixtures.query-orchestration-runtime.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.10-query-orchestration-runtime-bundle.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.10-query-orchestration-runtime-bundle.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:c59725dd944d2f28476867768fa7f2582c16d181d4e9185b9edee41d3f386d45"
+    },
+    {
+      "asset_id": "runtime.query-orchestration-runtime.v2.1.10",
+      "asset_type": "runtime_orchestration_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/query_orchestration_runtime.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_query_orchestration_runtime.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:6c5c4c7ec4d0d551377a54a9da68315c18f28ebc3789cd8f3b6cdf6b7a365c2c"
+    },
+    {
+      "asset_id": "workflow.v2-1-10-query-orchestration-runtime",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-10-query-orchestration-runtime.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:9fe9e9c00647d6e6b606b5faaecd51c143ebf2c370f5afe8f28afa5f476ef197"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.10-query-orchestration-runtime",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.10-query-orchestration-runtime-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.10-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:0f0775e9c55b77fd529c90130cbb9a10f3b64ecab88a2bbeb25a615caee459bf"
+    }
+  ]
+}
