@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.32",
+  "asset": "topology-aware-offering-package-definition-resolution",
+  "files": [
+    "internal/development/evidence/v2.1.32/topology-aware-offering-package-definition-resolution/result.json",
+    "internal/development/evidence/v2.1.32/topology-aware-offering-package-definition-resolution/index.json",
+    "internal/development/evidence/v2.1.32/topology-aware-offering-package-definition-resolution/run-evidence.md",
+    "internal/development/evidence/v2.1.32/topology-aware-offering-package-definition-resolution/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-32-topology-aware-offering-package-definition-resolution.yml#23977424596",
+  "computed_at_taipei": "2026-04-04T19:06:00+08:00"
+}

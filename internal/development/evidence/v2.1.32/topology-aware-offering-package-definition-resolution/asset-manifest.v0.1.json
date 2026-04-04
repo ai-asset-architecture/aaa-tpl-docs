@@ -1,0 +1,81 @@
+{
+  "version": "v2.1.32",
+  "asset_group": "topology-aware-offering-package-definition-resolution",
+  "generated_at_taipei": "2026-04-04T19:06:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.topology-aware-offering-package-definition-resolution.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/topology-aware-offering-package-definition-resolution.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:aa57fcddb314e695637dd49fd00f108b849a473ba8332803005c65d5260b7834"
+    },
+    {
+      "asset_id": "fixtures.topology-aware-offering-package-definition-resolution.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.32-topology-aware-offering-package-definition-resolution.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.32-topology-aware-offering-package-definition-resolution.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:466e2700214fdc80c03368946ca3f8a1f5085f5b2e86ab29590b62e6971b1734"
+    },
+    {
+      "asset_id": "runtime.topology-aware-offering-package-definition-resolution.v2.1.32",
+      "asset_type": "package_definition_resolution_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/topology_aware_offering_package_definition_resolution.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/tests/test_topology_aware_offering_package_definition_resolution.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:1c7834426e0ac1128db5f954802f868dca25ea96e8829baa5225e3c878e07f04"
+    },
+    {
+      "asset_id": "workflow.v2-1-32-topology-aware-offering-package-definition-resolution",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-32-topology-aware-offering-package-definition-resolution.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:9d22eea16cacf56aeb689daf77dd77e698a06ad2f5e58339d153db41650c2747"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.32-topology-aware-offering-package-definition-resolution",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.32-topology-aware-offering-package-definition-resolution-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.32-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:115151ca2c1c9e93c84caf8dcc1ed8141ba131ecbbe4d39961245bcabf5b4c70"
+    }
+  ]
+}
