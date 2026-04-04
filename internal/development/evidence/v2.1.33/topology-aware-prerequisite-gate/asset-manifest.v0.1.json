@@ -1,0 +1,81 @@
+{
+  "version": "v2.1.33",
+  "asset_group": "topology-aware-prerequisite-gate",
+  "generated_at_taipei": "2026-04-04T19:20:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.topology-aware-prerequisite-gate.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/topology-aware-prerequisite-gate.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:2b2f54d63e297e346a0f245e428cbc41bb16cdc3d1bb6015c103cd2d1cda74ea"
+    },
+    {
+      "asset_id": "fixtures.topology-aware-prerequisite-gate.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.33-topology-aware-prerequisite-gate.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.33-topology-aware-prerequisite-gate.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:2ba6d8508878ceecc824a7899d9ebc972fe46c7f71cdbd9f21d0e136c17567eb"
+    },
+    {
+      "asset_id": "runtime.topology-aware-prerequisite-gate.v2.1.33",
+      "asset_type": "topology_prerequisite_gate_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/topology_aware_prerequisite_gate.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/tests/test_topology_aware_prerequisite_gate.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:611532aa24fd8d21a47eae6cb16c02efc54eca840e0ab6ea08fd214bd97513e2"
+    },
+    {
+      "asset_id": "workflow.v2-1-33-topology-aware-prerequisite-gate",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-33-topology-aware-prerequisite-gate.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:10ba9a99ba98ee8b32e371ba1ea8daf56c61f3fd4f3250a745ea104c12b0be5c"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.33-topology-aware-prerequisite-gate",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.33-topology-aware-prerequisite-gate-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.33-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:56010a371aeaa2ef4feb5f6f4e6fa67c39c1fdbf1272046c907a4832172b7547"
+    }
+  ]
+}

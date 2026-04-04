@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.33",
+  "step": "step3",
+  "asset": "topology-aware-prerequisite-gate",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-33-topology-aware-prerequisite-gate.yml#23977570453",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23977570453",
+  "conclusion": "success",
+  "inputs_digest": "sha256:2ba6d8508878ceecc824a7899d9ebc972fe46c7f71cdbd9f21d0e136c17567eb",
+  "contract_digest": "sha256:2b2f54d63e297e346a0f245e428cbc41bb16cdc3d1bb6015c103cd2d1cda74ea",
+  "fixture_digest": "sha256:2ba6d8508878ceecc824a7899d9ebc972fe46c7f71cdbd9f21d0e136c17567eb",
+  "runtime_digest": "sha256:611532aa24fd8d21a47eae6cb16c02efc54eca840e0ab6ea08fd214bd97513e2",
+  "workflow_digest": "sha256:10ba9a99ba98ee8b32e371ba1ea8daf56c61f3fd4f3250a745ea104c12b0be5c",
+  "evidence_digest": "sha256:56010a371aeaa2ef4feb5f6f4e6fa67c39c1fdbf1272046c907a4832172b7547",
+  "computed_at_taipei": "2026-04-04T19:20:00+08:00"
+}
