@@ -65,9 +65,16 @@
 
 **{{PROJECT_WORKSPACE}}** is a **collection of independent git repositories**, not a single repository:
 
+> 下圖是 **default example topology**，不是唯一合法真相。AAA 現況已存在 hybrid-friendly governance signals：
+> - org-level `.github` governance entry
+> - repo-local `.github/` structures
+> - 多 repo workspace 中 `.github` 與其他 repos 並存
+>
+> Current truth：文件/模板層已允許 `dedicated_repo`、`repo_local`、`hybrid` 的治理意圖，但 CLI / init / package runtime 仍偏向把 dedicated `.github` repo existence 視為 hard prerequisite。`v2.1.30 ~ v2.1.36` 的責任是把這個缺口升格為 machine-checkable runtime law。
+
 ```
 {{PROJECT_WORKSPACE}}/                  ← Workspace directory (NOT a git repo)
-├── .github/                            ← Independent repo (org profile)
+├── .github/                            ← Example: dedicated governance repo / org profile entry
 ├── {{PROJECT_PREFIX}}-docs/            ← Independent repo (this repo)
 ├── {{PROJECT_PREFIX}}-tools/           ← Independent repo (CLI)
 ├── {{PROJECT_PREFIX}}-api-contracts/   ← Independent repo
@@ -80,6 +87,22 @@
 2. Each repo has independent remote URLs
 3. All repos are **equal** (no "main" repo concept)
 4. **No git submodules** - simple, flat structure
+
+### 0.1.1 GitHub Governance Topology Modes
+
+AAA 目前應理解 3 種 GitHub governance topology：
+
+- `dedicated_repo`
+  - 存在獨立 `.github` repo
+  - 組織層治理入口主要集中於該 repo
+- `repo_local`
+  - 不要求獨立 `.github` repo
+  - 各 repo 自己承載 `.github/**`
+- `hybrid`
+  - 同時存在 dedicated `.github` repo 與 repo-local `.github/**`
+  - 但 authority 必須按 asset class 裁決，不能只靠 placement 猜測
+
+> 注意：topology 與 authority 是不同層。**asset placement does not automatically imply governance authority**。
 
 ### 0.2 Git Operations Governance
 
@@ -255,7 +278,11 @@ Before any repository goes active, ensure it complies with the org governance ba
 - Required checks via `aaa-actions` (lint/test/eval)
 - Ownership & CODEOWNERS aligned with team model
 
-Source of truth: `.github/GOVERNANCE.md`
+Source of truth:
+- `dedicated_repo` / `hybrid`：可由 `.github/GOVERNANCE.md` 作為 org-level governance entry
+- `repo_local`：需由各 repo 的治理資產與 repo-local `.github/**` 共同構成可驗證基線
+
+> 規則：治理資產放置位置會受到 topology 影響，但 **placement 不等於 authority**；若為 `hybrid`，必須能明確說明哪一類 asset 由 org-level source 管理、哪一類由 repo-local source 管理。
 
 ---
 
@@ -693,15 +720,31 @@ AI 產出的程式碼必須通過基本的效能檢核，防止寫出低效迴�
 
 ## 12. GitHub 治理落地（必做）
 
-### 12.1 組織層 `.github` Repo（建議）
+### 12.1 GitHub Governance Topology（必讀）
+
+AAA 支援以下治理拓樸：
+
+- `dedicated_repo`
+  - 有獨立 `.github` repo
+- `repo_local`
+  - 不要求獨立 `.github` repo
+- `hybrid`
+  - 同時有 dedicated `.github` repo 與 repo-local `.github/**`
+
+> 這三種 topology 都可以合法，但必須能 machine-checkably 說明：
+> - governance assets 放在哪裡
+> - 哪一類 asset 由誰擁有 authority
+> - precedence / conflict / evidence sufficiency 如何裁決
+
+### 12.2 組織層 `.github` Repo（建議，不是唯一真相）
 若 GitHub Organization 有建立 `.github` repo，應集中放置「跨 repo 共用」的治理資產：
 - 預設 PR/Issue 模板
 - Security/Contributing/Code of Conduct
 - Org-level 工作流或政策說明（僅指引，不放大型資產）
 
-> 原則：`.github` repo 是**治理入口**，各專案 repo 仍需保有自己的 `.github/` 以便客製。
+> 原則：`.github` repo 可作為**治理入口**，但不是唯一合法 placement。各專案 repo 仍可保有自己的 `.github/` 以便客製；`hybrid` 下必須進一步區分 asset authority，而不能因為檔案出現在 `.github` repo 就自動推定它是 canonical authority source。
 
-### 12.2 每個 repo 都應該具有的 `.github/` 結構（MVP）
+### 12.3 每個 repo 都應該具有的 `.github/` 結構（MVP）
 
 ```
 .github/
@@ -714,13 +757,33 @@ AI 產出的程式碼必須通過基本的效能檢核，防止寫出低效迴�
     adr_proposal.yml
 ```
 
-### 12.3 CODEOWNERS（原則）
+> `repo_local` 與 `hybrid` 模式下，repo-local `.github/` 是合法且常見的治理資產載體；但 **repo-local placement 本身不等於治理權威來源**。
+
+### 12.4 Asset Class 與 Authority（原則）
+
+至少應區分以下治理資產類別：
+- org profile / org metadata
+- issue / PR template assets
+- org-level governance docs
+- reusable workflow carriers
+- repo-local workflows
+- CODEOWNERS
+- branch protection binding
+- governance policy refs
+
+治理判讀時必須回答：
+- 這個 asset class 在目前 topology 是否允許
+- authority owner 是 `org_centralized`、`repo_distributed` 還是 `mixed_authority`
+- placement 與 authority 是否一致
+- 若 org-level 與 repo-local 同時存在，precedence 與 conflict 如何裁決
+
+### 12.5 CODEOWNERS（原則）
 
 * 每個 repo 必須有 `.github/CODEOWNERS`
 * 讓 PR 自動要求正確的 owner team review
 * 未經 Code Owner review 不得合併到 `main`
 
-### 12.4 Teams × Repo 權限（建議基線）
+### 12.6 Teams × Repo 權限（建議基線）
 
 > 原則：每個 repo 只有 1 個「Maintain owner team」（docs 例外可雙 owner）。
 
