@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.29",
+  "asset": "offering-package-composition-and-closeout",
+  "files": [
+    "internal/development/evidence/v2.1.29/offering-package-composition-and-closeout/result.json",
+    "internal/development/evidence/v2.1.29/offering-package-composition-and-closeout/index.json",
+    "internal/development/evidence/v2.1.29/offering-package-composition-and-closeout/run-evidence.md",
+    "internal/development/evidence/v2.1.29/offering-package-composition-and-closeout/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-29-offering-package-composition-and-closeout.yml#23982336432",
+  "computed_at_taipei": "2026-04-04T23:58:00+08:00"
+}

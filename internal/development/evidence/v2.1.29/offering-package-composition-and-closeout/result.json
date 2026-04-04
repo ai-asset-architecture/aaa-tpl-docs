@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.29",
+  "step": "step3",
+  "asset": "offering-package-composition-and-closeout",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-29-offering-package-composition-and-closeout.yml#23982336432",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23982336432",
+  "conclusion": "success",
+  "inputs_digest": "sha256:1ccc7808ece7b2e4fffc374bb6fb712fe0e6aba9f149abe0ca2c6c91625fe631",
+  "contract_digest": "sha256:daf70bcffa77b796b026101e7e42ebd22e58a2a3976bb0b8efdcb3d37683e4dd",
+  "fixture_digest": "sha256:e380bb0fa5e346598aca38690f87540e8ef37e4334d1d5dc90b57540b3dc31f1",
+  "runtime_digest": "sha256:606a325710f0ce450e6f2f010df50895b32757a33f6852949ebbcdba714bd1a9",
+  "workflow_digest": "sha256:03b4568090e2d0d0be31dcdaa586c667ea0b359cd446fddf92c1f4d613344b85",
+  "evidence_digest": "sha256:675847bcec5bbc229ff827e75a4ba5608b76bf9b358c92a66b2157381ddde33a",
+  "computed_at_taipei": "2026-04-04T23:58:00+08:00"
+}

@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.29",
+  "asset_group": "offering-package-composition-and-closeout",
+  "generated_at_taipei": "2026-04-04T23:58:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.offering-package-composition-and-closeout.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/offering-package-composition-and-closeout.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:daf70bcffa77b796b026101e7e42ebd22e58a2a3976bb0b8efdcb3d37683e4dd"
+    },
+    {
+      "asset_id": "fixtures.offering-package-composition-and-closeout.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.29-offering-package-composition-and-closeout.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.29-offering-package-composition-and-closeout.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:e380bb0fa5e346598aca38690f87540e8ef37e4334d1d5dc90b57540b3dc31f1"
+    },
+    {
+      "asset_id": "runtime.offering-package-composition-and-closeout.v2.1.29",
+      "asset_type": "package_runtime_core_closeout_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/offering_package_composition_and_closeout.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_offering_package_composition_and_closeout.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:606a325710f0ce450e6f2f010df50895b32757a33f6852949ebbcdba714bd1a9"
+    },
+    {
+      "asset_id": "workflow.v2-1-29-offering-package-composition-and-closeout",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-29-offering-package-composition-and-closeout.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:03b4568090e2d0d0be31dcdaa586c667ea0b359cd446fddf92c1f4d613344b85"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.29-offering-package-composition-and-closeout",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.29-offering-package-composition-and-closeout-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.29-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:675847bcec5bbc229ff827e75a4ba5608b76bf9b358c92a66b2157381ddde33a"
+    }
+  ]
+}
