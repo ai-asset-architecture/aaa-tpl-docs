@@ -36,6 +36,19 @@
 - `NORMAL_RELEASE`：Step1 + Step2 + Step3 + Step4 全完成。
 - `BRIDGE_RELEASE`：治理補洞型版本；可停在 Step1，Step4 僅可標記 `COMPLETED_STEP1` 或 `BRIDGE_ONLY`。
 
+## 3.1 Step2 Scarcity Governance（MUST）
+1. Step2 是稀缺治理配額，不是每個新版本的預設權利。
+2. 擬進 Step2 的版本，plan / audit 必須先回答：
+   - 為何不能 bridge-only
+   - 為何不能被既有 execution package 吸收
+   - 為何不能重用既有 execution carrier
+3. 下列類型預設不應建立獨立 Step2，除非 audit 明示不能 bridge-only 且不能被 bundled execution 吸收：
+   - wording / vocabulary baseline
+   - positioning / framing baseline
+   - appendix / guide / narrative clarification baseline
+   - historical / metadata / registry interpretation baseline
+4. Step2 run_ref 合法，不等於可自動新增 version-specific workflow；預設必須優先重用既有 carrier 或 bundled execution。
+
 ## 4. Strict Discipline（全部 MUST）
 1. **Step1/Step2 邊界隔離**：Step1 只允許治理資產，禁止修改 runtime domain code。
 2. **No-Glob**：所有 deliverables/evidence 路徑禁止 `*`、`**`，必須具體檔名。
@@ -43,6 +56,9 @@
 4. **Completion Claim Guard**：缺 remote evidence 禁止使用 `COMPLETED/PASS/已落地` 語意。
 5. **Full-File Consistency**：涉及 index 或 dashboard raw data 的更新，必須維持全檔排序與語意一致。
 6. **Guide Parity Gate（v2.1.0+）**：`aaa-docs/bootstrap/operate_maintain_guide.md` 與 `aaa-tpl-docs/operate_maintain_guide.md` 的 canonical sections 必須通過 CI parity gate；不一致一律 FAIL。
+7. **Machine-Parseable Truth Priority**：若 guide MUST、schema/gate parser、與人類可讀敘述不一致，以 guide MUST + machine-checkable parser 為最高真相。
+8. **Generated Artifact Shape Verification**：讀取 generated artifact 前，必須先確認 top-level keys 與對應 schema/type；不得直接假設欄位結構或猜測欄位名。
+9. **Guide Patch Threshold**：只有 truth precedence、closeout sequence、shared validator/contract law、或 guide-level promotion law 類問題，才可直接升格為 top guide patch；其餘 recurring issue 預設優先進 register / checklist / validator / schema。
 
 ## 5. 4-Step Lifecycle
 
@@ -186,11 +202,21 @@ ExitChecklistVerdict: PASS|FAIL|N/A
 3. 任何 completion claim 必須對應 Step2 remote evidence。
 
 Global MCP Validation（Step4 MUST）：
-1. Header（治理狀態）
-2. `/ops-registry?tab=versions`
-3. `/ops-registry?tab=workflows`
-4. `/ops-dashboard`
-5. `/ops-version/<version>`
+1. `/ops-registry?tab=versions`
+2. `/ops-registry?tab=workflows`
+3. `/ops-version/<version>`
+
+Step4 Checklist Tiering（MUST）：
+1. Step4 checklist item 必須分級為：
+   - `ALWAYS_ON_MUST`
+   - `CONDITIONAL_MUST`
+   - `REVIEW_SAMPLED`
+2. 新增 Step4 item 預設不得直接進 `ALWAYS_ON_MUST`，除非 audit 能證明其對 closeout 真實性具有不可替代價值。
+
+Single Review Artifact Rule（MUST）：
+1. 每次 4-step closeout 完成後，只允許一份 post-closeout review artifact。
+2. 該 artifact 必須同時承載 lesson learned、follow-up decision、與必要 appendix。
+3. 不得再拆出 decision note / wording draft / mutation patch draft / completion note 的中間文件鏈充當 current preferred process。
 
 #### Step 4 Exit Checklist
 ```yaml
@@ -202,7 +228,7 @@ ExitChecklistVerdict: PASS|FAIL|N/A
 - [ ] completion report 已建立
 - [ ] milestone 摘要已建立
 - [ ] version/workflow index 同步完成
-- [ ] MCP 5 頁驗證證據存在
+- [ ] MCP 3 頁驗證證據存在
 - [ ] completion claim 與 remote evidence 一致
 
 ## 6. Import Model（給繼承專案）
