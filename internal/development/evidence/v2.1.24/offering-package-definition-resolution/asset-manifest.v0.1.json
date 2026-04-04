@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.24",
+  "asset_group": "offering-package-definition-resolution",
+  "generated_at_taipei": "2026-04-04T21:14:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.offering-package-definition-resolution.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/offering-package-definition-resolution.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:7bdf41293f2fdbc90fffbc4388442a4f2692b3672b04a56d36a1e17a76ae868b"
+    },
+    {
+      "asset_id": "fixtures.offering-package-definition-resolution.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.24-offering-package-definition-resolution.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.24-offering-package-definition-resolution.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:986fda762874f3c9366fcf99ca4a4930393f4dd13f331ad3717a729ad9dd3358"
+    },
+    {
+      "asset_id": "runtime.offering-package-definition-resolution.v2.1.24",
+      "asset_type": "package_definition_resolution_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/offering_package_definition_resolution.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_offering_package_definition_resolution.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:fdc5c8572c801b398e93720a7a6e5d761f6be9c8149004e0389c1ea2965cc723"
+    },
+    {
+      "asset_id": "workflow.v2-1-24-offering-package-definition-resolution",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-24-offering-package-definition-resolution.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:94e20bdaa0ad5f6de72c9bae741980c59f28b8c4c9d895bd49c7152f94fe1151"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.24-offering-package-definition-resolution",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.24-offering-package-definition-resolution-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.24-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:0383fabdb8457ba1d726d5bf47a9c9f13b34dea3ba7a1cbf6449406ee311edc3"
+    }
+  ]
+}

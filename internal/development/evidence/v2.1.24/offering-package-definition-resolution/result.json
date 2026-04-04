@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.24",
+  "step": "step3",
+  "asset": "offering-package-definition-resolution",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-24-offering-package-definition-resolution.yml#23979527192",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23979527192",
+  "conclusion": "success",
+  "inputs_digest": "sha256:17a2b080a0207d80c8504163186a88738802ffe68a0e0b8549c899006b09a7da",
+  "contract_digest": "sha256:7bdf41293f2fdbc90fffbc4388442a4f2692b3672b04a56d36a1e17a76ae868b",
+  "fixture_digest": "sha256:986fda762874f3c9366fcf99ca4a4930393f4dd13f331ad3717a729ad9dd3358",
+  "runtime_digest": "sha256:fdc5c8572c801b398e93720a7a6e5d761f6be9c8149004e0389c1ea2965cc723",
+  "workflow_digest": "sha256:94e20bdaa0ad5f6de72c9bae741980c59f28b8c4c9d895bd49c7152f94fe1151",
+  "evidence_digest": "sha256:0383fabdb8457ba1d726d5bf47a9c9f13b34dea3ba7a1cbf6449406ee311edc3",
+  "computed_at_taipei": "2026-04-04T21:14:00+08:00"
+}
