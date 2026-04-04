@@ -1,0 +1,68 @@
+{
+  "version": "v2.1.23",
+  "asset_group": "offering-package-selection-runtime-baseline",
+  "generated_at_taipei": "2026-04-04T21:38:30+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.offering-package-selection-runtime-baseline.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/offering-package-selection-runtime-baseline.v0.1.schema.json"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:7469e48949c31eabc05f8074adb6c40c35a10cb30cbde1b41ef5815108599a09"
+    },
+    {
+      "asset_id": "fixtures.offering-package-selection-runtime-baseline.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.23-offering-package-selection-runtime-baseline.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.23-offering-package-selection-runtime-baseline.fail.json"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:641a4c5579f227d02e175640444ea619aed5a98c03661966f67709487c603a33"
+    },
+    {
+      "asset_id": "runtime.offering-package-selection-runtime-baseline.v2.1.23",
+      "asset_type": "package_selection_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/offering_package_selection_runtime_baseline.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_offering_package_selection_runtime_baseline.py"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tools",
+      "digest": "sha256:0ee7a4ab066b83d7ba7bc7d6a5b95bd4102d49e75723f34738d48fb1cb3b60c8"
+    },
+    {
+      "asset_id": "workflow.v2-1-23-offering-package-selection-runtime-baseline",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-23-offering-package-selection-runtime-baseline.yml"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tools",
+      "digest": "sha256:5ec528fc4abb17edf675d487ae84d4661ebc129d587589010404f065e8cca07c"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.23-offering-package-selection-runtime-baseline",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.23-offering-package-selection-runtime-baseline-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.23-step2-exit-checklist.md"
+      ],
+      "reuse_target": ["AAA core"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:7b1e50679bcf91dff7062010b34c4e0fe703ee3ae4b7f5f78da93f66d5fb5456"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.23",
+  "step": "step3",
+  "asset": "offering-package-selection-runtime-baseline",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-23-offering-package-selection-runtime-baseline.yml#23979180006",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23979180006",
+  "conclusion": "success",
+  "inputs_digest": "sha256:641a4c5579f227d02e175640444ea619aed5a98c03661966f67709487c603a33",
+  "contract_digest": "sha256:7469e48949c31eabc05f8074adb6c40c35a10cb30cbde1b41ef5815108599a09",
+  "fixture_digest": "sha256:641a4c5579f227d02e175640444ea619aed5a98c03661966f67709487c603a33",
+  "runtime_digest": "sha256:0ee7a4ab066b83d7ba7bc7d6a5b95bd4102d49e75723f34738d48fb1cb3b60c8",
+  "workflow_digest": "sha256:5ec528fc4abb17edf675d487ae84d4661ebc129d587589010404f065e8cca07c",
+  "evidence_digest": "sha256:7b1e50679bcf91dff7062010b34c4e0fe703ee3ae4b7f5f78da93f66d5fb5456",
+  "computed_at_taipei": "2026-04-04T21:38:30+08:00"
+}
