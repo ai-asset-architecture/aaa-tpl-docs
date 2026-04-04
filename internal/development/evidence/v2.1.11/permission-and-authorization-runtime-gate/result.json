@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.11",
+  "step": "step3",
+  "asset": "permission-and-authorization-runtime-gate",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-11-permission-and-authorization-runtime-gate.yml#23972342747",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23972342747",
+  "conclusion": "success",
+  "inputs_digest": "sha256:489fb752f0b59633917172d03fce2545341a360d7ac4cc84509794c11b45b89a",
+  "contract_digest": "sha256:ef87b9e60abc6449a21553f54d1a34e6ae8d4e5c3cdd2c126dce01d040e2ca04",
+  "fixture_digest": "sha256:489fb752f0b59633917172d03fce2545341a360d7ac4cc84509794c11b45b89a",
+  "runtime_digest": "sha256:d53199553103edaa698b1f160077dee83ae9467a94d4aa6f186ac123f83bb0f5",
+  "workflow_digest": "sha256:fa57fbc982a566477235de8fe49ca8630e7b1f90d1c2b8ccea7abccfe093fe1f",
+  "evidence_digest": "sha256:be60265e6ac2c5cc6d36201939bbfc0b419735e78c76961ab0f70b1b42bd5963",
+  "computed_at_taipei": "2026-04-04T13:33:48+08:00"
+}

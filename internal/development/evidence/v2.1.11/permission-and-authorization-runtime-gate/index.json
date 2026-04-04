@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.11",
+  "asset": "permission-and-authorization-runtime-gate",
+  "files": [
+    "internal/development/evidence/v2.1.11/permission-and-authorization-runtime-gate/result.json",
+    "internal/development/evidence/v2.1.11/permission-and-authorization-runtime-gate/index.json",
+    "internal/development/evidence/v2.1.11/permission-and-authorization-runtime-gate/run-evidence.md",
+    "internal/development/evidence/v2.1.11/permission-and-authorization-runtime-gate/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-11-permission-and-authorization-runtime-gate.yml#23972342747",
+  "computed_at_taipei": "2026-04-04T13:33:48+08:00"
+}
