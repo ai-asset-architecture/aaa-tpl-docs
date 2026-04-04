@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.17",
+  "asset_group": "agent-delegation-and-task-lifecycle-runtime",
+  "generated_at_taipei": "2026-04-04T14:51:18+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.agent-delegation-and-task-lifecycle-runtime.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/agent-delegation-and-task-lifecycle-runtime.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:12f445277fbcc9d97476f7565e400c37591700a4100a03f0b36329735d93b275"
+    },
+    {
+      "asset_id": "fixtures.agent-delegation-and-task-lifecycle-runtime.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.17-agent-delegation-and-task-lifecycle-runtime.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.17-agent-delegation-and-task-lifecycle-runtime.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:c16de1a02349dc44750b331d511886e45e01f178de955c7047a275c050f8e629"
+    },
+    {
+      "asset_id": "runtime.agent-delegation-and-task-lifecycle-runtime.v2.1.17",
+      "asset_type": "delegation_lifecycle_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/agent_delegation_and_task_lifecycle_runtime.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_agent_delegation_and_task_lifecycle_runtime.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:28a4febd2c134f7128f6a8570855ea07635e96cf3c00223b73a7842b78c3e4cd"
+    },
+    {
+      "asset_id": "workflow.v2-1-17-agent-delegation-and-task-lifecycle-runtime",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-17-agent-delegation-and-task-lifecycle-runtime.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:921aed4a09cee2a294f3ceb29fa1be3ae483e8d137f3472e0ad549d2e3e72f8e"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.17-agent-delegation-and-task-lifecycle-runtime",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.17-agent-delegation-and-task-lifecycle-runtime-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.17-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:bbca2f1437d3857759b921a1fd1b590eb8846104abd98fd103ecea5a7656c105"
+    }
+  ]
+}

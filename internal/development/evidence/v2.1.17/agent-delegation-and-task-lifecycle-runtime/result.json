@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.17",
+  "step": "step3",
+  "asset": "agent-delegation-and-task-lifecycle-runtime",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-17-agent-delegation-and-task-lifecycle-runtime.yml#23973580941",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23973580941",
+  "conclusion": "success",
+  "inputs_digest": "sha256:c16de1a02349dc44750b331d511886e45e01f178de955c7047a275c050f8e629",
+  "contract_digest": "sha256:12f445277fbcc9d97476f7565e400c37591700a4100a03f0b36329735d93b275",
+  "fixture_digest": "sha256:c16de1a02349dc44750b331d511886e45e01f178de955c7047a275c050f8e629",
+  "runtime_digest": "sha256:28a4febd2c134f7128f6a8570855ea07635e96cf3c00223b73a7842b78c3e4cd",
+  "workflow_digest": "sha256:921aed4a09cee2a294f3ceb29fa1be3ae483e8d137f3472e0ad549d2e3e72f8e",
+  "evidence_digest": "sha256:bbca2f1437d3857759b921a1fd1b590eb8846104abd98fd103ecea5a7656c105",
+  "computed_at_taipei": "2026-04-04T14:51:18+08:00"
+}
