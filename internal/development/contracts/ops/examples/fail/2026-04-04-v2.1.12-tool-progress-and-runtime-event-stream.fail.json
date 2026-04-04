@@ -5,6 +5,8 @@
   "event_stream_id": "shared_runtime_event_stream",
   "signal_class": "progress_signal",
   "event_phase": "completed",
+  "evidence_source_role": "evidence_generation_source",
+  "formal_evidence_artifact": true,
   "canonical_truth_promotion_allowed": true,
   "result_promotion_allowed": true,
   "evidence_promotion_allowed": true,

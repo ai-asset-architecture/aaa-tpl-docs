@@ -9,7 +9,7 @@
     "session_store_mode",
     "transcript_class",
     "compaction_mode",
-    "compacted_transcript_replay_allowed",
+    "replay_input_eligibility",
     "canonical_truth_promotion_allowed",
     "audit_reproducibility_required",
     "prose_fallback_allowed"
@@ -21,7 +21,7 @@
     "session_store_mode": { "type": "string", "enum": ["persistent_store", "ephemeral_store"] },
     "transcript_class": { "type": "string", "enum": ["raw_transcript", "compacted_transcript"] },
     "compaction_mode": { "type": "string", "enum": ["lossless_boundary", "summarized_boundary"] },
-    "compacted_transcript_replay_allowed": { "type": "boolean" },
+    "replay_input_eligibility": { "type": "string", "enum": ["allowed", "disallowed", "allowed_with_boundary"] },
     "canonical_truth_promotion_allowed": { "type": "boolean", "const": false },
     "audit_reproducibility_required": { "type": "boolean", "const": true },
     "prose_fallback_allowed": { "type": "boolean", "const": false }

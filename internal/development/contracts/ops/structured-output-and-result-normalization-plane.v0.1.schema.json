@@ -11,7 +11,9 @@
     "errors",
     "warnings",
     "artifact_refs",
+    "artifact_refs_role",
     "normalized_payload_class",
+    "normalized_payload_precedence",
     "prose_only_result_allowed"
   ],
   "properties": {
@@ -23,7 +25,9 @@
     "errors": { "type": "array", "items": { "type": "string" } },
     "warnings": { "type": "array", "items": { "type": "string" } },
     "artifact_refs": { "type": "array", "items": { "type": "string" } },
+    "artifact_refs_role": { "type": "string", "enum": ["supporting_artifact", "evidence_candidate", "path_specific_artifact"] },
     "normalized_payload_class": { "type": "string", "enum": ["structured_result", "structured_error"] },
+    "normalized_payload_precedence": { "type": "string", "const": "normalized_payload_primary" },
     "prose_only_result_allowed": { "type": "boolean", "const": false }
   },
   "additionalProperties": false

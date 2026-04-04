@@ -7,6 +7,8 @@
   "errors": [],
   "warnings": [],
   "artifact_refs": ["result.json"],
+  "artifact_refs_role": "supporting_artifact",
   "normalized_payload_class": "structured_result",
+  "normalized_payload_precedence": "normalized_payload_primary",
   "prose_only_result_allowed": false
 }

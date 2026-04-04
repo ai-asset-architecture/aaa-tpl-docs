@@ -10,6 +10,7 @@
     "failure_class",
     "retry_mode",
     "fallback_mode",
+    "fallback_retry_recursion_allowed",
     "stop_condition",
     "provider_business_layer_allowed",
     "prose_fallback_allowed"
@@ -22,6 +23,7 @@
     "failure_class": { "type": "string", "enum": ["retryable", "terminal"] },
     "retry_mode": { "type": "string", "enum": ["limited_retry", "no_retry"] },
     "fallback_mode": { "type": "string", "enum": ["same_path_recovery", "fallback_path", "none"] },
+    "fallback_retry_recursion_allowed": { "type": "boolean", "const": false },
     "stop_condition": { "type": "string", "enum": ["budget_exhausted", "terminal_failure", "retry_limit_reached"] },
     "provider_business_layer_allowed": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }

@@ -6,7 +6,9 @@
   "status": "ok",
   "errors": [],
   "warnings": [],
-  "artifact_refs": [],
+  "artifact_refs": ["path-specific-result.json"],
+  "artifact_refs_role": "path_specific_artifact",
   "normalized_payload_class": "structured_result",
+  "normalized_payload_precedence": "normalized_payload_primary",
   "prose_only_result_allowed": true
 }

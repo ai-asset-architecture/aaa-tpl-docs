@@ -6,6 +6,7 @@
   "failure_class": "terminal",
   "retry_mode": "limited_retry",
   "fallback_mode": "fallback_path",
+  "fallback_retry_recursion_allowed": true,
   "stop_condition": "budget_exhausted",
   "provider_business_layer_allowed": true,
   "prose_fallback_allowed": true

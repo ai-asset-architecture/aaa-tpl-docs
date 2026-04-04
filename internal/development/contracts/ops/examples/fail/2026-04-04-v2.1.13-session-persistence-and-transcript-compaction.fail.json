@@ -5,7 +5,7 @@
   "session_store_mode": "persistent_store",
   "transcript_class": "compacted_transcript",
   "compaction_mode": "summarized_boundary",
-  "compacted_transcript_replay_allowed": true,
+  "replay_input_eligibility": "allowed",
   "canonical_truth_promotion_allowed": true,
   "audit_reproducibility_required": false,
   "prose_fallback_allowed": true
