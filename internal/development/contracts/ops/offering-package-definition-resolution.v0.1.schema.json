@@ -6,6 +6,9 @@
     "version",
     "runtime_plane_mode",
     "line_class",
+    "baseline_scope",
+    "post_topology_consumption_required",
+    "topology_resolution_precedence_ref",
     "package_level",
     "source_definition_artifact",
     "source_definition_artifact_ref",
@@ -14,15 +17,19 @@
     "client_prerequisites",
     "back_write_allowed",
     "reinterpretation_allowed",
+    "dedicated_github_universal_invariant",
     "prose_fallback_allowed"
   ],
   "properties": {
     "version": { "type": "string", "const": "v0.1" },
     "runtime_plane_mode": { "type": "string", "const": "offering_package_definition_resolution" },
     "line_class": { "type": "string", "const": "offering_package_runtime_enablement_line" },
+    "baseline_scope": { "type": "string", "const": "pre_topology_baseline" },
+    "post_topology_consumption_required": { "type": "boolean", "const": true },
+    "topology_resolution_precedence_ref": { "type": "string", "const": "v2.1.32" },
     "package_level": { "type": "string", "enum": ["lite", "core", "full"] },
     "source_definition_artifact": { "type": "string", "const": "aaa-docs/bootstrap/offering_definition_skeleton.md" },
-    "source_definition_artifact_ref": { "type": "string", "const": "bootstrap/offering_definition_skeleton.md" },
+    "source_definition_artifact_ref": { "type": "string", "const": "aaa-docs/bootstrap/offering_definition_skeleton.md" },
     "minimum_repo_set": {
       "type": "array",
       "minItems": 3,
@@ -59,6 +66,7 @@
     },
     "back_write_allowed": { "type": "boolean", "const": false },
     "reinterpretation_allowed": { "type": "boolean", "const": false },
+    "dedicated_github_universal_invariant": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }
   },
   "additionalProperties": false

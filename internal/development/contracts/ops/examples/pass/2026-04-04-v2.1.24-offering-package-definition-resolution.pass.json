@@ -2,9 +2,12 @@
   "version": "v0.1",
   "runtime_plane_mode": "offering_package_definition_resolution",
   "line_class": "offering_package_runtime_enablement_line",
+  "baseline_scope": "pre_topology_baseline",
+  "post_topology_consumption_required": true,
+  "topology_resolution_precedence_ref": "v2.1.32",
   "package_level": "core",
   "source_definition_artifact": "aaa-docs/bootstrap/offering_definition_skeleton.md",
-  "source_definition_artifact_ref": "bootstrap/offering_definition_skeleton.md",
+  "source_definition_artifact_ref": "aaa-docs/bootstrap/offering_definition_skeleton.md",
   "minimum_repo_set": [
     ".github",
     "aaa-tpl-docs",
@@ -25,5 +28,6 @@
   ],
   "back_write_allowed": false,
   "reinterpretation_allowed": false,
+  "dedicated_github_universal_invariant": false,
   "prose_fallback_allowed": false
 }

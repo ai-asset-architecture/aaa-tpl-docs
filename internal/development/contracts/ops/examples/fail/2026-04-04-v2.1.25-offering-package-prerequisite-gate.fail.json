@@ -2,6 +2,9 @@
   "version": "v0.1",
   "runtime_plane_mode": "offering_package_prerequisite_gate",
   "line_class": "offering_package_runtime_enablement_line",
+  "baseline_scope": "pre_topology_baseline",
+  "post_topology_consumption_required": false,
+  "topology_prerequisite_precedence_ref": "legacy",
   "package_level": "core",
   "gate_scope": "pre_adoption_only",
   "checked_prerequisites": [

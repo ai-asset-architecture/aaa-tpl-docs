@@ -2,6 +2,9 @@
   "version": "v0.1",
   "runtime_plane_mode": "offering_package_definition_resolution",
   "line_class": "offering_package_runtime_enablement_line",
+  "baseline_scope": "pre_topology_baseline",
+  "post_topology_consumption_required": false,
+  "topology_resolution_precedence_ref": "legacy",
   "package_level": "full",
   "source_definition_artifact": "aaa-docs/bootstrap/offering_definition_skeleton.md",
   "source_definition_artifact_ref": "bootstrap/other_draft.md",
@@ -14,5 +17,6 @@
   ],
   "back_write_allowed": true,
   "reinterpretation_allowed": true,
+  "dedicated_github_universal_invariant": true,
   "prose_fallback_allowed": true
 }

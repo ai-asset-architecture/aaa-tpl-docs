@@ -2,6 +2,9 @@
   "version": "v0.1",
   "runtime_plane_mode": "offering_package_materialization_mapping",
   "line_class": "offering_package_runtime_enablement_line",
+  "baseline_scope": "pre_topology_baseline",
+  "post_topology_consumption_required": true,
+  "topology_mapping_precedence_ref": "v2.1.34",
   "package_level": "lite",
   "minimum_repo_set": [
     ".github",
@@ -20,6 +23,7 @@
   ],
   "materialization_target_mode": "repo_template_workflow_asset_mapping",
   "mapping_completeness": "complete",
+  "dedicated_github_universal_invariant": false,
   "package_status_assertion_included": false,
   "prose_fallback_allowed": false
 }

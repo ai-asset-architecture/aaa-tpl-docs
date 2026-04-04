@@ -6,6 +6,9 @@
     "version",
     "runtime_plane_mode",
     "line_class",
+    "baseline_scope",
+    "post_topology_consumption_required",
+    "topology_mapping_precedence_ref",
     "package_level",
     "minimum_repo_set",
     "workflow_inclusion_level",
@@ -14,6 +17,7 @@
     "governance_asset_load_list",
     "materialization_target_mode",
     "mapping_completeness",
+    "dedicated_github_universal_invariant",
     "package_status_assertion_included",
     "prose_fallback_allowed"
   ],
@@ -21,6 +25,9 @@
     "version": { "type": "string", "const": "v0.1" },
     "runtime_plane_mode": { "type": "string", "const": "offering_package_materialization_mapping" },
     "line_class": { "type": "string", "const": "offering_package_runtime_enablement_line" },
+    "baseline_scope": { "type": "string", "const": "pre_topology_baseline" },
+    "post_topology_consumption_required": { "type": "boolean", "const": true },
+    "topology_mapping_precedence_ref": { "type": "string", "const": "v2.1.34" },
     "package_level": { "type": "string", "enum": ["lite", "core", "full"] },
     "minimum_repo_set": {
       "type": "array",
@@ -60,6 +67,7 @@
     },
     "materialization_target_mode": { "type": "string", "const": "repo_template_workflow_asset_mapping" },
     "mapping_completeness": { "type": "string", "enum": ["complete", "partial"] },
+    "dedicated_github_universal_invariant": { "type": "boolean", "const": false },
     "package_status_assertion_included": { "type": "boolean", "const": false },
     "prose_fallback_allowed": { "type": "boolean", "const": false }
   },

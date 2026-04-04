@@ -2,6 +2,9 @@
   "version": "v0.1",
   "runtime_plane_mode": "package_machine_interface_read_boundary",
   "line_class": "offering_package_runtime_enablement_line",
+  "baseline_scope": "pre_topology_baseline",
+  "post_topology_consumption_required": true,
+  "topology_read_boundary_precedence_ref": "v2.1.35",
   "interface_scope": "machine_read_boundary_only",
   "exposed_payloads": [
     "package_selection",
