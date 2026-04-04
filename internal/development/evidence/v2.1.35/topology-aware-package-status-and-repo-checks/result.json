@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.35",
+  "step": "step3",
+  "asset": "topology-aware-package-status-and-repo-checks",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-35-topology-aware-package-status-and-repo-checks.yml#23978265972",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23978265972",
+  "conclusion": "success",
+  "inputs_digest": "sha256:8612e4fee935fb208fe44f63902e87f5513e7ab3d569234640041427ec9b68a2",
+  "contract_digest": "sha256:d8d0f7a97f45845a55bbb1e5d383d058622af2eb358976aeb789d25aa537d12f",
+  "fixture_digest": "sha256:8612e4fee935fb208fe44f63902e87f5513e7ab3d569234640041427ec9b68a2",
+  "runtime_digest": "sha256:c1f7f0f3d45c4a2166fe2831d96d839f0ac9990f39729ef609c11109908a1151",
+  "workflow_digest": "sha256:83c3e73e8bfb0e355eff4474be0e6c72cc7a4dc6ebc260cff93ed01447c1bcd1",
+  "evidence_digest": "sha256:9cba6817efb8f9de470a763a70c215f2fb1c8914bcefdc62a48a290fc28077dc",
+  "computed_at_taipei": "2026-04-04T20:05:00+08:00"
+}

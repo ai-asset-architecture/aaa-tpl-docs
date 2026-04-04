@@ -1,0 +1,81 @@
+{
+  "version": "v2.1.35",
+  "asset_group": "topology-aware-package-status-and-repo-checks",
+  "generated_at_taipei": "2026-04-04T20:05:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.topology-aware-package-status-and-repo-checks.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/topology-aware-package-status-and-repo-checks.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:d8d0f7a97f45845a55bbb1e5d383d058622af2eb358976aeb789d25aa537d12f"
+    },
+    {
+      "asset_id": "fixtures.topology-aware-package-status-and-repo-checks.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.35-topology-aware-package-status-and-repo-checks.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.35-topology-aware-package-status-and-repo-checks.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:8612e4fee935fb208fe44f63902e87f5513e7ab3d569234640041427ec9b68a2"
+    },
+    {
+      "asset_id": "runtime.topology-aware-package-status-and-repo-checks.v2.1.35",
+      "asset_type": "topology_package_status_and_repo_checks_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/topology_aware_package_status_and_repo_checks.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/tests/test_topology_aware_package_status_and_repo_checks.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:c1f7f0f3d45c4a2166fe2831d96d839f0ac9990f39729ef609c11109908a1151"
+    },
+    {
+      "asset_id": "workflow.v2-1-35-topology-aware-package-status-and-repo-checks",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-35-topology-aware-package-status-and-repo-checks.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:83c3e73e8bfb0e355eff4474be0e6c72cc7a4dc6ebc260cff93ed01447c1bcd1"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.35-topology-aware-package-status-and-repo-checks",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.35-topology-aware-package-status-and-repo-checks-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.35-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:9cba6817efb8f9de470a763a70c215f2fb1c8914bcefdc62a48a290fc28077dc"
+    }
+  ]
+}
