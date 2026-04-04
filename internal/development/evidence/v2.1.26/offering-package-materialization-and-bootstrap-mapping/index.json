@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.26",
+  "asset": "offering-package-materialization-and-bootstrap-mapping",
+  "files": [
+    "internal/development/evidence/v2.1.26/offering-package-materialization-and-bootstrap-mapping/result.json",
+    "internal/development/evidence/v2.1.26/offering-package-materialization-and-bootstrap-mapping/index.json",
+    "internal/development/evidence/v2.1.26/offering-package-materialization-and-bootstrap-mapping/run-evidence.md",
+    "internal/development/evidence/v2.1.26/offering-package-materialization-and-bootstrap-mapping/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-26-offering-package-materialization-and-bootstrap-mapping.yml#23980028097",
+  "computed_at_taipei": "2026-04-04T23:20:00+08:00"
+}

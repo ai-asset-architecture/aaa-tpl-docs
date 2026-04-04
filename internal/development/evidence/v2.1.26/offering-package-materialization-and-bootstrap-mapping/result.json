@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.26",
+  "step": "step3",
+  "asset": "offering-package-materialization-and-bootstrap-mapping",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-26-offering-package-materialization-and-bootstrap-mapping.yml#23980028097",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23980028097",
+  "conclusion": "success",
+  "inputs_digest": "sha256:287320d5ca5f3af5f7564fc661653fab79803cab710fc2b4a5ba757d8d137c63",
+  "contract_digest": "sha256:8ea60733b1666617ca8db9894b01be5f7711cc5044520d4d2c83aad91cbf0d8b",
+  "fixture_digest": "sha256:24505ad6dfa006df481e8d8ab254674cc0d677f11c9bd788345d664a4132b8c8",
+  "runtime_digest": "sha256:f5e62c878de45b04cb9473c508eade23e475ee6365459896d7cae0f47186a9ee",
+  "workflow_digest": "sha256:cb069802abc84516578472199e929c415377a62b2a6d3a3137da52bad72ccf48",
+  "evidence_digest": "sha256:41b1abdd0c8d2b42f4263e10e034d6b843154f8d09dcc3f96094e28697f69a99",
+  "computed_at_taipei": "2026-04-04T23:20:00+08:00"
+}

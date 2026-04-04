@@ -1,0 +1,82 @@
+{
+  "version": "v2.1.26",
+  "asset_group": "offering-package-materialization-and-bootstrap-mapping",
+  "generated_at_taipei": "2026-04-04T23:20:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.offering-package-materialization-and-bootstrap-mapping.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/offering-package-materialization-and-bootstrap-mapping.v0.1.schema.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:8ea60733b1666617ca8db9894b01be5f7711cc5044520d4d2c83aad91cbf0d8b"
+    },
+    {
+      "asset_id": "fixtures.offering-package-materialization-and-bootstrap-mapping.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-04-v2.1.26-offering-package-materialization-and-bootstrap-mapping.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-04-v2.1.26-offering-package-materialization-and-bootstrap-mapping.fail.json"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:24505ad6dfa006df481e8d8ab254674cc0d677f11c9bd788345d664a4132b8c8"
+    },
+    {
+      "asset_id": "runtime.offering-package-materialization-and-bootstrap-mapping.v2.1.26",
+      "asset_type": "package_materialization_mapping_runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/offering_package_materialization_and_bootstrap_mapping.py",
+        "aaa-tools/aaa/governance_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/__init__.py",
+        "aaa-tools/tests/test_offering_package_materialization_and_bootstrap_mapping.py"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:f5e62c878de45b04cb9473c508eade23e475ee6365459896d7cae0f47186a9ee"
+    },
+    {
+      "asset_id": "workflow.v2-1-26-offering-package-materialization-and-bootstrap-mapping",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-26-offering-package-materialization-and-bootstrap-mapping.yml"
+      ],
+      "reuse_target": [
+        "AAA core",
+        "AAA inherited projects"
+      ],
+      "owner": "aaa-tools",
+      "digest": "sha256:cb069802abc84516578472199e929c415377a62b2a6d3a3137da52bad72ccf48"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.26-offering-package-materialization-and-bootstrap-mapping",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-04-v2.1.26-offering-package-materialization-and-bootstrap-mapping-run-evidence.md",
+        "internal/development/reviews/2026-04-04-v2.1.26-step2-exit-checklist.md"
+      ],
+      "reuse_target": [
+        "AAA core"
+      ],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:41b1abdd0c8d2b42f4263e10e034d6b843154f8d09dcc3f96094e28697f69a99"
+    }
+  ]
+}
