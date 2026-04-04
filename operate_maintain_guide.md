@@ -49,6 +49,11 @@
    - historical / metadata / registry interpretation baseline
 4. Step2 run_ref 合法，不等於可自動新增 version-specific workflow；預設必須優先重用既有 carrier 或 bundled execution。
 
+## 3.2 Bridge Visibility Package（Reduced-Form MUST）
+1. `BRIDGE_RELEASE` 若要求 consumer-visible surface，plan / audit 必須顯式定義 `bridge visibility package`。
+2. `bridge visibility package` 只能處理 version-side visible surface，不得自動擴張到 workflow-side active registry。
+3. bridge visibility proof 只可作為 local / page-visible evidence，不得冒充 Step2 remote executable evidence。
+
 ## 4. Strict Discipline（全部 MUST）
 1. **Step1/Step2 邊界隔離**：Step1 只允許治理資產，禁止修改 runtime domain code。
 2. **No-Glob**：所有 deliverables/evidence 路徑禁止 `*`、`**`，必須具體檔名。
@@ -206,6 +211,13 @@ Global MCP Validation（Step4 MUST）：
 2. `/ops-registry?tab=workflows`
 3. `/ops-version/<version>`
 
+UI Validation Evidence Policy（Reduced-Form MUST）：
+1. Step4 若產出 UI validation evidence，必須明示：
+   - `primary_tool`
+   - `fallback_tool`
+   - `exception_reason`（若使用 fallback）
+2. UI validation tool naming 只作 evidence metadata，不自動升格為 workflow-law 主權判斷。
+
 Step4 Checklist Tiering（MUST）：
 1. Step4 checklist item 必須分級為：
    - `ALWAYS_ON_MUST`
@@ -217,6 +229,20 @@ Single Review Artifact Rule（MUST）：
 1. 每次 4-step closeout 完成後，只允許一份 post-closeout review artifact。
 2. 該 artifact 必須同時承載 lesson learned、follow-up decision、與必要 appendix。
 3. 不得再拆出 decision note / wording draft / mutation patch draft / completion note 的中間文件鏈充當 current preferred process。
+
+Recurring Issue Register Discipline（Reduced-Form MUST）：
+1. recurring issue 不得只留在 review note；若屬重複性 failure / drift / checklist degradation，必須進入正式 register。
+2. register mutation 至少必須包含：
+   - `entry_id`
+   - `pattern_summary`
+   - `affected_area`
+   - `recommended_promotion_target`
+   - `status`
+3. `ABSORBED` 不得只表示「已知悉」；至少必須已有 1 個正式 guard 落地於 guide / schema / validator / checklist 之一。
+
+Post-Closeout Interpretation Boundary（Reduced-Form MUST）：
+1. post-closeout interpretation artifact 只能限制外推邊界，不得自動授權新 runtime family、new version line、或新治理主權層。
+2. interpretation artifact 可作為 review / planning 邊界參考，但不得單獨取代正式 plan / audit / schema / validator 規則。
 
 #### Step 4 Exit Checklist
 ```yaml
