@@ -1,0 +1,70 @@
+{
+  "version": "v2.1.41",
+  "asset_group": "cli-help-and-truthful-support-surface-upgrade",
+  "generated_at_taipei": "2026-04-05T10:58:00+08:00",
+  "assets": [
+    {
+      "asset_id": "contract.cli-help-and-truthful-support-surface.v0.1",
+      "asset_type": "contract_schema",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/cli-help-and-truthful-support-surface.v0.1.schema.json"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:6419f472f62880935e2eb98672d48fa66591da9e1c42a281168e4d724bd57d8a"
+    },
+    {
+      "asset_id": "fixtures.cli-help-and-truthful-support-surface.v0.1",
+      "asset_type": "contract_fixture_bundle",
+      "source_step": "step1",
+      "source_paths": [
+        "internal/development/contracts/ops/examples/pass/2026-04-05-v2.1.41-cli-help-and-truthful-support-surface-upgrade.pass.json",
+        "internal/development/contracts/ops/examples/fail/2026-04-05-v2.1.41-cli-help-and-truthful-support-surface-upgrade.fail.json"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:7626cd1a9a9a4ac379808930332c8e4e19002067cb5c414a6da04c4c122af08b"
+    },
+    {
+      "asset_id": "runtime.cli-help-and-truthful-support-surface-upgrade.v2.1.41",
+      "asset_type": "runtime_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/aaa/bootstrap_commands.py",
+        "aaa-tools/aaa/package_commands.py",
+        "aaa-tools/aaa/cli.py",
+        "aaa-tools/aaa/init_commands.py",
+        "aaa-tools/tests/test_supported_bootstrap_gate_chain.py",
+        "aaa-tools/tests/test_public_package_cli_entry_surface.py"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tools",
+      "digest": "sha256:578665e00dc5bdaee9590b926ffbb286c021f3954d6e72e2a22c92028ca88c2a"
+    },
+    {
+      "asset_id": "workflow.v2-1-41-cli-help-and-truthful-support-surface-upgrade",
+      "asset_type": "workflow",
+      "source_step": "step2",
+      "source_paths": [
+        "aaa-tools/.github/workflows/v2-1-41-cli-help-and-truthful-support-surface-upgrade.yml"
+      ],
+      "reuse_target": ["AAA core", "AAA inherited projects"],
+      "owner": "aaa-tools",
+      "digest": "sha256:c734b3758477bff9157e300e51080264e328fbf1dbd37bd232cab8b0ee9dd229"
+    },
+    {
+      "asset_id": "evidence.bundle.v2.1.41-cli-help-and-truthful-support-surface-upgrade",
+      "asset_type": "run_evidence_bundle",
+      "source_step": "step2",
+      "source_paths": [
+        "internal/development/reviews/2026-04-05-v2.1.41-cli-help-and-truthful-support-surface-upgrade-run-evidence.md",
+        "internal/development/reviews/2026-04-05-v2.1.41-step2-exit-checklist.md",
+        "internal/development/reviews/2026-04-05-v2.1.41-step4-mcp-evidence.md"
+      ],
+      "reuse_target": ["AAA core"],
+      "owner": "aaa-tpl-docs",
+      "digest": "sha256:553f4cba9fd8e7d0c34f8c4ccd27ede3112e002b31a56c035d8b91693e37f90a"
+    }
+  ]
+}

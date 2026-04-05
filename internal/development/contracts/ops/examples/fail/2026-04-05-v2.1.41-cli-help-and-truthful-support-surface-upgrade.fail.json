@@ -1,0 +1,19 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "cli_help_and_truthful_support_surface",
+  "line_class": "outside_in_follow_up_line",
+  "supported_path_fully_automated": true,
+  "client_authored_artifacts_present": true,
+  "full_execution_readiness_certified": true,
+  "full_orchestration_provided": true,
+  "truth_boundary": "support_truth_not_full_readiness",
+  "artifacts": [
+    {
+      "artifact_id": "plan_json",
+      "artifact_origin": "command_emitted",
+      "artifact_required_for_step": true,
+      "artifact_not_auto_generated_in_v2_1_41": false,
+      "artifact_classification": "canonical_public_artifact"
+    }
+  ]
+}

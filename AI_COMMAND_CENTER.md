@@ -67,6 +67,9 @@ All code, schemas, and documentation must adhere to these laws:
 - public docs 只能暴露這一條 supported path
 - 其他命令組合只能視為 `diagnostic` 或 `internal-only`
 - environment profile 不等於 supported path；`local_sandbox` 已是 supported execution profile，但不是第二條 public path
+- canonical path 中若有 `client-authored` artifact，必須明示其為必要輸入，但不是 AAA command-emitted artifact
+- `client-authored` 不等於 supported path 已 fully automated
+- supported path truth 不等於 full orchestration，也不等於 full execution readiness certification
 
 ---
 

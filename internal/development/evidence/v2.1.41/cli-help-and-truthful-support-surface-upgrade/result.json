@@ -1,0 +1,15 @@
+{
+  "version": "v2.1.41",
+  "step": "step3",
+  "asset": "cli-help-and-truthful-support-surface-upgrade",
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-41-cli-help-and-truthful-support-surface-upgrade.yml#23992806925",
+  "remote_run_url": "https://github.com/ai-asset-architecture/aaa-tools/actions/runs/23992806925",
+  "conclusion": "success",
+  "inputs_digest": "sha256:86788e98d7c1b5355afd1f0e174d570707e239e6",
+  "contract_digest": "sha256:6419f472f62880935e2eb98672d48fa66591da9e1c42a281168e4d724bd57d8a",
+  "fixture_digest": "sha256:7626cd1a9a9a4ac379808930332c8e4e19002067cb5c414a6da04c4c122af08b",
+  "runtime_digest": "sha256:578665e00dc5bdaee9590b926ffbb286c021f3954d6e72e2a22c92028ca88c2a",
+  "workflow_digest": "sha256:c734b3758477bff9157e300e51080264e328fbf1dbd37bd232cab8b0ee9dd229",
+  "evidence_digest": "sha256:553f4cba9fd8e7d0c34f8c4ccd27ede3112e002b31a56c035d8b91693e37f90a",
+  "computed_at_taipei": "2026-04-05T10:58:00+08:00"
+}

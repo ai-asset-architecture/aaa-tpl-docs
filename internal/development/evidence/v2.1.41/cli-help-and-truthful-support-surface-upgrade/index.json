@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.41",
+  "asset": "cli-help-and-truthful-support-surface-upgrade",
+  "files": [
+    "internal/development/evidence/v2.1.41/cli-help-and-truthful-support-surface-upgrade/result.json",
+    "internal/development/evidence/v2.1.41/cli-help-and-truthful-support-surface-upgrade/index.json",
+    "internal/development/evidence/v2.1.41/cli-help-and-truthful-support-surface-upgrade/run-evidence.md",
+    "internal/development/evidence/v2.1.41/cli-help-and-truthful-support-surface-upgrade/asset-manifest.v0.1.json"
+  ],
+  "remote_run_ref": "gh-actions:ai-asset-architecture/aaa-tools@.github/workflows/v2-1-41-cli-help-and-truthful-support-surface-upgrade.yml#23992806925",
+  "computed_at_taipei": "2026-04-05T10:58:00+08:00"
+}
