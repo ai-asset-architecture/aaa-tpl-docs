@@ -1,0 +1,50 @@
+{
+  "asset_id": "v2.1.42-intermediate-bundle-generation-baseline",
+  "asset_type": "contracts_and_runtime",
+  "version": "v2.1.42",
+  "source_step": "step1_and_step2",
+  "owner": "AI-Agent",
+  "reuse_target": ["AAA core", "AAA inherited projects"],
+  "asset_digest": "sha256:9d71e35-aaa-tools-intermediate-bundle-generation-baseline-v2.1.42",
+  "inputs_digest": "sha256:python-3.11.15-aaa-tools@9d71e35",
+  "created_at": "2026-04-06T07:59:00+08:00",
+  "run_ref": "gh-actions:ai-asset-architecture/aaa-tools@v2-1-42-intermediate-bundle-generation-baseline.yml#24013340136",
+  "assets": [
+    {
+      "category": "Contracts",
+      "source_step": "step1",
+      "paths": [
+        "aaa-tpl-docs/internal/development/contracts/ops/intermediate-bundle-generation-baseline.v0.1.schema.json",
+        "aaa-tpl-docs/internal/development/contracts/ops/examples/pass/2026-04-05-v2.1.42-intermediate-bundle-generation-baseline.pass.json",
+        "aaa-tpl-docs/internal/development/contracts/ops/examples/fail/2026-04-05-v2.1.42-intermediate-bundle-generation-baseline.fail.json"
+      ]
+    },
+    {
+      "category": "Workflows/Gates",
+      "source_step": "step2",
+      "paths": [
+        "aaa-tools/.github/workflows/v2-1-42-intermediate-bundle-generation-baseline.yml"
+      ]
+    },
+    {
+      "category": "Evals/Test Assets",
+      "source_step": "step2",
+      "paths": [
+        "aaa-tools/tests/test_intermediate_bundle_generation_baseline.py"
+      ]
+    },
+    {
+      "category": "Templates",
+      "source_step": "step1",
+      "paths": [
+        "aaa-tpl-docs/internal/development/plans/2026-04-05-v2.1.42-intermediate-bundle-generation-baseline-plan.md",
+        "aaa-tpl-docs/internal/development/audits/2026-04-05-v2.1.42-intermediate-bundle-generation-baseline-audit.md",
+        "aaa-tpl-docs/internal/development/reviews/2026-04-05-v2.1.42-intermediate-bundle-generation-baseline-diff-paths.md"
+      ]
+    }
+  ],
+  "gap_declaration": {
+    "closeout_composition_bundle": "client_authored, not automated in v2.1.42 (hybrid only)",
+    "topology_closeout_bundle": "topology_limited, depends on v2.1.44 init orchestration runtime"
+  }
+}

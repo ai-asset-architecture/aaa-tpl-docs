@@ -1,0 +1,24 @@
+{
+  "version": "v2.1.42",
+  "asset_name": "intermediate-bundle-generation-baseline",
+  "step": "step2",
+  "verdict": "PASS",
+  "run_ref": "gh-actions:ai-asset-architecture/aaa-tools@v2-1-42-intermediate-bundle-generation-baseline.yml#24013340136",
+  "computed_at_taipei": "2026-04-06T07:58:00+08:00",
+  "tests_total": 33,
+  "tests_passed": 33,
+  "tests_failed": 0,
+  "smoke_topologies_validated": ["dedicated_repo", "repo_local", "hybrid"],
+  "schema_ref": "intermediate-bundle-generation-baseline.v0.1.schema.json",
+  "runtime_plane_mode": "intermediate_bundle_generation_baseline",
+  "supported_path_fully_automated": false,
+  "full_orchestration_provided": false,
+  "full_execution_readiness_certified": false,
+  "source_paths": [
+    "aaa-tools/aaa/intermediate_bundle_generation_baseline.py",
+    "aaa-tools/aaa/governance_commands.py",
+    "aaa-tools/tests/test_intermediate_bundle_generation_baseline.py",
+    "aaa-tools/.github/workflows/v2-1-42-intermediate-bundle-generation-baseline.yml"
+  ],
+  "evidence_path": "aaa-tpl-docs/internal/development/evidence/v2.1.42/intermediate-bundle-generation-baseline/run-evidence.md"
+}

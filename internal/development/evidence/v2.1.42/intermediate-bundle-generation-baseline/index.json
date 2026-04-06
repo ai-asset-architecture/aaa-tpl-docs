@@ -1,0 +1,12 @@
+{
+  "version": "v2.1.42",
+  "asset_name": "intermediate-bundle-generation-baseline",
+  "index_generated_at": "2026-04-06T07:59:00+08:00",
+  "evidence_files": [
+    "run-evidence.md",
+    "result.json",
+    "asset-manifest.v0.1.json"
+  ],
+  "run_ref": "gh-actions:ai-asset-architecture/aaa-tools@v2-1-42-intermediate-bundle-generation-baseline.yml#24013340136",
+  "verdict": "PASS"
+}
