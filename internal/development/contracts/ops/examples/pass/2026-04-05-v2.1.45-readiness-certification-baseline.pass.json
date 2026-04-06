@@ -1,0 +1,9 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "readiness_certification_baseline",
+  "validity_gate": "valid",
+  "public_readiness_verdict": "ready_with_gap",
+  "blocker_count": 0,
+  "gap_count": 2,
+  "evidence_requirement_level": "orchestration_trace"
+}

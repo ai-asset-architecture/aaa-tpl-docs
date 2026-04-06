@@ -1,0 +1,23 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "init_orchestration_runtime_baseline",
+  "readiness_certification_included": false,
+  "steps": [
+    {
+      "step_id": "select",
+      "depends_on": [],
+      "preconditions": ["package_request_present"],
+      "postconditions": ["package_selection_emitted"],
+      "retry_semantics": "retryable",
+      "downgrade_semantics": "none"
+    },
+    {
+      "step_id": "bundle_generation",
+      "depends_on": ["select", "resolve", "validate_plan"],
+      "preconditions": ["validated_plan_present"],
+      "postconditions": ["intermediate_bundle_emitted"],
+      "retry_semantics": "conditional_retry",
+      "downgrade_semantics": "support_only"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "init_orchestration_runtime_baseline",
+  "readiness_certification_included": true,
+  "steps": [
+    {
+      "step_id": "status",
+      "depends_on": [],
+      "preconditions": [],
+      "postconditions": ["execution_ready_certified"],
+      "retry_semantics": "retryable",
+      "downgrade_semantics": "none"
+    }
+  ]
+}

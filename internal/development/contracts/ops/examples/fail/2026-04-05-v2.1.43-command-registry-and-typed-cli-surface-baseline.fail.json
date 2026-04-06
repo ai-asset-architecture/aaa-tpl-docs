@@ -1,0 +1,19 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "command_registry_and_typed_cli_surface_baseline",
+  "registry_model": "registry_driven_cli_substrate",
+  "framework_retained": "node_commander",
+  "commands": [
+    {
+      "name": "init orchestrate",
+      "description": "Interactive shell",
+      "aliases": [],
+      "availability": "public",
+      "is_enabled": true,
+      "is_hidden": false,
+      "output_modes": ["human"],
+      "truth_boundary": "interactive_shell_runtime",
+      "automation_level": "full_runtime"
+    }
+  ]
+}

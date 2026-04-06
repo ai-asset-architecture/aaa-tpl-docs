@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Init Orchestration Runtime Baseline v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "readiness_certification_included",
+    "steps"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "init_orchestration_runtime_baseline" },
+    "readiness_certification_included": { "type": "boolean", "const": false },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "step_id",
+          "depends_on",
+          "preconditions",
+          "postconditions",
+          "retry_semantics",
+          "downgrade_semantics"
+        ],
+        "properties": {
+          "step_id": { "type": "string", "minLength": 1 },
+          "depends_on": { "type": "array", "items": { "type": "string" } },
+          "preconditions": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "postconditions": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "retry_semantics": { "type": "string", "enum": ["retryable", "non_retryable", "conditional_retry"] },
+          "downgrade_semantics": { "type": "string", "enum": ["none", "support_only", "stop_execution"] }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "command_registry_and_typed_cli_surface_baseline",
+  "registry_model": "registry_driven_cli_substrate",
+  "framework_retained": "python_typer",
+  "commands": [
+    {
+      "name": "package status",
+      "description": "Report topology-aware package status truth",
+      "aliases": [],
+      "availability": "public",
+      "is_enabled": true,
+      "is_hidden": false,
+      "output_modes": ["human", "json"],
+      "truth_boundary": "support_truth_not_full_readiness",
+      "automation_level": "partial_runtime"
+    }
+  ]
+}

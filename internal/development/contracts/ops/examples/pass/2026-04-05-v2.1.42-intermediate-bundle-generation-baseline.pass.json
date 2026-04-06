@@ -1,0 +1,30 @@
+{
+  "version": "v0.1",
+  "runtime_plane_mode": "intermediate_bundle_generation_baseline",
+  "line_class": "canonical_path_generation_line",
+  "supported_path_fully_automated": false,
+  "full_orchestration_provided": false,
+  "full_execution_readiness_certified": false,
+  "artifacts": [
+    {
+      "artifact_id": "prerequisite_bundle",
+      "artifact_role": "prerequisite_gate_input",
+      "artifact_origin": "command_emitted",
+      "artifact_required_for_step": true,
+      "artifact_not_auto_generated_in_v2_1_42": false,
+      "generation_status": "automated_in_v2_1_42",
+      "topology_constraints": ["dedicated_repo", "repo_local", "hybrid"],
+      "profile_constraints": ["default", "local_sandbox"]
+    },
+    {
+      "artifact_id": "closeout_composition_bundle",
+      "artifact_role": "closeout_input",
+      "artifact_origin": "client_authored",
+      "artifact_required_for_step": true,
+      "artifact_not_auto_generated_in_v2_1_42": true,
+      "generation_status": "manual_pending",
+      "topology_constraints": ["hybrid"],
+      "profile_constraints": ["default"]
+    }
+  ]
+}

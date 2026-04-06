@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Readiness Certification Baseline v0.1",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime_plane_mode",
+    "validity_gate",
+    "public_readiness_verdict"
+  ],
+  "properties": {
+    "version": { "type": "string", "const": "v0.1" },
+    "runtime_plane_mode": { "type": "string", "const": "readiness_certification_baseline" },
+    "validity_gate": { "type": "string", "enum": ["valid", "invalid"] },
+    "public_readiness_verdict": {
+      "type": "string",
+      "enum": ["support_ready", "orchestration_ready", "execution_ready", "ready_with_gap", "not_ready"]
+    },
+    "blocker_count": { "type": "integer", "minimum": 0 },
+    "gap_count": { "type": "integer", "minimum": 0 },
+    "evidence_requirement_level": {
+      "type": "string",
+      "enum": ["support_surface", "orchestration_trace", "execution_evidence"]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "validity_gate": { "const": "invalid" }
+        }
+      },
+      "then": {
+        "not": {
+          "properties": {
+            "public_readiness_verdict": { "const": "execution_ready" }
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}
