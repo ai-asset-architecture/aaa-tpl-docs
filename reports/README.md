@@ -94,6 +94,7 @@
 - audits/nightly_governance_20260410_1050.md | Nightly Governance Report (20260410_1050 Asia/Taipei)
 - audits/nightly_governance_20260411_1034.md | Nightly Governance Report (20260411_1034 Asia/Taipei)
 - audits/nightly_governance_20260412_1053.md | Nightly Governance Report (20260412_1053 Asia/Taipei)
+- audits/nightly_governance_20260413_1058.md | Nightly Governance Report (20260413_1058 Asia/Taipei)
 - cli/cli_background_validation_report_20260119_1449.md | CLI 背景與使用說明 驗證報告 (20260119_1449)
 - cli/cli_status_report_20260119_1545.md | AAA CLI Status Report (v0.1)
 - github_audit_report_20260121_1746.md | GitHub AAA v0.1 Audit Report
@@ -198,6 +199,7 @@
 - github_audit_report_20260410_0250.md | GitHub AAA v0.1 Audit Report
 - github_audit_report_20260411_0234.md | GitHub AAA v0.1 Audit Report
 - github_audit_report_20260412_0253.md | GitHub AAA v0.1 Audit Report
+- github_audit_report_20260413_0258.md | GitHub AAA v0.1 Audit Report
 - milestones/MOVED.md | MOVED
 - roadmap/aaa_v1.0_gap_report_external_20260124.md | AAA v1.0 Gap Report (External, 2026-01-24)
 - roadmap/aaa_v1.0_gap_report_internal_20260124.md | AAA v1.0 Gap Report (Internal, 2026-01-24)
