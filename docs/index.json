@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T03:41:44Z",
+  "generated_at": "2026-05-15T03:46:24Z",
   "source_dir": "aaa-tpl-docs/docs",
   "hash_algo": "sha256",
   "files": [
@@ -7,14 +7,14 @@
       "path": "contracts/ops/progress-findings-log-convention.v0.1.md",
       "title": "Progress / Findings Log Convention v0.1",
       "hash": "dd08841865a017619c7b6fe73d30ab8386dd8c069068a9fd57b91d11515dbe29",
-      "last_modified": "2026-05-14",
+      "last_modified": "2026-05-15",
       "metadata": {}
     },
     {
       "path": "runbooks/nightly_debug_runbook.md",
       "title": "Nightly Debug Runbook",
       "hash": "68a831ffe46fd1e3a6c8706f6ed9be61cc267b1067d83fce290652bb6a3379c8",
-      "last_modified": "2026-05-14",
+      "last_modified": "2026-05-15",
       "metadata": {}
     }
   ]
