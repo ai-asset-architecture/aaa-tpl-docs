@@ -1,0 +1,457 @@
+{
+  "generated_at": "20260816_0926",
+  "org": "ai-asset-architecture",
+  "repo_count": 12,
+  "compliance_rate": 0.0,
+  "repos": [
+    {
+      "name": "aaa-tools",
+      "repo_type": "tooling",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "fail",
+          "message": [
+            "## Purpose / Scope",
+            "## Ownership / CODEOWNERS",
+            "## Versioning / Release",
+            "## How to Consume / Use",
+            "## Contribution / Promotion Rules"
+          ]
+        },
+        {
+          "id": "workflow",
+          "status": "fail",
+          "message": [
+            ".github/workflows/v2-1-12-tool-progress-and-runtime-event-stream.yml",
+            ".github/workflows/v2-1-32-topology-aware-offering-package-definition-resolution.yml",
+            ".github/workflows/v2-1-1-tool-command-adoption.yml",
+            ".github/workflows/v2-1-18-skill-and-plugin-extension-runtime.yml",
+            ".github/workflows/v2-1-7-shared-command-dispatch.yml",
+            ".github/workflows/v2-1-33-topology-aware-prerequisite-gate.yml",
+            ".github/workflows/v2-1-14-runtime-budget-retry-and-recovery-control.yml",
+            ".github/workflows/v2-1-3-context-runtime-preflight.yml",
+            ".github/workflows/v2-1-8-result-evidence-promotion-gate.yml",
+            ".github/workflows/v2-1-34-topology-aware-materialization-and-bootstrap-mapping.yml",
+            ".github/workflows/v2-1-28-package-machine-interface-read-boundary.yml",
+            ".github/workflows/v2-1-25-offering-package-prerequisite-gate.yml",
+            ".github/workflows/v2-1-15-structured-output-and-result-normalization-plane.yml",
+            ".github/workflows/v2-1-19-runtime-composition-root-and-system-assembly.yml",
+            ".github/workflows/v2-1-39-local-sandbox-bootstrap-profile.yml",
+            ".github/workflows/v2-1-31-topology-aware-init-plan-validation.yml",
+            ".github/workflows/v2-1-24-offering-package-definition-resolution.yml",
+            ".github/workflows/v2-1-35-topology-aware-package-status-and-repo-checks.yml",
+            ".github/workflows/v2-1-13-session-persistence-and-transcript-compaction.yml",
+            ".github/workflows/v2-1-16-workflow-and-runbook-orchestration-runtime.yml",
+            ".github/workflows/v2-1-17-agent-delegation-and-task-lifecycle-runtime.yml",
+            ".github/workflows/v2-1-38-supported-bootstrap-gate-chain.yml",
+            ".github/workflows/v2-1-41-cli-help-and-truthful-support-surface-upgrade.yml",
+            ".github/workflows/v2-1-42-intermediate-bundle-generation-baseline.yml",
+            ".github/workflows/v2-1-2-multi-repo-worktree-identity.yml",
+            ".github/workflows/v2-1-23-offering-package-selection-runtime-baseline.yml",
+            ".github/workflows/v2-1-37-public-package-cli-entry-surface.yml",
+            ".github/workflows/v2-1-9-session-context-snapshot.yml",
+            ".github/workflows/v2-1-10-query-orchestration-runtime.yml",
+            ".github/workflows/v2-1-5-runtime-adoption-baseline.yml",
+            ".github/workflows/v2-1-11-permission-and-authorization-runtime-gate.yml",
+            ".github/workflows/v2-1-30-github-governance-topology-contract-baseline.yml",
+            ".github/workflows/v2-1-40-outside-in-validation-and-evidence-promotion-baseline.yml",
+            ".github/workflows/v2-1-27-offering-package-status-and-evidence-runtime.yml",
+            ".github/workflows/v2-1-29-offering-package-composition-and-closeout.yml",
+            ".github/workflows/v2-1-26-offering-package-materialization-and-bootstrap-mapping.yml",
+            ".github/workflows/v2-1-36-github-governance-topology-composition-and-closeout.yml",
+            ".github/workflows/v2-1-4-session-readiness-state.yml"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-actions",
+      "repo_type": "actions",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "skip aaa-actions self-check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-evals",
+      "repo_type": "evals",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-policies",
+      "repo_type": "policies",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-observability",
+      "repo_type": "observability",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": ".github",
+      "repo_type": "governance",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "ai-asset-architecture-registry",
+      "repo_type": "registry",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-prompts",
+      "repo_type": "prompts",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": [
+            "no workflows to check"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-docs",
+      "repo_type": "docs",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-tpl-docs",
+      "repo_type": "templates",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "fail",
+          "message": [
+            ".github/workflows/v2-1-0-guide-parity-gate.yml"
+          ]
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-tpl-service",
+      "repo_type": "service",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    },
+    {
+      "name": "aaa-tpl-frontend",
+      "repo_type": "frontend",
+      "archived": false,
+      "checks": [
+        {
+          "id": "readme",
+          "status": "fail",
+          "message": [
+            "## Purpose / Scope",
+            "## Ownership / CODEOWNERS",
+            "## Versioning / Release",
+            "## How to Consume / Use",
+            "## Contribution / Promotion Rules"
+          ]
+        },
+        {
+          "id": "workflow",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "repo_type_consistency",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "checks_manifest_alignment",
+          "status": "pass",
+          "message": []
+        },
+        {
+          "id": "orphaned_assets",
+          "status": "pass",
+          "message": []
+        }
+      ]
+    }
+  ]
+}
