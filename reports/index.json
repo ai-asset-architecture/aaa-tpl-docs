@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:24:34Z",
+  "generated_at": "2026-08-18T01:21:36Z",
   "source_dir": "aaa-tpl-docs/reports",
   "hash_algo": "sha256",
   "files": [
@@ -7,3262 +7,3276 @@
       "path": "audits/MOVED.md",
       "title": "MOVED",
       "hash": "90565995f260b72a2b0f1706d0c56089dae56e170d443d343d1c656c4c7a0016",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260124_1646.md",
       "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (${REPORT_TS})",
       "hash": "350a364505358341fbeb4fded8d9d3e563090408d9482c0576fe44bb609696c5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260127_1843.md",
       "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (${REPORT_TS})",
       "hash": "350a364505358341fbeb4fded8d9d3e563090408d9482c0576fe44bb609696c5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260128_0202.md",
       "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (${REPORT_TS})",
       "hash": "350a364505358341fbeb4fded8d9d3e563090408d9482c0576fe44bb609696c5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260128_1604.md",
       "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (${REPORT_TS})",
       "hash": "350a364505358341fbeb4fded8d9d3e563090408d9482c0576fe44bb609696c5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260129_1822.md",
       "title": "Governance Compliance Dashboard / \u6cbb\u7406\u5408\u898f\u5100\u8868\u677f (${REPORT_TS})",
       "hash": "0e084bbef21fc2e42a4487d82c1fecc492a42e7a2e6e91f6df580c3dded8dbd4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260129_1838.md",
       "title": "Nightly Governance Report (20260129_1838 UTC)",
       "hash": "27e7b9f5dfcfbba3bb75c97d0a1d4df7271031d6ab3fa68fc462eb97c1c5f737",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260129_1900.md",
       "title": "Nightly Governance Report (20260129_1900 UTC)",
       "hash": "bc6b483c377e68e80ede7bb13c30eaa0c039025e4bce430c584b88709438d34c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260129_1906.md",
       "title": "Nightly Governance Report (20260129_1906 UTC)",
       "hash": "75f01be764ca049a0bcc88d76c5b2fcb7b3cd6e61b4f67c76f958a6f2cc7d291",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260129_1912.md",
       "title": "Nightly Governance Report (20260129_1912 UTC)",
       "hash": "c41fccfcaa66c265e572f4846b2fa4b984e596789080ee58346f85037375b79c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260130_0224.md",
       "title": "Nightly Governance Report (20260130_0224 UTC)",
       "hash": "b45b776ed476a629ea020835261ada640e086c0198f48abddde2e6752a8c9f1f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260130_1153.md",
       "title": "Nightly Governance Report (20260130_1153 UTC)",
       "hash": "1d7b21ea6928c2af7577b5b3b7a92777de3f69bf8546d82d654188a7ae02a668",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260130_1744.md",
       "title": "Nightly Governance Report (20260130_1744 UTC)",
       "hash": "bbe3ac8cfcec0f8251d99eee53d454309d55e3010045ac6dd6562b0d2e4533f4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260130_1929.md",
       "title": "Nightly Governance Report (20260130_1929 UTC)",
       "hash": "295e3adb0c71b8f0c3fa2a41c721dd04d7b66d8daf85efd2c2ba56de6b46af59",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260130_1937.md",
       "title": "Nightly Governance Report (20260130_1937 UTC)",
       "hash": "878293bce4e23a1e36a929abefde4c4d57669aef6ddec8dd92ada560b99d6a2d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260130_1946.md",
       "title": "Nightly Governance Report (20260130_1946 UTC)",
       "hash": "4a42648b5e8f6f2056124b81300758d8ea2376313b0156ab58eb10ff3a32332f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260131_0404.md",
       "title": "Nightly Governance Report (20260131_0404 Asia/Taipei)",
       "hash": "bed523003e42e754f6af3ec872c7c8b27cb0da09a3226e9970f0db39a2420fc3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260131_0500.md",
       "title": "Nightly Governance Report (20260131_0500 Asia/Taipei)",
       "hash": "2a63b1922dd90a800e3b18ca7584bbe4015921ba660e7f6bd5ff40f6173adbe2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260131_0505.md",
       "title": "Nightly Governance Report (20260131_0505 Asia/Taipei)",
       "hash": "c746d296299658aa667c2f154087a8059b837a07ab56406f07d623be2552cd46",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260131_0507.md",
       "title": "nightly_governance_20260131_0507",
       "hash": "0a811ff30a0e719a8a69db0fe7ece23ef5d94308431b4c32bd5c0f11c55948e5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260131_0518.md",
       "title": "Nightly Governance Report (20260131_0518 Asia/Taipei)",
       "hash": "0124d3afbb2b3c6ec2d6c9db13dc37a873ac458efa04adc956c63ea8f43bda4e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260131_1013.md",
       "title": "Nightly Governance Report (20260131_1013 Asia/Taipei)",
       "hash": "3bb1ae09287d30a2df908fcfce94f9387f4f71cfcc1ae04147a7caa1814a6aef",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260201_0531.md",
       "title": "Nightly Governance Report (20260201_0531 Asia/Taipei)",
       "hash": "99fbd6dcff5a870804adefed08600a60ece89c5a0d6a846bc4edb1adbffe9ac9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260201_1043.md",
       "title": "Nightly Governance Report (20260201_1043 Asia/Taipei)",
       "hash": "7e34b708d171900d88fd3edfc1aaa901933428194e2a8a652010657564f83632",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260202_1033.md",
       "title": "Nightly Governance Report (20260202_1033 Asia/Taipei)",
       "hash": "7d5b197b415fd206454460bb9b165cc44ad5fdcd8562fe739035e460563999bc",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260203_1030.md",
       "title": "Nightly Governance Report (20260203_1030 Asia/Taipei)",
       "hash": "45f326854214c106c2f6f84bb85e3bf80df0cfd3a8c6c933614882873d6f0512",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260204_1025.md",
       "title": "Nightly Governance Report (20260204_1025 Asia/Taipei)",
       "hash": "9e1670fa65188cf1b67fbadf3c17cb75c13004a5aace9bccb5c1e90e6e8caa6c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260205_1026.md",
       "title": "Nightly Governance Report (20260205_1026 Asia/Taipei)",
       "hash": "213f074864b2a45c1ffb2bc885a2bd29191fab62de24bf89bc1f647da0fb2940",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260206_1027.md",
       "title": "Nightly Governance Report (20260206_1027 Asia/Taipei)",
       "hash": "192da4f7a172cfe24cd768cbdf6c1b331ec7b1b11ae1d16ac26f62d95b81ec42",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260207_1022.md",
       "title": "Nightly Governance Report (20260207_1022 Asia/Taipei)",
       "hash": "e9459f63a6568438750f1e30660d14ceff2eac07b3fa1078be34b0f5018a5023",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260208_1049.md",
       "title": "Nightly Governance Report (20260208_1049 Asia/Taipei)",
       "hash": "a3a4eba5e771f092200b0298f5e6d36fc606caf1a0fc0b430fc6af55be6fdec3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260209_1034.md",
       "title": "Nightly Governance Report (20260209_1034 Asia/Taipei)",
       "hash": "4e6557c951445784f566084ebb142e6b7c142a8db5ec0cec76f52cf84ca768a4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260210_1042.md",
       "title": "Nightly Governance Report (20260210_1042 Asia/Taipei)",
       "hash": "c06e108845af10237aed7fb24495048bf8ce12a3c04f457963ef301da71ceade",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260211_1040.md",
       "title": "Nightly Governance Report (20260211_1040 Asia/Taipei)",
       "hash": "9e1c0cb463c8cb679406ed7e1d5ded9e203a4769101bc4cad5ebbd1943387732",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260212_1034.md",
       "title": "Nightly Governance Report (20260212_1034 Asia/Taipei)",
       "hash": "419b2f1ec2841b945946d9022d1ec615460c291ef857eec7183af08203418aa7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260213_1035.md",
       "title": "Nightly Governance Report (20260213_1035 Asia/Taipei)",
       "hash": "093f9395a55ade1fc078292048f3d1b94cad8d16e61dcebc60d8d21edacf4623",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260214_1024.md",
       "title": "Nightly Governance Report (20260214_1024 Asia/Taipei)",
       "hash": "825e2c4b5075276f8a6aa0bc78ee7a26eaa2177ea037c592b156aa49ad447fdf",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260215_1036.md",
       "title": "Nightly Governance Report (20260215_1036 Asia/Taipei)",
       "hash": "84dac1080527a901eee5e2d8d7e5c9b3b745279c337e4ead8a676bf5a3061bb1",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260216_1032.md",
       "title": "Nightly Governance Report (20260216_1032 Asia/Taipei)",
       "hash": "b58ad3b43c498764c5a135b35cb6cd0bdc71505a67c0c7a77cc1eb8df2a25085",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260217_1029.md",
       "title": "Nightly Governance Report (20260217_1029 Asia/Taipei)",
       "hash": "fd80ee4ea7ebdbbe6d6868f1c017a3a7e681cbf015fcb85a770109673ffb07f7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260218_1032.md",
       "title": "Nightly Governance Report (20260218_1032 Asia/Taipei)",
       "hash": "228607cb1ab41ea1f9d1d477557c0e2a2962bc7cab3840aa6dabcde50e4362dc",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260219_1031.md",
       "title": "Nightly Governance Report (20260219_1031 Asia/Taipei)",
       "hash": "8a96ac57d99f38a3fa30be7ef5b4993a60975c519353944a13cdee141aeb0d5f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260220_1027.md",
       "title": "Nightly Governance Report (20260220_1027 Asia/Taipei)",
       "hash": "308612036d0273ae3ce24c2139719de2fadd5f943169f384e8187223824abd7c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260221_1021.md",
       "title": "Nightly Governance Report (20260221_1021 Asia/Taipei)",
       "hash": "413bf3e91f61789f15103420c018bc06be51b8a9ba7f7980a20ff722e90f2563",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260222_1032.md",
       "title": "Nightly Governance Report (20260222_1032 Asia/Taipei)",
       "hash": "f2a0e7f464044ff5e6682d79adcb8f21c995a8f78a70b4a80489a7e2e283a5fd",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260223_1032.md",
       "title": "Nightly Governance Report (20260223_1032 Asia/Taipei)",
       "hash": "14f05c79aac61122b58ec0da0d4653d2144cc725abafd234b331c49644c5533c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260224_1028.md",
       "title": "Nightly Governance Report (20260224_1028 Asia/Taipei)",
       "hash": "e2af3680df7d419d99ab90859da8305133617e14dfcc855dc5dfc7535c0dfb06",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260225_1030.md",
       "title": "Nightly Governance Report (20260225_1030 Asia/Taipei)",
       "hash": "1f152194d2df14d49ae41784ff83cb77868b9c18b67982a62f26f687d1e74e91",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260226_1026.md",
       "title": "Nightly Governance Report (20260226_1026 Asia/Taipei)",
       "hash": "f4b1cd56933f13fcf99c15dccaab573c46e80294fba2971fefedfc9161234ceb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260227_1025.md",
       "title": "Nightly Governance Report (20260227_1025 Asia/Taipei)",
       "hash": "6751267972639b4f6a890a1f94d4476a12c37444f6114076a377cb8ebb28d256",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260228_1008.md",
       "title": "Nightly Governance Report (20260228_1008 Asia/Taipei)",
       "hash": "58d7f23dff9aed98e99ff497298aea74eb73575a5fc8d8f1f4361f136f9d11fa",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260301_1038.md",
       "title": "Nightly Governance Report (20260301_1038 Asia/Taipei)",
       "hash": "0af86921bac126e44899606916f0bc43dee3abcff8bd27b67b878f75b30dbddf",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260302_1027.md",
       "title": "Nightly Governance Report (20260302_1027 Asia/Taipei)",
       "hash": "51826c748e6deb43d578a53d406282c2c1c0948e05c52e652d50d9ced7c916e2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260303_1030.md",
       "title": "Nightly Governance Report (20260303_1030 Asia/Taipei)",
       "hash": "3d75b8cf570270a58cb74f8e320f33d58bf034c51228bdc3da18da13428d2d8f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260304_1023.md",
       "title": "Nightly Governance Report (20260304_1023 Asia/Taipei)",
       "hash": "c236c2c8f40a3f353acced5cb2cd8418c0dd4f4318a5c9b502250625370804f3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260305_1026.md",
       "title": "Nightly Governance Report (20260305_1026 Asia/Taipei)",
       "hash": "ede475dac97373bc269a884d9f0222a2e3df689fcc9dc80007058572ccc9b248",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260306_1024.md",
       "title": "Nightly Governance Report (20260306_1024 Asia/Taipei)",
       "hash": "4181dcdb3430d780e41726210ceb206370fa9407bdf415a1126e07b9b86ab234",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260307_1011.md",
       "title": "Nightly Governance Report (20260307_1011 Asia/Taipei)",
       "hash": "97d468ffc5dab49d55cd00a6aba1616ecd3a3b250ccef2c3aa0e5063b91f137c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260308_1029.md",
       "title": "Nightly Governance Report (20260308_1029 Asia/Taipei)",
       "hash": "1fda36aac940fc16cc082da752a4c733c5be5deca1b17fa21598913d7cb1c1fc",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260309_1030.md",
       "title": "Nightly Governance Report (20260309_1030 Asia/Taipei)",
       "hash": "560f08c8649db627722af029329f9d53cb08e191a77f3d42f9e58076b28c1680",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260310_1023.md",
       "title": "Nightly Governance Report (20260310_1023 Asia/Taipei)",
       "hash": "b50b98934be0debbf3d079efcc78a12f1dbb39e7c5aa15c406029a3f7cbe0b0e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260311_1022.md",
       "title": "Nightly Governance Report (20260311_1022 Asia/Taipei)",
       "hash": "7b8fe03021283cb7c99aca78885af44cbf905860541c0230d5008b8f0418c80f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260312_1028.md",
       "title": "Nightly Governance Report (20260312_1028 Asia/Taipei)",
       "hash": "9b3e678c20d6d26fe54cc3e825cce18a6580dcd7da71f84c66a818784edbd80f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260313_1026.md",
       "title": "Nightly Governance Report (20260313_1026 Asia/Taipei)",
       "hash": "bb17bf3e6af382148efd5378f525b5a40530f1e3f3cca2490b6b9adb5b208f76",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260314_1024.md",
       "title": "Nightly Governance Report (20260314_1024 Asia/Taipei)",
       "hash": "fc9c3574aa01acaae608bcc127d1364c829a1a73f400de887da23bf25aa9f548",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260315_1043.md",
       "title": "Nightly Governance Report (20260315_1043 Asia/Taipei)",
       "hash": "d9b1825b97331c3c0112a2609caa06c81acd15954229482a778d30eb050871d3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260316_1044.md",
       "title": "Nightly Governance Report (20260316_1044 Asia/Taipei)",
       "hash": "45d8f3d712f074e42b8b100f31169e42ceb785473c53a36978cb5a5d8614e99d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260317_1028.md",
       "title": "Nightly Governance Report (20260317_1028 Asia/Taipei)",
       "hash": "81e9c97ed4b39c628f3970c77a3acaff40e800599185a169bb91e2aee0c82bfe",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260318_1033.md",
       "title": "Nightly Governance Report (20260318_1033 Asia/Taipei)",
       "hash": "651287c1aa4c3b2151c95f69e533b108f7799b1e0bb5974e4219aecc499bd247",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260319_1034.md",
       "title": "Nightly Governance Report (20260319_1034 Asia/Taipei)",
       "hash": "2f2a7a172afc3b408d0734e69901f2796e9aa5e59df7987e61c6fce1263a480d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260320_1026.md",
       "title": "Nightly Governance Report (20260320_1026 Asia/Taipei)",
       "hash": "c6b2aab2992205ef98877a2d54c86f9be04cf29d2ebfa9922e7fea1931f13105",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260321_1021.md",
       "title": "Nightly Governance Report (20260321_1021 Asia/Taipei)",
       "hash": "c82b8898a26e8814f19ad716147f288edc5cc11f437421ee667a7f6307b25726",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260322_1035.md",
       "title": "Nightly Governance Report (20260322_1035 Asia/Taipei)",
       "hash": "b3c58d13bc4560c37d17ed956d7a22830ed257b729c95043e66beb78f25f3c4b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260323_1035.md",
       "title": "Nightly Governance Report (20260323_1035 Asia/Taipei)",
       "hash": "dcf559e71d5a4d934c469397418bcc771d82f7dc6230cec48fb31afd0d017f60",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260324_1027.md",
       "title": "Nightly Governance Report (20260324_1027 Asia/Taipei)",
       "hash": "bd1a36c992608edc83ce616d1289efb28771dffa063c3739553480c40dc9ee43",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260325_1032.md",
       "title": "Nightly Governance Report (20260325_1032 Asia/Taipei)",
       "hash": "2c1d3eed187b02357a6e31ef13ed523f50f836ebd2421af1402ac61fd0b3a099",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260326_1039.md",
       "title": "Nightly Governance Report (20260326_1039 Asia/Taipei)",
       "hash": "a4cf53f53e4b0727188e34dd9b5de7fbbc1d7193177d56a3ef3c53d72e72dcfb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260327_1041.md",
       "title": "Nightly Governance Report (20260327_1041 Asia/Taipei)",
       "hash": "6fb55961fc0a9d0fe7943b72201480bc11ab1958a561f0d511d24731454f6e1a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260328_1031.md",
       "title": "Nightly Governance Report (20260328_1031 Asia/Taipei)",
       "hash": "418bdd3e3e6a36241cef5fea184318e3fca5bda377c18ecadbded6aef2492a04",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260329_1045.md",
       "title": "Nightly Governance Report (20260329_1045 Asia/Taipei)",
       "hash": "bac5fdd18e38aac6ce04ed9846ae3cca16f36f50e04f935b21f95d3033696b16",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260330_1048.md",
       "title": "Nightly Governance Report (20260330_1048 Asia/Taipei)",
       "hash": "72d3f25c188bacd7bd3c68d3d8aad8c36030ffca903d6cab536493e780e618d9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260331_1041.md",
       "title": "Nightly Governance Report (20260331_1041 Asia/Taipei)",
       "hash": "4fe0bafe2ddf58ef1d5c63129307280f0e55453a17704ff9adde19f220343556",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260401_1053.md",
       "title": "Nightly Governance Report (20260401_1053 Asia/Taipei)",
       "hash": "e7a15fa35fb91548f08756678be82b33d5e1702fbe12678377281a7d44b26c7b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260402_1037.md",
       "title": "Nightly Governance Report (20260402_1037 Asia/Taipei)",
       "hash": "dc7df89fff1ef403f7e8ed8b5063969f8f86e68a9c04479111fc875071ee3b95",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260403_1039.md",
       "title": "Nightly Governance Report (20260403_1039 Asia/Taipei)",
       "hash": "afddcf06065656466f32c5ec8ff24d299bc0e66ce51a671ce62d6e6ce188cd5c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260404_1030.md",
       "title": "Nightly Governance Report (20260404_1030 Asia/Taipei)",
       "hash": "59737f22b920a92c1752a17f7cedd842c936b8f09f086fa1672dfb72994e5c02",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260405_1048.md",
       "title": "Nightly Governance Report (20260405_1048 Asia/Taipei)",
       "hash": "f2ed1b6b72aac6354d268695557eeee8d15681e1d52f5342851e0c8c9ae083f5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260406_1049.md",
       "title": "Nightly Governance Report (20260406_1049 Asia/Taipei)",
       "hash": "1049ab4bc70b79a3e30273be048e39863eba697ef9e863ce0b6ea82276a28912",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260407_1043.md",
       "title": "Nightly Governance Report (20260407_1043 Asia/Taipei)",
       "hash": "7622373ef644c579cf44e716af27ea29d65f5b575399f20a59071326c87f18c9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260408_1043.md",
       "title": "Nightly Governance Report (20260408_1043 Asia/Taipei)",
       "hash": "adf1a2fb1b585f58c15b0a662b08a24386fbfdf7e335b0b679fd341ee4805753",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260409_1038.md",
       "title": "Nightly Governance Report (20260409_1038 Asia/Taipei)",
       "hash": "cb2b60dac2c6a6667f281c8df3fe5ac5f96c8e7f3763d0e9276fbea6b884cb08",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260410_1050.md",
       "title": "Nightly Governance Report (20260410_1050 Asia/Taipei)",
       "hash": "7d6d8bf63d501d4ab8aba12c68c97b5e505b2da2b6cfa4da78856b17757c314b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260411_1034.md",
       "title": "Nightly Governance Report (20260411_1034 Asia/Taipei)",
       "hash": "4939a40169b099534e16b5078b249b439439ff0c5b5bc159d9009d1c5dc16689",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260412_1053.md",
       "title": "Nightly Governance Report (20260412_1053 Asia/Taipei)",
       "hash": "44f6acd2fdd0b74b1d421c6f2b5391abc7a832240028ddea886b7357ed26c717",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260413_1058.md",
       "title": "Nightly Governance Report (20260413_1058 Asia/Taipei)",
       "hash": "4a540ba411c2b7ac3df9d832cb6a1fe66895065be87e4ba3e65f9a4471af8fb7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260414_1051.md",
       "title": "Nightly Governance Report (20260414_1051 Asia/Taipei)",
       "hash": "dbbf8a6e9317394c4b6d15800b119249375faf7a5e054f5ae70f90cc1bc8a10b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260415_1049.md",
       "title": "Nightly Governance Report (20260415_1049 Asia/Taipei)",
       "hash": "c952e2be1a728a9b1d46d3b662a304494a17d2e7fd79b8f21c973b721272c22a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260416_1056.md",
       "title": "Nightly Governance Report (20260416_1056 Asia/Taipei)",
       "hash": "67b1e214f0b01b59c8bf6a893ca6e7c22d53ab9558a50b76a6fe816f50fb6940",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260417_1051.md",
       "title": "Nightly Governance Report (20260417_1051 Asia/Taipei)",
       "hash": "7164d7daa6c708786aa39ca845ce594b15daa1df26f8882ff3196a073b0da1fa",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260418_1042.md",
       "title": "Nightly Governance Report (20260418_1042 Asia/Taipei)",
       "hash": "fd6c3e55c36755f0ec9a5178fcdeb92d753eea8e61d2740338b4ccb944ba7400",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260419_1117.md",
       "title": "Nightly Governance Report (20260419_1117 Asia/Taipei)",
       "hash": "9269bd58c6f49d42f34be213242f919b1a83661bc3faa8fc0cad8153ac9cc1b9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260420_1119.md",
       "title": "Nightly Governance Report (20260420_1119 Asia/Taipei)",
       "hash": "4a53a6a05d713d5014d467a8e043724a9f65036e2d66a3435ce9f40cb576e1bf",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260421_1052.md",
       "title": "Nightly Governance Report (20260421_1052 Asia/Taipei)",
       "hash": "5a2246f28766188f70582dda96a8531301bba6c8e30d37f2e6eb52b16ff4c710",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260422_1051.md",
       "title": "Nightly Governance Report (20260422_1051 Asia/Taipei)",
       "hash": "1741e560a549e57e62e87bc14ca64696aa496cd2a89edaa87936d78419b00a86",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260423_1054.md",
       "title": "Nightly Governance Report (20260423_1054 Asia/Taipei)",
       "hash": "ffd41c086a7f82d11628b4ebb233c005ccd229563b2301e5a3113f64a3f21a73",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260424_1055.md",
       "title": "Nightly Governance Report (20260424_1055 Asia/Taipei)",
       "hash": "acc1b43cf61908eaa3948b299afb8d21dad02dbe4dffdf84a3baa4ae312023ee",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260425_1044.md",
       "title": "Nightly Governance Report (20260425_1044 Asia/Taipei)",
       "hash": "3d36e456575e487d3289a8cd0ad7ddb9ef166e89cbc86a6ea71e12af32f9c740",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260426_1121.md",
       "title": "Nightly Governance Report (20260426_1121 Asia/Taipei)",
       "hash": "7e6682396def104f1c766b081ca3af2fc84f8db784087614d4ae7fad2ddb9bd3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260427_1126.md",
       "title": "Nightly Governance Report (20260427_1126 Asia/Taipei)",
       "hash": "811be47d1fa0f9972181e104fd5274d49c4d96d1904f52e35b784daa5597acb4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260428_1132.md",
       "title": "Nightly Governance Report (20260428_1132 Asia/Taipei)",
       "hash": "b88b505be12b13779e1973bc69269bf12ab50e87361bb3d442d684fda0b9715e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260429_1130.md",
       "title": "Nightly Governance Report (20260429_1130 Asia/Taipei)",
       "hash": "40adf3b3c1b3931384ea77b7de49fc57fc324aa657bafc38626c929c2f8fd54f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260430_1131.md",
       "title": "Nightly Governance Report (20260430_1131 Asia/Taipei)",
       "hash": "dc021aabb2ba1e38e186de1ebc0e295421feea0a3a52c06b126a994c7391ae69",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260501_1141.md",
       "title": "Nightly Governance Report (20260501_1141 Asia/Taipei)",
       "hash": "9246f1757f13f635e43b275178a59d8f50e4f771fb14acfa0cbc0d24fa39d674",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260502_1057.md",
       "title": "Nightly Governance Report (20260502_1057 Asia/Taipei)",
       "hash": "14572ab44586934d46673f801171c8f07f210dba3797d421b2db395137bfc3e0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260503_1134.md",
       "title": "Nightly Governance Report (20260503_1134 Asia/Taipei)",
       "hash": "beba897cb7c1fa8e37b62b7168872d83854334f827b7ff29779a41a2c8934322",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260504_1133.md",
       "title": "Nightly Governance Report (20260504_1133 Asia/Taipei)",
       "hash": "9637b2cddc472b49c09be6f3734fa37058daf17228ada9951b179d3d52ed2f06",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260505_1119.md",
       "title": "Nightly Governance Report (20260505_1119 Asia/Taipei)",
       "hash": "7bd61e1592db5782dd0dbd419e1166802203377ef04948e3382e8c9484ba6311",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260506_1129.md",
       "title": "Nightly Governance Report (20260506_1129 Asia/Taipei)",
       "hash": "e27e9841bd096b903d0689c150980cab62443aeeffa889c325f9e6fa575b16ae",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260507_1130.md",
       "title": "Nightly Governance Report (20260507_1130 Asia/Taipei)",
       "hash": "3233ae7fab0e08faae4d2c05b0378742e600fe681088ba3f03a4441a02dc8dae",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260508_1126.md",
       "title": "Nightly Governance Report (20260508_1126 Asia/Taipei)",
       "hash": "e8719380c5300b61b46577a19d4ed571c3dd89f864491d8e998000b65b5eebd3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260509_1125.md",
       "title": "Nightly Governance Report (20260509_1125 Asia/Taipei)",
       "hash": "1e4aa3286c9725112ac202e4173ce959f94bf9a9d596736c956dc6830347155f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260510_1136.md",
       "title": "Nightly Governance Report (20260510_1136 Asia/Taipei)",
       "hash": "01141dd128dba2c9b420d0de80f5353d67b244383a415ce7a68c0d40f0f6b49d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260511_1151.md",
       "title": "Nightly Governance Report (20260511_1151 Asia/Taipei)",
       "hash": "1011a9f2c6462548d8c47d3d349959deead5f0a10bf608368dc13ef05b951b1b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260512_1134.md",
       "title": "Nightly Governance Report (20260512_1134 Asia/Taipei)",
       "hash": "6f8cbc28bfaf8c9eb022ee55d4153e2bcbff369a55d543bd4f4a0704d4cf5b03",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260513_1142.md",
       "title": "Nightly Governance Report (20260513_1142 Asia/Taipei)",
       "hash": "5394a697df31b6c1c523163ddf833b4845b4e98b9baa7faea88104fc2e5250a4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260514_1141.md",
       "title": "Nightly Governance Report (20260514_1141 Asia/Taipei)",
       "hash": "45a6d9d8011ee25fbf0783c1ecba7d9858c98d78fa8f38f9ddbb0e1b880dfe3b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260515_1145.md",
       "title": "Nightly Governance Report (20260515_1145 Asia/Taipei)",
       "hash": "b1900ff765432d0c33066262c7d4073c1931f78b54fe18287e7aa0c914222a83",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260516_1129.md",
       "title": "Nightly Governance Report (20260516_1129 Asia/Taipei)",
       "hash": "9393945f02fb62fe59432681fb85f1bd120349f46a0a1a760a7a4ae9a243cc7b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260517_1145.md",
       "title": "Nightly Governance Report (20260517_1145 Asia/Taipei)",
       "hash": "0ccbdf766b657f413bd8e21867296a71ce3cd7b6311cff85a4d8ff1a28cc3bae",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260518_1158.md",
       "title": "Nightly Governance Report (20260518_1158 Asia/Taipei)",
       "hash": "8ce8700f0a2aa49ec860ed37eab174ea99dc9161d6cb385fd44e55822beec970",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260519_1152.md",
       "title": "Nightly Governance Report (20260519_1152 Asia/Taipei)",
       "hash": "58e3a4727c1793b214e8ec972253caf7af8402bebbc66d0e028140e565f8ff10",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260520_1153.md",
       "title": "Nightly Governance Report (20260520_1153 Asia/Taipei)",
       "hash": "083da7e7af0e7460f30d95b62573661a85d1e2676181e1b5bbcd3add695ab9bb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260521_1202.md",
       "title": "Nightly Governance Report (20260521_1202 Asia/Taipei)",
       "hash": "75184ab8dc7f09ccb2487244fc936b2b5ea09d12bf3e5bb42d1ac17351c7d1e9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260522_1157.md",
       "title": "Nightly Governance Report (20260522_1157 Asia/Taipei)",
       "hash": "6e2749f3e5b5ab9fdc700d48fd7952941c7e75e08c962c533883c96deb4827ff",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260523_1134.md",
       "title": "Nightly Governance Report (20260523_1134 Asia/Taipei)",
       "hash": "e7dbf9742a03bb9d2535d901324c4b9737c6ec835120138d64e56834465d90b2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260524_1155.md",
       "title": "Nightly Governance Report (20260524_1155 Asia/Taipei)",
       "hash": "9fb966cd6cae6597a5baf3cec11c777ebb75e09692d583944c96f1fc8f5a4378",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260525_1207.md",
       "title": "Nightly Governance Report (20260525_1207 Asia/Taipei)",
       "hash": "7bb31e560748dcc9bc565e71165daef693f1223c5baba786d0b855226205a8bb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260526_1153.md",
       "title": "Nightly Governance Report (20260526_1153 Asia/Taipei)",
       "hash": "3e9ff8b756c908770b01de4186831117ae6cb85cf60cdac7d9bb94e01f40ebce",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260527_1206.md",
       "title": "Nightly Governance Report (20260527_1206 Asia/Taipei)",
       "hash": "bace632651619856959bb2442a2caac4b7413f96862af643cb30c0793051fc29",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260528_1155.md",
       "title": "Nightly Governance Report (20260528_1155 Asia/Taipei)",
       "hash": "abb8ed9b88362383fc5c11c550cb7736556624790fed98f7ae7d2eed9486fc1d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260529_1156.md",
       "title": "Nightly Governance Report (20260529_1156 Asia/Taipei)",
       "hash": "f7fcaeea3b18fd10654f97a3915829d022fd35b340f9f8021be2074e56ef820f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260530_1141.md",
       "title": "Nightly Governance Report (20260530_1141 Asia/Taipei)",
       "hash": "23c194c7548211a30536fa94717b4bc1f8e974bf609130e24f1ce5deac4428fb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260531_1208.md",
       "title": "Nightly Governance Report (20260531_1208 Asia/Taipei)",
       "hash": "6b4bd515cf1cfd898fc5043733779f432daddac210e25264378ce5d11dd894c7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260601_1222.md",
       "title": "Nightly Governance Report (20260601_1222 Asia/Taipei)",
       "hash": "5bed1aa3fd4cb52845bc53cefac7b2a8e17cf64969e048c0ce6f9f5d9c60d8f2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260602_1216.md",
       "title": "Nightly Governance Report (20260602_1216 Asia/Taipei)",
       "hash": "2f78ae60eae8b38422242966cf2d0d139ffdc667b510f906b5dd84c5dcfcb6e5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260603_1225.md",
       "title": "Nightly Governance Report (20260603_1225 Asia/Taipei)",
       "hash": "eff7abd2d917473fe198f4e6362a3b992cbe2eeae9b9622e00060f26f9d1f589",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260604_1220.md",
       "title": "Nightly Governance Report (20260604_1220 Asia/Taipei)",
       "hash": "c0552986a649e40bc7b1d0a5fe478b64c7317877329f2769adba708de31dc850",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260605_1204.md",
       "title": "Nightly Governance Report (20260605_1204 Asia/Taipei)",
       "hash": "86fe9d9b95a8b0a7aa5e3e57b63ff8531fb1a0482c359418b25d600ec17896a9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260606_1148.md",
       "title": "Nightly Governance Report (20260606_1148 Asia/Taipei)",
       "hash": "54e6405d664cf50b65811d9d5f25cfdcc52e90abd9bf5a73aa3bada7be00cb0c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260607_1214.md",
       "title": "Nightly Governance Report (20260607_1214 Asia/Taipei)",
       "hash": "86a868f95ba01726bd5d1b72427f9435562badcefb93ff0f085b91f5eb3338ef",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260608_1218.md",
       "title": "Nightly Governance Report (20260608_1218 Asia/Taipei)",
       "hash": "25d24b08cad1d7fa8200341bd5d4a9bab7221e360466113228a4bcecd3ec0cc7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260609_1149.md",
       "title": "Nightly Governance Report (20260609_1149 Asia/Taipei)",
       "hash": "c0e7a4461efc42f7725e77b2e508ea1e82fbce5f106944e866aa5dd55113154a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260610_1201.md",
       "title": "Nightly Governance Report (20260610_1201 Asia/Taipei)",
       "hash": "1ef5e5128e17187f21213abc5b83c97eef77e476875445d7752b2483fe6fd16b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260611_1215.md",
       "title": "Nightly Governance Report (20260611_1215 Asia/Taipei)",
       "hash": "58634120e022bfb1b220c26a75f33889039772ef2d7cf0ab5ba8f98a98fe978f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260612_1216.md",
       "title": "Nightly Governance Report (20260612_1216 Asia/Taipei)",
       "hash": "8d57210af4ae5e655e020812d5b636e4793e8137ce7187cb5cfe2517ea06580c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260613_1205.md",
       "title": "Nightly Governance Report (20260613_1205 Asia/Taipei)",
       "hash": "60311730d46bc00964ce3069f4da313bb293ebb7a5d4fa293ba7c4f22a429cf6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260614_1222.md",
       "title": "Nightly Governance Report (20260614_1222 Asia/Taipei)",
       "hash": "689b373fbdeb7f2b52db07e4a911f613398487802684378404699a8fd7e87338",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260615_1246.md",
       "title": "Nightly Governance Report (20260615_1246 Asia/Taipei)",
       "hash": "cd9513d0a80bb2e09a5361ed4218b58c6dd78c9a80d57cc78c9cfb293149f1ac",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260616_1243.md",
       "title": "Nightly Governance Report (20260616_1243 Asia/Taipei)",
       "hash": "0484d9323be8ef347c5932184c0459ec11710464bee40be237d63e20971cb32b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260617_1224.md",
       "title": "Nightly Governance Report (20260617_1224 Asia/Taipei)",
       "hash": "97c8a37a155fa7b12812b955766562f014fd940f1ddd4def491bc8f931df9f44",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260618_1216.md",
       "title": "Nightly Governance Report (20260618_1216 Asia/Taipei)",
       "hash": "82ee5d5e5100136f4d6da0d2f4a5c72cb9f5bda2f9a0e9e4fe2c8b95e0a21e65",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260619_1244.md",
       "title": "Nightly Governance Report (20260619_1244 Asia/Taipei)",
       "hash": "699f489b1ca42b056d505514126df38a90451e3248698bbe1b280e940f846916",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260620_1158.md",
       "title": "Nightly Governance Report (20260620_1158 Asia/Taipei)",
       "hash": "873c085e001197bf21f75659c438f37f9e988ad545cc483d2450138433ef77e4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260621_1240.md",
       "title": "Nightly Governance Report (20260621_1240 Asia/Taipei)",
       "hash": "7f0bffe8548f73cdce78f68542429ffca8c8aeacbdbac516cb80c6ff09bda941",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260622_1245.md",
       "title": "Nightly Governance Report (20260622_1245 Asia/Taipei)",
       "hash": "6fdcbfc6233d7f60b2711cf857128f76d5b04f849f6d4a20a0fdcc2f23c3308d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260623_1151.md",
       "title": "Nightly Governance Report (20260623_1151 Asia/Taipei)",
       "hash": "324ecc13defa3cef5efed0553c312284c70e9fd921eccd3870116a5f239fe13a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260624_1152.md",
       "title": "Nightly Governance Report (20260624_1152 Asia/Taipei)",
       "hash": "1fb858314bef7e8fd806180ef6ca8597d5cf3f003da3b95c35873fab6f7751a2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260625_1153.md",
       "title": "Nightly Governance Report (20260625_1153 Asia/Taipei)",
       "hash": "ee4bceeb596f855ef3045cc3bdaa9f78ec15b20d75f393eff0d4cd1a4e8fee6d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260626_1200.md",
       "title": "Nightly Governance Report (20260626_1200 Asia/Taipei)",
       "hash": "d61f53dbfac53be3ee6334e86d4060ba23f4be8bbb4a6efedd7169506395f3dd",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260627_1142.md",
       "title": "Nightly Governance Report (20260627_1142 Asia/Taipei)",
       "hash": "af3dbc466564cb6c88f0fab8aef196af0a7198d30346c373f7d52e45812cfb90",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260628_1207.md",
       "title": "Nightly Governance Report (20260628_1207 Asia/Taipei)",
       "hash": "3cf1903c29e169d6177a376ef60e76a71deecb26f43d7187e7b0e2df3b312671",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260629_1214.md",
       "title": "Nightly Governance Report (20260629_1214 Asia/Taipei)",
       "hash": "2ca27b87b627d29fff23873fff82f30e4aa64eb8e14e28fd89bfad020f5bfeba",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260630_1155.md",
       "title": "Nightly Governance Report (20260630_1155 Asia/Taipei)",
       "hash": "13ba2bb66efb7cc3b450789825857a3dc7a6e926360a75a515ed5ed6641659f8",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260701_1210.md",
       "title": "Nightly Governance Report (20260701_1210 Asia/Taipei)",
       "hash": "cb885f0a52b4251c38b53f937698b0dd0bab97fee928d343b88efdbe96d53577",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260702_1151.md",
       "title": "Nightly Governance Report (20260702_1151 Asia/Taipei)",
       "hash": "8fa79620816ffa82514aab75f9068732dcb4e19e2077aa4a6049c17bd5e05ba6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260703_1133.md",
       "title": "Nightly Governance Report (20260703_1133 Asia/Taipei)",
       "hash": "ed3f77bf2002e67fc13d457a83b7a73acc3e55b5aac3d17e188ea27681051cb6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260704_1126.md",
       "title": "Nightly Governance Report (20260704_1126 Asia/Taipei)",
       "hash": "92df464fc23e79067e2234cae3ad44f51ba57c69c0f3d3a7d7f80e3cd1f1cba4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260705_1142.md",
       "title": "Nightly Governance Report (20260705_1142 Asia/Taipei)",
       "hash": "03b44755d11c1ccd4283b79697de205f681be12d5c68fd55e93872ca506e6e60",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260706_1151.md",
       "title": "Nightly Governance Report (20260706_1151 Asia/Taipei)",
       "hash": "52e9273c9bbd666675c1401c45d7124acd33d32c9949114da5216800ab221a2c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260707_1140.md",
       "title": "Nightly Governance Report (20260707_1140 Asia/Taipei)",
       "hash": "06593e7517c933b63562be22662ee61f0ef20fc8feb1467635c578aa94b25ee0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260708_1055.md",
       "title": "Nightly Governance Report (20260708_1055 Asia/Taipei)",
       "hash": "f8252eb9ed0958963c0a125f5b7e2a2bdfb43cbc2bf37d3142fc82284f3abb5b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260709_1134.md",
       "title": "Nightly Governance Report (20260709_1134 Asia/Taipei)",
       "hash": "ad3d00d264b041d2f1b53b95615cf3e3074eed57bd0dab80871f363a32086305",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260710_1136.md",
       "title": "Nightly Governance Report (20260710_1136 Asia/Taipei)",
       "hash": "b8eb3c9a32168836d217ec63f3f5438309d9d3cfb05b1135c9f78223a362e179",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260711_1051.md",
       "title": "Nightly Governance Report (20260711_1051 Asia/Taipei)",
       "hash": "7223b096796bcc5d0561d2260848fa53375dfcb38c17f0196b07f33add1ee99f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260712_1115.md",
       "title": "Nightly Governance Report (20260712_1115 Asia/Taipei)",
       "hash": "5dd165288501f9ecd73e24c17c26957d1e879c3c93f5c899fe58bdca42a7df88",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260713_1118.md",
       "title": "Nightly Governance Report (20260713_1118 Asia/Taipei)",
       "hash": "0d00d8507758d7842e4a539ea997ee8b5c778729718382f0e3a4906cd6380737",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260714_1043.md",
       "title": "Nightly Governance Report (20260714_1043 Asia/Taipei)",
       "hash": "24d85ce222b9a3d1842e1c9c6a7a74e583a32885117e68d1d574616a5aaf6c00",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260715_1041.md",
       "title": "Nightly Governance Report (20260715_1041 Asia/Taipei)",
       "hash": "0ab69c80ac07dd2aa3bb7d759eff72c75f93389c9a87e05b69d4e62c7695e2db",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260716_1048.md",
       "title": "Nightly Governance Report (20260716_1048 Asia/Taipei)",
       "hash": "fa0c37a6e21dace64f5965a7b2db7ac243b48ab2409ebb1a924809c73ccde063",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260717_1050.md",
       "title": "Nightly Governance Report (20260717_1050 Asia/Taipei)",
       "hash": "2c693ce2662206904c069dc7ccad4b8c60b8e71a830699abbedeccffaba881f3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260718_1043.md",
       "title": "Nightly Governance Report (20260718_1043 Asia/Taipei)",
       "hash": "ba323be7bac139538696c2b98a9837459f1a8470eaf026fcf978874534f7495f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260719_1057.md",
       "title": "Nightly Governance Report (20260719_1057 Asia/Taipei)",
       "hash": "214b5f3a2cb0bb5d946a6ebf097bb38738a19a1f0a23210fc0a47a1c0501064f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260720_1144.md",
       "title": "Nightly Governance Report (20260720_1144 Asia/Taipei)",
       "hash": "ac6139208c90857f01d3b2869c34326f247d86762371372de2cd6c102135b40c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260721_1053.md",
       "title": "Nightly Governance Report (20260721_1053 Asia/Taipei)",
       "hash": "d1a3b99b479c4b20d567e14d01cf3ec86662bc35d389638d602b04099ceaf13e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260722_1051.md",
       "title": "Nightly Governance Report (20260722_1051 Asia/Taipei)",
       "hash": "c2e5a2c8962abb3ef0d60642d308070d3e4bd5167fa1b2495d01747e7a5258e9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260723_1057.md",
       "title": "Nightly Governance Report (20260723_1057 Asia/Taipei)",
       "hash": "51975c5ba23da9be48b3e59d3499d8ae1f6395311c6ea272e7124960bfb4192b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260724_1052.md",
       "title": "Nightly Governance Report (20260724_1052 Asia/Taipei)",
       "hash": "74d6949e65197eb9fbc14a81492afed89588ceff75c0ff0630c3ca4e56d13dbb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260725_1051.md",
       "title": "Nightly Governance Report (20260725_1051 Asia/Taipei)",
       "hash": "0767193a6712c16bc097ee87ead2a5cee4ada6bc06072fe3d697f7ef870e126b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260726_1116.md",
       "title": "Nightly Governance Report (20260726_1116 Asia/Taipei)",
       "hash": "ad8c5a55072a540bc4085fc4cd2ea4e5f29019a7f518d55c326b559565d0406a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260727_1126.md",
       "title": "Nightly Governance Report (20260727_1126 Asia/Taipei)",
       "hash": "15699c43ba110b63f7cfe5e268d206fbbeeccfa8cfc72c41561499b6c4c3845a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260728_1043.md",
       "title": "Nightly Governance Report (20260728_1043 Asia/Taipei)",
       "hash": "5bed70a55f15e97ba16ebf0c3ff4db709e7b8f74f1f2236cd49dff2e83b4a8bc",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260729_1050.md",
       "title": "Nightly Governance Report (20260729_1050 Asia/Taipei)",
       "hash": "59c3be89d03540ec30e462a1541b2f33f11954f9192d617daab9d0e58d02a82f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260730_1035.md",
       "title": "Nightly Governance Report (20260730_1035 Asia/Taipei)",
       "hash": "b4bed76cebc1c042f2fcf9752af103d60f7da91907df0bc7db4f304f9482db9e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260731_1116.md",
       "title": "Nightly Governance Report (20260731_1116 Asia/Taipei)",
       "hash": "33e54b575362422305d9893173c7df8bb6816e40196866a10e629d8f142021ce",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260801_1115.md",
       "title": "Nightly Governance Report (20260801_1115 Asia/Taipei)",
       "hash": "d86a080a8a1fd0d7b1d2cba7c18f6c4c0863fb56b98034aa3cc2483a42e02b5a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260802_1115.md",
       "title": "Nightly Governance Report (20260802_1115 Asia/Taipei)",
       "hash": "6d061571638a4d4133c4922fecaf52527d402ea57e1e2d42032220013c4f2114",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260803_1117.md",
       "title": "Nightly Governance Report (20260803_1117 Asia/Taipei)",
       "hash": "4911f8199f23b25be436cb027dddef29c134e05233f18bf9b890faf398e4bc8e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260804_1046.md",
       "title": "Nightly Governance Report (20260804_1046 Asia/Taipei)",
       "hash": "1da103a678f34c9c199d55bbe5f78c97640c60602cef5c91700cbc1b321b590a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260805_1043.md",
       "title": "Nightly Governance Report (20260805_1043 Asia/Taipei)",
       "hash": "6eec30778a390e19c35103bd4ccce9b5382e66afafb7efad44d2d84367ea7400",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260806_1046.md",
       "title": "Nightly Governance Report (20260806_1046 Asia/Taipei)",
       "hash": "54d37568d7d3591f40072ae9337b26988faf4bead68670d1cc2f8bb84e53c90c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260807_1047.md",
       "title": "Nightly Governance Report (20260807_1047 Asia/Taipei)",
       "hash": "8e05a4a09977408acf631f05c8a7305b810b1f885b21581432edb3dc02ec85e9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260808_0948.md",
       "title": "Nightly Governance Report (20260808_0948 Asia/Taipei)",
       "hash": "6c19e9c92a3f2624b0c8f612302d9ad3d6d5f37ec4918b94aed2d6416108b59f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260809_0955.md",
       "title": "Nightly Governance Report (20260809_0955 Asia/Taipei)",
       "hash": "522967bc348696d89816042f716195fb203638a4c35ea270b97cd65f3d27b4e8",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260810_1000.md",
       "title": "Nightly Governance Report (20260810_1000 Asia/Taipei)",
       "hash": "537f4b65e4d7c41db51336cc3b7976d08b7dbf3a5c6f04533de9d5f22d0fb56d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260811_0955.md",
       "title": "Nightly Governance Report (20260811_0955 Asia/Taipei)",
       "hash": "b9be924f7efa2f7644b35d23a5427246f63c9c58390890a7732097583d1c0b91",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260812_1008.md",
       "title": "Nightly Governance Report (20260812_1008 Asia/Taipei)",
       "hash": "274b7baadf79e6b7cd84b67fd5044c2beb54a6d4de0c78f1c20f962a47925e78",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260813_1010.md",
       "title": "Nightly Governance Report (20260813_1010 Asia/Taipei)",
       "hash": "33194f450612b1dfbb0b8eb47350dbc0f6884bb473520843e1c2b76bf742882f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260814_1008.md",
       "title": "Nightly Governance Report (20260814_1008 Asia/Taipei)",
       "hash": "4164b0672c854a9a14926064e3173f3e30e340c1aa36c75daa66c6e8c7b2c514",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260815_0921.md",
       "title": "Nightly Governance Report (20260815_0921 Asia/Taipei)",
       "hash": "9339c87649b2c181a1fb42ccf1e901e0af461ec8f2833f4d2e0dabddd4324046",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260816_0926.md",
       "title": "Nightly Governance Report (20260816_0926 Asia/Taipei)",
       "hash": "2b7753dbe424cbef77bc0d33281778175ff6f605b03471fa53e9eb00f135230e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "audits/nightly_governance_20260817_0924.md",
       "title": "Nightly Governance Report (20260817_0924 Asia/Taipei)",
       "hash": "b649668739f9ece62111da5d79e1859040bdab04e594625850abe8faaafd8a48",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
+      "metadata": {}
+    },
+    {
+      "path": "audits/nightly_governance_20260818_0921.md",
+      "title": "Nightly Governance Report (20260818_0921 Asia/Taipei)",
+      "hash": "ba171dc0f600ddf494975a2d6a42eea4b37b9009368590ecd06f398c40e5d50a",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "cli/cli_background_validation_report_20260119_1449.md",
       "title": "CLI \u80cc\u666f\u8207\u4f7f\u7528\u8aaa\u660e \u9a57\u8b49\u5831\u544a (20260119_1449)",
       "hash": "1928992a36f798bde883de3e767bc90e7d7fdd6ed975ad055fa3ec00e2064489",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "cli/cli_status_report_20260119_1545.md",
       "title": "AAA CLI Status Report (v0.1)",
       "hash": "b7553b650ce808f534f79402cc3d018df7a2c79083f3e520666c7d4a65344ccd",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260121_1746.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "0cb0e5bcf012ff54b9a47369ac04a2ab600f51f8dde724790b1f19a7f5325b2f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260121_2132.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "967674b5e234c9ed2b16bb915cfdf71bc4efe8db9d5b42483a14e55772daedc6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260123_0300.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b014017f17a3dd378da9fb70086c15f5880ec2168a5536bbbbc8f822ed8d8188",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260123_0634.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "51b228bc7bc045355a482c620cd48f2b0b449dd6cc42dd308b94baddee559d9a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260123_1414.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "fc6b6624c4fcdd8d500715bd0ff0707b59b0db84084507d5d1483b92ff9f78c9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260124_0530.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b10c612767237a3cb3189f7f95abdaf581db144e2bd738c635b0f1c47abcbe5b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260124_1048.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8ae438f4a154bcfb8ba2dd6e793780d67d32e854daf5a5cd12dc30b0de9a92a5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260124_1646.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3ed4fbe1679513040c9a22aebfbdc30e4109940a25ad1f319681ab2ce23e9457",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260127_1843.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "c73bdb922c56b9580fe5a40d2aa8d11a49550604cb35c1f837225757a50edcca",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260128_0202.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "121c75d800a91518eda2f87f35cac3b70e09efac9d2cbc0ae81832c28ae195d5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260128_1604.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "e0144006d1e0a979c3d7b4f93faa3b64a3fdcb1c472854faa9a99011111adc7a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260129_1759.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "e8a1c8fb288395c8018c0db4ec368c4d60e0664b091ebdbca3aee0012ab31468",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260129_1807.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "bfcdea4187d5d68939660b5b93059575babde28475d1d8b36fb57d56db1cc7c9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260129_1822.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "43f7558b5f80cc9c00617b8a1e99d17c65ea3bf9d16245c2f305e4f6f58d3916",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260129_1838.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3a2724166408bb9be966617603a212bb70f3cee485b52f098999ccba0041c2c4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260129_1901.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "d43fa55799e585dfbcd768a23f73be95e0206fa44f463d35b29fb6522255a9be",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260129_1907.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a7f7485556aff034dd2928c2fc2500edfb82d9bff92be23fb1b49bd392019725",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260129_1913.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "dd99ba52270ab125444172ad21c91f6279e2cbb29148316e44c7c919e79c30cd",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_0224.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1448057eb19dc6487fe3b2040da93e95da6fec947866e5873d4cf2b31228d721",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_1153.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "922305f221e15fb7129848e5cc93bf5c2b1add6df3b6107c04ccd713627393a7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_1745.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "c352ae8688ca65c0958e587bb8d1634b42a18ace1eee64dcb09c3b18e59ce980",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_1930.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f2560afe47774c5ab04be44571ecbae5e9ce1c0a5547aa88833eb9c06f7d4617",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_1938.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a5ed2ff9a3c5c49b67e499c00566f47cd821fc80751fd9cfaa602ac199147437",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_1946.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "30a6f853e6875eccb819687d9f01428fd4cb1b2fccbcd20c65eb83deee4f0eed",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_2005.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f16c5352c3607331e90f851ead65cc62fd81561afbba2f4d27051977ded0ac5d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_2100.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "aa72631ab5c35c6e1bd034ba4e6e724f922367fc183ac4fd385386f26cf6ba49",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_2105.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9212af58acb071f0ab4aded80539e4a7adf2070aef0ed31b59de75588cfcd2da",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_2107.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "16ecfa5f5869efd6811958d7719b46719ffc3ef17ba83ca36986e17453618aa8",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260130_2119.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "6efb88ededdd34a7bbd4b60c54e3fe55a1f9ffa68c0a588f55382d0059c55b8a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260131_0213.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a36d96ec87e462d590f165c06f3a709efc9d5dd6acf80ad0103590d3264ca4f0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260131_2131.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "c2d6d8c2c0ec5245b5661ace7169a24cbb2d6651948ff11c101066e69075140f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260201_0243.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "279764c090efe8f2b87a4676d3b6b6a7257abc8bb5106f2ed6ec0dd7ce0f6d15",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260202_0233.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "5511024a8528da9e303f6968098bbab4cef5c955f6911d43816b6db19d954fbb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260203_0230.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "966e69ab2a9bce4ec6b3b35303c1d3348a51a9d61cbf573a2f7fed393ae685b7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260204_0225.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "31baff0699d7235f0a707152982617e1cf3f94af4d99001c0753129cc8e92456",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260205_0226.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "bd197ad4cddc7832cf2a52eedf4ee96d0bf86c4957a4ecfcfa54a7b29216d265",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260206_0227.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a4ab89bc227ee8e3cab786ecd02cc9dd2e1a5e6ed58416e2522e4f0312b95eda",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260207_0222.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3840875e6bfbee8abf6e93274a9710bf7ea4ca7aa531ab6bd9c13ebe7de6cd7d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260208_0249.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "6d55ba57d2a2af606d0b6bb629e519d1a690d9d066d0a153319aeb26e6e6f871",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260209_0234.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "849f72d09f99a5e45babdff3f0d79a87e1e1f36d1b74edcba58edb4251528498",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260210_0242.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1cfdb6a09ab9a5a9977b00c9b8139ca06b37518741bd5e47028f0ccdd26e8442",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260211_0240.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "619d48deb3388730937d31868f81f2ceb6e5312b1815ff7d901c401f5c70f3fd",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260212_0235.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "e066264d0b9d97f275434d0452da697be8ddc67c67d5da6890959a809c8ae496",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260213_0236.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8cd05da8b2f4e7f5210484f0c2919931ff471a387e8bd4c56fe5f96ad2fe6c98",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260214_0224.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "e65045cd6983f18c96917491754bb9d9665fd41b7c3a7f1cf9ca93c766513011",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260215_0236.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2d4987b745ccfc33690387dd77cee888fdb428cd2c1284c481b3b557779951e0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260216_0232.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "7c7e6be639fc6e0430ac2fa0f68d74ed9908e73cb2ec652f51765383126e3fd0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260217_0229.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2934be93d960934ca52bc4748c55b59cb4d947e849e53d351695013333bdd431",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260218_0232.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a1b74a23fff7e15fec5bdc73fd899a5fd6c07603b1e6277f6201feb9062796fe",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260219_0231.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "83bcb8fd1c5cb7108bde5f8a211ab1c236c099e29ae7e8da626837f10f1575f2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260220_0227.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "5856e02d05e12261f396bb2f40e2fddbb686655918283880cf834fe83c1bd3ab",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260221_0221.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "4744206fcf26fe41ad0dce49579a4d9864b70d7095402a3fc7507a20d321f9c2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260222_0232.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "96b120454c8058cfc6d8e4e4bd2c90067d957660b1a486980ad90a8f7533bc6b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260223_0232.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3b4f4fab853a6b2a79ff21ea1f120b436939d9d2c70615d699b19b412808f150",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260224_0229.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2f3f63deb8251231da83629bba79642b53ed40866b464f9e2d747002a27a88bb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260225_0230.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "6af3569a331f2afc011728b39dec0b16a20b7704a094a8490c35b645ad665cea",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260226_0226.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "445eea968a7a99e2cae73c0fa23fbddb993343b01fe52e9b3d8c4c706c36e97d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260227_0225.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "826806ed85ab5e84d795ca89d344eb60a8f37ebc556281e9acc95c47cad2e37c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260228_0208.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "59f49fc9bf2cdfe413f14b34d893e913df0bfc6b6fdf1740365424691ca45ee6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260301_0239.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b6d7df68088a3da9a5077205caa11eb7910173cebd6208dae2b925f0b3c5dd54",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260302_0228.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "e005a25f4129511c34be831fcc19cc45601eefca9a112c5eb0cc7525c03d9cfc",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260303_0230.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "5050a694a32d36c91119d0140a76b6e03ffe2f7d1abb1ab705a4940a4cd37ff2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260304_0224.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "4575fa7c3d7100cab12cb2a1adefbbabb6bde254cd374c158f8ea01f4c1c7b8f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260305_0227.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "02987cba75ab69a68f9b0d8222e6c0b0f0071bb17d582e86329afec578d841d5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260306_0225.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "c6d25793b6092a320f554cc898eb57ff7c3350fcba6a203fcaa7d935f27ca355",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260307_0211.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b81d40a5b609b47d826a3c89795084efe5ef04e4129c12b6f7f291c9fd74edd8",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260308_0229.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "4b75b9bee0e5f97889cbf4fe501311721d3594ad05dafbaf2c1edb464cfac5a9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260309_0231.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "55ddcc9cb293b65588b1917941f34815da376113341ef9dd5a56822bbf74e6f2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260310_0223.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "7a10a13c4d72ece5cfeeb9acb848e7abe30c97d64fb2dbfb244dcc645d8c891d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260311_0222.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3a749b2a902863851890e5bb36ffcfdf19643b32c14d9735d1acc564d7d1bc24",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260312_0228.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3fa4cc2016c95d3bb21e0a72df4c896b19ba410da11d9b291e6549c0657d146c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260313_0226.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "43b5314d37094d5f2e5734c28c9b4f45e40c40ee6388dd06959c668e965ca72d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260314_0224.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1152a6af2e98434710eb01cdacd25faefd25b112f3119d2a55edd8414e9adf3e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260315_0243.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "342d15ed0adf0e9e549edd345487389c90cb979395a63a794ea7d489cab2997f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260316_0244.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "4f983a647d22faa8e4853353af4cf1b5138269816b1d71522f10c6c5a04b26c0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260317_0228.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2e748cf2d39a4b5b7cc27e8e69f15fdefdae07f8a1cf7c1f45d81af6f27b0b30",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260318_0233.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a46e822cd33c28bc7a1d01b97f10cc083787df4473124d21674ee66c0add82b8",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260319_0234.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f43534a7bac83fb608f732cc0936cd33418c50398e538f19f48ddbf1e344dc9d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260320_0227.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f1d6f5ced37a87ea60f929ae47dcd8806f4b6360c488332a5f1ac20ccf002629",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260321_0221.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3e13c128015e96b70540b628b251bb1c6bf806f5926b42b79f930710444bc6ac",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260322_0235.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "46af7fe5d508626258c83cbb2742eab4c979841d2ef95432e5d1638756040e60",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260323_0236.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2d8f72713831908f79b477a8e11671510bd0fb387a7d1a70054eba826e4c8754",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260324_0227.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "dfa3039fe8365adda965a4f2e5d2d9aa4256dd6398408aa09bd2b9ace18d4c77",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260325_0233.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "137fa45331ce1f4f7531b51b2ab1aea8fe1368e41b6578ca95ef9c46d1091859",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260326_0239.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8e4bb32e2df4df7da0b62d38c2fcdf1ef5a67527e8dc0a058ae307389e58e92e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260327_0242.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9c002e78080ef9865d2681ae79c109fc2541ecdbad1eae284bcfbd4f1d88dcd4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260328_0231.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "344b8a2399c5c8b0c671938d585a7a4a10fd3219cc68f538f3b10231d5ada121",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260329_0245.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "86b8033a8b195e171adfe329504d1a5435ff4b7a05a7b3bbb3a511873f70813b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260330_0248.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1202542f9c2f77dc3673014c8bfe2bd3014e05e9e379a91aabff8090c86a20f2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260331_0241.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "50a771ce91b6b5ca5ed0f1f78edb8a8d30fcc1de333172498caf21d561aba49a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260401_0253.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "117fead113ce2a0ed4e78351b25ac56638d356a03339026df5110c2c08a40fb9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260402_0237.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "004f8023b0755e54ceb21d1ed3c0502d703ae1136cc9875206a33ce48bf9e07b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260403_0240.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "16801b133da2f3274e9efe03edca3d499bccb2b6ccfac77ce169901cd4fa330e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260404_0231.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a7ac472e903fe45778e6038a887590298da0d342475834deb11875ee245eee59",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260405_0248.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a664db5aa86c3419483cb389072be5fd337d9357bb7cb292b2347fe0b32eba2b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260406_0249.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "721ab041f74287a516f1071b192d7a5515f36bb8b5b3014eb3cf626f3e635a7e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260407_0243.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8ed204851f7c22960cab914c3e013d91f0d01b104dd9f56c6e169d48086e0085",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260408_0244.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "bb90416da61a649b35468129b4701221f31eb87be4925941cd44ba465a1a788a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260409_0238.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2bcdba794fd2ad36f14fac9f8ace3afc8b77995d224362cec63fe35dff7a044b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260410_0250.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9e8499be0d65eaec0be19173765b4469336bf01c9173a069297ef9fcba31dda0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260411_0234.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b81733a7ca4a780b667a9dcec6fb53c9aa0e7062c694e729e98cc7bfdbe9f3f5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260412_0253.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3de2556f7798d0b526eea1e452d3337a24f07b88c39def9e92faf26ce51e9870",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260413_0258.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "593d136a37b4a42df7848255531b7a19616e5cd687f91605ae1f9411a51a9f85",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260414_0251.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "39fb3e1757d3248636e9e2f76c2947136427a31ce8c84f1abe93be7b3842facb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260415_0249.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8b5bfb2e6f0b5e6f31f0e273269cab3eccd4842a0c2d9df8bf0ae5305a56402e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260416_0256.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "55daad2bcc2203ba65d5ea357d4dce16c1ec83568e8c2d442465210a4ff7783b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260417_0252.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8a7aee1e85b2eca88a3900014b3c3a0954b46e2aff72a489e09db7c84079b993",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260418_0242.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2a6bc886cc9962d22a4cfd5d8e929e44cb99e9f79999a8cfac4f6c3a5bd119b7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260419_0317.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "e8f051abedd5d7dc5459bf01a08fdc2b271f56e46630dbf6cecd7fa82d4a4db5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260420_0319.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9c0dc822d8db1b367527c7cc6f2bf5e107cefc9f20e09cf810d228fa9408c56e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260421_0253.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8462d8265c3d4d41016edcd4be6969a517e2f350f75ae5386cd2d862142d757e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260422_0251.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a1929bdcefbc33e0886754e3fa72c12bf7b3f7ff57c3df0338bc918b3df2bbf4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260423_0254.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "51bf49d9d2fded821a4b483b59bd9bd815f89d344ffffcc08147ccd5d6db06f7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260424_0255.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "74f0591648c4a76ae9181c3bf1d96ad03de14ab269415bb8bc896bfe5a8f9fb4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260425_0244.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8f3a28ffcbe40797e17a622c89d58973252cd5db690634262d0df489b7ba1e6a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260426_0321.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "58792aad339e5cd0ad048739276356a5e5863136d4e7c69d7f9bf8392d3d7fb4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260427_0326.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "bee2bc37e5034134bdf75b278241a1129a63903fe3fdce215650b21fe6b42331",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260428_0332.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9fdbc6388a08a6193dd55255318ccf7031cacac05770169b79b972b65f5fadf3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260429_0330.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "c740a1ba40cd1b392e8a566a13e40135a8774eebd8544cdee619498a6153b5b5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260430_0331.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "87d4c0397a4fc0a307ad682f82c65d85a3feb96b5d0099eb03224946572f3479",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260501_0341.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8d7fa12a1ec5780637a791796cf95758af89bc22f4e8f34da7839c59efaec3a1",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260502_0257.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "e15c7a79575a108b7e5d59be3687d75e2ab666053b847f67488e001105839309",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260503_0334.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f2f3ddafd1318ca85373f07e6874ccb3726865bbe2085aa60a2ee08fed8ebf7e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260504_0333.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1a3c6b984f1613d01954ab1d6a7f15fa91a671ae09c095fe39eb62cf515a7419",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260505_0320.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "c417e80ad07467196db998a86f87b13b308b155f4e5b47757ec59873d7240523",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260506_0329.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2de057b9438a76c53cf8ee7d732cd73e2f27294609634259528d4cb45775eafa",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260507_0330.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8c4535bae8c4b4e232f32abe4d68bc0ca2d809dd2ec631a24ed0e98c26819dd0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260508_0326.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8e090e4ef97051210453dfceeecf900c351cc76f3a3ac3e0dc66fd02615d378d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260509_0325.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f1d0c957367105d6bca43a370302d5d7b9218cfd5323406718d3249f0ba1667f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260510_0337.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "910798cd78f1efed188b7bcf68a608c1cc57c0cfb70daf74a0749caff44b57a5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260511_0351.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "d8975f56b68a9fb2c68c118f9e233baba7f52d3370623d5e7d83a8a9d3843c0b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260512_0334.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "6b4ffce6ed467e66c8392c1c09b619ea0159181b56b80f5f29221243d59db0f5",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260513_0342.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "319421bb8a5049af43e61c50f174a92c4dbd8947ab15db4c067dcaa22a49bb8c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260514_0341.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "d8bc69971cd1381e73e97bad9073ec0fb1bd660de37c2a20aae0cf75342c1420",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260515_0346.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "54e47fb4b16ba5e6707092179fd68f67440a1acd194ccb973b485db6042992c8",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260516_0329.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b9aadf1b484f3148660fd4d863b658954e921fba0538cd4fa2aed31f3a32c162",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260517_0345.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "da1c3e5d338558323f6ecfdcfc94022c986f3649ed6a2a4d263a2c2c98f4dfc6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260518_0358.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9a33cbb9de50d29e349213285f67f04e1c7a70b56f2b9d638cea695ed9df2e13",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260519_0353.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f234cb3936f2fdd21e68554431dce490881a24f879cc4b0f7f995014d812a6e3",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260520_0353.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "99316edcda3c11a45a3f3d26b5f68f2d3939a9385526f28d8746fa5fe291a1fd",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260521_0402.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "bda33bc0355065b40d5bbcfc86bdf744a7af0cdc4ddf78efe9705358e4b2d925",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260522_0357.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9d3acb7507140cd54fefb460d8431827ffee4bb459d91d94b730fddca9e89234",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260523_0334.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "4df5a628c0ca6aed3619c15a22ecc3c19995a3a39c854b33b88460ab607c562d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260524_0356.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a4c80bf62cd282cd94163bb7684a1af900bdd05c1b1799e86d412283ca335567",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260525_0407.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "25eae1e7caa9a415e6df2807b11026479f6163b96fc5070b00b0d5d7e1c8dd2e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260526_0353.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "0f4394b3911c32a1f07bcd2ceb4a9a16b17fd66b85141ad92a4ffb3f5a00c65e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260527_0406.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "fcda700f89f6cc3d4aaff0e55b41955edfe860f4115d293659cfcd09006d9494",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260528_0355.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "363e8e5be02fbb32686ca93de69b5dd59285518c0a34f05df04255d449686266",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260529_0357.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "777243c9dfa0827718d7fd5afbe02dbc0ca9d9ba9074b71345aad05b98440891",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260530_0342.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "7726126dbb0dcd9b8c4bb700d2628f0971abcb9fbfef5e51d5bed3d4b71afbd4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260531_0408.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "548a4b7f892949d1807c954f7e5917bbe3b19d3d0c899ee001320d29bf3f8b54",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260601_0423.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2860c78ac58fcb15d7a835dddd2dafba948179a75915ad813b58219882f0f83c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260602_0416.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "5f6c37c8f0d94da3872fa7729f1f198cc6616be945ae3eb262863eb2b1c8e0fc",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260603_0426.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "0140fa8cffa099b1b4d3fd99d565fd512193d56771a7dd2cb7f3b40393618fc4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260604_0420.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "be4d5ad777cad24ad6588e0300be8c77f852f626dce4520e5b725d75570f6146",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260605_0404.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "746ee3a6b7de99a4118590a25decba19e1e893ee26fcd1b3daea1b7035c38813",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260606_0348.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f42edb5679ea3b989b964b7b52eaee0dd2e74529269fcf77cd2576a6b2d6a4b2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260607_0414.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "993300909d8ff27dcb6e7052d86ea52d7a7e78ff19de80d9959c99d70e0a7d5f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260608_0419.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "555aca9c0fb8d674ed0069462487f20ab7e2b92244cffdaae98dffa64eaa9318",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260609_0350.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "34fcc410bbc00ae1af623f7ddcd7277c910f97f09127ff8ce0b953ad8b4d6203",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260610_0401.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "db2b1432a108db659ea99b03074ddd73ee3c135e1b806bf7c9d2ffa750a2fab6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260611_0415.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "c55821108ee0352170be401290b25ab611580c00e53ed7b0909d35866b9dc712",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260612_0416.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b0c4e54430cf6b210c5eea06670a34d23ea15572de5c0a510ee8155c8b3031ba",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260613_0405.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a3c6f312ef45b42ee49e210a3373fa51b13848fe169244b48cfae002f84db9b6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260614_0423.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "72afed2f5a5648e611902234d96e24f4f976ca3675f35bd679fcf0565b2b70fb",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260615_0446.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b51134dc7079b4771d1d28d401db6c97a8014c5577d03985c7179f209c9266bf",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260616_0443.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "74a109d201275d9b7629122a943ff1f40630c4966361291fe42ef635f3367d88",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260617_0424.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "6dce07d2c6513a8488d8ad9ba25ff9b65794bf56c8fbd00daeb56bd3da7233ca",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260618_0417.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "4b1ccda445b0f51a98480f180e731ebbf423520704e94d73602a3cad77fddffc",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260619_0444.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a68e64b4ae5784c3de6965b44f0f1b98de03f4d3c721c8ff7ba07d127ca58b40",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260620_0359.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "00a9998bbb76f07524aae64d631a6a05aab3b9b08fffd270d25ee1b588d16593",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260621_0440.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f6300458d10b514c42b5afe98c0cb9ad2b5f80fd5ea9b5f0295e34fe8baec3a6",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260622_0446.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a6ef8e5ecaff2b734d47f72e7d82ab424b3383245ce8ec54ad8c472aab4a3ff9",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260623_0351.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b20d245bdf4806f6ee435cf0e6e8b78b800501aa5d0be72a392b1d9ef4297237",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260624_0352.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "d888626c0dba5540c5108247d5939396928492968e56d94c042a5dd2e592f041",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260625_0354.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3fd2f780fe611604db0b17ed4a23c58016fd11fd48ab15fdcb66755608efea1f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260626_0400.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "0b647d581840c489dd970feb68439187177166e97b3a465e521813dc0c081032",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260627_0342.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "37d02a27079150fe824940b3196cfed653d9f74a7e43e5d90bf4c14fa1774e92",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260628_0407.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a2c674c821003d58e0a42599409fe5308504ba0c8d56f33417332ecca35c5860",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260629_0414.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8e3e724382b375b64a8e7eba91cc7e01f50d5537b1e300018705d8db8a20bfa2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260630_0355.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "7c4e9ea6010e278eb0e9e0e1431c3d0053169bc33bbd5dbc10bd46a9dda4d5d4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260701_0411.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "2c0a6c36a6a1e94410e8bb570c8693995a585671ff9a8b992746811c2d142656",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260702_0352.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "fff79fffa773aa3e19284bdda4aa93ba0c7af8b62fb2de055016920e55a86f11",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260703_0333.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a5eb6714dcbc8bcee6e2176c71e62a901ed16a25cf512453ee97fa2231bba787",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260704_0326.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "d6d79e770822890f5836f2a38b0ffb3ec25cb4cfb1410f35d87fe27aea312a55",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260705_0342.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "24f660eb2a99b107e3398fb3c23e6bff76124e0be2bdd94e1afffd01d7cdcfc1",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260706_0351.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "06201861b9bb292c65a5923611f97d8bf5382550ed6124912b4f8f3e21707c8b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260707_0341.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "dae784bc8b12b209bc049f9244f31188480f1adfe4be1feb359c41044c1a8524",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260708_0256.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9a43e0383a7b639f5857e85490fe7ead09575836fcb1e509fdf4b72dbffcb169",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260709_0334.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "ee34a0b4a34b23a3de34ede8f996d5be4f49e08eb6230369770aa9960e34be53",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260710_0336.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "4139a8ddfd3b1dd2a6006173761a5fc3d97c11a9c62b29e1ed55a7c069579313",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260711_0251.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "fe100359a7e743b1582955049f8a34a0d4c01436658afbe16bfab5c197145545",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260712_0316.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a91f1e62c9ceab0fa207f8f157edfa6dea4d599e76ecf7788431f4e8ed8ba016",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260713_0319.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "607ec2fdda0709698982c08289047352147756c2f4f2a16596c619c7a0d6f49b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260714_0243.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "27cba3dd6fd141213bccf58b598cf822a40947d532509abc9429d8a808276873",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260715_0242.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "48fdfcb797c53acbf0986764caf8babbde0ffc1efd39e6c79f2eb3354c7d034e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260716_0248.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8988ed4a78f7aa488fd65e07ed7384ca8c37e1ea9876380ced6a339d4473a302",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260717_0250.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "9997b72972d7776765754e795dc0eb6c54b1495a8811a5a1a739bddab31588b0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260718_0243.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1765f6fe17226d980765fb1382a968c1d8f044e00fa34dae375a0e72024bbc85",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260719_0257.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "fbaeebbdc4f8180dbba37a6c715e9913859df7b81e031c115532911cb438ac5c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260720_0344.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "86044b09567813161e38a2ae34493a61178ebaf798286fcef125ffd8d077c11c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260721_0253.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8db9ceea8baa7b8e3726e4ae3bb8822e872595b450043dd2f8176cb01aa23ba7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260722_0251.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "85ac3d09392c0a317ac9a406450ea702004d8fb92a8e186310add3ea4f497ec7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260723_0258.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a6fdf41b4793f6491b13e192f24512cb968d19e9d1a6818bdc01d80fd9b0a221",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260724_0252.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "34dc4964caf7ce55a5fb73dab54182141ebace12086e5351a7e57187b894e77d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260725_0251.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "df1f22e15074fd65f97a3b8735a829d1ff524bfca8f48770ba063a6c1291980c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260726_0316.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b1fafc49de6d0cb13636e4b9f2c8afde28babfd2ebbdcdd8119bad2654f8c24c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260727_0326.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "52ac8e3fda8d81232e601cb1c7a404b4926c11405b5758cdca1b4cfca4a8f542",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260728_0243.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "85c55d86fd1310f73d76a905a6fb47b6aa2d1240fb4ef8038b827cf50aff219c",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260729_0250.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "7d630f5ae0e3879232438d6651a76f66ae02ae414f670c246704510e6ccd824b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260730_0235.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "385be072c6e88f8763594efe77308b09eb5f9f8422793b97264bac4450939c35",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260731_0316.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1fd5cdfd4cbafea03a8c26d4fe9ea58fa7f4e4ad8f09b5ba705379ed65300ce1",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260801_0315.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "3934f58d9df8f36b0766e4ef48335ec762b6965e29b9b5dedf5b5bb380a6ee04",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260802_0315.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "80518b0b2ecfea19a82ceffaff509f46790e7498f864672d2af8b10b7bc36839",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260803_0317.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "68f3d3ab7bea01f1ee413c43ade93c1c96e340a3540e9c5bb2c0d087b4dcd70d",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260804_0246.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8ca882aab699aaf6f76fce25e5c370c734278ad66bc1d530404a7450e8d582d7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260805_0244.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "1bc724aec39ba1bdb83a7b1b2d77516e899d52142286dce2bdac92f52b4c578a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260806_0246.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "81848fe552fbd6bb2cf1c6c8b498c095c12bf0def27726fef8af37624769ea62",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260807_0247.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "dcc0db44a373b6a2f9fd76f84e983c93e8d1b9acd0b3aa46b80f2aac5cbbaa07",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260808_0148.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "6b3f4873a66ff7392a85a137199de0c02663952e6f419a040801c3fcb0590a4a",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260809_0155.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "c21545a00a110eb1e90a0d5f67eafb707ad9d0032aea5aedc9499230f5efe7df",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260810_0200.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "8faeb87745525ae5e23e675b04e6182928ab22cff9533ddd5603da4676db5b72",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260811_0155.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f43189ce8ce9cd55a449378b0ffe654c586cd0988823dc54883427457c8f556e",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260812_0208.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "b230c4aadab3b5f330bba81721817eb77e336fa002bfb94e3731f4c903814530",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260813_0210.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a4a2e96e90535d1be02d6770cc0353bd3d792dd2bf14ba128370db954bef0831",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260814_0208.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "a081cade8c1bd97c231f7423392ad7a64049a5e3eca6d260d019d46f1c94026b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260815_0121.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "69edef9193aa16095ca23e71da2d96ff65b7997ad61ab4d4616ada3395710aa2",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260816_0127.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "f91595355fcffcae27a208e1052155070f4c4d0661b242f6dc29db89a0aa9c49",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "github_audit_report_20260817_0124.md",
       "title": "GitHub AAA v0.1 Audit Report",
       "hash": "316be9adfd9c4a64ded50abf5915dc7bc22dd9b51877a212c8c8be882d008ce4",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
+      "metadata": {}
+    },
+    {
+      "path": "github_audit_report_20260818_0121.md",
+      "title": "GitHub AAA v0.1 Audit Report",
+      "hash": "5c896006268499d2c902fff7ad452143b3bf07bbcca978bd4e02cf90cbd132dc",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "milestones/MOVED.md",
       "title": "MOVED",
       "hash": "f03ac9cf1d042589a79ae0b3579e48e5fb1f08f6b3e646b7a404262f3624b944",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "roadmap/aaa_v1.0_gap_report_external_20260124.md",
       "title": "AAA v1.0 Gap Report (External, 2026-01-24)",
       "hash": "708d44eb6943f7d95b6b55470ea1d0b5f97279a4ce06b25de58b9c8718dd4686",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "roadmap/aaa_v1.0_gap_report_internal_20260124.md",
       "title": "AAA v1.0 Gap Report (Internal, 2026-01-24)",
       "hash": "bbe2b8e035b00467553a056170545e76f11dc0b1d4fd5fb9a9fbbb75ea55787f",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_orchestration_core_vs_enhanced_20260120_1120.md",
       "title": "Skills \u5354\u4f5c\u5206\u5c64\u5099\u8a3b (2026-01-20 11:20)",
       "hash": "aa7a62379d094a54e13b0d2662d12e98965002550727702594f25d9cf85087ce",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_v0.2_upgrade_report_20260120_0309.md",
       "title": "Skills v0.2 \u5347\u7d1a\u5b8c\u6210\u5831\u544a (2026-01-20 03:09)",
       "hash": "8b078c48b76d59f7de90b640dde5f6b8e9977faa603822fb57db903458120824",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0044.md",
       "title": "Skills QA Report (20260119_0044)",
       "hash": "25f610a75417252db85c51468de89cf7f23074b4f56ce429261115a8141a9a57",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0045.md",
       "title": "Skills QA Report (20260119_0045)",
       "hash": "bd458138ba2296b59b418fa69c1d3b514b1d09f16942bd9b60619547a4e8fa66",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0046.md",
       "title": "Skills QA Report (20260119_0046)",
       "hash": "073123d12644e87c3388f12ebc54285bac62c0117586f20c7d9a1c67b64711e7",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0047.md",
       "title": "Skills QA Report (20260119_0047)",
       "hash": "a890526bf54e7bc366d0fcbe12ad0a17421975d641b08df89be5faf0e765e640",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0048.md",
       "title": "Skills QA Report (20260119_0048)",
       "hash": "8edb00f5d49b910712ee2f17f72a7e46cc8bf319149fb32b2d0ba01efc678013",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_0049.md",
       "title": "Skills QA Report (20260119_0049)",
       "hash": "a06120d5ece6d7b8a67640d9939420f6dce852b77d247a4153d71229968f972b",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_1508.md",
       "title": "AAA Skills Validation Report",
       "hash": "0cfe0fa22d28c899c1830fd08332cdc861f1e2b84c99e49f8e3665a56ac20ee0",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260119_1514.md",
       "title": "AAA Skills Validation Report",
       "hash": "99402304fe6bf9be65db9270619f2774d00259705896ef04cf64c1bef3f4ba05",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     },
     {
       "path": "skills/skills_validation_report_20260120_1120.md",
       "title": "Skills \u9a57\u8b49\u5831\u544a (2026-01-20 11:20)",
       "hash": "22535380af9c52c73f8d6aadbc5f3f008745c2abf2fda18e604137975d6bf2db",
-      "last_modified": "2026-08-17",
+      "last_modified": "2026-08-18",
       "metadata": {}
     }
   ]
